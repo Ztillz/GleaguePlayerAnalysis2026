@@ -9,21 +9,47 @@ const hiddenColumns = [
 ];
 
 async function loadPlayerPage() {
-    const [offenseRes, defenseRes, transitionRes] = await Promise.all([
+    const [
+        offenseNormRes,
+        offenseCleanRes,
+        defenseNormRes,
+        defenseCleanRes,
+        transitionNormRes,
+        transitionCleanRes
+    ] = await Promise.all([
         fetch("./data/offense_norm.json"),
+        fetch("./data/offense_clean.json"),
         fetch("./data/defense_norm.json"),
-        fetch("./data/transition_norm.json")
+        fetch("./data/defense_clean.json"),
+        fetch("./data/transition_norm.json"),
+        fetch("./data/transition_clean.json")
     ]);
 
-    const offenseData = await offenseRes.json();
-    const defenseData = await defenseRes.json();
-    const transitionData = await transitionRes.json();
+    const offenseNorm = await offenseNormRes.json();
+    const offenseClean = await offenseCleanRes.json();
 
-    const offensePlayer = findPlayer(offenseData);
-    const defensePlayer = findPlayer(defenseData);
-    const transitionPlayer = findPlayer(transitionData);
+    const defenseNorm = await defenseNormRes.json();
+    const defenseClean = await defenseCleanRes.json();
 
-    const mainPlayer = offensePlayer || defensePlayer || transitionPlayer;
+    const transitionNorm = await transitionNormRes.json();
+    const transitionClean = await transitionCleanRes.json();
+
+    const offenseNormPlayer = findPlayer(offenseNorm);
+    const offenseCleanPlayer = findPlayer(offenseClean);
+
+    const defenseNormPlayer = findPlayer(defenseNorm);
+    const defenseCleanPlayer = findPlayer(defenseClean);
+
+    const transitionNormPlayer = findPlayer(transitionNorm);
+    const transitionCleanPlayer = findPlayer(transitionClean);
+
+    const mainPlayer =
+        offenseNormPlayer ||
+        defenseNormPlayer ||
+        transitionNormPlayer ||
+        offenseCleanPlayer ||
+        defenseCleanPlayer ||
+        transitionCleanPlayer;
 
     if (!mainPlayer) {
         document.getElementById("playerName").textContent = "Player not found";
@@ -34,9 +60,9 @@ async function loadPlayerPage() {
     document.getElementById("playerInfo").textContent =
         `${mainPlayer.position || "Unknown position"} | ${Math.round(mainPlayer.minutes_played || 0)} minutes`;
 
-    renderBarChart("offenseChart", offensePlayer, "Offense");
-    renderBarChart("defenseChart", defensePlayer, "Defense");
-    renderBarChart("transitionChart", transitionPlayer, "Transition");
+    renderBarChart("offenseChart", offenseNormPlayer, offenseCleanPlayer, "Offense");
+    renderBarChart("defenseChart", defenseNormPlayer, defenseCleanPlayer, "Defense");
+    renderBarChart("transitionChart", transitionNormPlayer, transitionCleanPlayer, "Transition");
 }
 
 function findPlayer(data) {
@@ -52,33 +78,54 @@ function getMetricColumns(player) {
     );
 }
 
-function renderBarChart(containerId, player, title) {
+function formatRawValue(value) {
+    const num = Number(value);
+
+    if (value === null || value === undefined || Number.isNaN(num)) {
+        return "";
+    }
+
+    if (Math.abs(num) >= 100) {
+        return num.toFixed(0);
+    }
+
+    if (Math.abs(num) >= 10) {
+        return num.toFixed(1);
+    }
+
+    return num.toFixed(2);
+}
+
+function renderBarChart(containerId, normPlayer, cleanPlayer, title) {
     const container = document.getElementById(containerId);
 
-    if (!player) {
+    if (!normPlayer) {
         container.innerHTML = `<p>No ${title.toLowerCase()} data found.</p>`;
         return;
     }
 
-    const metrics = getMetricColumns(player);
+    const metrics = getMetricColumns(normPlayer);
 
     container.innerHTML = "";
 
     metrics.forEach(metric => {
-        const value = Number(player[metric]);
+        const percentileValue = Number(normPlayer[metric]);
+        const rawValue = cleanPlayer ? cleanPlayer[metric] : null;
+        const formattedRaw = formatRawValue(rawValue);
 
         const row = document.createElement("div");
         row.className = "bar-row";
 
-        if (Number.isNaN(value)) {
+        if (Number.isNaN(percentileValue)) {
             row.innerHTML = `
                 <div class="bar-label">${metric}</div>
                 <div class="bar-wrap">
                     <div class="bar-empty">low sample</div>
                 </div>
+                <div class="bar-raw">${formattedRaw ? `Raw: ${formattedRaw}` : ""}</div>
             `;
         } else {
-            const pct = Math.round(value * 100);
+            const pct = Math.round(percentileValue * 100);
 
             row.innerHTML = `
                 <div class="bar-label">${metric}</div>
@@ -87,6 +134,7 @@ function renderBarChart(containerId, player, title) {
                         ${pct}%
                     </div>
                 </div>
+                <div class="bar-raw">${formattedRaw ? `Raw: ${formattedRaw}` : ""}</div>
             `;
         }
 

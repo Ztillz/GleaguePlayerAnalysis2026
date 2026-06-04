@@ -80,10 +80,16 @@ section {
 
 .bar-row {
     display: grid;
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: 280px 1fr 120px;
     gap: 12px;
     align-items: center;
     margin-bottom: 8px;
+}
+
+.bar-raw {
+    font-size: 13px;
+    color: #ccc;
+    white-space: nowrap;
 }
 
 .bar-label {
