@@ -32,13 +32,7 @@ tr:hover {
     cursor: pointer;
 }
 
-.controls,
-.filter-row {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 12px;
-    align-items: center;
-}
+
 
 select,
 input,
@@ -55,7 +49,8 @@ button {
 }
 
 .value-input {
-    width: 80px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 tr {
@@ -139,4 +134,39 @@ canvas {
     margin-top: 25px;
     border: 1px solid #333;
     max-width: 100%;
+}
+
+#filters {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.filter-row {
+    display: grid !important;
+    grid-template-columns: 100px 220px 60px 100px 100px 90px;
+    column-gap: 10px;
+    align-items: center;
+    width: fit-content;
+}
+
+.filter-row select,
+.filter-row input,
+.filter-row button,
+.filter-row span {
+    height: 36px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.filter-row select,
+.filter-row input,
+.filter-row button {
+    width: 100%;
+}
+
+.filter-row span {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 }

@@ -8,6 +8,11 @@ const hiddenColumns = [
     "minutes_played"
 ];
 
+const excludedMetrics = [
+    "HC PPP",
+    "⁠Performane Guarding NBA Call-ups"
+];
+
 async function loadPlayerPage() {
     const [
         offenseNormRes,
@@ -74,7 +79,8 @@ function getMetricColumns(player) {
 
     return Object.keys(player).filter(col =>
         !hiddenColumns.includes(col) &&
-        !col.startsWith("_")
+        !col.startsWith("_") &&
+        !excludedMetrics.includes(col)
     );
 }
 
@@ -122,7 +128,7 @@ function renderBarChart(containerId, normPlayer, cleanPlayer, title) {
                 <div class="bar-wrap">
                     <div class="bar-empty">low sample</div>
                 </div>
-                <div class="bar-raw">${formattedRaw ? `Raw: ${formattedRaw}` : ""}</div>
+                <div class="bar-raw">${formattedRaw}</div>
             `;
         } else {
             const pct = Math.round(percentileValue * 100);
@@ -134,7 +140,7 @@ function renderBarChart(containerId, normPlayer, cleanPlayer, title) {
                         ${pct}%
                     </div>
                 </div>
-                <div class="bar-raw">${formattedRaw ? `Raw: ${formattedRaw}` : ""}</div>
+                <div class="bar-raw">${formattedRaw}</div>
             `;
         }
 
