@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G League Scatter Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Query Search</a>
+    <a href="scatter.html">Scatter Tool</a>
+</nav>
+
+<h1>Universal Percentile Scatter Tool</h1>
+
+<div class="controls">
+    <div>
+        <label>X Category</label>
+        <select id="xCategory"></select>
+    </div>
+
+    <div>
+        <label>X Metric</label>
+        <select id="xMetric"></select>
+    </div>
+
+    <div>
+        <label>Y Category</label>
+        <select id="yCategory"></select>
+    </div>
+
+    <div>
+        <label>Y Metric</label>
+        <select id="yMetric"></select>
+    </div>
+
+    <div>
+        <label>Highlight Player</label>
+        <select id="highlightPlayer"></select>
+    </div>
+</div>
+
+<canvas id="scatterCanvas" width="1000" height="700"></canvas>
+
+<script src="scatter.js"></script>
+
+</body>
+</html>

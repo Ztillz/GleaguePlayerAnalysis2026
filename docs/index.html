@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G League Player Query Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>G League Player Query Dashboard</h1>
+<nav>
+    <a href="index.html">Query Search</a>
+    <a href="scatter.html">Scatter Tool</a>
+</nav>
+<div class="controls">
+    <input id="searchInput" type="text" placeholder="Search player...">
+</div>
+
+<h2>Query Filters</h2>
+
+<div id="filters"></div>
+
+<button id="addFilterBtn">Add Filter</button>
+<button id="resetFiltersBtn">Reset Filters</button>
+
+<h2>Matching Players</h2>
+
+<table id="playerTable">
+    <thead></thead>
+    <tbody></tbody>
+</table>
+
+<script src="app.js"></script>
+
+</body>
+</html>

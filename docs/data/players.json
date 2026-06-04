@@ -1,0 +1,3374 @@
+[
+  {
+    "ssi_player_id":"ed39e2d6-ce65-43e5-9ea9-d579d0526a1f",
+    "player_name":"A.J. Lawson",
+    "position":"Guard",
+    "minutes_played":999.0
+  },
+  {
+    "ssi_player_id":"91fbbfa3-eabc-4c5d-b0d0-b2fc674c84bb",
+    "player_name":"AJ Hoggard",
+    "position":"Guard",
+    "minutes_played":774.0
+  },
+  {
+    "ssi_player_id":"2b0ac9c2-0fa5-4ee6-9881-03b737e11dc3",
+    "player_name":"AJ Johnson",
+    "position":"Guard",
+    "minutes_played":337.0
+  },
+  {
+    "ssi_player_id":"800b6f8d-e4b2-40c8-9891-40fa3f84efc3",
+    "player_name":"Aaron Scott",
+    "position":"Forward",
+    "minutes_played":632.0
+  },
+  {
+    "ssi_player_id":"585d08a6-4aa1-45ad-81f0-76cb2c579ab1",
+    "player_name":"Abou Ousmane",
+    "position":"Center",
+    "minutes_played":725.0
+  },
+  {
+    "ssi_player_id":"6ab19369-4aa1-4aa6-8274-b595ac8902be",
+    "player_name":"Ace Baldwin",
+    "position":"Guard",
+    "minutes_played":190.0
+  },
+  {
+    "ssi_player_id":"60b1ff6f-7e65-4d93-8b0b-fe76747cb0db",
+    "player_name":"Adam Flagler",
+    "position":"Guard",
+    "minutes_played":499.0
+  },
+  {
+    "ssi_player_id":"3559f9a3-9132-409e-a701-a4c5757cb325",
+    "player_name":"Adama Bal",
+    "position":"Guard",
+    "minutes_played":441.0
+  },
+  {
+    "ssi_player_id":"df125bae-eba5-488c-b948-9767e7090d40",
+    "player_name":"Adem Bona",
+    "position":"Forward",
+    "minutes_played":29.0
+  },
+  {
+    "ssi_player_id":"9b945fc0-d3bb-405d-bf43-95c6e7d7e87b",
+    "player_name":"Adou Thiero",
+    "position":"Guard",
+    "minutes_played":229.0
+  },
+  {
+    "ssi_player_id":"b37bbd3b-102d-42c2-9bfe-7874d64e9068",
+    "player_name":"Ahmad Caver",
+    "position":"Guard",
+    "minutes_played":914.0
+  },
+  {
+    "ssi_player_id":"e6e552fd-83e6-4bb7-b80a-9b0bae80ad1c",
+    "player_name":"Akoldah Gak",
+    "position":"Forward",
+    "minutes_played":634.0
+  },
+  {
+    "ssi_player_id":"146e6f60-9f61-4669-902f-1f985d239c46",
+    "player_name":"Alejandro Vasquez",
+    "position":"Guard",
+    "minutes_played":26.0
+  },
+  {
+    "ssi_player_id":"34a56ad4-cc65-4406-9566-ff884e10c7af",
+    "player_name":"Alex Antetokounmpo",
+    "position":"Forward",
+    "minutes_played":754.0
+  },
+  {
+    "ssi_player_id":"1f5a0d41-0c51-4353-9d7a-503196852e33",
+    "player_name":"Alex Fudge",
+    "position":"Forward",
+    "minutes_played":567.0
+  },
+  {
+    "ssi_player_id":"21a9c7c7-f211-4710-9932-3ecfa2fd4256",
+    "player_name":"Alex Morales",
+    "position":"Guard",
+    "minutes_played":1398.0
+  },
+  {
+    "ssi_player_id":"1f6ef8b2-5d7a-4ca6-a9f2-cc8c06c032b8",
+    "player_name":"Alex Reese",
+    "position":"Forward",
+    "minutes_played":971.0
+  },
+  {
+    "ssi_player_id":"74b58589-0ca1-4a71-ac83-93c57a2e8b83",
+    "player_name":"Alex Schumacher",
+    "position":"Guard",
+    "minutes_played":674.0
+  },
+  {
+    "ssi_player_id":"ac601971-3fa2-4aff-940d-0f5fa3745d0c",
+    "player_name":"Alex Toohey",
+    "position":"Forward",
+    "minutes_played":35.0
+  },
+  {
+    "ssi_player_id":"c1035422-a088-42e6-8ad3-db400bb52aa1",
+    "player_name":"Alijah Martin",
+    "position":"Guard",
+    "minutes_played":1072.0
+  },
+  {
+    "ssi_player_id":"c97ec77d-b190-477c-8f04-2d8be4554830",
+    "player_name":"Alize Johnson",
+    "position":"Forward",
+    "minutes_played":992.0
+  },
+  {
+    "ssi_player_id":"e555cb48-990b-4ef7-8464-59adc6adf34d",
+    "player_name":"Alondes Williams",
+    "position":"Guard",
+    "minutes_played":1092.0
+  },
+  {
+    "ssi_player_id":"7f8f2047-20da-4fde-b1c4-e046ef5d94f1",
+    "player_name":"Amari Williams",
+    "position":"Forward",
+    "minutes_played":738.0
+  },
+  {
+    "ssi_player_id":"6abaacf2-5a3c-4c72-b19c-2a645dd84022",
+    "player_name":"Aminu Mohammed",
+    "position":"Guard",
+    "minutes_played":527.0
+  },
+  {
+    "ssi_player_id":"9b93509f-b8d1-4066-ba4c-6338fed2a84f",
+    "player_name":"Andersson Garcia",
+    "position":"Forward",
+    "minutes_played":920.0
+  },
+  {
+    "ssi_player_id":"d2f39898-17d1-4d74-bfca-1719672b051a",
+    "player_name":"Andrew Carr",
+    "position":"Forward",
+    "minutes_played":1076.0
+  },
+  {
+    "ssi_player_id":"58d7789a-e4bc-46cd-91d5-01526491d417",
+    "player_name":"Anthony Pritchard",
+    "position":"Guard",
+    "minutes_played":948.0
+  },
+  {
+    "ssi_player_id":"cc05d44b-5260-48a3-b9b6-61ce282a67c0",
+    "player_name":"Antoine Davis",
+    "position":"Guard",
+    "minutes_played":224.0
+  },
+  {
+    "ssi_player_id":"8cb4b74b-84e9-40e3-9a3a-a7dd7be9767b",
+    "player_name":"Anton Watson",
+    "position":"Forward",
+    "minutes_played":1240.0
+  },
+  {
+    "ssi_player_id":"19004e0e-7982-4513-bdba-24e11e49d49d",
+    "player_name":"Antonio Reeves",
+    "position":"Guard",
+    "minutes_played":1011.0
+  },
+  {
+    "ssi_player_id":"91a10e2e-9784-440d-b0a4-83a8db044c1d",
+    "player_name":"Ariel Hukporti",
+    "position":"Center",
+    "minutes_played":166.0
+  },
+  {
+    "ssi_player_id":"c7a03fd4-8ba5-4f9e-b62d-db9492da6f1c",
+    "player_name":"Arthur Kaluma",
+    "position":"Forward",
+    "minutes_played":946.0
+  },
+  {
+    "ssi_player_id":"eb38ea24-c68c-4f72-9a55-2e397b4f0124",
+    "player_name":"Asa Newell",
+    "position":"Forward",
+    "minutes_played":423.0
+  },
+  {
+    "ssi_player_id":"a127ee52-bbec-46b6-990c-93a2c3d57b87",
+    "player_name":"Au'Diese Toney",
+    "position":"Guard",
+    "minutes_played":775.0
+  },
+  {
+    "ssi_player_id":"89ff2dfc-818b-4d2a-beba-efe0422f6d4c",
+    "player_name":"Augustas Marciulionis",
+    "position":"Guard",
+    "minutes_played":491.0
+  },
+  {
+    "ssi_player_id":"bd9b1fa0-957f-4365-8af3-a545d525965b",
+    "player_name":"Basheer Jihad",
+    "position":"Forward",
+    "minutes_played":877.0
+  },
+  {
+    "ssi_player_id":"8c1d8070-eb6a-44ee-bc37-0a07ad5267fb",
+    "player_name":"Ben Coupet Jr.",
+    "position":"Forward",
+    "minutes_played":484.0
+  },
+  {
+    "ssi_player_id":"f92bdf23-732f-412f-9b84-9c088cd9474b",
+    "player_name":"Ben Saraf",
+    "position":"Guard",
+    "minutes_played":482.0
+  },
+  {
+    "ssi_player_id":"117522bd-3f51-4ef9-99ae-8cf060df132b",
+    "player_name":"Bez Mbeng",
+    "position":"Guard",
+    "minutes_played":935.0
+  },
+  {
+    "ssi_player_id":"7bf581f6-845d-4d34-9460-f09f129eb841",
+    "player_name":"Blaise Threatt",
+    "position":"Guard",
+    "minutes_played":52.0
+  },
+  {
+    "ssi_player_id":"64b12646-2555-4dd0-98eb-cb169b3ee58a",
+    "player_name":"Blake Hinson",
+    "position":"Forward",
+    "minutes_played":929.0
+  },
+  {
+    "ssi_player_id":"61c18542-cf37-49c7-b486-337bb809d326",
+    "player_name":"Bobi Klintman",
+    "position":"Forward",
+    "minutes_played":674.0
+  },
+  {
+    "ssi_player_id":"2327ad6b-a87c-4b5c-8dbb-c64690426e98",
+    "player_name":"Boo Buie III",
+    "position":"Guard",
+    "minutes_played":1224.0
+  },
+  {
+    "ssi_player_id":"c401774b-397d-4c15-93a0-592eb4752dac",
+    "player_name":"Branden Carlson",
+    "position":"Center",
+    "minutes_played":65.0
+  },
+  {
+    "ssi_player_id":"eb81af0f-e8c9-4a55-a018-bb56cbc130ff",
+    "player_name":"Brandon Slater",
+    "position":"Forward",
+    "minutes_played":254.0
+  },
+  {
+    "ssi_player_id":"ef62751a-0816-46fa-9160-054ef9ec64e4",
+    "player_name":"Brian Taylor",
+    "position":"Forward",
+    "minutes_played":375.0
+  },
+  {
+    "ssi_player_id":"bc4eee96-6dec-4e4c-ac60-d467785926cb",
+    "player_name":"Brice Williams",
+    "position":"Guard",
+    "minutes_played":998.0
+  },
+  {
+    "ssi_player_id":"ec9d7a06-798b-45e0-8eae-a5bfdd92f0ba",
+    "player_name":"Bronny James",
+    "position":"Guard",
+    "minutes_played":516.0
+  },
+  {
+    "ssi_player_id":"6b9ff8ac-a24a-46b2-8a4a-4f4015c6b353",
+    "player_name":"Brooks Barnhizer",
+    "position":"Guard",
+    "minutes_played":604.0
+  },
+  {
+    "ssi_player_id":"cc61028a-3c21-4917-a6fe-607bb4085636",
+    "player_name":"Bryce Thompson",
+    "position":"Guard",
+    "minutes_played":580.0
+  },
+  {
+    "ssi_player_id":"1743e5fa-bc43-42e4-92c1-fa57e57d6312",
+    "player_name":"Bryce Wills",
+    "position":"Guard",
+    "minutes_played":5.0
+  },
+  {
+    "ssi_player_id":"de89d563-ec4f-4356-8cba-afd95b5a975a",
+    "player_name":"Bryson Warren",
+    "position":"Guard",
+    "minutes_played":735.0
+  },
+  {
+    "ssi_player_id":"b19737e4-2806-4548-b14b-2062175fb05e",
+    "player_name":"Buddy Boeheim",
+    "position":"Forward",
+    "minutes_played":515.0
+  },
+  {
+    "ssi_player_id":"e2d1008a-5cc8-4a4d-9f54-0bacfbd083be",
+    "player_name":"CJ Fulton",
+    "position":"Guard",
+    "minutes_played":186.0
+  },
+  {
+    "ssi_player_id":"a93dac29-3dee-4328-8787-673c2c4d207c",
+    "player_name":"CJ Huntley",
+    "position":"Forward",
+    "minutes_played":976.0
+  },
+  {
+    "ssi_player_id":"bbae8544-616e-4d08-9a98-a20e5d47e694",
+    "player_name":"Caleb Grill",
+    "position":"Guard",
+    "minutes_played":787.0
+  },
+  {
+    "ssi_player_id":"0ac0ed6b-ebe7-4dcb-b924-c14e31262efc",
+    "player_name":"Caleb Houstan",
+    "position":"Guard",
+    "minutes_played":988.0
+  },
+  {
+    "ssi_player_id":"163d0a85-fc13-4c76-8e98-93aae28417d2",
+    "player_name":"Caleb Love",
+    "position":"Guard",
+    "minutes_played":299.0
+  },
+  {
+    "ssi_player_id":"9ea29be6-8741-4b28-9a3f-b73d1919c900",
+    "player_name":"Caleb McConnell",
+    "position":"Guard",
+    "minutes_played":630.0
+  },
+  {
+    "ssi_player_id":"05febea3-f49a-42f6-8214-9cdb36006544",
+    "player_name":"Caleb Mills",
+    "position":"Guard",
+    "minutes_played":23.0
+  },
+  {
+    "ssi_player_id":"c0ac23b6-44cc-4fe7-8a81-560c7fc1003d",
+    "player_name":"Caleb Stone-Carrawell",
+    "position":"Forward",
+    "minutes_played":184.0
+  },
+  {
+    "ssi_player_id":"a183c842-9603-4691-9abd-612235152ad2",
+    "player_name":"Cam Carter",
+    "position":"Guard",
+    "minutes_played":464.0
+  },
+  {
+    "ssi_player_id":"8a68ba44-d87b-41c9-94f3-c94e88cb37a0",
+    "player_name":"Cam Christie",
+    "position":"Guard",
+    "minutes_played":87.0
+  },
+  {
+    "ssi_player_id":"5cef3c95-c7c7-4206-b70c-41f647f9498b",
+    "player_name":"Cam Reddish",
+    "position":"Forward",
+    "minutes_played":158.0
+  },
+  {
+    "ssi_player_id":"f61521e8-e7f3-4526-a0fa-efedc3c820ca",
+    "player_name":"Cam Young",
+    "position":"Forward",
+    "minutes_played":186.0
+  },
+  {
+    "ssi_player_id":"c2df5312-12de-4f83-9d1a-3f3c2ab6148f",
+    "player_name":"Cameron Brown",
+    "position":"Forward",
+    "minutes_played":375.0
+  },
+  {
+    "ssi_player_id":"2c4cbc5a-83fe-4562-afdd-859499b77aa5",
+    "player_name":"Cameron Hildreth",
+    "position":"Guard",
+    "minutes_played":831.0
+  },
+  {
+    "ssi_player_id":"99e062a8-b28c-47b0-9682-92a5d2461cd1",
+    "player_name":"Cameron Martin",
+    "position":"Forward",
+    "minutes_played":186.0
+  },
+  {
+    "ssi_player_id":"2b3321e5-dc2b-4c37-9ee5-36336690c3ec",
+    "player_name":"Cameron Matthews",
+    "position":"Forward",
+    "minutes_played":1375.0
+  },
+  {
+    "ssi_player_id":"55ec130c-b918-4d9b-9fe5-9b79a5f370f2",
+    "player_name":"Cameron McGriff",
+    "position":"Forward",
+    "minutes_played":639.0
+  },
+  {
+    "ssi_player_id":"15e3cffa-aed2-4d74-a8e0-ec06dfea63c6",
+    "player_name":"Cameron Parker",
+    "position":"Guard",
+    "minutes_played":639.0
+  },
+  {
+    "ssi_player_id":"bd762247-fb20-496c-af57-0abcde142d02",
+    "player_name":"Cameron Smith",
+    "position":"Forward",
+    "minutes_played":58.0
+  },
+  {
+    "ssi_player_id":"18ede5d3-f2de-4f9f-a9c3-ffe37ac43566",
+    "player_name":"Cameron Tyson",
+    "position":"Guard",
+    "minutes_played":85.0
+  },
+  {
+    "ssi_player_id":"18dc7187-8fc5-47bf-9779-e7a7694c498c",
+    "player_name":"Carter Bryant",
+    "position":"Forward",
+    "minutes_played":25.0
+  },
+  {
+    "ssi_player_id":"d40fdb50-4ea9-488f-85e3-aa57164f9d0a",
+    "player_name":"Chance McMillian",
+    "position":"Guard",
+    "minutes_played":809.0
+  },
+  {
+    "ssi_player_id":"db071247-1883-4852-b647-0b794ee7cdee",
+    "player_name":"Chandler Baker",
+    "position":"Forward",
+    "minutes_played":65.0
+  },
+  {
+    "ssi_player_id":"4007e9ee-5f46-4b39-9d77-0001aa54f1f4",
+    "player_name":"Chaney Johnson",
+    "position":"Forward \/ Guard",
+    "minutes_played":857.0
+  },
+  {
+    "ssi_player_id":"089bae1f-5cd7-438c-8ebb-061918727a25",
+    "player_name":"Charles Bassey",
+    "position":"Center",
+    "minutes_played":520.0
+  },
+  {
+    "ssi_player_id":"40e03646-000c-4ccf-a366-50f9477583e5",
+    "player_name":"Charles Bediako",
+    "position":"Center",
+    "minutes_played":208.0
+  },
+  {
+    "ssi_player_id":"dfa6209b-514d-438b-9c4c-bd6f1ff85613",
+    "player_name":"Charlie Brown Jr.",
+    "position":"Guard",
+    "minutes_played":1256.0
+  },
+  {
+    "ssi_player_id":"50fd1b80-b17c-4168-9cd8-b67adeef9040",
+    "player_name":"Chase Hunter",
+    "position":"Guard",
+    "minutes_played":779.0
+  },
+  {
+    "ssi_player_id":"ea3ac175-ec80-45da-aa31-7c38b04c7657",
+    "player_name":"Chase Jeter",
+    "position":"Center",
+    "minutes_played":213.0
+  },
+  {
+    "ssi_player_id":"3ff2c55c-8857-4cde-85eb-a42b87da7dcd",
+    "player_name":"Chaz Lanier",
+    "position":"Guard",
+    "minutes_played":640.0
+  },
+  {
+    "ssi_player_id":"7efefdc5-c8ee-4221-ac12-a35549517aa2",
+    "player_name":"Cheikh Mbacke Diong",
+    "position":"Center",
+    "minutes_played":66.0
+  },
+  {
+    "ssi_player_id":"f79d533e-f423-4752-a088-6d507d795bdb",
+    "player_name":"Chris Livingston",
+    "position":"Forward",
+    "minutes_played":892.0
+  },
+  {
+    "ssi_player_id":"5dde0a80-753d-41a6-9ffa-6193317a3a17",
+    "player_name":"Chris Manon",
+    "position":"Guard",
+    "minutes_played":1136.0
+  },
+  {
+    "ssi_player_id":"d2d320cb-de1d-4f2f-b238-9697f02b41ff",
+    "player_name":"Chris Mantis",
+    "position":"Forward",
+    "minutes_played":816.0
+  },
+  {
+    "ssi_player_id":"35206de4-a3c1-415a-b596-126c0ab7b44a",
+    "player_name":"Chris Youngblood",
+    "position":"Guard",
+    "minutes_played":753.0
+  },
+  {
+    "ssi_player_id":"efbab460-ac97-49e1-aa9f-6e7da27ab2df",
+    "player_name":"Christian Koloko",
+    "position":"Center",
+    "minutes_played":98.0
+  },
+  {
+    "ssi_player_id":"40ebb929-1947-4008-9cdc-046aa3a4bd87",
+    "player_name":"Christian Shumate",
+    "position":"Forward",
+    "minutes_played":944.0
+  },
+  {
+    "ssi_player_id":"4ac4a0ab-ea85-4870-8bd5-9670073a3df4",
+    "player_name":"Chucky Hepburn",
+    "position":"Guard",
+    "minutes_played":461.0
+  },
+  {
+    "ssi_player_id":"0000b397-3cf4-4dd4-a910-000000000131",
+    "player_name":"Cody Martin",
+    "position":"Forward",
+    "minutes_played":374.0
+  },
+  {
+    "ssi_player_id":"8b49e58d-df58-4e21-b984-2bda3ce246e6",
+    "player_name":"Cody Williams",
+    "position":"Forward",
+    "minutes_played":104.0
+  },
+  {
+    "ssi_player_id":"80ea0675-30db-4ebf-b37f-eb50552e8d0e",
+    "player_name":"Colby Jones",
+    "position":"Guard",
+    "minutes_played":249.0
+  },
+  {
+    "ssi_player_id":"769be316-e69b-4438-a859-7fbbad08accf",
+    "player_name":"Coleman Hawkins",
+    "position":"Forward",
+    "minutes_played":1150.0
+  },
+  {
+    "ssi_player_id":"cb160212-66c3-46cf-8728-c0d6612456f8",
+    "player_name":"Colin Castleton",
+    "position":"Center",
+    "minutes_played":623.0
+  },
+  {
+    "ssi_player_id":"f3f41cea-955b-4ff5-b6fc-69991789d721",
+    "player_name":"Cormac Ryan",
+    "position":"Guard",
+    "minutes_played":789.0
+  },
+  {
+    "ssi_player_id":"57c94d1b-101e-4b0a-afc5-d9716233e92d",
+    "player_name":"Craig Randall II",
+    "position":"Guard",
+    "minutes_played":252.0
+  },
+  {
+    "ssi_player_id":"69489a71-b1eb-4fde-b687-6385e03c1e49",
+    "player_name":"Curtis Jones",
+    "position":"Guard",
+    "minutes_played":1263.0
+  },
+  {
+    "ssi_player_id":"93c1ccb9-a43d-42a7-a037-b8d2057acc02",
+    "player_name":"D'Andre Davis",
+    "position":"Guard",
+    "minutes_played":494.0
+  },
+  {
+    "ssi_player_id":"4fca8d39-a522-46f0-b222-226b8180e35a",
+    "player_name":"D'Moi Hodge",
+    "position":"Guard",
+    "minutes_played":952.0
+  },
+  {
+    "ssi_player_id":"b902fc9f-4b1a-417f-8af7-bfa5c66c95a3",
+    "player_name":"D.J. Carton",
+    "position":"Guard",
+    "minutes_played":990.0
+  },
+  {
+    "ssi_player_id":"ff225902-3cf1-4d77-8ed5-cacd2aace2e8",
+    "player_name":"D.K. Thorn",
+    "position":"Guard",
+    "minutes_played":6.0
+  },
+  {
+    "ssi_player_id":"18ec54f9-3c06-457d-a0c8-04f2aa513754",
+    "player_name":"DJ Rodman",
+    "position":"Guard",
+    "minutes_played":603.0
+  },
+  {
+    "ssi_player_id":"b7cd24eb-bd7e-4dcc-99a2-7236606d1541",
+    "player_name":"DaJuan Gordon",
+    "position":"Guard",
+    "minutes_played":725.0
+  },
+  {
+    "ssi_player_id":"b969f906-aab2-4845-b038-70ec8482bed4",
+    "player_name":"DaQuan Jeffries",
+    "position":"Guard",
+    "minutes_played":1067.0
+  },
+  {
+    "ssi_player_id":"33ee598f-dbec-467d-982c-9722af3b3261",
+    "player_name":"DaRon Holmes II",
+    "position":"Forward",
+    "minutes_played":658.0
+  },
+  {
+    "ssi_player_id":"daca4b6a-526f-49e8-a02e-ba59acb77846",
+    "player_name":"Daeqwon Plowden",
+    "position":"Guard",
+    "minutes_played":919.0
+  },
+  {
+    "ssi_player_id":"3d560bd7-c964-492e-97b7-12c4feda4079",
+    "player_name":"Dain Dainja",
+    "position":"Forward",
+    "minutes_played":897.0
+  },
+  {
+    "ssi_player_id":"06212573-e2e8-4bfa-98cd-4484063dead1",
+    "player_name":"Daishen Nix",
+    "position":"Guard",
+    "minutes_played":1658.0
+  },
+  {
+    "ssi_player_id":"51b4a0a5-880c-48d7-a342-2b25ec6cc206",
+    "player_name":"Dajuan Harris",
+    "position":"Guard",
+    "minutes_played":401.0
+  },
+  {
+    "ssi_player_id":"9f1f34c6-66d2-4093-9328-d2fffffb97d5",
+    "player_name":"Dakota Mathias",
+    "position":"Guard",
+    "minutes_played":308.0
+  },
+  {
+    "ssi_player_id":"ccd8ec3b-3e5b-4f39-9b41-91882f179a73",
+    "player_name":"Dalano Banton",
+    "position":"Forward",
+    "minutes_played":1210.0
+  },
+  {
+    "ssi_player_id":"8fc64d15-1d47-47e1-bb04-d03f75dccc5a",
+    "player_name":"Dalen Terry",
+    "position":"Forward",
+    "minutes_played":79.0
+  },
+  {
+    "ssi_player_id":"b8da7ce7-11b7-4a94-acd4-f309bf4b6333",
+    "player_name":"Dalton Knecht",
+    "position":"Forward",
+    "minutes_played":158.0
+  },
+  {
+    "ssi_player_id":"63a42b38-d8f6-4214-aa03-cb4263b02a9a",
+    "player_name":"Damari Monsanto",
+    "position":"Guard",
+    "minutes_played":652.0
+  },
+  {
+    "ssi_player_id":"bcde43ef-a7dd-4d4d-9d7e-a0585052e0b9",
+    "player_name":"Damion Baugh",
+    "position":"Guard",
+    "minutes_played":1037.0
+  },
+  {
+    "ssi_player_id":"83cf7787-d441-4c3a-b5de-a2b2a623350b",
+    "player_name":"Dane Goodwin",
+    "position":"Guard",
+    "minutes_played":1344.0
+  },
+  {
+    "ssi_player_id":"72e13ad0-9840-41e7-b88f-ab295ef762fb",
+    "player_name":"Daniel Batcho",
+    "position":"Forward",
+    "minutes_played":285.0
+  },
+  {
+    "ssi_player_id":"0b1b2334-050a-4f4e-bae7-3865147c950f",
+    "player_name":"Danny Wolf",
+    "position":"Forward",
+    "minutes_played":204.0
+  },
+  {
+    "ssi_player_id":"9f8b2ee3-8cc5-4a92-aeb9-c8c52d6e37a2",
+    "player_name":"Dariq Whitehead",
+    "position":"Guard",
+    "minutes_played":685.0
+  },
+  {
+    "ssi_player_id":"b7ae8764-a482-4551-82ac-7a91c8292e4b",
+    "player_name":"Darius Brown",
+    "position":"Guard",
+    "minutes_played":1366.0
+  },
+  {
+    "ssi_player_id":"8207e744-783c-4fac-8d78-52acb829f00c",
+    "player_name":"David Jones Garcia",
+    "position":"Forward \/ Guard",
+    "minutes_played":455.0
+  },
+  {
+    "ssi_player_id":"c5a7468d-b9c2-4814-a823-b9bf4a58358f",
+    "player_name":"David Muoka",
+    "position":"Center",
+    "minutes_played":671.0
+  },
+  {
+    "ssi_player_id":"ab0a4d97-fd7b-40d9-a72f-b2a862039584",
+    "player_name":"David Roddy",
+    "position":"Forward",
+    "minutes_played":892.0
+  },
+  {
+    "ssi_player_id":"6e74a308-26d0-4ebb-b5f2-5a0dbe334f86",
+    "player_name":"Davonte Gaines",
+    "position":"Forward",
+    "minutes_played":24.0
+  },
+  {
+    "ssi_player_id":"4aa2ea37-df6a-43f3-9838-5bb4d2e13186",
+    "player_name":"Dawson Garcia",
+    "position":"Forward",
+    "minutes_played":252.0
+  },
+  {
+    "ssi_player_id":"d240c74d-0376-4b1e-998d-190b778ced1b",
+    "player_name":"DeAndre Williams",
+    "position":"Forward",
+    "minutes_played":1038.0
+  },
+  {
+    "ssi_player_id":"3cd02b89-3d2f-46ff-b392-29215f6825b4",
+    "player_name":"DeJon Jarreau",
+    "position":"Guard",
+    "minutes_played":637.0
+  },
+  {
+    "ssi_player_id":"9ffb6f28-8fa0-4650-bd30-47f8aa7235a2",
+    "player_name":"Deivon Smith",
+    "position":"Guard",
+    "minutes_played":525.0
+  },
+  {
+    "ssi_player_id":"4a0f330a-e571-48c4-a685-f82c9436c964",
+    "player_name":"Dennis Smith Jr.",
+    "position":"Guard",
+    "minutes_played":698.0
+  },
+  {
+    "ssi_player_id":"4f5b0cc7-0740-4ebb-8b37-c464b1f421f3",
+    "player_name":"Derek Ogbeide",
+    "position":"Center",
+    "minutes_played":666.0
+  },
+  {
+    "ssi_player_id":"9cd83bc4-5c2c-4f4d-ba20-8fc69a4cfa8a",
+    "player_name":"Dereon Seabron",
+    "position":"Guard",
+    "minutes_played":644.0
+  },
+  {
+    "ssi_player_id":"6dfc6fb5-d921-403b-b590-c1c4c3e900a9",
+    "player_name":"Derrin Boyd",
+    "position":"Guard",
+    "minutes_played":134.0
+  },
+  {
+    "ssi_player_id":"5f4ae0bb-b9a5-4c83-8441-1e627500c265",
+    "player_name":"Desmond Cambridge",
+    "position":"Guard",
+    "minutes_played":510.0
+  },
+  {
+    "ssi_player_id":"8a8e683b-3939-4208-b55c-bc9cefe13a54",
+    "player_name":"Devin Carter",
+    "position":"Guard",
+    "minutes_played":142.0
+  },
+  {
+    "ssi_player_id":"72b7a0bc-f1b6-4996-89e8-8c6535bd71c0",
+    "player_name":"Devon Higgs",
+    "position":"Guard",
+    "minutes_played":108.0
+  },
+  {
+    "ssi_player_id":"b9d78738-9b74-4fdb-9c3f-bce9cb72377a",
+    "player_name":"Dexter Dennis",
+    "position":"Guard",
+    "minutes_played":1407.0
+  },
+  {
+    "ssi_player_id":"7c13f8c0-55bf-46b9-a41e-cbaeea35c13b",
+    "player_name":"Dillon Jones",
+    "position":"Forward",
+    "minutes_played":1289.0
+  },
+  {
+    "ssi_player_id":"dc8f2d40-88ec-44ef-b6ef-09404a5d49cd",
+    "player_name":"Dink Pate",
+    "position":"Guard",
+    "minutes_played":1357.0
+  },
+  {
+    "ssi_player_id":"12136b74-23d8-49b4-b4de-98a320969c76",
+    "player_name":"Donovan Williams",
+    "position":"Guard",
+    "minutes_played":819.0
+  },
+  {
+    "ssi_player_id":"1034b6f9-7fc5-4f5f-94fa-2ab920658dd3",
+    "player_name":"Donte Ingram",
+    "position":"Forward",
+    "minutes_played":815.0
+  },
+  {
+    "ssi_player_id":"ed72fbc9-1066-46d8-872e-9a437c4e536e",
+    "player_name":"Drake Powell",
+    "position":"Guard",
+    "minutes_played":127.0
+  },
+  {
+    "ssi_player_id":"4943e7dd-a830-4c29-bd39-a8b168bf00b9",
+    "player_name":"Drew Cisse",
+    "position":"Center",
+    "minutes_played":663.0
+  },
+  {
+    "ssi_player_id":"b385f90c-bbc7-4346-8507-4d626e2c0c61",
+    "player_name":"Drew Peterson",
+    "position":"Forward",
+    "minutes_played":1075.0
+  },
+  {
+    "ssi_player_id":"30998b89-18c0-4086-ae61-1830056bb1b7",
+    "player_name":"Drew Timme",
+    "position":"Forward",
+    "minutes_played":676.0
+  },
+  {
+    "ssi_player_id":"28c78fcb-5cfa-4d69-bf2f-416eef831e04",
+    "player_name":"Dwayne Cohill",
+    "position":"Guard",
+    "minutes_played":17.0
+  },
+  {
+    "ssi_player_id":"7880b823-77c5-4925-a287-1af2424a923b",
+    "player_name":"Dwight Murray, Jr",
+    "position":"Guard",
+    "minutes_played":920.0
+  },
+  {
+    "ssi_player_id":"fb79aa4f-8468-454c-80db-1768d95b4e42",
+    "player_name":"Dylan Cardwell",
+    "position":"Center",
+    "minutes_played":408.0
+  },
+  {
+    "ssi_player_id":"f76c835b-10f6-42aa-aafe-3c87b5be8866",
+    "player_name":"E.J. Liddell",
+    "position":"Forward",
+    "minutes_played":657.0
+  },
+  {
+    "ssi_player_id":"d435507a-b78e-4251-8feb-ad8c5d01dcb1",
+    "player_name":"Ebenezer Dowuona",
+    "position":"Center",
+    "minutes_played":238.0
+  },
+  {
+    "ssi_player_id":"2a962d8e-05d1-4d9c-ae45-e128f2ae9c81",
+    "player_name":"Efe Abogidi",
+    "position":"Forward",
+    "minutes_played":1050.0
+  },
+  {
+    "ssi_player_id":"ff4126dc-89ef-11e6-a96d-a45e60e298d3",
+    "player_name":"Elfrid Payton",
+    "position":"Guard",
+    "minutes_played":590.0
+  },
+  {
+    "ssi_player_id":"541d7cbf-04ae-40eb-9401-fc9f1fffdcf2",
+    "player_name":"Eli John Ndiaye",
+    "position":"Forward",
+    "minutes_played":205.0
+  },
+  {
+    "ssi_player_id":"2ce0583b-9426-44be-820b-de29934964ee",
+    "player_name":"Elijah Cain",
+    "position":"Guard",
+    "minutes_played":76.0
+  },
+  {
+    "ssi_player_id":"629588b6-9560-45b9-ae52-ff90c299fc4d",
+    "player_name":"Elijah Harkless",
+    "position":"Guard",
+    "minutes_played":384.0
+  },
+  {
+    "ssi_player_id":"0fd95fbb-b175-40e4-a6c7-4864b5678d6f",
+    "player_name":"Elijah Pemberton",
+    "position":"Guard",
+    "minutes_played":39.0
+  },
+  {
+    "ssi_player_id":"9333d369-df08-4c59-9073-3164d584f481",
+    "player_name":"Emanuel Miller",
+    "position":"Forward",
+    "minutes_played":1169.0
+  },
+  {
+    "ssi_player_id":"9f1d3f5e-1bf4-4a41-81f4-516081353643",
+    "player_name":"Emoni Bates",
+    "position":"Forward",
+    "minutes_played":234.0
+  },
+  {
+    "ssi_player_id":"f838df3f-72c5-4cf1-a555-7182e3dccd13",
+    "player_name":"Enrique Freeman",
+    "position":"Forward",
+    "minutes_played":1166.0
+  },
+  {
+    "ssi_player_id":"0ed3aa02-c44c-4b25-a16c-d448d88b92ea",
+    "player_name":"Eric Ayala",
+    "position":"Guard",
+    "minutes_played":123.0
+  },
+  {
+    "ssi_player_id":"11ec3e54-7b96-4e1f-856e-8933eb8de9c3",
+    "player_name":"Eric Dixon",
+    "position":"Forward",
+    "minutes_played":954.0
+  },
+  {
+    "ssi_player_id":"f3572151-dba9-4dc4-a48a-792e17a3180b",
+    "player_name":"Erik Reynolds II",
+    "position":"Guard",
+    "minutes_played":529.0
+  },
+  {
+    "ssi_player_id":"2d23e4fc-8b5f-4131-af0f-83b0ae3a2c69",
+    "player_name":"Esteban Ezequiel Roacho Amador",
+    "position":"Guard",
+    "minutes_played":108.0
+  },
+  {
+    "ssi_player_id":"b4569bbc-b31d-4504-a59a-fe40691d1d00",
+    "player_name":"Ethan Taylor",
+    "position":"Guard",
+    "minutes_played":197.0
+  },
+  {
+    "ssi_player_id":"e303b1cc-a268-4f85-8063-e447c757ede6",
+    "player_name":"Ethan Thompson",
+    "position":"Guard",
+    "minutes_played":467.0
+  },
+  {
+    "ssi_player_id":"0f656aa8-c62c-4fad-ad9f-3442cdc15e50",
+    "player_name":"Evan Gilyard",
+    "position":"Guard",
+    "minutes_played":679.0
+  },
+  {
+    "ssi_player_id":"a03683d7-864f-4a20-ba32-5a8d3263c1fa",
+    "player_name":"Felipe Haase",
+    "position":"Forward",
+    "minutes_played":883.0
+  },
+  {
+    "ssi_player_id":"5210db69-14a3-4c9b-ad2a-62c349f4ac65",
+    "player_name":"Feron Hunt",
+    "position":"Forward",
+    "minutes_played":49.0
+  },
+  {
+    "ssi_player_id":"0870aa3a-22ad-4cf6-8f45-cbe6ca3f7e75",
+    "player_name":"Fousseyni Drame",
+    "position":"Forward",
+    "minutes_played":27.0
+  },
+  {
+    "ssi_player_id":"d681a7cd-c0ad-4497-975c-f750b762a74e",
+    "player_name":"Franco Miller, Jr",
+    "position":"Guard",
+    "minutes_played":530.0
+  },
+  {
+    "ssi_player_id":"de22ebf7-4f76-48b4-805b-b5f87858922f",
+    "player_name":"GG Jackson",
+    "position":"Forward",
+    "minutes_played":227.0
+  },
+  {
+    "ssi_player_id":"154a9e91-a046-4e1d-bd25-0fdf6dc87f45",
+    "player_name":"Gabe Levin",
+    "position":"Forward",
+    "minutes_played":883.0
+  },
+  {
+    "ssi_player_id":"7e84815b-7663-437b-8751-28d60ef2c65b",
+    "player_name":"Gabe Madsen",
+    "position":"Forward",
+    "minutes_played":1188.0
+  },
+  {
+    "ssi_player_id":"32f54c28-47c6-4d3c-8364-c3956aef7190",
+    "player_name":"Gabe McGlothan",
+    "position":"Forward",
+    "minutes_played":878.0
+  },
+  {
+    "ssi_player_id":"13631116-cd60-4bc0-9a41-6fed5d44b41c",
+    "player_name":"Garrett Denbow",
+    "position":"Guard",
+    "minutes_played":161.0
+  },
+  {
+    "ssi_player_id":"146c7c56-b7ad-4925-8a9e-93d2c5db55bc",
+    "player_name":"Garrison Brooks",
+    "position":"Center",
+    "minutes_played":450.0
+  },
+  {
+    "ssi_player_id":"5bc79052-06fe-4165-bc0d-7121fc331302",
+    "player_name":"Geronimo Rubio De La Rosa",
+    "position":"Guard",
+    "minutes_played":99.0
+  },
+  {
+    "ssi_player_id":"7ac29d25-418d-4bf3-b302-cda0f4aa7cae",
+    "player_name":"Giddy Potts",
+    "position":"Guard",
+    "minutes_played":278.0
+  },
+  {
+    "ssi_player_id":"4d0b25c0-eb2c-423a-875e-ba9f74999bdf",
+    "player_name":"Giorgi Bezhanishvili",
+    "position":"Forward",
+    "minutes_played":1169.0
+  },
+  {
+    "ssi_player_id":"c4012fed-7c3d-4171-a8c7-3432c061c9d7",
+    "player_name":"Grant Nelson",
+    "position":"Forward",
+    "minutes_played":338.0
+  },
+  {
+    "ssi_player_id":"29d938d7-ce0a-4aba-9b2e-b17b2e8d8ee5",
+    "player_name":"Hank Morgan",
+    "position":"Forward",
+    "minutes_played":422.0
+  },
+  {
+    "ssi_player_id":"289b86f4-5aea-4603-a5e7-54793e5eb584",
+    "player_name":"Harrison Ingram",
+    "position":"Forward",
+    "minutes_played":1233.0
+  },
+  {
+    "ssi_player_id":"99828648-af70-4757-ac4f-8f3e6c8364f5",
+    "player_name":"Hason Ward",
+    "position":"Forward",
+    "minutes_played":868.0
+  },
+  {
+    "ssi_player_id":"e901ec95-f7cf-40c9-af32-8dabb981b3cd",
+    "player_name":"Hayden Gray",
+    "position":"Guard",
+    "minutes_played":1194.0
+  },
+  {
+    "ssi_player_id":"3b01bc5d-08ef-4a1a-afff-52c5c9f81849",
+    "player_name":"Hunter Cattoor",
+    "position":"Guard",
+    "minutes_played":554.0
+  },
+  {
+    "ssi_player_id":"00c80505-49a6-4ed4-ae3d-decf5a59b3a2",
+    "player_name":"Hunter Dickinson",
+    "position":"Center",
+    "minutes_played":1165.0
+  },
+  {
+    "ssi_player_id":"6d6c60fb-827b-4b00-9033-8fb8a4fb0f32",
+    "player_name":"Hunter Sallis",
+    "position":"Guard",
+    "minutes_played":906.0
+  },
+  {
+    "ssi_player_id":"9e3a3a92-a664-48f7-97d2-0f8f27735dbd",
+    "player_name":"Ibou Badji",
+    "position":"Center",
+    "minutes_played":363.0
+  },
+  {
+    "ssi_player_id":"505bb488-33f9-485b-9cce-e0533d462cf1",
+    "player_name":"Ibrahima Diallo",
+    "position":"Center",
+    "minutes_played":443.0
+  },
+  {
+    "ssi_player_id":"96e51137-1852-4b4b-8809-7d07d81b22a8",
+    "player_name":"Igor Milicic, Jr",
+    "position":"Forward",
+    "minutes_played":727.0
+  },
+  {
+    "ssi_player_id":"8419ad0c-1d1b-41ad-a04b-4d8bd3aff0a0",
+    "player_name":"Ileri Ayo-Faleye",
+    "position":"Forward",
+    "minutes_played":20.0
+  },
+  {
+    "ssi_player_id":"a35d4b94-e6ff-4f4a-8f40-d64d70dd4c3a",
+    "player_name":"Isaac Jones",
+    "position":"Forward",
+    "minutes_played":1114.0
+  },
+  {
+    "ssi_player_id":"cc5a020f-5862-494b-a997-26288b4f4f12",
+    "player_name":"Isaiah Crawford",
+    "position":"Forward",
+    "minutes_played":647.0
+  },
+  {
+    "ssi_player_id":"e186218b-ea58-4542-af85-ac121949c255",
+    "player_name":"Isaiah Hawthorne",
+    "position":"Forward",
+    "minutes_played":275.0
+  },
+  {
+    "ssi_player_id":"ffd1ae3a-bd10-436e-a214-71a0761663e4",
+    "player_name":"Isaiah Moore",
+    "position":"Guard",
+    "minutes_played":7.0
+  },
+  {
+    "ssi_player_id":"19602b62-cfbe-4d35-81f5-bc244327960e",
+    "player_name":"Isaiah Roby",
+    "position":"Forward",
+    "minutes_played":784.0
+  },
+  {
+    "ssi_player_id":"27b14c86-8f8d-4cd8-a8ec-bb051cd871bc",
+    "player_name":"Isaiah Stevens",
+    "position":"Guard",
+    "minutes_played":960.0
+  },
+  {
+    "ssi_player_id":"1dbb419d-3008-45c5-aade-fb964248499e",
+    "player_name":"Isaiah Todd",
+    "position":"Forward",
+    "minutes_played":39.0
+  },
+  {
+    "ssi_player_id":"ea2cbcac-0b28-454f-a3f7-a30bb1d6fbb1",
+    "player_name":"Isaih Moore",
+    "position":"Forward",
+    "minutes_played":766.0
+  },
+  {
+    "ssi_player_id":"e98d2d7d-61a8-42e6-9c79-f1c3d6667ec9",
+    "player_name":"Issac McBride",
+    "position":"Guard",
+    "minutes_played":88.0
+  },
+  {
+    "ssi_player_id":"833b573b-1366-463c-92ea-56e7718c0dc6",
+    "player_name":"JD Davison",
+    "position":"Guard",
+    "minutes_played":223.0
+  },
+  {
+    "ssi_player_id":"dbabc9d0-e8c8-4399-92a9-047c7ffb580f",
+    "player_name":"JP Pegues",
+    "position":"Guard",
+    "minutes_played":18.0
+  },
+  {
+    "ssi_player_id":"426de6ba-834c-455a-8c94-9656ad089275",
+    "player_name":"Ja'Vier Francis",
+    "position":"Forward",
+    "minutes_played":685.0
+  },
+  {
+    "ssi_player_id":"a05930e9-6846-4c42-b5d6-f859b92d97fd",
+    "player_name":"JaQuori McLaughlin",
+    "position":"Guard",
+    "minutes_played":613.0
+  },
+  {
+    "ssi_player_id":"5ba18e46-b710-44bf-8369-1185adf0ce77",
+    "player_name":"Jabri Abdur-Rahim",
+    "position":"Forward",
+    "minutes_played":499.0
+  },
+  {
+    "ssi_player_id":"d6029d99-f377-4558-8061-e383e37d162d",
+    "player_name":"Jace Carter",
+    "position":"Guard",
+    "minutes_played":28.0
+  },
+  {
+    "ssi_player_id":"baad4031-1f9b-4e88-9ac6-9c40ed79d7f3",
+    "player_name":"Jack Clark",
+    "position":"Forward",
+    "minutes_played":1248.0
+  },
+  {
+    "ssi_player_id":"20e6b7dc-2172-4ce5-a2c7-f61c3c89d703",
+    "player_name":"Jack Gohlke",
+    "position":"Guard",
+    "minutes_played":139.0
+  },
+  {
+    "ssi_player_id":"b16076ab-b7f1-4f61-b1ce-87471a1be027",
+    "player_name":"Jacksen Moni",
+    "position":"Center",
+    "minutes_played":812.0
+  },
+  {
+    "ssi_player_id":"87777cd1-2099-4edd-8256-f29343fa0fd4",
+    "player_name":"Jackson Rowe",
+    "position":"Forward",
+    "minutes_played":140.0
+  },
+  {
+    "ssi_player_id":"9e0abf37-2963-4f62-b8f7-104fefa58273",
+    "player_name":"Jacob Toppin",
+    "position":"Forward",
+    "minutes_played":105.0
+  },
+  {
+    "ssi_player_id":"e6acbf72-2032-4b3f-9672-62f8052c1873",
+    "player_name":"Jaden Akins",
+    "position":"Guard",
+    "minutes_played":1298.0
+  },
+  {
+    "ssi_player_id":"d22cb3b8-91ce-4a2a-bae7-a358a426a9af",
+    "player_name":"Jaden Bediako",
+    "position":"Center",
+    "minutes_played":23.0
+  },
+  {
+    "ssi_player_id":"667eabca-780b-45aa-8d74-a3418e732e81",
+    "player_name":"Jaden Seymour",
+    "position":"Forward",
+    "minutes_played":35.0
+  },
+  {
+    "ssi_player_id":"dfffb2fc-160c-41a4-9a75-af0a21d2ba76",
+    "player_name":"Jaden Shackelford",
+    "position":"Guard",
+    "minutes_played":1257.0
+  },
+  {
+    "ssi_player_id":"8a1c8d1a-13c8-487e-b85e-6b10ecc1d39f",
+    "player_name":"Jaden Springer",
+    "position":"Guard",
+    "minutes_played":811.0
+  },
+  {
+    "ssi_player_id":"80383c81-b671-4a11-b003-ae08fba34eb8",
+    "player_name":"Jae'Sean Tate",
+    "position":"Forward",
+    "minutes_played":17.0
+  },
+  {
+    "ssi_player_id":"e14de0fe-50fa-4322-a5a2-55cb2137e6f2",
+    "player_name":"Jaelen House",
+    "position":"Guard",
+    "minutes_played":693.0
+  },
+  {
+    "ssi_player_id":"e21b31ea-a8e5-41ad-89b1-72a56bdf59e1",
+    "player_name":"Jahlil White",
+    "position":"Guard",
+    "minutes_played":227.0
+  },
+  {
+    "ssi_player_id":"f851dd8e-83fb-42a9-8b76-cc5afe5350fa",
+    "player_name":"Jahmai Mashack",
+    "position":"Guard",
+    "minutes_played":417.0
+  },
+  {
+    "ssi_player_id":"dc80c41d-ab1d-4aa4-be9f-8830d7e0dd62",
+    "player_name":"Jahmir Young",
+    "position":"Guard",
+    "minutes_played":933.0
+  },
+  {
+    "ssi_player_id":"f7cdd34f-d626-4902-b05a-e39f9ae32dd4",
+    "player_name":"Jahmyl Telfort",
+    "position":"Guard",
+    "minutes_played":1422.0
+  },
+  {
+    "ssi_player_id":"c641880b-c90c-465e-8564-f6a741fae84b",
+    "player_name":"Jaire Grayer",
+    "position":"Guard",
+    "minutes_played":20.0
+  },
+  {
+    "ssi_player_id":"1c7e1fdd-3a9d-4509-b079-a329c993e9d4",
+    "player_name":"Jalen Bridges",
+    "position":"Forward",
+    "minutes_played":1418.0
+  },
+  {
+    "ssi_player_id":"938ea26e-95ff-4f3b-a385-a965af8195b4",
+    "player_name":"Jalen Crutcher",
+    "position":"Guard",
+    "minutes_played":1465.0
+  },
+  {
+    "ssi_player_id":"ee32b868-f2aa-47fd-bc12-e2df467173a0",
+    "player_name":"Jalen Slawson",
+    "position":"Forward",
+    "minutes_played":1005.0
+  },
+  {
+    "ssi_player_id":"04831643-55cd-475f-98a4-76ea6b95557d",
+    "player_name":"Jalen Williams",
+    "position":"Guard",
+    "minutes_played":2.0
+  },
+  {
+    "ssi_player_id":"5659992f-2487-47ce-83f7-baedce2a090e",
+    "player_name":"Jamal Bieniemy",
+    "position":"Guard",
+    "minutes_played":278.0
+  },
+  {
+    "ssi_player_id":"f42a8b63-1ab4-447f-b74f-be293fc58e99",
+    "player_name":"Jamal Cain",
+    "position":"Forward",
+    "minutes_played":234.0
+  },
+  {
+    "ssi_player_id":"e2dcfe4a-9e16-4ab8-8eee-e15ca0db6eb5",
+    "player_name":"Jamal Mashburn, Jr",
+    "position":"Guard",
+    "minutes_played":224.0
+  },
+  {
+    "ssi_player_id":"e35aa016-05af-4a0b-92b3-b0d987d11892",
+    "player_name":"Jamaree Bouyea",
+    "position":"Guard",
+    "minutes_played":169.0
+  },
+  {
+    "ssi_player_id":"02b5523f-9555-42f2-b2a7-3ba79ce5e959",
+    "player_name":"Jamarion Sharp",
+    "position":"Center",
+    "minutes_played":822.0
+  },
+  {
+    "ssi_player_id":"55218f5a-96d0-455d-953e-1af096389bc1",
+    "player_name":"Jameer Nelson Jr.",
+    "position":"Guard",
+    "minutes_played":622.0
+  },
+  {
+    "ssi_player_id":"889010b1-1e41-4488-97c5-030be0d70083",
+    "player_name":"James Akinjo",
+    "position":"Guard",
+    "minutes_played":737.0
+  },
+  {
+    "ssi_player_id":"f4a998d1-4507-43b9-91e3-832dde032d54",
+    "player_name":"James Banks III",
+    "position":"Center",
+    "minutes_played":752.0
+  },
+  {
+    "ssi_player_id":"a4bca3d5-c8c6-408f-a4bf-22453062b4b9",
+    "player_name":"James Bouknight",
+    "position":"Guard",
+    "minutes_played":1336.0
+  },
+  {
+    "ssi_player_id":"26f760b4-f286-403c-ae5b-8c4a2f2810ff",
+    "player_name":"James Reese",
+    "position":"Guard",
+    "minutes_played":41.0
+  },
+  {
+    "ssi_player_id":"84ba6ce6-9c37-4225-8f84-14a5cbacea65",
+    "player_name":"Jamir Watkins",
+    "position":"Forward",
+    "minutes_played":233.0
+  },
+  {
+    "ssi_player_id":"74f1f473-4fc6-4175-bf32-f1f99de73ef8",
+    "player_name":"Jamison Battle",
+    "position":"Forward",
+    "minutes_played":32.0
+  },
+  {
+    "ssi_player_id":"bd101cdc-8e04-424a-8c61-034c93ff6be7",
+    "player_name":"Jamiya Neal",
+    "position":"Guard",
+    "minutes_played":28.0
+  },
+  {
+    "ssi_player_id":"eb79ea6c-b337-448d-ac33-7e92219822ef",
+    "player_name":"Jared McCain",
+    "position":"Guard",
+    "minutes_played":62.0
+  },
+  {
+    "ssi_player_id":"994212e5-17be-4696-bd46-0efcd68787bc",
+    "player_name":"Jarkel Joiner",
+    "position":"Guard",
+    "minutes_played":1045.0
+  },
+  {
+    "ssi_player_id":"46d86ca8-8056-40c4-8024-2ba83293aa17",
+    "player_name":"Jarron Cumberland",
+    "position":"Guard",
+    "minutes_played":781.0
+  },
+  {
+    "ssi_player_id":"1cc4e557-6ed1-4db5-8816-1c00724e5554",
+    "player_name":"Jase Richardson",
+    "position":"Guard",
+    "minutes_played":56.0
+  },
+  {
+    "ssi_player_id":"b609ade3-6177-4d12-8f4d-e717beb97f97",
+    "player_name":"Jason Preston",
+    "position":"Guard",
+    "minutes_played":406.0
+  },
+  {
+    "ssi_player_id":"5bf3dc6a-f0bf-4146-9233-0714a95538e5",
+    "player_name":"Javan Johnson",
+    "position":"Forward",
+    "minutes_played":656.0
+  },
+  {
+    "ssi_player_id":"fac10e71-d936-4a9b-b017-2e3b743f9833",
+    "player_name":"Javante McCoy",
+    "position":"Guard",
+    "minutes_played":853.0
+  },
+  {
+    "ssi_player_id":"a28cdf29-f659-4646-b964-87ec3c295ae4",
+    "player_name":"Javon Freeman-Liberty",
+    "position":"Guard",
+    "minutes_played":185.0
+  },
+  {
+    "ssi_player_id":"6b98a36d-b1bc-4b68-bd5b-0671580d44c4",
+    "player_name":"Javon Small",
+    "position":"Guard",
+    "minutes_played":58.0
+  },
+  {
+    "ssi_player_id":"0c8af3e4-85bf-4c62-921b-d5cc21594198",
+    "player_name":"Javonte Cooke",
+    "position":"Guard",
+    "minutes_played":797.0
+  },
+  {
+    "ssi_player_id":"a340ee6f-51b2-400d-8c06-295617b4c779",
+    "player_name":"Javonte Smart",
+    "position":"Guard",
+    "minutes_played":1153.0
+  },
+  {
+    "ssi_player_id":"e7e970a3-7025-4ccc-b0f7-271f94238ee5",
+    "player_name":"Jaxson Robinson",
+    "position":"Guard",
+    "minutes_played":739.0
+  },
+  {
+    "ssi_player_id":"8488ec31-e9a6-4535-a007-3b6fb6c5f1bd",
+    "player_name":"Jay Scrubb",
+    "position":"Guard",
+    "minutes_played":187.0
+  },
+  {
+    "ssi_player_id":"174b4cc1-dd31-428b-97ad-093422ffe324",
+    "player_name":"Jayden Nunn",
+    "position":"Guard",
+    "minutes_played":1166.0
+  },
+  {
+    "ssi_player_id":"59731b4a-481f-4699-a3fe-f39676cc079b",
+    "player_name":"Jaykwon Walton",
+    "position":"Guard",
+    "minutes_played":191.0
+  },
+  {
+    "ssi_player_id":"70021baf-68ca-4b04-a865-fe10b1450b62",
+    "player_name":"Jaylen Martin",
+    "position":"Guard",
+    "minutes_played":723.0
+  },
+  {
+    "ssi_player_id":"4e475993-d453-43ef-a5dc-52e715e3e5db",
+    "player_name":"Jaylen Sims",
+    "position":"Guard",
+    "minutes_played":1283.0
+  },
+  {
+    "ssi_player_id":"db384374-d594-45b6-a3de-9aa8a66dc226",
+    "player_name":"Jaylin Williams",
+    "position":"Forward",
+    "minutes_played":1124.0
+  },
+  {
+    "ssi_player_id":"dc854637-bbf4-4710-94b5-8c953db3ce27",
+    "player_name":"Jayson Kent",
+    "position":"Forward",
+    "minutes_played":1175.0
+  },
+  {
+    "ssi_player_id":"dd6ea48a-5adc-4411-bead-f2cf2861a9ce",
+    "player_name":"Jazian Gortman",
+    "position":"Guard",
+    "minutes_played":155.0
+  },
+  {
+    "ssi_player_id":"3cd15c37-c35d-4061-82f8-728bfefd34c9",
+    "player_name":"Jean-Jacques Boissy",
+    "position":"Guard",
+    "minutes_played":76.0
+  },
+  {
+    "ssi_player_id":"1a9ac6bd-8b02-4fe8-8096-c435a2a90100",
+    "player_name":"Jeremiah Robinson-Earl",
+    "position":"Forward",
+    "minutes_played":869.0
+  },
+  {
+    "ssi_player_id":"285400dc-29c2-4d6a-83a0-5b87049c14f0",
+    "player_name":"Jeremiah Tilmon",
+    "position":"Center",
+    "minutes_played":501.0
+  },
+  {
+    "ssi_player_id":"395250e2-3fc7-41ec-b3e5-be2b920a6458",
+    "player_name":"Jermaine Couisnard",
+    "position":"Guard",
+    "minutes_played":103.0
+  },
+  {
+    "ssi_player_id":"325d465a-ead8-4773-875c-a3fd83d18f23",
+    "player_name":"Joan Beringer",
+    "position":"Forward",
+    "minutes_played":285.0
+  },
+  {
+    "ssi_player_id":"f07958e4-943d-41bd-add3-e75692af9566",
+    "player_name":"Joey Calcaterra",
+    "position":"Guard",
+    "minutes_played":41.0
+  },
+  {
+    "ssi_player_id":"16110c22-e5e0-4925-94a9-959285132aeb",
+    "player_name":"John Butler Jr.",
+    "position":"Forward",
+    "minutes_played":1192.0
+  },
+  {
+    "ssi_player_id":"534e334e-2adb-4b8c-9614-8552f0dc5f6d",
+    "player_name":"John Knight III",
+    "position":"Guard",
+    "minutes_played":1352.0
+  },
+  {
+    "ssi_player_id":"12bf97f3-6476-4443-af11-5228771faf66",
+    "player_name":"John Poulakidas",
+    "position":"Guard",
+    "minutes_played":1071.0
+  },
+  {
+    "ssi_player_id":"5bfe6dcb-3da9-45f9-95c0-ed690168c7ba",
+    "player_name":"John Tonje",
+    "position":"Guard",
+    "minutes_played":1172.0
+  },
+  {
+    "ssi_player_id":"b4f22d30-f720-4880-9fc3-a7a1f5679086",
+    "player_name":"John Ukomadu",
+    "position":"Forward",
+    "minutes_played":1126.0
+  },
+  {
+    "ssi_player_id":"7ddd09bd-a98c-468f-ac39-239c33fe8d79",
+    "player_name":"Johnell Davis",
+    "position":"Guard",
+    "minutes_played":371.0
+  },
+  {
+    "ssi_player_id":"12c34cc3-1005-4454-bcfa-a5332744fd4c",
+    "player_name":"Johni Broome",
+    "position":"Forward",
+    "minutes_played":724.0
+  },
+  {
+    "ssi_player_id":"bd507dbb-cb87-4e45-ad2e-1990df07ac20",
+    "player_name":"Johnny Davis",
+    "position":"Guard",
+    "minutes_played":643.0
+  },
+  {
+    "ssi_player_id":"266b9ca1-6596-4d2a-947a-0f602c0af725",
+    "player_name":"Johnny O'Neil",
+    "position":"Center \/ Forward",
+    "minutes_played":1005.0
+  },
+  {
+    "ssi_player_id":"65bebd10-aa65-48ec-845f-2efcb122287a",
+    "player_name":"Jon Elmore",
+    "position":"Guard",
+    "minutes_played":1280.0
+  },
+  {
+    "ssi_player_id":"18e9a256-6619-4a10-a5dd-2c89bb7cfb0a",
+    "player_name":"Jonas Aidoo",
+    "position":"Center",
+    "minutes_played":352.0
+  },
+  {
+    "ssi_player_id":"12f2cb53-d3a1-4a42-b6ed-9238a8eab4f7",
+    "player_name":"Jonathan Mogbo",
+    "position":"Forward",
+    "minutes_played":645.0
+  },
+  {
+    "ssi_player_id":"94306db4-8243-44b3-9f3e-eb1dd9e258b7",
+    "player_name":"Jonathan Pierre",
+    "position":"Forward",
+    "minutes_played":432.0
+  },
+  {
+    "ssi_player_id":"07a35d50-2dd1-4476-a9ac-b6e7154ce069",
+    "player_name":"Jordan Bell",
+    "position":"Forward",
+    "minutes_played":73.0
+  },
+  {
+    "ssi_player_id":"d03f53e6-1f95-47b7-a843-dab2a10456f0",
+    "player_name":"Jordan Forbes",
+    "position":"Guard",
+    "minutes_played":17.0
+  },
+  {
+    "ssi_player_id":"4b98be48-a61f-4372-8f5d-25f914555a83",
+    "player_name":"Jordan Hall",
+    "position":"Guard",
+    "minutes_played":614.0
+  },
+  {
+    "ssi_player_id":"ec389395-e86e-494f-ae34-b2b08a74437b",
+    "player_name":"Jordan Minor",
+    "position":"Forward",
+    "minutes_played":533.0
+  },
+  {
+    "ssi_player_id":"207daaca-464a-4e71-8c77-cae31615c0e3",
+    "player_name":"Josh Christopher",
+    "position":"Guard",
+    "minutes_played":966.0
+  },
+  {
+    "ssi_player_id":"e74d5547-334a-49c7-b5e5-a33913f3596c",
+    "player_name":"Josh Cohen",
+    "position":"Center",
+    "minutes_played":43.0
+  },
+  {
+    "ssi_player_id":"3dafdc09-40d9-4934-b9c9-8be3bd3eb90a",
+    "player_name":"Josh Minott",
+    "position":"Forward",
+    "minutes_played":64.0
+  },
+  {
+    "ssi_player_id":"8356850f-e674-4868-8a3b-7cf5b6193dce",
+    "player_name":"Josh Oduro",
+    "position":"Center",
+    "minutes_played":1104.0
+  },
+  {
+    "ssi_player_id":"46de8a99-497a-49cd-a9ec-347e787439e3",
+    "player_name":"Josiah Allick",
+    "position":"Forward",
+    "minutes_played":636.0
+  },
+  {
+    "ssi_player_id":"68813475-aec9-4124-948e-507895e853c7",
+    "player_name":"Josue Erazo",
+    "position":"Forward",
+    "minutes_played":17.0
+  },
+  {
+    "ssi_player_id":"7c2fd9b6-9749-4ca1-8d58-b773ff9223dd",
+    "player_name":"Jules Bernard",
+    "position":"Guard",
+    "minutes_played":1330.0
+  },
+  {
+    "ssi_player_id":"76ada8a1-6ec8-4915-b57e-fa234b1f2788",
+    "player_name":"Julian Phillips",
+    "position":"Forward",
+    "minutes_played":60.0
+  },
+  {
+    "ssi_player_id":"9f1b6ada-6f2a-4683-9f79-e98b06d24f06",
+    "player_name":"Julian Reese",
+    "position":"Forward",
+    "minutes_played":698.0
+  },
+  {
+    "ssi_player_id":"c2b8cc6a-c87c-4dc5-bfea-c4630c2b6f3e",
+    "player_name":"Justin Edwards",
+    "position":"Forward",
+    "minutes_played":157.0
+  },
+  {
+    "ssi_player_id":"4c8abee4-0270-4d98-b4ab-cff9969857fc",
+    "player_name":"Justin Harmon",
+    "position":"Guard",
+    "minutes_played":912.0
+  },
+  {
+    "ssi_player_id":"0867f70d-4848-4664-82fb-db397233e78f",
+    "player_name":"Justin Jackson",
+    "position":"Forward",
+    "minutes_played":287.0
+  },
+  {
+    "ssi_player_id":"9860960c-28ca-471b-8530-507937fb3ba4",
+    "player_name":"Justin Johnson",
+    "position":"Forward",
+    "minutes_played":11.0
+  },
+  {
+    "ssi_player_id":"8a534421-7dd1-49c4-a304-7b5a2341f904",
+    "player_name":"Justin Minaya",
+    "position":"Forward",
+    "minutes_played":1164.0
+  },
+  {
+    "ssi_player_id":"7be325aa-4951-4bc9-948d-d4177d4cbb1c",
+    "player_name":"Justyn Hamilton",
+    "position":"Forward",
+    "minutes_played":425.0
+  },
+  {
+    "ssi_player_id":"b34e01c3-fde9-402e-a381-1abc45ea21fb",
+    "player_name":"KJ Jones II",
+    "position":"Guard",
+    "minutes_played":606.0
+  },
+  {
+    "ssi_player_id":"1287087b-e6ba-41f9-b2b5-a3d2d1c8d682",
+    "player_name":"KJ Simpson",
+    "position":"Guard",
+    "minutes_played":546.0
+  },
+  {
+    "ssi_player_id":"5f0c2302-aaca-4ac1-b70f-f25abbe14186",
+    "player_name":"Kadary Richmond",
+    "position":"Guard",
+    "minutes_played":849.0
+  },
+  {
+    "ssi_player_id":"d3403310-4ad2-4ea2-9072-623f9adefc8d",
+    "player_name":"Kaden Anderson",
+    "position":"Forward",
+    "minutes_played":245.0
+  },
+  {
+    "ssi_player_id":"51e2e08f-d07e-4dbd-a05f-bba8e5c69f96",
+    "player_name":"Kaleb Johnson",
+    "position":"Guard",
+    "minutes_played":655.0
+  },
+  {
+    "ssi_player_id":"57657681-6e1c-4701-8298-93f30846effc",
+    "player_name":"Kalib Boone",
+    "position":"Forward",
+    "minutes_played":404.0
+  },
+  {
+    "ssi_player_id":"1e30df52-91e3-4394-8265-d813a892b8c7",
+    "player_name":"Kalil Thomas",
+    "position":"Forward",
+    "minutes_played":92.0
+  },
+  {
+    "ssi_player_id":"93ff04cb-5390-4709-a521-c7ce58713f31",
+    "player_name":"Kam Jones",
+    "position":"Guard",
+    "minutes_played":181.0
+  },
+  {
+    "ssi_player_id":"14a1175f-1e82-4a12-9edf-f9445dc58270",
+    "player_name":"Kameron Warrens",
+    "position":"Forward",
+    "minutes_played":667.0
+  },
+  {
+    "ssi_player_id":"1ea004d3-81c8-428e-920e-2fde02ccf379",
+    "player_name":"Kario Oquendo",
+    "position":"Guard",
+    "minutes_played":58.0
+  },
+  {
+    "ssi_player_id":"f4881a74-343b-4005-b701-3f53c512aba6",
+    "player_name":"Kasparas Jakucionis",
+    "position":"Guard",
+    "minutes_played":185.0
+  },
+  {
+    "ssi_player_id":"088649fd-bea2-4353-a931-850c918b0337",
+    "player_name":"Keion Brooks Jr.",
+    "position":"Forward",
+    "minutes_played":1257.0
+  },
+  {
+    "ssi_player_id":"83a05254-611e-4587-a927-613bde48b6ba",
+    "player_name":"Kellen Tynes",
+    "position":"Guard",
+    "minutes_played":295.0
+  },
+  {
+    "ssi_player_id":"31c6650d-c76d-497a-a605-e6ab1a822212",
+    "player_name":"Kenan Blackshear",
+    "position":"Forward",
+    "minutes_played":3.0
+  },
+  {
+    "ssi_player_id":"84863ea4-7e22-4827-9c1e-091a16291b37",
+    "player_name":"Kendall Brown",
+    "position":"Guard",
+    "minutes_played":1217.0
+  },
+  {
+    "ssi_player_id":"11a2c3b6-617d-4889-ac4c-dc3821c6375a",
+    "player_name":"Kendall Munson",
+    "position":"Forward",
+    "minutes_played":735.0
+  },
+  {
+    "ssi_player_id":"90cef14e-ebcc-4a00-94e1-b06d8ca04701",
+    "player_name":"Kennedy Chandler",
+    "position":"Guard",
+    "minutes_played":1245.0
+  },
+  {
+    "ssi_player_id":"7cfacef2-8c7b-41e7-9df3-4a570a6de468",
+    "player_name":"Keon Johnson",
+    "position":"Guard",
+    "minutes_played":346.0
+  },
+  {
+    "ssi_player_id":"c5cb7e86-5c88-4bd2-bf14-22a65e7bd094",
+    "player_name":"Keshad Johnson",
+    "position":"Forward",
+    "minutes_played":243.0
+  },
+  {
+    "ssi_player_id":"10762d58-0a4c-416e-8e01-0af744c29286",
+    "player_name":"Keshon Gilbert",
+    "position":"Guard",
+    "minutes_played":1154.0
+  },
+  {
+    "ssi_player_id":"0dbaa8bb-491d-40b7-ad09-f4605dda699c",
+    "player_name":"Kessler Edwards",
+    "position":"Forward",
+    "minutes_played":843.0
+  },
+  {
+    "ssi_player_id":"868bf1ee-0aa9-4762-a685-b32801d25e6a",
+    "player_name":"Kevin Knox II",
+    "position":"Forward",
+    "minutes_played":1068.0
+  },
+  {
+    "ssi_player_id":"1ebb0958-b242-4b10-a0cb-cc3182f35814",
+    "player_name":"Kevin McCullar Jr.",
+    "position":"Guard",
+    "minutes_played":381.0
+  },
+  {
+    "ssi_player_id":"8190d885-1fd0-4dad-99d7-2431cc018492",
+    "player_name":"Kevon Harris",
+    "position":"Guard",
+    "minutes_played":213.0
+  },
+  {
+    "ssi_player_id":"57039dfd-7492-49c5-b3c3-30c8422fda2d",
+    "player_name":"Keylan Boone",
+    "position":"Forward",
+    "minutes_played":6.0
+  },
+  {
+    "ssi_player_id":"d5348336-15a5-416f-8312-bd7030a6277b",
+    "player_name":"Keyontae Johnson",
+    "position":"Forward",
+    "minutes_played":828.0
+  },
+  {
+    "ssi_player_id":"8bfb0e3f-2c04-4dd5-ab0d-c7bf453b1ed5",
+    "player_name":"Keyshawn Bryant",
+    "position":"Forward",
+    "minutes_played":414.0
+  },
+  {
+    "ssi_player_id":"d4dcccfe-9470-4fef-bac2-e9f6aa1cfd32",
+    "player_name":"Khaman Maluach",
+    "position":"Center",
+    "minutes_played":279.0
+  },
+  {
+    "ssi_player_id":"9a826fec-5df7-4a14-8637-3364dc9433c2",
+    "player_name":"Killian Hayes",
+    "position":"Guard",
+    "minutes_played":778.0
+  },
+  {
+    "ssi_player_id":"ce287780-67de-44fa-86c2-d87dec5a1e28",
+    "player_name":"Kira Lewis Jr.",
+    "position":"Guard",
+    "minutes_played":928.0
+  },
+  {
+    "ssi_player_id":"751e59b1-45ae-45f0-bc03-01f6c87520a5",
+    "player_name":"Kobe Brown",
+    "position":"Forward",
+    "minutes_played":58.0
+  },
+  {
+    "ssi_player_id":"9e453254-b85d-43ba-a615-8bf683d94834",
+    "player_name":"Kobe Bufkin",
+    "position":"Guard",
+    "minutes_played":733.0
+  },
+  {
+    "ssi_player_id":"9f123592-d747-4a41-b903-ad6bcb6ac751",
+    "player_name":"Kobe Johnson",
+    "position":"Guard",
+    "minutes_played":820.0
+  },
+  {
+    "ssi_player_id":"9c8748fc-6d1c-4911-99a0-94e1cf486b48",
+    "player_name":"Kobe Stewart",
+    "position":"Guard",
+    "minutes_played":771.0
+  },
+  {
+    "ssi_player_id":"e2c4bc9d-2cb8-49d6-962a-07bed124b6c8",
+    "player_name":"Koby Brea",
+    "position":"Guard",
+    "minutes_played":993.0
+  },
+  {
+    "ssi_player_id":"9eed3d99-6049-4cd0-96bb-4fabb8ad8ddd",
+    "player_name":"Kyle Guy",
+    "position":"Guard",
+    "minutes_played":643.0
+  },
+  {
+    "ssi_player_id":"509e10a3-69e7-41cc-a0b5-44de8eb4659f",
+    "player_name":"Kyle Mangas",
+    "position":"Guard",
+    "minutes_played":1315.0
+  },
+  {
+    "ssi_player_id":"c7fe17cb-17b0-4fe5-bfde-60cdce624f03",
+    "player_name":"Kyle Rose",
+    "position":"Guard",
+    "minutes_played":574.0
+  },
+  {
+    "ssi_player_id":"08d8e7a7-6e98-43fb-808a-803728ffe738",
+    "player_name":"Kylor Kelley",
+    "position":"Center",
+    "minutes_played":686.0
+  },
+  {
+    "ssi_player_id":"51c89cc1-c192-4e07-878a-436ad5c2c70a",
+    "player_name":"LJ Cryer",
+    "position":"Guard",
+    "minutes_played":484.0
+  },
+  {
+    "ssi_player_id":"629382e8-fcc6-4974-b0a3-99fd67940f2d",
+    "player_name":"LJ Figueroa",
+    "position":"Guard",
+    "minutes_played":992.0
+  },
+  {
+    "ssi_player_id":"04c6579b-6a42-4b88-944b-6cc896241e84",
+    "player_name":"Lacey James",
+    "position":"Center",
+    "minutes_played":280.0
+  },
+  {
+    "ssi_player_id":"684950fe-3bcb-47f2-8bfa-a9941e216b28",
+    "player_name":"Lachlan Olbrich",
+    "position":"Center",
+    "minutes_played":492.0
+  },
+  {
+    "ssi_player_id":"81875c9a-a727-4662-bd59-5ce020b80d6a",
+    "player_name":"Lahat Thioune",
+    "position":"Forward",
+    "minutes_played":240.0
+  },
+  {
+    "ssi_player_id":"2c5a45b8-029d-4556-9186-221becde7ae7",
+    "player_name":"Lance Terry",
+    "position":"Guard",
+    "minutes_played":165.0
+  },
+  {
+    "ssi_player_id":"ee296dd9-8d26-420c-9aa1-271f6b6a2222",
+    "player_name":"Lawson Lovering",
+    "position":"Center",
+    "minutes_played":688.0
+  },
+  {
+    "ssi_player_id":"baf1b89d-5bf9-44d8-ae08-43b643b89914",
+    "player_name":"Leaky Black",
+    "position":"Forward",
+    "minutes_played":1137.0
+  },
+  {
+    "ssi_player_id":"0eaefaeb-b40c-4fc7-9086-902dc1ab2254",
+    "player_name":"Leonard Miller",
+    "position":"Forward",
+    "minutes_played":26.0
+  },
+  {
+    "ssi_player_id":"e4c6a53d-37a8-4278-9230-5a9d9ccc6d02",
+    "player_name":"Lester Quinones",
+    "position":"Guard",
+    "minutes_played":1434.0
+  },
+  {
+    "ssi_player_id":"ba22d012-f7ce-4a1a-873e-d6c3ccf7ae5a",
+    "player_name":"Liam McNeeley",
+    "position":"Forward",
+    "minutes_played":636.0
+  },
+  {
+    "ssi_player_id":"831eb28e-7713-4fbe-bf6b-dd0e1e20b1f5",
+    "player_name":"Liam Robbins",
+    "position":"Center",
+    "minutes_played":522.0
+  },
+  {
+    "ssi_player_id":"f0ae386a-6794-4f37-b447-84822aa60c4b",
+    "player_name":"Lucas Williamson",
+    "position":"Guard",
+    "minutes_played":930.0
+  },
+  {
+    "ssi_player_id":"4144db18-4210-42b8-af58-fd1dd83e87c6",
+    "player_name":"Luke Goode",
+    "position":"Forward",
+    "minutes_played":665.0
+  },
+  {
+    "ssi_player_id":"ef24e628-6674-47d2-8fea-a8ceb61e0fb6",
+    "player_name":"Luke Travers",
+    "position":"Forward",
+    "minutes_played":409.0
+  },
+  {
+    "ssi_player_id":"bc70e8c9-c8ff-44fc-b539-10f863d5efec",
+    "player_name":"M.J. Iraldi",
+    "position":"Forward",
+    "minutes_played":683.0
+  },
+  {
+    "ssi_player_id":"2733a0f6-5816-47e9-9972-a4f253f15038",
+    "player_name":"MJ Walker",
+    "position":"Guard",
+    "minutes_played":684.0
+  },
+  {
+    "ssi_player_id":"d9671fc0-754d-4cd1-b61d-2f6526c31497",
+    "player_name":"Mac McClung",
+    "position":"Guard",
+    "minutes_played":1222.0
+  },
+  {
+    "ssi_player_id":"fec781d1-53e1-4e5e-baf1-7937603be356",
+    "player_name":"Makhi Mitchell",
+    "position":"Center",
+    "minutes_played":353.0
+  },
+  {
+    "ssi_player_id":"cf11631f-67ad-4f08-9466-e66859baa68e",
+    "player_name":"Malachi Smith",
+    "position":"Guard",
+    "minutes_played":896.0
+  },
+  {
+    "ssi_player_id":"13030bd6-e3d6-4e2a-9685-88300bc4ec5f",
+    "player_name":"Malaki Branham",
+    "position":"Forward",
+    "minutes_played":176.0
+  },
+  {
+    "ssi_player_id":"99f046d4-e2fe-495e-92e9-472b6f6a9c22",
+    "player_name":"Malcolm Hill",
+    "position":"Forward",
+    "minutes_played":1255.0
+  },
+  {
+    "ssi_player_id":"a6b91d1a-7a93-4bda-8562-d762d1f5ad47",
+    "player_name":"Malevy Leons",
+    "position":"Forward",
+    "minutes_played":972.0
+  },
+  {
+    "ssi_player_id":"91d9d39e-7ed1-4320-80fc-4d487e79b1fa",
+    "player_name":"Malik Williams",
+    "position":"Center",
+    "minutes_played":1152.0
+  },
+  {
+    "ssi_player_id":"e4cdd91f-718d-4c35-95d1-b3aa28ef79b5",
+    "player_name":"Manny Obaseki",
+    "position":"Forward",
+    "minutes_played":593.0
+  },
+  {
+    "ssi_player_id":"a17b838f-efcd-4d85-adab-39e05d579e13",
+    "player_name":"MarJon Beauchamp",
+    "position":"Forward",
+    "minutes_played":756.0
+  },
+  {
+    "ssi_player_id":"a39bf7f9-11fd-434e-9673-4a184061ad7d",
+    "player_name":"Marcus Bagley",
+    "position":"Forward",
+    "minutes_played":181.0
+  },
+  {
+    "ssi_player_id":"017ced69-5d96-4160-b064-3a051a5c9efe",
+    "player_name":"Marcus Burk",
+    "position":"Guard",
+    "minutes_played":863.0
+  },
+  {
+    "ssi_player_id":"723b0c0c-ac5b-4b0c-b84c-01da7be6c705",
+    "player_name":"Marcus Garrett",
+    "position":"Guard",
+    "minutes_played":916.0
+  },
+  {
+    "ssi_player_id":"5fc1833e-3993-49a8-8970-87ad09b61dff",
+    "player_name":"Marcus Sasser",
+    "position":"Guard",
+    "minutes_played":20.0
+  },
+  {
+    "ssi_player_id":"3bc6f704-0fda-4f85-a681-a41d1178948b",
+    "player_name":"Mark Armstrong",
+    "position":"Guard",
+    "minutes_played":848.0
+  },
+  {
+    "ssi_player_id":"6af77143-6aac-4199-ac80-bfa704e2ca51",
+    "player_name":"Mark Sears",
+    "position":"Guard",
+    "minutes_played":1067.0
+  },
+  {
+    "ssi_player_id":"1114f266-df53-4313-b425-0021dd87864b",
+    "player_name":"Markelle Fultz",
+    "position":"Guard",
+    "minutes_played":138.0
+  },
+  {
+    "ssi_player_id":"95b6d616-e911-4060-869d-7f633e7ec049",
+    "player_name":"Marques Bolden",
+    "position":"Center",
+    "minutes_played":990.0
+  },
+  {
+    "ssi_player_id":"7edec21a-68b6-453a-b51f-2e3827a52d7d",
+    "player_name":"Marquis Barnett",
+    "position":"Guard",
+    "minutes_played":64.0
+  },
+  {
+    "ssi_player_id":"15a40435-a0cb-41f5-8680-120339364fa1",
+    "player_name":"Martez Brown",
+    "position":null,
+    "minutes_played":492.0
+  },
+  {
+    "ssi_player_id":"d745163f-0ba1-4894-9467-cb7553e99081",
+    "player_name":"Mason Madsen",
+    "position":"Guard",
+    "minutes_played":65.0
+  },
+  {
+    "ssi_player_id":"1542fce4-02f8-434c-8e0b-c655313fea33",
+    "player_name":"Matt Allocco",
+    "position":"Guard",
+    "minutes_played":832.0
+  },
+  {
+    "ssi_player_id":"37e8858f-5f40-4a44-8f60-2f6e2316aae8",
+    "player_name":"Matt Becht",
+    "position":"Guard",
+    "minutes_played":7.0
+  },
+  {
+    "ssi_player_id":"8b71b1ce-93f8-4cf0-9099-64c91af44202",
+    "player_name":"Matt Cross",
+    "position":"Forward",
+    "minutes_played":698.0
+  },
+  {
+    "ssi_player_id":"45913c55-0376-4b4f-9935-00471ffb3033",
+    "player_name":"Matthew Cleveland",
+    "position":"Guard",
+    "minutes_played":796.0
+  },
+  {
+    "ssi_player_id":"3d0d89b4-df1e-43a9-9870-4329d5e8161c",
+    "player_name":"Matthew Moncrieffe",
+    "position":"Forward",
+    "minutes_played":318.0
+  },
+  {
+    "ssi_player_id":"42aff9d8-9839-4949-ac9d-97663c8eae23",
+    "player_name":"Matthew Murrell",
+    "position":"Guard",
+    "minutes_played":1035.0
+  },
+  {
+    "ssi_player_id":"23961594-cb8d-4560-b709-2ace5a6b16a4",
+    "player_name":"Max Abmas",
+    "position":"Guard",
+    "minutes_played":1194.0
+  },
+  {
+    "ssi_player_id":"ce1fc58a-6a2f-40f5-a83b-c0acdcdf2e01",
+    "player_name":"Max Klesmit",
+    "position":"Guard",
+    "minutes_played":365.0
+  },
+  {
+    "ssi_player_id":"be819393-353e-4c46-b682-d2ee0d11e736",
+    "player_name":"Max Shulga",
+    "position":"Guard",
+    "minutes_played":1157.0
+  },
+  {
+    "ssi_player_id":"31a1e47b-7784-4021-b7f2-31e4ef972892",
+    "player_name":"Maxime Raynaud",
+    "position":"Center",
+    "minutes_played":33.0
+  },
+  {
+    "ssi_player_id":"a233b4d2-746c-48be-9d0d-ce655385c605",
+    "player_name":"Micah Parrish",
+    "position":"Forward",
+    "minutes_played":281.0
+  },
+  {
+    "ssi_player_id":"1e89c60d-b20e-4499-aba4-b13dba295a52",
+    "player_name":"Micah Potter",
+    "position":"Center",
+    "minutes_played":371.0
+  },
+  {
+    "ssi_player_id":"315d7d14-0a97-43d5-bbf8-4b59a0938e21",
+    "player_name":"Michael Caicedo",
+    "position":"Forward",
+    "minutes_played":60.0
+  },
+  {
+    "ssi_player_id":"e4133038-cf2f-4227-a6d5-566eb968a245",
+    "player_name":"Michael O'Connell",
+    "position":"Guard",
+    "minutes_played":294.0
+  },
+  {
+    "ssi_player_id":"8e41f240-6f89-4f54-bcc5-534112efd3c2",
+    "player_name":"Miles Kelly",
+    "position":"Guard",
+    "minutes_played":873.0
+  },
+  {
+    "ssi_player_id":"817c559a-6812-42ce-8373-1e8132f3b917",
+    "player_name":"Miller Kopp",
+    "position":"Forward",
+    "minutes_played":744.0
+  },
+  {
+    "ssi_player_id":"fdc935b9-0c73-4ca7-ba6b-f3b5aa1f2205",
+    "player_name":"Mitchell Mascari",
+    "position":"Guard",
+    "minutes_played":850.0
+  },
+  {
+    "ssi_player_id":"ee761e41-d0d2-4a56-84cf-353e2ae5a961",
+    "player_name":"Mo Bamba",
+    "position":"Center",
+    "minutes_played":527.0
+  },
+  {
+    "ssi_player_id":"cb172f69-5e77-4552-a43b-b2993cb7f689",
+    "player_name":"Mohamed Diawara",
+    "position":"Forward",
+    "minutes_played":66.0
+  },
+  {
+    "ssi_player_id":"81ca845d-dae4-46b5-89e6-86d619acb3c8",
+    "player_name":"Moses Brown",
+    "position":"Center",
+    "minutes_played":824.0
+  },
+  {
+    "ssi_player_id":"cc3ddd0b-2be3-4043-a3e9-7ae15f6e1ab0",
+    "player_name":"Mouhamadou Gueye",
+    "position":"Forward",
+    "minutes_played":1175.0
+  },
+  {
+    "ssi_player_id":"b4769ff6-6ae9-446a-a262-0b849da72338",
+    "player_name":"Moussa Cisse",
+    "position":"Center",
+    "minutes_played":376.0
+  },
+  {
+    "ssi_player_id":"8de6d5bf-730c-4c48-8f00-7f9da72e979e",
+    "player_name":"Myron Gardner",
+    "position":"Forward",
+    "minutes_played":193.0
+  },
+  {
+    "ssi_player_id":"d6eaf02a-27a0-4e40-8641-632e8d39f965",
+    "player_name":"N'Faly Dante",
+    "position":"Center",
+    "minutes_played":29.0
+  },
+  {
+    "ssi_player_id":"7ad88c05-18d7-492e-9c41-30b2f77e3266",
+    "player_name":"Nana Appiah",
+    "position":"Guard",
+    "minutes_played":31.0
+  },
+  {
+    "ssi_player_id":"2827a99a-9a36-4b8d-8ca8-e77e9771b69c",
+    "player_name":"Nate Hinton",
+    "position":"Guard",
+    "minutes_played":815.0
+  },
+  {
+    "ssi_player_id":"5d98e4d9-9d4c-416e-896e-662ef6de036b",
+    "player_name":"Nate Santos",
+    "position":"Forward",
+    "minutes_played":829.0
+  },
+  {
+    "ssi_player_id":"3ab12c09-2aae-4bc0-a45e-0132e6751116",
+    "player_name":"Nate Williams",
+    "position":"Guard",
+    "minutes_played":1014.0
+  },
+  {
+    "ssi_player_id":"6e090c81-2a42-43d1-9e4e-bd5a04f09b10",
+    "player_name":"Nathan Mariano",
+    "position":"Forward",
+    "minutes_played":153.0
+  },
+  {
+    "ssi_player_id":"af5b863f-7d13-40f9-83f9-38f87c76098c",
+    "player_name":"Nathan Mensah",
+    "position":"Center",
+    "minutes_played":32.0
+  },
+  {
+    "ssi_player_id":"ef69e667-2cb2-4590-bb9e-561480e2abeb",
+    "player_name":"Nathan Missia-Dio",
+    "position":"Forward",
+    "minutes_played":127.0
+  },
+  {
+    "ssi_player_id":"1faa4121-7c60-4b48-91c7-217d64555324",
+    "player_name":"Nick Jourdain",
+    "position":"Forward",
+    "minutes_played":902.0
+  },
+  {
+    "ssi_player_id":"b2d1fbf7-72be-4469-b0c2-db6677a145bd",
+    "player_name":"Nick Smith Jr.",
+    "position":"Guard",
+    "minutes_played":519.0
+  },
+  {
+    "ssi_player_id":"0e381936-04ed-49fd-87b0-400686b3e145",
+    "player_name":"Nikola Djurisic",
+    "position":"Guard",
+    "minutes_played":383.0
+  },
+  {
+    "ssi_player_id":"deb86c8a-aaa2-472e-a66d-a1cbace2c797",
+    "player_name":"Nikola Topic",
+    "position":"Guard",
+    "minutes_played":316.0
+  },
+  {
+    "ssi_player_id":"329049aa-89c8-439b-a0c3-dc93d3609931",
+    "player_name":"Nique Clifford",
+    "position":"Guard",
+    "minutes_played":29.0
+  },
+  {
+    "ssi_player_id":"fe09888e-ef47-4152-a457-e6f4e04aee54",
+    "player_name":"Noa Essengue",
+    "position":"Forward",
+    "minutes_played":107.0
+  },
+  {
+    "ssi_player_id":"8257785f-b06f-4feb-a7c3-c58c4fbf99d7",
+    "player_name":"Noah Penda",
+    "position":"Guard",
+    "minutes_played":79.0
+  },
+  {
+    "ssi_player_id":"f5063d15-52b4-45d8-9151-24339b9db9b3",
+    "player_name":"Noah Starkey",
+    "position":"Center",
+    "minutes_played":18.0
+  },
+  {
+    "ssi_player_id":"b2251f82-7770-4e0b-994d-c33ff4a1b39d",
+    "player_name":"Nojel Eastern",
+    "position":"Guard",
+    "minutes_played":462.0
+  },
+  {
+    "ssi_player_id":"b8b01afe-00df-407e-b0ee-229eacce163c",
+    "player_name":"Nolan Hickman",
+    "position":"Guard",
+    "minutes_played":975.0
+  },
+  {
+    "ssi_player_id":"4b2dd1ee-169e-4af4-9877-1e600ccc1ac5",
+    "player_name":"Nolan Traore",
+    "position":"Guard",
+    "minutes_played":368.0
+  },
+  {
+    "ssi_player_id":"15c34e0c-e636-4bd1-a7db-6435d201f8c6",
+    "player_name":"Norchad Omier",
+    "position":"Forward",
+    "minutes_played":995.0
+  },
+  {
+    "ssi_player_id":"c35585ea-5c0e-4c72-bd00-07eceb71ee47",
+    "player_name":"O'Mar Stanley",
+    "position":"Center",
+    "minutes_played":274.0
+  },
+  {
+    "ssi_player_id":"ae301693-1228-4496-9f09-3dede6e84191",
+    "player_name":"Obadiah Noel",
+    "position":"Guard",
+    "minutes_played":107.0
+  },
+  {
+    "ssi_player_id":"a623abae-de32-4858-8b44-1eaebb33f0a8",
+    "player_name":"Olisa Akonobi",
+    "position":"Center",
+    "minutes_played":25.0
+  },
+  {
+    "ssi_player_id":"584a880d-84b9-40fd-876e-852044392606",
+    "player_name":"Olivier Sarr",
+    "position":"Center",
+    "minutes_played":972.0
+  },
+  {
+    "ssi_player_id":"28df8a9e-306a-47ee-bb0e-55b9ea87d542",
+    "player_name":"Olivier-Maxence Prosper",
+    "position":"Forward",
+    "minutes_played":67.0
+  },
+  {
+    "ssi_player_id":"bdfadf82-2b4c-44e8-ae46-a6e3c9957744",
+    "player_name":"Omar El-Sheikh",
+    "position":"Forward",
+    "minutes_played":173.0
+  },
+  {
+    "ssi_player_id":"6811ad75-3527-4bfc-b0bc-8fd46ec62535",
+    "player_name":"Omer Yurtseven",
+    "position":"Center",
+    "minutes_played":78.0
+  },
+  {
+    "ssi_player_id":"f033b782-7e16-4a10-b000-aff290ea4400",
+    "player_name":"Onno Steger",
+    "position":"Forward",
+    "minutes_played":69.0
+  },
+  {
+    "ssi_player_id":"e58d10b8-dbfa-46bc-9b80-d078501bcce7",
+    "player_name":"Orlando Robinson",
+    "position":"Center",
+    "minutes_played":559.0
+  },
+  {
+    "ssi_player_id":"c1f25993-dd81-43fd-a710-d7b67b6bd974",
+    "player_name":"Osayi Osifo",
+    "position":"Forward",
+    "minutes_played":505.0
+  },
+  {
+    "ssi_player_id":"9234048a-d7a7-4f77-8d48-3b95b6365ae0",
+    "player_name":"Oscar Tshiebwe",
+    "position":"Forward",
+    "minutes_played":535.0
+  },
+  {
+    "ssi_player_id":"659ecb80-2665-4645-b890-ef69b738b5e3",
+    "player_name":"P.J. Hayes",
+    "position":"Guard",
+    "minutes_played":11.0
+  },
+  {
+    "ssi_player_id":"4af59bef-250a-46aa-a5d3-e448a55f61ad",
+    "player_name":"PJ Hall",
+    "position":"Center",
+    "minutes_played":833.0
+  },
+  {
+    "ssi_player_id":"810fd8fe-5999-4962-9441-004f4a25fea2",
+    "player_name":"Pacome Dadiet",
+    "position":"Forward",
+    "minutes_played":554.0
+  },
+  {
+    "ssi_player_id":"b25395ca-26fc-4977-bf67-3b99e73e1048",
+    "player_name":"Parker Van Dyke",
+    "position":"Guard",
+    "minutes_played":13.0
+  },
+  {
+    "ssi_player_id":"45b328c0-b3b8-4a36-a0c1-28e39227ca85",
+    "player_name":"Patrick Baldwin Jr.",
+    "position":"Forward",
+    "minutes_played":1033.0
+  },
+  {
+    "ssi_player_id":"ff42a38f-89ef-11e6-bb23-a45e60e298d3",
+    "player_name":"Patrick McCaw",
+    "position":"Guard",
+    "minutes_played":378.0
+  },
+  {
+    "ssi_player_id":"1aae577a-f08a-437b-81ed-160d66e586b9",
+    "player_name":"Paul Watson",
+    "position":"Guard",
+    "minutes_played":654.0
+  },
+  {
+    "ssi_player_id":"fb3799f7-55e6-46cd-8dba-16e86ee83d37",
+    "player_name":"Paul Zilinskas",
+    "position":"Guard",
+    "minutes_played":744.0
+  },
+  {
+    "ssi_player_id":"54f7a3fd-6e94-4630-9ca3-e05af980008d",
+    "player_name":"Payton Sandfort",
+    "position":"Forward",
+    "minutes_played":581.0
+  },
+  {
+    "ssi_player_id":"881e8c41-f4cb-44fa-9caa-782d1e294daf",
+    "player_name":"Pedro Bradshaw",
+    "position":"Forward",
+    "minutes_played":249.0
+  },
+  {
+    "ssi_player_id":"a9d51846-7123-4773-be70-de509c877a08",
+    "player_name":"Pete Nance",
+    "position":"Forward",
+    "minutes_played":329.0
+  },
+  {
+    "ssi_player_id":"f05622f9-9133-4b26-8fce-07c056dbcf6c",
+    "player_name":"Philip Alston",
+    "position":"Forward",
+    "minutes_played":89.0
+  },
+  {
+    "ssi_player_id":"3d20e735-543b-415b-835b-fa80295fa157",
+    "player_name":"Phillip Wheeler",
+    "position":"Forward",
+    "minutes_played":954.0
+  },
+  {
+    "ssi_player_id":"1a254905-e1db-43b8-9f5c-b1bf4e663150",
+    "player_name":"Pierre Crockrell II",
+    "position":"Guard",
+    "minutes_played":383.0
+  },
+  {
+    "ssi_player_id":"2916816a-1e08-43ef-953d-a81bfe3503ee",
+    "player_name":"Quenton Jackson",
+    "position":"Guard",
+    "minutes_played":40.0
+  },
+  {
+    "ssi_player_id":"e7a09800-4dd6-4745-8dc3-2bb848800f9e",
+    "player_name":"Quincy Guerrier",
+    "position":"Forward",
+    "minutes_played":489.0
+  },
+  {
+    "ssi_player_id":"cbbbce73-763b-4e1d-820b-1b8f62857eaa",
+    "player_name":"Quincy Olivari",
+    "position":"Guard",
+    "minutes_played":556.0
+  },
+  {
+    "ssi_player_id":"af3e4f66-d651-4875-9291-4ee32c6a65dd",
+    "player_name":"R.J. Davis",
+    "position":"Guard",
+    "minutes_played":1327.0
+  },
+  {
+    "ssi_player_id":"a593fa2b-cb79-4f8a-8139-bba7a2133f2c",
+    "player_name":"RJ Felton",
+    "position":"Guard",
+    "minutes_played":685.0
+  },
+  {
+    "ssi_player_id":"090cc6af-edb2-4cf8-a374-9b90193c330d",
+    "player_name":"RJ Melendez",
+    "position":"Forward",
+    "minutes_played":923.0
+  },
+  {
+    "ssi_player_id":"6404e275-f55f-42e5-8d36-cddd1661c335",
+    "player_name":"Rahsool Diggins",
+    "position":"Guard",
+    "minutes_played":186.0
+  },
+  {
+    "ssi_player_id":"4639f41a-c88b-4cf0-91c2-c36d9d4c1e5c",
+    "player_name":"Rasheer Fleming",
+    "position":"Forward",
+    "minutes_played":260.0
+  },
+  {
+    "ssi_player_id":"57be9a58-9fec-4727-b978-d75c7e33e914",
+    "player_name":"Ray Harrison",
+    "position":"Guard",
+    "minutes_played":102.0
+  },
+  {
+    "ssi_player_id":"ef25a4fc-8a16-4dd9-a1fa-e236cd842a32",
+    "player_name":"Ray Spalding",
+    "position":"Forward",
+    "minutes_played":41.0
+  },
+  {
+    "ssi_player_id":"5b0bdabe-6c41-4fef-bcc7-518987c7451a",
+    "player_name":"Ray Williams, Jr",
+    "position":"Guard",
+    "minutes_played":53.0
+  },
+  {
+    "ssi_player_id":"5c2a5944-cadb-4619-8b0d-04338c63a470",
+    "player_name":"RayJ Dennis",
+    "position":"Guard",
+    "minutes_played":1175.0
+  },
+  {
+    "ssi_player_id":"f99ade9a-ec49-4d41-b7f8-7e1b16c9ed79",
+    "player_name":"Rayan Rupert",
+    "position":"Guard",
+    "minutes_played":84.0
+  },
+  {
+    "ssi_player_id":"a419b920-f119-41d8-af53-47d3b49ea811",
+    "player_name":"Reece Beekman",
+    "position":"Guard",
+    "minutes_played":1344.0
+  },
+  {
+    "ssi_player_id":"e3cdc093-14ad-4686-ade9-7fc70c5a5a88",
+    "player_name":"Reynan dos Santos",
+    "position":"Guard",
+    "minutes_played":462.0
+  },
+  {
+    "ssi_player_id":"9027d4b5-4d3d-4ee2-98cd-3d105aa7044b",
+    "player_name":"Ricky Council IV",
+    "position":"Guard",
+    "minutes_played":188.0
+  },
+  {
+    "ssi_player_id":"5b7fafbf-2163-4b93-a29d-fc83e9946914",
+    "player_name":"Riley Grigsby",
+    "position":"Forward",
+    "minutes_played":280.0
+  },
+  {
+    "ssi_player_id":"d4332b50-b7fb-4429-9525-e10587f584d9",
+    "player_name":"Riley Minix",
+    "position":"Forward",
+    "minutes_played":986.0
+  },
+  {
+    "ssi_player_id":"9bedc1b4-449c-42cb-b9a2-9b0cd3596329",
+    "player_name":"Robert Woodard II",
+    "position":"Forward",
+    "minutes_played":26.0
+  },
+  {
+    "ssi_player_id":"7a36a328-5e4b-42b6-a21b-39e9f97e0188",
+    "player_name":"Rocco Zikarsky",
+    "position":"Center",
+    "minutes_played":941.0
+  },
+  {
+    "ssi_player_id":"9920a386-699e-42ad-90ac-8fb89d78d1f9",
+    "player_name":"Romeo Weems",
+    "position":"Forward",
+    "minutes_played":911.0
+  },
+  {
+    "ssi_player_id":"0fc9db0f-ca5e-49e9-a003-973fa4fd8839",
+    "player_name":"Ron Harper Jr.",
+    "position":"Guard",
+    "minutes_played":485.0
+  },
+  {
+    "ssi_player_id":"27574eb5-d76b-4147-882e-38f3edc014b3",
+    "player_name":"Ruben Nembhard Jr.",
+    "position":"Guard",
+    "minutes_played":947.0
+  },
+  {
+    "ssi_player_id":"f43050bf-10e7-4919-95a0-272b4c616687",
+    "player_name":"Ryan Nembhard",
+    "position":"Guard",
+    "minutes_played":180.0
+  },
+  {
+    "ssi_player_id":"a4f5f591-7988-4761-b96d-5efb627bd420",
+    "player_name":"Ryan Woolridge",
+    "position":"Guard",
+    "minutes_played":787.0
+  },
+  {
+    "ssi_player_id":"9ac60fc8-a677-4c67-8b1a-92c61ac71eec",
+    "player_name":"Saint Thomas",
+    "position":"Forward",
+    "minutes_played":1099.0
+  },
+  {
+    "ssi_player_id":"68596e1c-c815-41b9-ae9b-a8179fee1f36",
+    "player_name":"Samson Johnson",
+    "position":"Center",
+    "minutes_played":620.0
+  },
+  {
+    "ssi_player_id":"673bd14c-085f-4173-9211-d62ae307b0e3",
+    "player_name":"Sean East II",
+    "position":"Guard",
+    "minutes_played":1248.0
+  },
+  {
+    "ssi_player_id":"b5d46463-618d-4328-a3ac-31239ed7af7e",
+    "player_name":"Sean McDermott",
+    "position":"Forward",
+    "minutes_played":1116.0
+  },
+  {
+    "ssi_player_id":"4f71e857-f644-4dfc-9ae8-65416c90df71",
+    "player_name":"Sean McNeil",
+    "position":"Guard",
+    "minutes_played":861.0
+  },
+  {
+    "ssi_player_id":"6068f2de-9744-432d-b3f4-f73da0894927",
+    "player_name":"Sean Pedulla",
+    "position":"Guard",
+    "minutes_played":1065.0
+  },
+  {
+    "ssi_player_id":"12d95e3f-d714-4300-978c-245c9d0f302c",
+    "player_name":"Seth Maxwell",
+    "position":"Center",
+    "minutes_played":256.0
+  },
+  {
+    "ssi_player_id":"2d470912-d9ac-4456-916c-372fc4c84cdc",
+    "player_name":"Sharife Cooper",
+    "position":"Guard",
+    "minutes_played":347.0
+  },
+  {
+    "ssi_player_id":"8d385c74-6c2b-4704-ad41-8e5519b11012",
+    "player_name":"Sheldon Edwards",
+    "position":"Guard",
+    "minutes_played":866.0
+  },
+  {
+    "ssi_player_id":"0943dbc8-178e-4cab-97d6-3f31747698ab",
+    "player_name":"Skal Labissiere",
+    "position":"Forward",
+    "minutes_played":1325.0
+  },
+  {
+    "ssi_player_id":"73712bb9-3143-4176-8eb3-cef6d45e9f92",
+    "player_name":"Stanley Umude",
+    "position":"Guard",
+    "minutes_played":1233.0
+  },
+  {
+    "ssi_player_id":"a0dbe31a-75c6-4777-a920-d506c5633bdf",
+    "player_name":"Stefan Todorovic",
+    "position":"Forward",
+    "minutes_played":520.0
+  },
+  {
+    "ssi_player_id":"1d1c157c-d6cd-492c-8ac1-aca3b6d6c04f",
+    "player_name":"Stephen Mitchell",
+    "position":"Guard",
+    "minutes_played":445.0
+  },
+  {
+    "ssi_player_id":"41e105ed-f146-4aef-a65b-262abde1841e",
+    "player_name":"Stephen Thompson",
+    "position":"Guard",
+    "minutes_played":1185.0
+  },
+  {
+    "ssi_player_id":"f52af8fd-29ee-4aa7-9c70-e211a5d73a12",
+    "player_name":"Steve Settle III",
+    "position":"Forward",
+    "minutes_played":820.0
+  },
+  {
+    "ssi_player_id":"63e0883f-eae7-4a6c-ad8f-c7670247241e",
+    "player_name":"Steven Ashworth",
+    "position":"Guard",
+    "minutes_played":402.0
+  },
+  {
+    "ssi_player_id":"ee193c16-33d6-4aac-9688-7dde65cf6671",
+    "player_name":"Steven Crowl",
+    "position":"Center",
+    "minutes_played":719.0
+  },
+  {
+    "ssi_player_id":"1baa93ad-ae20-4faf-b428-11c4aac33778",
+    "player_name":"Steven Richardson",
+    "position":"Forward",
+    "minutes_played":332.0
+  },
+  {
+    "ssi_player_id":"ea9cdbe0-fa96-437f-99d0-f1c67185f3e7",
+    "player_name":"Sy Chatman",
+    "position":"Forward",
+    "minutes_played":255.0
+  },
+  {
+    "ssi_player_id":"6779419d-662d-4a38-b2ea-cb8e012eed8f",
+    "player_name":"Symir Torrence",
+    "position":"Guard",
+    "minutes_played":415.0
+  },
+  {
+    "ssi_player_id":"ff401666-89ef-11e6-b554-a45e60e298d3",
+    "player_name":"T.J. Warren",
+    "position":"Forward",
+    "minutes_played":204.0
+  },
+  {
+    "ssi_player_id":"7d91ff01-e290-4fe8-955f-093a15c1d3b5",
+    "player_name":"T.J. Weeks",
+    "position":"Guard",
+    "minutes_played":53.0
+  },
+  {
+    "ssi_player_id":"c870f7e6-686b-40b6-859c-ced3b397cbd8",
+    "player_name":"Taelon Peter",
+    "position":"Guard",
+    "minutes_played":540.0
+  },
+  {
+    "ssi_player_id":"b17e9b18-8167-47ec-b96c-1a1c88208376",
+    "player_name":"Taevion Kinsey",
+    "position":"Guard",
+    "minutes_played":1404.0
+  },
+  {
+    "ssi_player_id":"4e132a3e-20b7-4058-9b69-c71ed0bfd654",
+    "player_name":"Tamar Bates",
+    "position":"Guard",
+    "minutes_played":347.0
+  },
+  {
+    "ssi_player_id":"951413b1-0a17-4edf-841a-5ca7b9a2c275",
+    "player_name":"Taylor Funk",
+    "position":"Forward",
+    "minutes_played":939.0
+  },
+  {
+    "ssi_player_id":"91ee33ca-2f8a-421c-8a4d-b0f98d5bc54c",
+    "player_name":"Taylor Hendricks",
+    "position":"Forward",
+    "minutes_played":164.0
+  },
+  {
+    "ssi_player_id":"03318058-7f1e-4d54-a8b4-cbaf7e836a78",
+    "player_name":"Teddy Allen",
+    "position":"Forward",
+    "minutes_played":991.0
+  },
+  {
+    "ssi_player_id":"0784aa6d-2f58-4e8f-8fd0-d3cb2fd08ff8",
+    "player_name":"Terrell Brown Jr.",
+    "position":"Guard",
+    "minutes_played":1171.0
+  },
+  {
+    "ssi_player_id":"06c40ea5-9150-470e-8f6a-7cde4a102ef6",
+    "player_name":"Terrence Hargrove Jr.",
+    "position":"Forward",
+    "minutes_played":733.0
+  },
+  {
+    "ssi_player_id":"94d35dd4-a4fe-47ae-a856-cd0d5b1193a9",
+    "player_name":"Terrence Shannon Jr.",
+    "position":"Guard",
+    "minutes_played":35.0
+  },
+  {
+    "ssi_player_id":"6b0963ac-b00e-46cd-94e8-e60dc3238718",
+    "player_name":"Terry Roberts",
+    "position":"Guard",
+    "minutes_played":464.0
+  },
+  {
+    "ssi_player_id":"0852ab90-243b-4951-bfb0-c536f151cba5",
+    "player_name":"Terry Taylor",
+    "position":"Forward",
+    "minutes_played":224.0
+  },
+  {
+    "ssi_player_id":"1d44afa0-7106-441c-b8ed-cc5e216e866b",
+    "player_name":"Tevian Jones",
+    "position":"Guard",
+    "minutes_played":726.0
+  },
+  {
+    "ssi_player_id":"abc5b21b-f2eb-40cb-a9e6-6eb5abeafe60",
+    "player_name":"Tidjane Salaun",
+    "position":"Forward",
+    "minutes_played":464.0
+  },
+  {
+    "ssi_player_id":"a6c4645d-9238-44cf-92aa-fd318ebb8ebf",
+    "player_name":"Toby Okani",
+    "position":"Forward",
+    "minutes_played":864.0
+  },
+  {
+    "ssi_player_id":"dea8af5c-b86c-4445-b191-20c7806e6a4e",
+    "player_name":"Tolu Smith",
+    "position":"Forward",
+    "minutes_played":679.0
+  },
+  {
+    "ssi_player_id":"5909ae5b-81cc-4f42-adb1-912f0c19edfc",
+    "player_name":"Tomas Chapero",
+    "position":"Center",
+    "minutes_played":992.0
+  },
+  {
+    "ssi_player_id":"9819211d-c92e-4802-8be4-018f1efe7932",
+    "player_name":"Tommy Bruner",
+    "position":"Guard",
+    "minutes_played":103.0
+  },
+  {
+    "ssi_player_id":"4eb5e112-86bc-45b5-a081-deb3f3aa0b67",
+    "player_name":"Tony Carr",
+    "position":"Guard",
+    "minutes_played":28.0
+  },
+  {
+    "ssi_player_id":"3836af33-7171-4f6b-b4e3-7dc129d8efa6",
+    "player_name":"Tosan Evbuomwan",
+    "position":"Forward",
+    "minutes_played":950.0
+  },
+  {
+    "ssi_player_id":"636fef85-a117-4abd-96b9-a45df0f16b53",
+    "player_name":"Trae Hannibal",
+    "position":"Guard",
+    "minutes_played":182.0
+  },
+  {
+    "ssi_player_id":"1991b894-8a5e-4744-a72d-9bd7cb7663c3",
+    "player_name":"Trayce Jackson-Davis",
+    "position":"Forward",
+    "minutes_played":80.0
+  },
+  {
+    "ssi_player_id":"2928912b-dd61-4f60-aa20-a01d295e03d6",
+    "player_name":"Tre King",
+    "position":"Forward",
+    "minutes_played":431.0
+  },
+  {
+    "ssi_player_id":"c917a1b8-8537-4dbe-91bb-c8e376d71ee4",
+    "player_name":"Trentyn Flowers",
+    "position":"Forward",
+    "minutes_played":342.0
+  },
+  {
+    "ssi_player_id":"94ca1f88-1f26-4d28-aeba-c686a5dde5e2",
+    "player_name":"Trevon Duval",
+    "position":"Guard",
+    "minutes_played":16.0
+  },
+  {
+    "ssi_player_id":"fc067294-4b2b-42aa-bea6-88cda36ce6d2",
+    "player_name":"Trevon Scott",
+    "position":"Forward",
+    "minutes_played":1054.0
+  },
+  {
+    "ssi_player_id":"58189b84-2563-4034-984b-e61021022c4c",
+    "player_name":"Trevor Keels",
+    "position":"Guard",
+    "minutes_played":1067.0
+  },
+  {
+    "ssi_player_id":"eae5a4b1-2701-4843-b7ed-ac8677e6446b",
+    "player_name":"Trey Alexander",
+    "position":"Guard",
+    "minutes_played":1169.0
+  },
+  {
+    "ssi_player_id":"8303a10f-1748-43ee-9c4c-59abdffdaf87",
+    "player_name":"Trey Galloway",
+    "position":"Guard",
+    "minutes_played":612.0
+  },
+  {
+    "ssi_player_id":"48e06536-9d6f-4027-9d17-ec477a9ae3a2",
+    "player_name":"Trey Jemison III",
+    "position":"Center",
+    "minutes_played":706.0
+  },
+  {
+    "ssi_player_id":"a17cb8d2-4fe7-49a1-b4b9-e56f6316d694",
+    "player_name":"Trey McGowens",
+    "position":"Guard",
+    "minutes_played":580.0
+  },
+  {
+    "ssi_player_id":"32735ab8-9eea-40c1-93be-395428840de8",
+    "player_name":"Trey Townsend",
+    "position":"Forward",
+    "minutes_played":396.0
+  },
+  {
+    "ssi_player_id":"d98ecec8-9937-426e-ba9a-e019ec88d94f",
+    "player_name":"Trhae Mitchell",
+    "position":"Guard",
+    "minutes_played":988.0
+  },
+  {
+    "ssi_player_id":"998f2322-7dab-4353-99d7-b23e57eeb3ed",
+    "player_name":"Tristan Enaruna",
+    "position":"Forward",
+    "minutes_played":1066.0
+  },
+  {
+    "ssi_player_id":"ea2c60f4-30d3-4154-b99e-b907b24658bf",
+    "player_name":"Tristen Newton",
+    "position":"Guard",
+    "minutes_played":1606.0
+  },
+  {
+    "ssi_player_id":"0b1c2f8c-380e-4f07-85b0-3b5ff4650d00",
+    "player_name":"TyTy Washington Jr.",
+    "position":"Guard",
+    "minutes_played":845.0
+  },
+  {
+    "ssi_player_id":"382afece-e02d-4ce2-92ac-92b1d2333d2c",
+    "player_name":"Tyler Burton",
+    "position":"Forward",
+    "minutes_played":1209.0
+  },
+  {
+    "ssi_player_id":"40faa5df-7ced-449d-bd12-300a2938370a",
+    "player_name":"Tyler Kolek",
+    "position":"Guard",
+    "minutes_played":117.0
+  },
+  {
+    "ssi_player_id":"e48e99e8-0b78-493c-9d6f-15b65e7869c6",
+    "player_name":"Tyler Polley",
+    "position":"Forward",
+    "minutes_played":665.0
+  },
+  {
+    "ssi_player_id":"b701694c-6da2-49de-b9a7-ae092466ce67",
+    "player_name":"Tyler Smith",
+    "position":"Forward",
+    "minutes_played":739.0
+  },
+  {
+    "ssi_player_id":"0b9ca9bc-f567-4768-9cc5-5e42d6fc8dce",
+    "player_name":"Tylor Perry",
+    "position":"Guard",
+    "minutes_played":72.0
+  },
+  {
+    "ssi_player_id":"a9ab59d3-2f04-49b0-b4fd-a265d98af568",
+    "player_name":"Tyreke Key",
+    "position":"Guard",
+    "minutes_played":1045.0
+  },
+  {
+    "ssi_player_id":"4f89702e-6e19-48ef-9be1-8da8a0837a2f",
+    "player_name":"Tyrese Hunter",
+    "position":"Guard",
+    "minutes_played":305.0
+  },
+  {
+    "ssi_player_id":"1d3ff68e-d714-4f70-b952-02cf2252e990",
+    "player_name":"Tyrese Martin",
+    "position":"Forward",
+    "minutes_played":101.0
+  },
+  {
+    "ssi_player_id":"27207fcd-251c-4d7b-8d11-48823d8dab1b",
+    "player_name":"Tyrese Proctor",
+    "position":"Guard",
+    "minutes_played":23.0
+  },
+  {
+    "ssi_player_id":"f4159312-f59d-46f6-a72d-afb990d1e80a",
+    "player_name":"Tyrese Samuel",
+    "position":"Forward",
+    "minutes_played":712.0
+  },
+  {
+    "ssi_player_id":"7ce310e3-5034-435f-85fd-9db70356ed75",
+    "player_name":"Tyson Degenhart",
+    "position":"Forward",
+    "minutes_played":946.0
+  },
+  {
+    "ssi_player_id":"316deed2-3f6a-4c1c-9508-2dd0c937cd4c",
+    "player_name":"Tyson Etienne",
+    "position":"Guard",
+    "minutes_played":772.0
+  },
+  {
+    "ssi_player_id":"2a70adf2-b7a5-4028-b567-a3b18585a709",
+    "player_name":"Vance Jackson",
+    "position":"Forward",
+    "minutes_played":103.0
+  },
+  {
+    "ssi_player_id":"9dc84f16-116c-451e-a191-b54f210fecbe",
+    "player_name":"Vernon Carey Jr.",
+    "position":"Center",
+    "minutes_played":82.0
+  },
+  {
+    "ssi_player_id":"ff415fa8-89ef-11e6-bc85-a45e60e298d3",
+    "player_name":"Victor Oladipo",
+    "position":"Guard",
+    "minutes_played":627.0
+  },
+  {
+    "ssi_player_id":"386162d7-b5e6-4aca-9174-cfba1382d491",
+    "player_name":"Viktor Lakhin",
+    "position":"Forward",
+    "minutes_played":539.0
+  },
+  {
+    "ssi_player_id":"63049d09-0880-48ee-af08-c8f25b874237",
+    "player_name":"Vinicius Da Silva",
+    "position":"Center",
+    "minutes_played":118.0
+  },
+  {
+    "ssi_player_id":"0d1efd50-8b55-402c-af4a-3400a0ecf19e",
+    "player_name":"Vladislav Goldin",
+    "position":"Center",
+    "minutes_played":610.0
+  },
+  {
+    "ssi_player_id":"d809ed56-e0c4-48ab-9cb2-e6e94a8c0842",
+    "player_name":"Wade Taylor IV",
+    "position":"Guard",
+    "minutes_played":1211.0
+  },
+  {
+    "ssi_player_id":"ae81ff91-c142-4a68-b826-4ae75af6a94f",
+    "player_name":"Walter Clayton Jr.",
+    "position":"Guard",
+    "minutes_played":52.0
+  },
+  {
+    "ssi_player_id":"ef3f7448-40b8-4701-8feb-456aaa4d1c6e",
+    "player_name":"Warith Alatishe",
+    "position":"Forward",
+    "minutes_played":601.0
+  },
+  {
+    "ssi_player_id":"96f746dd-7dfb-4ea4-a98c-39ed5d2a0fd5",
+    "player_name":"Wendell Moore Jr.",
+    "position":"Guard",
+    "minutes_played":933.0
+  },
+  {
+    "ssi_player_id":"3fb6c927-c443-46a9-aecb-1105dfb05233",
+    "player_name":"Will Riley",
+    "position":"Forward",
+    "minutes_played":108.0
+  },
+  {
+    "ssi_player_id":"dc9d21e3-68f0-4270-a358-8e68da5bbafc",
+    "player_name":"William Baker",
+    "position":"Center",
+    "minutes_played":722.0
+  },
+  {
+    "ssi_player_id":"5673cf85-4703-43f8-b541-dd3923d4c42b",
+    "player_name":"William Hickey",
+    "position":"Guard",
+    "minutes_played":32.0
+  },
+  {
+    "ssi_player_id":"b3aaee9c-4272-479b-9fdc-7b99458903ea",
+    "player_name":"Wooga Poplar",
+    "position":"Forward",
+    "minutes_played":193.0
+  },
+  {
+    "ssi_player_id":"c6156c46-4275-4470-bed6-6c382811ef91",
+    "player_name":"Yang Hansen",
+    "position":"Center",
+    "minutes_played":557.0
+  },
+  {
+    "ssi_player_id":"c4c0b9a3-5f7e-4611-977b-e0d73c08a29c",
+    "player_name":"Yanic Konan Niederhauser",
+    "position":"Center",
+    "minutes_played":219.0
+  },
+  {
+    "ssi_player_id":"3d921f8a-1119-4e42-be46-c22ae84d5f58",
+    "player_name":"Yuki Kawamura",
+    "position":"Guard",
+    "minutes_played":322.0
+  },
+  {
+    "ssi_player_id":"7a58adf5-73d4-4f5e-b042-6ab0d8862313",
+    "player_name":"Yuri Collins",
+    "position":"Guard",
+    "minutes_played":437.0
+  },
+  {
+    "ssi_player_id":"aaa72835-bf87-4903-8432-953c82e91876",
+    "player_name":"Zach Freemantle",
+    "position":"Forward",
+    "minutes_played":1195.0
+  },
+  {
+    "ssi_player_id":"8e62f792-31da-4509-a4a8-d0bd4144b94a",
+    "player_name":"Zach Hicks",
+    "position":"Forward",
+    "minutes_played":167.0
+  },
+  {
+    "ssi_player_id":"cdb9a6bd-2259-43bc-9209-03da5b72234b",
+    "player_name":"Zack Austin",
+    "position":"Guard",
+    "minutes_played":468.0
+  },
+  {
+    "ssi_player_id":"2aa9c687-ca9d-4478-a2c7-8f2797b308b2",
+    "player_name":"Zeke Mayo",
+    "position":"Guard",
+    "minutes_played":815.0
+  },
+  {
+    "ssi_player_id":"bf29165e-4d8e-4760-a070-5502dd6c2176",
+    "player_name":"Zhaire Smith",
+    "position":"Guard",
+    "minutes_played":1405.0
+  },
+  {
+    "ssi_player_id":"cbddda95-fa69-4ae6-b6b0-247f5c669b7f",
+    "player_name":"Zhuric Phelps",
+    "position":"Guard",
+    "minutes_played":426.0
+  },
+  {
+    "ssi_player_id":"21f03dac-c84d-48c5-80ce-a54781f63914",
+    "player_name":"Zyon Pullin",
+    "position":"Guard",
+    "minutes_played":704.0
+  }
+]
