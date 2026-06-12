@@ -10,54 +10,93 @@ const hiddenColumns = [
 
 const excludedMetrics = [
     "HC PPP",
-    "⁠Performane Guarding NBA Call-ups"
+    "⁠Performane Guarding NBA Call-ups",
+    "⁠⁠Performane Guarding NBA Call-ups",
+    "Performane Guarding NBA Call-ups",
+    "Performance Guarding NBA Call-ups"
 ];
 
+let allData = {};
+let currentPlayers = {};
+
+const percentileViewSelect = document.getElementById("percentileViewSelect");
+
 async function loadPlayerPage() {
-    const [
-        offenseNormRes,
-        offenseCleanRes,
-        defenseNormRes,
-        defenseCleanRes,
-        transitionNormRes,
-        transitionCleanRes
-    ] = await Promise.all([
+    const responses = await Promise.all([
         fetch("./data/offense_norm.json"),
-        fetch("./data/offense_clean.json"),
         fetch("./data/defense_norm.json"),
-        fetch("./data/defense_clean.json"),
         fetch("./data/transition_norm.json"),
+
+        fetch("./data/guards_offense_norm.json"),
+        fetch("./data/guards_defense_norm.json"),
+        fetch("./data/guards_transition_norm.json"),
+
+        fetch("./data/non_guards_offense_norm.json"),
+        fetch("./data/non_guards_defense_norm.json"),
+        fetch("./data/non_guards_transition_norm.json"),
+
+        fetch("./data/offense_clean.json"),
+        fetch("./data/defense_clean.json"),
         fetch("./data/transition_clean.json")
     ]);
 
-    const offenseNorm = await offenseNormRes.json();
-    const offenseClean = await offenseCleanRes.json();
+    const [
+        offenseNorm,
+        defenseNorm,
+        transitionNorm,
 
-    const defenseNorm = await defenseNormRes.json();
-    const defenseClean = await defenseCleanRes.json();
+        guardsOffenseNorm,
+        guardsDefenseNorm,
+        guardsTransitionNorm,
 
-    const transitionNorm = await transitionNormRes.json();
-    const transitionClean = await transitionCleanRes.json();
+        nonGuardsOffenseNorm,
+        nonGuardsDefenseNorm,
+        nonGuardsTransitionNorm,
 
-    const offenseNormPlayer = findPlayer(offenseNorm);
-    const offenseCleanPlayer = findPlayer(offenseClean);
+        offenseClean,
+        defenseClean,
+        transitionClean
+    ] = await Promise.all(responses.map(res => res.json()));
 
-    const defenseNormPlayer = findPlayer(defenseNorm);
-    const defenseCleanPlayer = findPlayer(defenseClean);
+    allData = {
+        positionless: {
+            offense: offenseNorm,
+            defense: defenseNorm,
+            transition: transitionNorm
+        },
+        guards: {
+            offense: guardsOffenseNorm,
+            defense: guardsDefenseNorm,
+            transition: guardsTransitionNorm
+        },
+        non_guards: {
+            offense: nonGuardsOffenseNorm,
+            defense: nonGuardsDefenseNorm,
+            transition: nonGuardsTransitionNorm
+        },
+        clean: {
+            offense: offenseClean,
+            defense: defenseClean,
+            transition: transitionClean
+        }
+    };
 
-    const transitionNormPlayer = findPlayer(transitionNorm);
-    const transitionCleanPlayer = findPlayer(transitionClean);
+    setupPlayerHeader();
+    renderSelectedView();
+}
 
+function setupPlayerHeader() {
     const mainPlayer =
-        offenseNormPlayer ||
-        defenseNormPlayer ||
-        transitionNormPlayer ||
-        offenseCleanPlayer ||
-        defenseCleanPlayer ||
-        transitionCleanPlayer;
+        findPlayer(allData.positionless.offense) ||
+        findPlayer(allData.positionless.defense) ||
+        findPlayer(allData.positionless.transition) ||
+        findPlayer(allData.clean.offense) ||
+        findPlayer(allData.clean.defense) ||
+        findPlayer(allData.clean.transition);
 
     if (!mainPlayer) {
         document.getElementById("playerName").textContent = "Player not found";
+        document.getElementById("playerInfo").textContent = "";
         return;
     }
 
@@ -65,12 +104,68 @@ async function loadPlayerPage() {
     document.getElementById("playerInfo").textContent =
         `${mainPlayer.position || "Unknown position"} | ${Math.round(mainPlayer.minutes_played || 0)} minutes`;
 
-    renderBarChart("offenseChart", offenseNormPlayer, offenseCleanPlayer, "Offense");
-    renderBarChart("defenseChart", defenseNormPlayer, defenseCleanPlayer, "Defense");
-    renderBarChart("transitionChart", transitionNormPlayer, transitionCleanPlayer, "Transition");
+    percentileViewSelect.value = "positionless";
+}
+
+function renderSelectedView() {
+    let selectedView = percentileViewSelect.value;
+
+    const headerPlayer =
+        findPlayer(allData.positionless.offense) ||
+        findPlayer(allData.positionless.defense) ||
+        findPlayer(allData.positionless.transition) ||
+        findPlayer(allData.clean.offense) ||
+        findPlayer(allData.clean.defense) ||
+        findPlayer(allData.clean.transition);
+
+    if (!headerPlayer) {
+        return;
+    }
+
+    if (selectedView === "position") {
+        selectedView =
+            headerPlayer.position === "Guard"
+                ? "guards"
+                : "non_guards";
+    } else {
+        selectedView = "positionless";
+    }
+
+    currentPlayers = {
+        offenseNorm: findPlayer(allData[selectedView].offense),
+        defenseNorm: findPlayer(allData[selectedView].defense),
+        transitionNorm: findPlayer(allData[selectedView].transition),
+
+        offenseClean: findPlayer(allData.clean.offense),
+        defenseClean: findPlayer(allData.clean.defense),
+        transitionClean: findPlayer(allData.clean.transition)
+    };
+
+    renderBarChart(
+        "offenseChart",
+        currentPlayers.offenseNorm,
+        currentPlayers.offenseClean,
+        "Offense"
+    );
+
+    renderBarChart(
+        "defenseChart",
+        currentPlayers.defenseNorm,
+        currentPlayers.defenseClean,
+        "Defense"
+    );
+
+    renderBarChart(
+        "transitionChart",
+        currentPlayers.transitionNorm,
+        currentPlayers.transitionClean,
+        "Transition"
+    );
 }
 
 function findPlayer(data) {
+    if (!data) return null;
+
     return data.find(row => String(row.ssi_player_id) === String(playerId));
 }
 
@@ -106,7 +201,8 @@ function renderBarChart(containerId, normPlayer, cleanPlayer, title) {
     const container = document.getElementById(containerId);
 
     if (!normPlayer) {
-        container.innerHTML = `<p>No ${title.toLowerCase()} data found.</p>`;
+        container.innerHTML =
+            `<p>No ${title.toLowerCase()} data found for this percentile view.</p>`;
         return;
     }
 
@@ -147,5 +243,7 @@ function renderBarChart(containerId, normPlayer, cleanPlayer, title) {
         container.appendChild(row);
     });
 }
+
+percentileViewSelect.addEventListener("change", renderSelectedView);
 
 loadPlayerPage();

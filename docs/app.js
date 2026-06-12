@@ -1,15 +1,5 @@
-let datasets = {
-    offense: [],
-    defense: [],
-    transition: []
-};
-
-let metricColumns = {
-    offense: [],
-    defense: [],
-    transition: []
-};
-
+let datasets = {};
+let metricColumns = {};
 let mergedPlayers = [];
 let filters = [];
 
@@ -20,26 +10,98 @@ const categoryLabels = {
 };
 
 const searchInput = document.getElementById("searchInput");
+const percentileViewSelect = document.getElementById("percentileViewSelect");
 const filtersDiv = document.getElementById("filters");
 const addFilterBtn = document.getElementById("addFilterBtn");
 const resetFiltersBtn = document.getElementById("resetFiltersBtn");
 
 async function loadAllData() {
-    const [offenseRes, defenseRes, transitionRes] = await Promise.all([
+    const responses = await Promise.all([
         fetch("./data/offense_norm.json"),
         fetch("./data/defense_norm.json"),
-        fetch("./data/transition_norm.json")
+        fetch("./data/transition_norm.json"),
+
+        fetch("./data/guards_offense_norm.json"),
+        fetch("./data/guards_defense_norm.json"),
+        fetch("./data/guards_transition_norm.json"),
+
+        fetch("./data/non_guards_offense_norm.json"),
+        fetch("./data/non_guards_defense_norm.json"),
+        fetch("./data/non_guards_transition_norm.json")
     ]);
 
-    datasets.offense = await offenseRes.json();
-    datasets.defense = await defenseRes.json();
-    datasets.transition = await transitionRes.json();
+    const [
+        offenseNorm,
+        defenseNorm,
+        transitionNorm,
 
-    metricColumns.offense = getMetricColumns(datasets.offense);
-    metricColumns.defense = getMetricColumns(datasets.defense);
-    metricColumns.transition = getMetricColumns(datasets.transition);
+        guardsOffenseNorm,
+        guardsDefenseNorm,
+        guardsTransitionNorm,
 
-    mergedPlayers = mergePlayers();
+        nonGuardsOffenseNorm,
+        nonGuardsDefenseNorm,
+        nonGuardsTransitionNorm
+    ] = await Promise.all(responses.map(res => res.json()));
+
+    datasets = {
+        positionless: {
+            offense: offenseNorm,
+            defense: defenseNorm,
+            transition: transitionNorm
+        },
+        guards: {
+            offense: guardsOffenseNorm,
+            defense: guardsDefenseNorm,
+            transition: guardsTransitionNorm
+        },
+        non_guards: {
+            offense: nonGuardsOffenseNorm,
+            defense: nonGuardsDefenseNorm,
+            transition: nonGuardsTransitionNorm
+        }
+    };
+
+    metricColumns = {
+        offense: getMetricColumns(datasets.positionless.offense),
+        defense: getMetricColumns(datasets.positionless.defense),
+        transition: getMetricColumns(datasets.positionless.transition)
+    };
+
+    buildCurrentView(false);
+}
+
+function getActiveDatasets() {
+    const selectedView = percentileViewSelect.value;
+
+    if (selectedView === "positionless") {
+        return datasets.positionless;
+    }
+
+    return {
+        offense: [
+            ...datasets.guards.offense,
+            ...datasets.non_guards.offense
+        ],
+        defense: [
+            ...datasets.guards.defense,
+            ...datasets.non_guards.defense
+        ],
+        transition: [
+            ...datasets.guards.transition,
+            ...datasets.non_guards.transition
+        ]
+    };
+}
+
+function buildCurrentView(resetFilters = false) {
+    if (resetFilters) {
+        filters = [];
+    }
+
+    const activeDatasets = getActiveDatasets();
+
+    mergedPlayers = mergePlayers(activeDatasets);
 
     renderFilters();
     renderTable();
@@ -54,16 +116,16 @@ function getMetricColumns(data) {
             "player_name",
             "position",
             "minutes_played"
-        ].includes(col)
-        && !col.startsWith("_")
+        ].includes(col) &&
+        !col.startsWith("_")
     );
 }
 
-function mergePlayers() {
+function mergePlayers(activeDatasets) {
     const playerMap = new Map();
 
     for (const category of ["offense", "defense", "transition"]) {
-        datasets[category].forEach(row => {
+        activeDatasets[category].forEach(row => {
             const id = String(row.ssi_player_id);
 
             if (!playerMap.has(id)) {
@@ -221,6 +283,7 @@ function renderTable() {
         <tr>
             <th>Player</th>
             <th>Position</th>
+            <th>View</th>
             ${selectedMetricColumns.map(col => `
                 <th>${categoryLabels[col.category]}: ${col.metric}</th>
             `).join("")}
@@ -228,6 +291,10 @@ function renderTable() {
     `;
 
     const filteredPlayers = mergedPlayers.filter(passesFilters);
+    const viewLabel =
+        percentileViewSelect.value === "positionless"
+            ? "Positionless"
+            : "Position";
 
     tableBody.innerHTML = "";
 
@@ -237,6 +304,7 @@ function renderTable() {
         row.innerHTML = `
             <td>${player.player_name || ""}</td>
             <td>${player.position || ""}</td>
+            <td>${viewLabel}</td>
             ${selectedMetricColumns.map(col => {
                 const value = Number(player[col.category][col.metric]);
                 return `<td>${Number.isNaN(value) ? "" : Math.round(value * 100) + "%"}</td>`;
@@ -253,6 +321,11 @@ function renderTable() {
 }
 
 searchInput.addEventListener("input", renderTable);
+
+percentileViewSelect.addEventListener("change", () => {
+    buildCurrentView(false);
+});
+
 addFilterBtn.addEventListener("click", addFilter);
 
 resetFiltersBtn.addEventListener("click", () => {

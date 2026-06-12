@@ -7,13 +7,23 @@
 </head>
 <body>
 
-<h1>G League Player Query Dashboard</h1>
 <nav>
     <a href="index.html">Query Search</a>
     <a href="scatter.html">Scatter Tool</a>
 </nav>
+
+<h1>G League Player Query Dashboard</h1>
+
 <div class="controls">
     <input id="searchInput" type="text" placeholder="Search player...">
+
+    <label>
+        Percentile View
+        <select id="percentileViewSelect">
+            <option value="positionless">Positionless</option>
+            <option value="position">Position</option>
+        </select>
+    </label>
 </div>
 
 <h2>Query Filters</h2>
@@ -30,7 +40,7 @@
     <tbody></tbody>
 </table>
 
-<script src="app.js"></script>
+<script src="app.js?v=3"></script>
 
 </body>
 </html>
