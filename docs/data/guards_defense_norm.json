@@ -18,14 +18,13 @@
     "Defending Drives VORP+":0.6244897959,
     "\u2060Defending Drives VORP":0.6367346939,
     "% Blown By":0.0530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3347107438,
+    "Performance Guarding NBA Call-ups":0.700729927,
     "\u2060Total Ballscreens Attacked":0.8075117371,
     "Shot Quality Allowed on Overs+Blitzes":0.7089201878,
     "% Drop Coverage":0.8262910798,
     "_nba_callup_shots":38.0,
     "_overs_blitz_direct_picks":134.0,
-    "_drop_picks":162.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":162.0
   },
   {
     "ssi_player_id":"91fbbfa3-eabc-4c5d-b0d0-b2fc674c84bb",
@@ -46,14 +45,13 @@
     "Defending Drives VORP+":0.1795918367,
     "\u2060Defending Drives VORP":0.1510204082,
     "% Blown By":0.0897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2603305785,
+    "Performance Guarding NBA Call-ups":0.7737226277,
     "\u2060Total Ballscreens Attacked":0.5422535211,
     "Shot Quality Allowed on Overs+Blitzes":0.6807511737,
     "% Drop Coverage":0.544600939,
     "_nba_callup_shots":38.0,
     "_overs_blitz_direct_picks":82.0,
-    "_drop_picks":100.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":100.0
   },
   {
     "ssi_player_id":"2b0ac9c2-0fa5-4ee6-9881-03b737e11dc3",
@@ -74,14 +72,13 @@
     "Defending Drives VORP+":0.4346938776,
     "\u2060Defending Drives VORP":0.5020408163,
     "% Blown By":0.9081632653,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2892561983,
+    "Performance Guarding NBA Call-ups":0.7445255474,
     "\u2060Total Ballscreens Attacked":0.0892018779,
     "Shot Quality Allowed on Overs+Blitzes":0.5821596244,
     "% Drop Coverage":0.7441314554,
     "_nba_callup_shots":27.0,
     "_overs_blitz_direct_picks":31.0,
-    "_drop_picks":40.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":40.0
   },
   {
     "ssi_player_id":"6ab19369-4aa1-4aa6-8274-b595ac8902be",
@@ -102,14 +99,13 @@
     "Defending Drives VORP+":0.093877551,
     "\u2060Defending Drives VORP":0.0612244898,
     "% Blown By":0.2816326531,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9834710744,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0657276995,
     "Shot Quality Allowed on Overs+Blitzes":0.9953051643,
     "% Drop Coverage":null,
     "_nba_callup_shots":5.0,
     "_overs_blitz_direct_picks":26.0,
-    "_drop_picks":19.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":19.0
   },
   {
     "ssi_player_id":"60b1ff6f-7e65-4d93-8b0b-fe76747cb0db",
@@ -130,14 +126,13 @@
     "Defending Drives VORP+":0.2,
     "\u2060Defending Drives VORP":0.2183673469,
     "% Blown By":0.9714285714,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3842975207,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3896713615,
     "Shot Quality Allowed on Overs+Blitzes":0.220657277,
     "% Drop Coverage":0.8474178404,
     "_nba_callup_shots":22.0,
     "_overs_blitz_direct_picks":67.0,
-    "_drop_picks":44.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":44.0
   },
   {
     "ssi_player_id":"3559f9a3-9132-409e-a701-a4c5757cb325",
@@ -158,14 +153,13 @@
     "Defending Drives VORP+":0.9469387755,
     "\u2060Defending Drives VORP":0.9673469388,
     "% Blown By":0.9265306122,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.173553719,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4483568075,
     "Shot Quality Allowed on Overs+Blitzes":0.9812206573,
     "% Drop Coverage":0.0375586854,
     "_nba_callup_shots":14.0,
     "_overs_blitz_direct_picks":74.0,
-    "_drop_picks":60.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":60.0
   },
   {
     "ssi_player_id":"9b945fc0-d3bb-405d-bf43-95c6e7d7e87b",
@@ -186,14 +180,13 @@
     "Defending Drives VORP+":0.7755102041,
     "\u2060Defending Drives VORP":0.9183673469,
     "% Blown By":0.0591836735,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2479338843,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.382629108,
     "_nba_callup_shots":15.0,
     "_overs_blitz_direct_picks":17.0,
-    "_drop_picks":53.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":53.0
   },
   {
     "ssi_player_id":"b37bbd3b-102d-42c2-9bfe-7874d64e9068",
@@ -214,14 +207,13 @@
     "Defending Drives VORP+":0.7591836735,
     "\u2060Defending Drives VORP":0.7142857143,
     "% Blown By":0.1469387755,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5165289256,
+    "Performance Guarding NBA Call-ups":0.4817518248,
     "\u2060Total Ballscreens Attacked":0.8802816901,
     "Shot Quality Allowed on Overs+Blitzes":0.6478873239,
     "% Drop Coverage":0.9248826291,
     "_nba_callup_shots":41.0,
     "_overs_blitz_direct_picks":147.0,
-    "_drop_picks":129.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":129.0
   },
   {
     "ssi_player_id":"146e6f60-9f61-4669-902f-1f985d239c46",
@@ -242,14 +234,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":3.0,
     "_overs_blitz_direct_picks":3.0,
-    "_drop_picks":9.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":9.0
   },
   {
     "ssi_player_id":"21a9c7c7-f211-4710-9932-3ecfa2fd4256",
@@ -270,14 +261,13 @@
     "Defending Drives VORP+":0.6040816327,
     "\u2060Defending Drives VORP":0.5673469388,
     "% Blown By":0.4734693878,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5847107438,
+    "Performance Guarding NBA Call-ups":0.3905109489,
     "\u2060Total Ballscreens Attacked":0.5422535211,
     "Shot Quality Allowed on Overs+Blitzes":0.3849765258,
     "% Drop Coverage":0.1854460094,
     "_nba_callup_shots":79.0,
     "_overs_blitz_direct_picks":82.0,
-    "_drop_picks":388.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":388.0
   },
   {
     "ssi_player_id":"74b58589-0ca1-4a71-ac83-93c57a2e8b83",
@@ -298,14 +288,13 @@
     "Defending Drives VORP+":0.2285714286,
     "\u2060Defending Drives VORP":0.2367346939,
     "% Blown By":0.6285714286,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6652892562,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.8685446009,
     "Shot Quality Allowed on Overs+Blitzes":0.3051643192,
     "% Drop Coverage":0.6009389671,
     "_nba_callup_shots":9.0,
     "_overs_blitz_direct_picks":145.0,
-    "_drop_picks":73.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":73.0
   },
   {
     "ssi_player_id":"c1035422-a088-42e6-8ad3-db400bb52aa1",
@@ -326,14 +315,13 @@
     "Defending Drives VORP+":0.6,
     "\u2060Defending Drives VORP":0.6,
     "% Blown By":0.2734693878,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3719008264,
+    "Performance Guarding NBA Call-ups":0.6569343066,
     "\u2060Total Ballscreens Attacked":0.8309859155,
     "Shot Quality Allowed on Overs+Blitzes":0.9295774648,
     "% Drop Coverage":0.8685446009,
     "_nba_callup_shots":53.0,
     "_overs_blitz_direct_picks":137.0,
-    "_drop_picks":137.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":137.0
   },
   {
     "ssi_player_id":"e555cb48-990b-4ef7-8464-59adc6adf34d",
@@ -354,14 +342,13 @@
     "Defending Drives VORP+":0.7183673469,
     "\u2060Defending Drives VORP":0.7102040816,
     "% Blown By":0.212244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4504132231,
+    "Performance Guarding NBA Call-ups":0.5547445255,
     "\u2060Total Ballscreens Attacked":0.2887323944,
     "Shot Quality Allowed on Overs+Blitzes":0.2112676056,
     "% Drop Coverage":0.323943662,
     "_nba_callup_shots":60.0,
     "_overs_blitz_direct_picks":56.0,
-    "_drop_picks":153.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":153.0
   },
   {
     "ssi_player_id":"6abaacf2-5a3c-4c72-b19c-2a645dd84022",
@@ -382,14 +369,13 @@
     "Defending Drives VORP+":0.4571428571,
     "\u2060Defending Drives VORP":0.5142857143,
     "% Blown By":0.8285714286,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0454545455,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0563380282,
     "Shot Quality Allowed on Overs+Blitzes":0.9483568075,
     "% Drop Coverage":0.9906103286,
     "_nba_callup_shots":7.0,
     "_overs_blitz_direct_picks":24.0,
-    "_drop_picks":151.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":151.0
   },
   {
     "ssi_player_id":"58d7789a-e4bc-46cd-91d5-01526491d417",
@@ -410,14 +396,13 @@
     "Defending Drives VORP+":0.3897959184,
     "\u2060Defending Drives VORP":0.3959183673,
     "% Blown By":0.612244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2438016529,
+    "Performance Guarding NBA Call-ups":0.7883211679,
     "\u2060Total Ballscreens Attacked":0.8568075117,
     "Shot Quality Allowed on Overs+Blitzes":0.8685446009,
     "% Drop Coverage":0.338028169,
     "_nba_callup_shots":43.0,
     "_overs_blitz_direct_picks":144.0,
-    "_drop_picks":151.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":151.0
   },
   {
     "ssi_player_id":"cc05d44b-5260-48a3-b9b6-61ce282a67c0",
@@ -438,14 +423,13 @@
     "Defending Drives VORP+":0.1346938776,
     "\u2060Defending Drives VORP":0.1632653061,
     "% Blown By":0.4326530612,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2190082645,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.2323943662,
     "_nba_callup_shots":6.0,
     "_overs_blitz_direct_picks":18.0,
-    "_drop_picks":34.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":34.0
   },
   {
     "ssi_player_id":"19004e0e-7982-4513-bdba-24e11e49d49d",
@@ -466,14 +450,13 @@
     "Defending Drives VORP+":0.3714285714,
     "\u2060Defending Drives VORP":0.4489795918,
     "% Blown By":0.9469387755,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1962809917,
+    "Performance Guarding NBA Call-ups":0.8503649635,
     "\u2060Total Ballscreens Attacked":0.6056338028,
     "Shot Quality Allowed on Overs+Blitzes":0.6948356808,
     "% Drop Coverage":0.2535211268,
     "_nba_callup_shots":48.0,
     "_overs_blitz_direct_picks":91.0,
-    "_drop_picks":127.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":127.0
   },
   {
     "ssi_player_id":"a127ee52-bbec-46b6-990c-93a2c3d57b87",
@@ -494,14 +477,13 @@
     "Defending Drives VORP+":0.0775510204,
     "\u2060Defending Drives VORP":0.1306122449,
     "% Blown By":0.5632653061,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4173553719,
+    "Performance Guarding NBA Call-ups":0.6058394161,
     "\u2060Total Ballscreens Attacked":0.8450704225,
     "Shot Quality Allowed on Overs+Blitzes":0.4131455399,
     "% Drop Coverage":0.8873239437,
     "_nba_callup_shots":58.0,
     "_overs_blitz_direct_picks":140.0,
-    "_drop_picks":113.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":113.0
   },
   {
     "ssi_player_id":"89ff2dfc-818b-4d2a-beba-efe0422f6d4c",
@@ -522,14 +504,13 @@
     "Defending Drives VORP+":0.5224489796,
     "\u2060Defending Drives VORP":0.5714285714,
     "% Blown By":0.5734693878,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0991735537,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3169014085,
     "Shot Quality Allowed on Overs+Blitzes":0.7605633803,
     "% Drop Coverage":0.4084507042,
     "_nba_callup_shots":18.0,
     "_overs_blitz_direct_picks":58.0,
-    "_drop_picks":81.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":81.0
   },
   {
     "ssi_player_id":"f92bdf23-732f-412f-9b84-9c088cd9474b",
@@ -550,14 +531,13 @@
     "Defending Drives VORP+":0.593877551,
     "\u2060Defending Drives VORP":0.6979591837,
     "% Blown By":0.1428571429,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7066115702,
+    "Performance Guarding NBA Call-ups":0.2189781022,
     "\u2060Total Ballscreens Attacked":0.2816901408,
     "Shot Quality Allowed on Overs+Blitzes":0.6431924883,
     "% Drop Coverage":0.2723004695,
     "_nba_callup_shots":25.0,
     "_overs_blitz_direct_picks":55.0,
-    "_drop_picks":71.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":71.0
   },
   {
     "ssi_player_id":"117522bd-3f51-4ef9-99ae-8cf060df132b",
@@ -578,14 +558,13 @@
     "Defending Drives VORP+":0.7551020408,
     "\u2060Defending Drives VORP":0.7673469388,
     "% Blown By":0.7265306122,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1157024793,
+    "Performance Guarding NBA Call-ups":0.9197080292,
     "\u2060Total Ballscreens Attacked":0.7558685446,
     "Shot Quality Allowed on Overs+Blitzes":0.7746478873,
     "% Drop Coverage":0.117370892,
     "_nba_callup_shots":61.0,
     "_overs_blitz_direct_picks":127.0,
-    "_drop_picks":112.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":112.0
   },
   {
     "ssi_player_id":"7bf581f6-845d-4d34-9460-f09f129eb841",
@@ -606,14 +585,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":10.0,
-    "_drop_picks":4.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":4.0
   },
   {
     "ssi_player_id":"2327ad6b-a87c-4b5c-8dbb-c64690426e98",
@@ -634,14 +612,13 @@
     "Defending Drives VORP+":0.6795918367,
     "\u2060Defending Drives VORP":0.7510204082,
     "% Blown By":0.7428571429,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5537190083,
+    "Performance Guarding NBA Call-ups":0.4306569343,
     "\u2060Total Ballscreens Attacked":0.9483568075,
     "Shot Quality Allowed on Overs+Blitzes":0.1009389671,
     "% Drop Coverage":0.985915493,
     "_nba_callup_shots":68.0,
     "_overs_blitz_direct_picks":184.0,
-    "_drop_picks":132.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":132.0
   },
   {
     "ssi_player_id":"bc4eee96-6dec-4e4c-ac60-d467785926cb",
@@ -662,14 +639,13 @@
     "Defending Drives VORP+":0.2081632653,
     "\u2060Defending Drives VORP":0.1836734694,
     "% Blown By":0.1265306122,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9421487603,
+    "Performance Guarding NBA Call-ups":0.0218978102,
     "\u2060Total Ballscreens Attacked":0.6666666667,
     "Shot Quality Allowed on Overs+Blitzes":0.2018779343,
     "% Drop Coverage":0.1596244131,
     "_nba_callup_shots":34.0,
     "_overs_blitz_direct_picks":102.0,
-    "_drop_picks":125.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":125.0
   },
   {
     "ssi_player_id":"ec9d7a06-798b-45e0-8eae-a5bfdd92f0ba",
@@ -690,14 +666,13 @@
     "Defending Drives VORP+":0.6489795918,
     "\u2060Defending Drives VORP":0.7306122449,
     "% Blown By":0.1551020408,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1404958678,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3169014085,
     "Shot Quality Allowed on Overs+Blitzes":0.5962441315,
     "% Drop Coverage":0.5727699531,
     "_nba_callup_shots":19.0,
     "_overs_blitz_direct_picks":58.0,
-    "_drop_picks":84.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":84.0
   },
   {
     "ssi_player_id":"6b9ff8ac-a24a-46b2-8a4a-4f4015c6b353",
@@ -718,14 +693,13 @@
     "Defending Drives VORP+":0.8979591837,
     "\u2060Defending Drives VORP":0.9102040816,
     "% Blown By":0.7673469388,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4132231405,
+    "Performance Guarding NBA Call-ups":0.6131386861,
     "\u2060Total Ballscreens Attacked":0.2018779343,
     "Shot Quality Allowed on Overs+Blitzes":0.9624413146,
     "% Drop Coverage":0.6291079812,
     "_nba_callup_shots":35.0,
     "_overs_blitz_direct_picks":46.0,
-    "_drop_picks":173.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":173.0
   },
   {
     "ssi_player_id":"cc61028a-3c21-4917-a6fe-607bb4085636",
@@ -746,14 +720,13 @@
     "Defending Drives VORP+":0.5530612245,
     "\u2060Defending Drives VORP":0.5448979592,
     "% Blown By":0.0653061224,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5785123967,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1572769953,
     "Shot Quality Allowed on Overs+Blitzes":0.1784037559,
     "% Drop Coverage":0.0328638498,
     "_nba_callup_shots":17.0,
     "_overs_blitz_direct_picks":41.0,
-    "_drop_picks":95.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":95.0
   },
   {
     "ssi_player_id":"1743e5fa-bc43-42e4-92c1-fa57e57d6312",
@@ -774,14 +747,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":null,
-    "_drop_picks":2.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":2.0
   },
   {
     "ssi_player_id":"de89d563-ec4f-4356-8cba-afd95b5a975a",
@@ -802,14 +774,13 @@
     "Defending Drives VORP+":0.6204081633,
     "\u2060Defending Drives VORP":0.6734693878,
     "% Blown By":0.8367346939,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5743801653,
+    "Performance Guarding NBA Call-ups":0.401459854,
     "\u2060Total Ballscreens Attacked":0.7840375587,
     "Shot Quality Allowed on Overs+Blitzes":0.838028169,
     "% Drop Coverage":0.6197183099,
     "_nba_callup_shots":35.0,
     "_overs_blitz_direct_picks":131.0,
-    "_drop_picks":87.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":87.0
   },
   {
     "ssi_player_id":"e2d1008a-5cc8-4a4d-9f54-0bacfbd083be",
@@ -830,14 +801,13 @@
     "Defending Drives VORP+":0.6897959184,
     "\u2060Defending Drives VORP":0.6040816327,
     "% Blown By":0.0734693878,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0330578512,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0117370892,
     "Shot Quality Allowed on Overs+Blitzes":0.2957746479,
     "% Drop Coverage":0.8779342723,
     "_nba_callup_shots":7.0,
     "_overs_blitz_direct_picks":21.0,
-    "_drop_picks":35.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":35.0
   },
   {
     "ssi_player_id":"bbae8544-616e-4d08-9a98-a20e5d47e694",
@@ -858,14 +828,13 @@
     "Defending Drives VORP+":0.9408163265,
     "\u2060Defending Drives VORP":0.9428571429,
     "% Blown By":0.5673469388,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5702479339,
+    "Performance Guarding NBA Call-ups":0.4087591241,
     "\u2060Total Ballscreens Attacked":0.4976525822,
     "Shot Quality Allowed on Overs+Blitzes":0.9061032864,
     "% Drop Coverage":0.0938967136,
     "_nba_callup_shots":49.0,
     "_overs_blitz_direct_picks":79.0,
-    "_drop_picks":108.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":108.0
   },
   {
     "ssi_player_id":"0ac0ed6b-ebe7-4dcb-b924-c14e31262efc",
@@ -886,14 +855,13 @@
     "Defending Drives VORP+":0.6081632653,
     "\u2060Defending Drives VORP":0.4897959184,
     "% Blown By":0.1755102041,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3305785124,
+    "Performance Guarding NBA Call-ups":0.7080291971,
     "\u2060Total Ballscreens Attacked":0.1877934272,
     "Shot Quality Allowed on Overs+Blitzes":0.4366197183,
     "% Drop Coverage":0.1408450704,
     "_nba_callup_shots":56.0,
     "_overs_blitz_direct_picks":45.0,
-    "_drop_picks":195.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":195.0
   },
   {
     "ssi_player_id":"163d0a85-fc13-4c76-8e98-93aae28417d2",
@@ -914,14 +882,13 @@
     "Defending Drives VORP+":0.6448979592,
     "\u2060Defending Drives VORP":0.6265306122,
     "% Blown By":0.4040816327,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9256198347,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1408450704,
     "Shot Quality Allowed on Overs+Blitzes":0.896713615,
     "% Drop Coverage":0.9671361502,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":39.0,
-    "_drop_picks":32.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":32.0
   },
   {
     "ssi_player_id":"9ea29be6-8741-4b28-9a3f-b73d1919c900",
@@ -942,14 +909,13 @@
     "Defending Drives VORP+":0.1428571429,
     "\u2060Defending Drives VORP":0.1102040816,
     "% Blown By":0.1020408163,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2231404959,
+    "Performance Guarding NBA Call-ups":0.8175182482,
     "\u2060Total Ballscreens Attacked":0.117370892,
     "Shot Quality Allowed on Overs+Blitzes":0.0093896714,
     "% Drop Coverage":0.3708920188,
     "_nba_callup_shots":25.0,
     "_overs_blitz_direct_picks":35.0,
-    "_drop_picks":125.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":125.0
   },
   {
     "ssi_player_id":"05febea3-f49a-42f6-8214-9cdb36006544",
@@ -970,14 +936,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":1.0,
-    "_drop_picks":1.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":1.0
   },
   {
     "ssi_player_id":"a183c842-9603-4691-9abd-612235152ad2",
@@ -998,14 +963,13 @@
     "Defending Drives VORP+":0.9918367347,
     "\u2060Defending Drives VORP":0.987755102,
     "% Blown By":0.5387755102,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0165289256,
+    "Performance Guarding NBA Call-ups":1.0,
     "\u2060Total Ballscreens Attacked":0.2746478873,
     "Shot Quality Allowed on Overs+Blitzes":0.8286384977,
     "% Drop Coverage":0.5915492958,
     "_nba_callup_shots":35.0,
     "_overs_blitz_direct_picks":54.0,
-    "_drop_picks":54.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":54.0
   },
   {
     "ssi_player_id":"8a68ba44-d87b-41c9-94f3-c94e88cb37a0",
@@ -1026,14 +990,13 @@
     "Defending Drives VORP+":0.6387755102,
     "\u2060Defending Drives VORP":0.493877551,
     "% Blown By":0.7673469388,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1239669421,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":7.0,
-    "_drop_picks":7.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":7.0
   },
   {
     "ssi_player_id":"2c4cbc5a-83fe-4562-afdd-859499b77aa5",
@@ -1054,14 +1017,13 @@
     "Defending Drives VORP+":0.0489795918,
     "\u2060Defending Drives VORP":0.087755102,
     "% Blown By":0.2897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0495867769,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.9201877934,
     "Shot Quality Allowed on Overs+Blitzes":0.0469483568,
     "% Drop Coverage":1.0,
     "_nba_callup_shots":18.0,
     "_overs_blitz_direct_picks":160.0,
-    "_drop_picks":117.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":117.0
   },
   {
     "ssi_player_id":"15e3cffa-aed2-4d74-a8e0-ec06dfea63c6",
@@ -1082,14 +1044,13 @@
     "Defending Drives VORP+":0.0734693878,
     "\u2060Defending Drives VORP":0.087755102,
     "% Blown By":0.306122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2520661157,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2887323944,
     "Shot Quality Allowed on Overs+Blitzes":0.2394366197,
     "% Drop Coverage":0.5023474178,
     "_nba_callup_shots":18.0,
     "_overs_blitz_direct_picks":56.0,
-    "_drop_picks":73.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":73.0
   },
   {
     "ssi_player_id":"18ede5d3-f2de-4f9f-a9c3-ffe37ac43566",
@@ -1110,14 +1071,13 @@
     "Defending Drives VORP+":0.4285714286,
     "\u2060Defending Drives VORP":0.7836734694,
     "% Blown By":0.9897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9958677686,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":19.0,
-    "_drop_picks":7.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":7.0
   },
   {
     "ssi_player_id":"d40fdb50-4ea9-488f-85e3-aa57164f9d0a",
@@ -1138,14 +1098,13 @@
     "Defending Drives VORP+":0.3163265306,
     "\u2060Defending Drives VORP":0.2755102041,
     "% Blown By":0.8693877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3966942149,
+    "Performance Guarding NBA Call-ups":0.6313868613,
     "\u2060Total Ballscreens Attacked":0.9389671362,
     "Shot Quality Allowed on Overs+Blitzes":0.4436619718,
     "% Drop Coverage":0.485915493,
     "_nba_callup_shots":33.0,
     "_overs_blitz_direct_picks":168.0,
-    "_drop_picks":111.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":111.0
   },
   {
     "ssi_player_id":"dfa6209b-514d-438b-9c4c-bd6f1ff85613",
@@ -1166,14 +1125,13 @@
     "Defending Drives VORP+":0.412244898,
     "\u2060Defending Drives VORP":0.4530612245,
     "% Blown By":0.2408163265,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3140495868,
+    "Performance Guarding NBA Call-ups":0.7226277372,
     "\u2060Total Ballscreens Attacked":0.7558685446,
     "Shot Quality Allowed on Overs+Blitzes":0.8122065728,
     "% Drop Coverage":0.5680751174,
     "_nba_callup_shots":57.0,
     "_overs_blitz_direct_picks":127.0,
-    "_drop_picks":178.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":178.0
   },
   {
     "ssi_player_id":"50fd1b80-b17c-4168-9cd8-b67adeef9040",
@@ -1194,14 +1152,13 @@
     "Defending Drives VORP+":0.1510204082,
     "\u2060Defending Drives VORP":0.1387755102,
     "% Blown By":0.0897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4297520661,
+    "Performance Guarding NBA Call-ups":0.5839416058,
     "\u2060Total Ballscreens Attacked":0.7112676056,
     "Shot Quality Allowed on Overs+Blitzes":0.558685446,
     "% Drop Coverage":0.6948356808,
     "_nba_callup_shots":33.0,
     "_overs_blitz_direct_picks":119.0,
-    "_drop_picks":78.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":78.0
   },
   {
     "ssi_player_id":"3ff2c55c-8857-4cde-85eb-a42b87da7dcd",
@@ -1222,14 +1179,13 @@
     "Defending Drives VORP+":0.9020408163,
     "\u2060Defending Drives VORP":0.893877551,
     "% Blown By":0.8163265306,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9338842975,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0704225352,
     "Shot Quality Allowed on Overs+Blitzes":0.9248826291,
     "% Drop Coverage":0.3544600939,
     "_nba_callup_shots":11.0,
     "_overs_blitz_direct_picks":27.0,
-    "_drop_picks":78.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":78.0
   },
   {
     "ssi_player_id":"5dde0a80-753d-41a6-9ffa-6193317a3a17",
@@ -1250,14 +1206,13 @@
     "Defending Drives VORP+":0.6326530612,
     "\u2060Defending Drives VORP":0.7183673469,
     "% Blown By":0.3183673469,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0826446281,
+    "Performance Guarding NBA Call-ups":0.9489051095,
     "\u2060Total Ballscreens Attacked":0.8568075117,
     "Shot Quality Allowed on Overs+Blitzes":0.8920187793,
     "% Drop Coverage":0.7370892019,
     "_nba_callup_shots":52.0,
     "_overs_blitz_direct_picks":144.0,
-    "_drop_picks":129.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":129.0
   },
   {
     "ssi_player_id":"35206de4-a3c1-415a-b596-126c0ab7b44a",
@@ -1278,14 +1233,13 @@
     "Defending Drives VORP+":0.8734693878,
     "\u2060Defending Drives VORP":0.8428571429,
     "% Blown By":0.8469387755,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3491735537,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3333333333,
     "Shot Quality Allowed on Overs+Blitzes":0.9577464789,
     "% Drop Coverage":0.661971831,
     "_nba_callup_shots":19.0,
     "_overs_blitz_direct_picks":59.0,
-    "_drop_picks":95.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":95.0
   },
   {
     "ssi_player_id":"4ac4a0ab-ea85-4870-8bd5-9670073a3df4",
@@ -1306,14 +1260,13 @@
     "Defending Drives VORP+":0.8,
     "\u2060Defending Drives VORP":0.7755102041,
     "% Blown By":0.4285714286,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.326446281,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4718309859,
     "Shot Quality Allowed on Overs+Blitzes":0.9906103286,
     "% Drop Coverage":0.9953051643,
     "_nba_callup_shots":23.0,
     "_overs_blitz_direct_picks":77.0,
-    "_drop_picks":55.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":55.0
   },
   {
     "ssi_player_id":"80ea0675-30db-4ebf-b37f-eb50552e8d0e",
@@ -1334,14 +1287,13 @@
     "Defending Drives VORP+":0.4816326531,
     "\u2060Defending Drives VORP":0.4693877551,
     "% Blown By":0.7979591837,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3037190083,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0892018779,
     "Shot Quality Allowed on Overs+Blitzes":0.0281690141,
     "% Drop Coverage":0.7769953052,
     "_nba_callup_shots":14.0,
     "_overs_blitz_direct_picks":31.0,
-    "_drop_picks":43.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":43.0
   },
   {
     "ssi_player_id":"f3f41cea-955b-4ff5-b6fc-69991789d721",
@@ -1362,14 +1314,13 @@
     "Defending Drives VORP+":0.9142857143,
     "\u2060Defending Drives VORP":0.8979591837,
     "% Blown By":0.5510204082,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.076446281,
+    "Performance Guarding NBA Call-ups":0.9598540146,
     "\u2060Total Ballscreens Attacked":0.3474178404,
     "Shot Quality Allowed on Overs+Blitzes":0.9530516432,
     "% Drop Coverage":0.9483568075,
     "_nba_callup_shots":42.0,
     "_overs_blitz_direct_picks":63.0,
-    "_drop_picks":116.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":116.0
   },
   {
     "ssi_player_id":"57c94d1b-101e-4b0a-afc5-d9716233e92d",
@@ -1390,14 +1341,13 @@
     "Defending Drives VORP+":0.287755102,
     "\u2060Defending Drives VORP":0.2040816327,
     "% Blown By":0.1346938776,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.805785124,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.3544600939,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":13.0,
-    "_drop_picks":30.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":30.0
   },
   {
     "ssi_player_id":"69489a71-b1eb-4fde-b687-6385e03c1e49",
@@ -1418,14 +1368,13 @@
     "Defending Drives VORP+":0.5102040816,
     "\u2060Defending Drives VORP":0.5204081633,
     "% Blown By":0.6816326531,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2148760331,
+    "Performance Guarding NBA Call-ups":0.8248175182,
     "\u2060Total Ballscreens Attacked":0.7464788732,
     "Shot Quality Allowed on Overs+Blitzes":0.4178403756,
     "% Drop Coverage":0.5962441315,
     "_nba_callup_shots":117.0,
     "_overs_blitz_direct_picks":126.0,
-    "_drop_picks":147.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":147.0
   },
   {
     "ssi_player_id":"93c1ccb9-a43d-42a7-a037-b8d2057acc02",
@@ -1446,14 +1395,13 @@
     "Defending Drives VORP+":0.3612244898,
     "\u2060Defending Drives VORP":0.3714285714,
     "% Blown By":0.9755102041,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1115702479,
+    "Performance Guarding NBA Call-ups":0.9270072993,
     "\u2060Total Ballscreens Attacked":0.1056338028,
     "Shot Quality Allowed on Overs+Blitzes":0.234741784,
     "% Drop Coverage":0.1455399061,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":33.0,
-    "_drop_picks":119.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":119.0
   },
   {
     "ssi_player_id":"4fca8d39-a522-46f0-b222-226b8180e35a",
@@ -1474,14 +1422,13 @@
     "Defending Drives VORP+":0.4346938776,
     "\u2060Defending Drives VORP":0.4653061224,
     "% Blown By":0.0979591837,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2685950413,
+    "Performance Guarding NBA Call-ups":0.7664233577,
     "\u2060Total Ballscreens Attacked":0.5938967136,
     "Shot Quality Allowed on Overs+Blitzes":0.4812206573,
     "% Drop Coverage":0.5211267606,
     "_nba_callup_shots":27.0,
     "_overs_blitz_direct_picks":89.0,
-    "_drop_picks":119.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":119.0
   },
   {
     "ssi_player_id":"b902fc9f-4b1a-417f-8af7-bfa5c66c95a3",
@@ -1502,14 +1449,13 @@
     "Defending Drives VORP+":0.6530612245,
     "\u2060Defending Drives VORP":0.6693877551,
     "% Blown By":0.5346938776,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5847107438,
+    "Performance Guarding NBA Call-ups":0.3905109489,
     "\u2060Total Ballscreens Attacked":0.6713615023,
     "Shot Quality Allowed on Overs+Blitzes":0.3333333333,
     "% Drop Coverage":0.8192488263,
     "_nba_callup_shots":50.0,
     "_overs_blitz_direct_picks":109.0,
-    "_drop_picks":106.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":106.0
   },
   {
     "ssi_player_id":"ff225902-3cf1-4d77-8ed5-cacd2aace2e8",
@@ -1530,14 +1476,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":null,
-    "_drop_picks":null,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":null
   },
   {
     "ssi_player_id":"18ec54f9-3c06-457d-a0c8-04f2aa513754",
@@ -1558,14 +1503,13 @@
     "Defending Drives VORP+":0.9591836735,
     "\u2060Defending Drives VORP":0.9510204082,
     "% Blown By":0.712244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5950413223,
+    "Performance Guarding NBA Call-ups":0.3722627737,
     "\u2060Total Ballscreens Attacked":0.3591549296,
     "Shot Quality Allowed on Overs+Blitzes":0.9107981221,
     "% Drop Coverage":0.6901408451,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":64.0,
-    "_drop_picks":88.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":88.0
   },
   {
     "ssi_player_id":"b7cd24eb-bd7e-4dcc-99a2-7236606d1541",
@@ -1586,14 +1530,13 @@
     "Defending Drives VORP+":0.2612244898,
     "\u2060Defending Drives VORP":0.3591836735,
     "% Blown By":0.3306122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7458677686,
+    "Performance Guarding NBA Call-ups":0.1715328467,
     "\u2060Total Ballscreens Attacked":0.5680751174,
     "Shot Quality Allowed on Overs+Blitzes":0.5774647887,
     "% Drop Coverage":0.676056338,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":84.0,
-    "_drop_picks":80.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":80.0
   },
   {
     "ssi_player_id":"b969f906-aab2-4845-b038-70ec8482bed4",
@@ -1614,14 +1557,13 @@
     "Defending Drives VORP+":0.9673469388,
     "\u2060Defending Drives VORP":0.9714285714,
     "% Blown By":0.9346938776,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0909090909,
+    "Performance Guarding NBA Call-ups":0.9343065693,
     "\u2060Total Ballscreens Attacked":0.1737089202,
     "Shot Quality Allowed on Overs+Blitzes":0.5680751174,
     "% Drop Coverage":0.9718309859,
     "_nba_callup_shots":41.0,
     "_overs_blitz_direct_picks":43.0,
-    "_drop_picks":259.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":259.0
   },
   {
     "ssi_player_id":"daca4b6a-526f-49e8-a02e-ba59acb77846",
@@ -1642,14 +1584,13 @@
     "Defending Drives VORP+":0.4448979592,
     "\u2060Defending Drives VORP":0.4857142857,
     "% Blown By":0.6897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3223140496,
+    "Performance Guarding NBA Call-ups":0.7153284672,
     "\u2060Total Ballscreens Attacked":0.6971830986,
     "Shot Quality Allowed on Overs+Blitzes":0.7018779343,
     "% Drop Coverage":0.0704225352,
     "_nba_callup_shots":56.0,
     "_overs_blitz_direct_picks":115.0,
-    "_drop_picks":138.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":138.0
   },
   {
     "ssi_player_id":"06212573-e2e8-4bfa-98cd-4484063dead1",
@@ -1670,14 +1611,13 @@
     "Defending Drives VORP+":0.1142857143,
     "\u2060Defending Drives VORP":0.1183673469,
     "% Blown By":0.0163265306,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8016528926,
+    "Performance Guarding NBA Call-ups":0.1167883212,
     "\u2060Total Ballscreens Attacked":0.4718309859,
     "Shot Quality Allowed on Overs+Blitzes":0.0845070423,
     "% Drop Coverage":0.4976525822,
     "_nba_callup_shots":53.0,
     "_overs_blitz_direct_picks":77.0,
-    "_drop_picks":277.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":277.0
   },
   {
     "ssi_player_id":"51b4a0a5-880c-48d7-a342-2b25ec6cc206",
@@ -1698,14 +1638,13 @@
     "Defending Drives VORP+":0.8408163265,
     "\u2060Defending Drives VORP":0.7265306122,
     "% Blown By":0.5795918367,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0289256198,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4718309859,
     "Shot Quality Allowed on Overs+Blitzes":0.9154929577,
     "% Drop Coverage":0.7699530516,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":77.0,
-    "_drop_picks":65.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":65.0
   },
   {
     "ssi_player_id":"9f1f34c6-66d2-4093-9328-d2fffffb97d5",
@@ -1726,14 +1665,13 @@
     "Defending Drives VORP+":0.0081632653,
     "\u2060Defending Drives VORP":0.0081632653,
     "% Blown By":0.9020408163,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.979338843,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.4647887324,
     "_nba_callup_shots":5.0,
     "_overs_blitz_direct_picks":10.0,
-    "_drop_picks":49.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":49.0
   },
   {
     "ssi_player_id":"63a42b38-d8f6-4214-aa03-cb4263b02a9a",
@@ -1754,14 +1692,13 @@
     "Defending Drives VORP+":0.187755102,
     "\u2060Defending Drives VORP":0.1959183673,
     "% Blown By":0.0448979592,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5061983471,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0281690141,
     "Shot Quality Allowed on Overs+Blitzes":1.0,
     "% Drop Coverage":0.3990610329,
     "_nba_callup_shots":12.0,
     "_overs_blitz_direct_picks":22.0,
-    "_drop_picks":93.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":93.0
   },
   {
     "ssi_player_id":"bcde43ef-a7dd-4d4d-9d7e-a0585052e0b9",
@@ -1782,14 +1719,13 @@
     "Defending Drives VORP+":0.2408163265,
     "\u2060Defending Drives VORP":0.1918367347,
     "% Blown By":0.6448979592,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6487603306,
+    "Performance Guarding NBA Call-ups":0.299270073,
     "\u2060Total Ballscreens Attacked":0.8943661972,
     "Shot Quality Allowed on Overs+Blitzes":0.5727699531,
     "% Drop Coverage":0.7042253521,
     "_nba_callup_shots":43.0,
     "_overs_blitz_direct_picks":149.0,
-    "_drop_picks":155.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":155.0
   },
   {
     "ssi_player_id":"83cf7787-d441-4c3a-b5de-a2b2a623350b",
@@ -1810,14 +1746,13 @@
     "Defending Drives VORP+":0.787755102,
     "\u2060Defending Drives VORP":0.8163265306,
     "% Blown By":0.8469387755,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6611570248,
+    "Performance Guarding NBA Call-ups":0.2773722628,
     "\u2060Total Ballscreens Attacked":0.6971830986,
     "Shot Quality Allowed on Overs+Blitzes":0.3286384977,
     "% Drop Coverage":0.544600939,
     "_nba_callup_shots":88.0,
     "_overs_blitz_direct_picks":115.0,
-    "_drop_picks":205.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":205.0
   },
   {
     "ssi_player_id":"9f8b2ee3-8cc5-4a92-aeb9-c8c52d6e37a2",
@@ -1838,14 +1773,13 @@
     "Defending Drives VORP+":0.6163265306,
     "\u2060Defending Drives VORP":0.6408163265,
     "% Blown By":0.0775510204,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5247933884,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2323943662,
     "Shot Quality Allowed on Overs+Blitzes":0.6384976526,
     "% Drop Coverage":0.7441314554,
     "_nba_callup_shots":20.0,
     "_overs_blitz_direct_picks":48.0,
-    "_drop_picks":120.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":120.0
   },
   {
     "ssi_player_id":"b7ae8764-a482-4551-82ac-7a91c8292e4b",
@@ -1866,14 +1800,13 @@
     "Defending Drives VORP+":0.0673469388,
     "\u2060Defending Drives VORP":0.0979591837,
     "% Blown By":0.1959183673,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.541322314,
+    "Performance Guarding NBA Call-ups":0.4452554745,
     "\u2060Total Ballscreens Attacked":0.9671361502,
     "Shot Quality Allowed on Overs+Blitzes":0.4037558685,
     "% Drop Coverage":0.0610328638,
     "_nba_callup_shots":65.0,
     "_overs_blitz_direct_picks":196.0,
-    "_drop_picks":187.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":187.0
   },
   {
     "ssi_player_id":"3cd02b89-3d2f-46ff-b392-29215f6825b4",
@@ -1894,14 +1827,13 @@
     "Defending Drives VORP+":0.9265306122,
     "\u2060Defending Drives VORP":0.9387755102,
     "% Blown By":1.0,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6694214876,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.661971831,
     "Shot Quality Allowed on Overs+Blitzes":0.3474178404,
     "% Drop Coverage":0.4483568075,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":101.0,
-    "_drop_picks":77.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":77.0
   },
   {
     "ssi_player_id":"9ffb6f28-8fa0-4650-bd30-47f8aa7235a2",
@@ -1922,14 +1854,13 @@
     "Defending Drives VORP+":0.7,
     "\u2060Defending Drives VORP":0.6612244898,
     "% Blown By":0.8408163265,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5475206612,
+    "Performance Guarding NBA Call-ups":0.4379562044,
     "\u2060Total Ballscreens Attacked":0.6525821596,
     "Shot Quality Allowed on Overs+Blitzes":0.5305164319,
     "% Drop Coverage":0.8474178404,
     "_nba_callup_shots":38.0,
     "_overs_blitz_direct_picks":99.0,
-    "_drop_picks":48.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":48.0
   },
   {
     "ssi_player_id":"4a0f330a-e571-48c4-a685-f82c9436c964",
@@ -1950,14 +1881,13 @@
     "Defending Drives VORP+":0.5530612245,
     "\u2060Defending Drives VORP":0.4775510204,
     "% Blown By":0.2653061224,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0371900826,
+    "Performance Guarding NBA Call-ups":0.9927007299,
     "\u2060Total Ballscreens Attacked":0.6220657277,
     "Shot Quality Allowed on Overs+Blitzes":0.3591549296,
     "% Drop Coverage":0.0751173709,
     "_nba_callup_shots":37.0,
     "_overs_blitz_direct_picks":94.0,
-    "_drop_picks":76.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":76.0
   },
   {
     "ssi_player_id":"9cd83bc4-5c2c-4f4d-ba20-8fc69a4cfa8a",
@@ -1978,14 +1908,13 @@
     "Defending Drives VORP+":0.4040816327,
     "\u2060Defending Drives VORP":0.3489795918,
     "% Blown By":0.7469387755,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.673553719,
+    "Performance Guarding NBA Call-ups":0.2700729927,
     "\u2060Total Ballscreens Attacked":0.6901408451,
     "Shot Quality Allowed on Overs+Blitzes":0.1126760563,
     "% Drop Coverage":0.2981220657,
     "_nba_callup_shots":29.0,
     "_overs_blitz_direct_picks":114.0,
-    "_drop_picks":107.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":107.0
   },
   {
     "ssi_player_id":"6dfc6fb5-d921-403b-b590-c1c4c3e900a9",
@@ -2006,14 +1935,13 @@
     "Defending Drives VORP+":1.0,
     "\u2060Defending Drives VORP":1.0,
     "% Blown By":0.8571428571,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1074380165,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":11.0,
     "_overs_blitz_direct_picks":16.0,
-    "_drop_picks":23.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":23.0
   },
   {
     "ssi_player_id":"5f4ae0bb-b9a5-4c83-8441-1e627500c265",
@@ -2034,14 +1962,13 @@
     "Defending Drives VORP+":0.5265306122,
     "\u2060Defending Drives VORP":0.5755102041,
     "% Blown By":0.1591836735,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2107438017,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3333333333,
     "Shot Quality Allowed on Overs+Blitzes":0.3215962441,
     "% Drop Coverage":0.5164319249,
     "_nba_callup_shots":23.0,
     "_overs_blitz_direct_picks":59.0,
-    "_drop_picks":83.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":83.0
   },
   {
     "ssi_player_id":"8a8e683b-3939-4208-b55c-bc9cefe13a54",
@@ -2062,14 +1989,13 @@
     "Defending Drives VORP+":0.7836734694,
     "\u2060Defending Drives VORP":0.7918367347,
     "% Blown By":0.2489795918,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5061983471,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0046948357,
     "Shot Quality Allowed on Overs+Blitzes":0.2676056338,
     "% Drop Coverage":null,
     "_nba_callup_shots":9.0,
     "_overs_blitz_direct_picks":20.0,
-    "_drop_picks":17.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":17.0
   },
   {
     "ssi_player_id":"72b7a0bc-f1b6-4996-89e8-8c6535bd71c0",
@@ -2090,14 +2016,13 @@
     "Defending Drives VORP+":0.493877551,
     "\u2060Defending Drives VORP":0.387755102,
     "% Blown By":0.1897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0123966942,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":13.0,
-    "_drop_picks":16.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":16.0
   },
   {
     "ssi_player_id":"b9d78738-9b74-4fdb-9c3f-bce9cb72377a",
@@ -2118,14 +2043,13 @@
     "Defending Drives VORP+":0.8530612245,
     "\u2060Defending Drives VORP":0.8326530612,
     "% Blown By":0.9551020408,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4214876033,
+    "Performance Guarding NBA Call-ups":0.598540146,
     "\u2060Total Ballscreens Attacked":0.9272300469,
     "Shot Quality Allowed on Overs+Blitzes":0.882629108,
     "% Drop Coverage":0.7089201878,
     "_nba_callup_shots":39.0,
     "_overs_blitz_direct_picks":166.0,
-    "_drop_picks":186.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":186.0
   },
   {
     "ssi_player_id":"dc8f2d40-88ec-44ef-b6ef-09404a5d49cd",
@@ -2146,14 +2070,13 @@
     "Defending Drives VORP+":0.5591836735,
     "\u2060Defending Drives VORP":0.5306122449,
     "% Blown By":0.4857142857,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5909090909,
+    "Performance Guarding NBA Call-ups":0.3795620438,
     "\u2060Total Ballscreens Attacked":0.7370892019,
     "Shot Quality Allowed on Overs+Blitzes":0.6713615023,
     "% Drop Coverage":0.5117370892,
     "_nba_callup_shots":83.0,
     "_overs_blitz_direct_picks":125.0,
-    "_drop_picks":187.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":187.0
   },
   {
     "ssi_player_id":"12136b74-23d8-49b4-b4de-98a320969c76",
@@ -2174,14 +2097,13 @@
     "Defending Drives VORP+":0.9714285714,
     "\u2060Defending Drives VORP":0.9632653061,
     "% Blown By":0.8734693878,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5371900826,
+    "Performance Guarding NBA Call-ups":0.4525547445,
     "\u2060Total Ballscreens Attacked":0.3591549296,
     "Shot Quality Allowed on Overs+Blitzes":0.8215962441,
     "% Drop Coverage":0.9295774648,
     "_nba_callup_shots":69.0,
     "_overs_blitz_direct_picks":64.0,
-    "_drop_picks":139.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":139.0
   },
   {
     "ssi_player_id":"ed72fbc9-1066-46d8-872e-9a437c4e536e",
@@ -2202,14 +2124,13 @@
     "Defending Drives VORP+":0.4081632653,
     "\u2060Defending Drives VORP":0.3387755102,
     "% Blown By":0.5244897959,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":10.0,
-    "_drop_picks":25.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":25.0
   },
   {
     "ssi_player_id":"28c78fcb-5cfa-4d69-bf2f-416eef831e04",
@@ -2230,14 +2151,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":3.0,
-    "_drop_picks":1.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":1.0
   },
   {
     "ssi_player_id":"7880b823-77c5-4925-a287-1af2424a923b",
@@ -2258,14 +2178,13 @@
     "Defending Drives VORP+":0.4612244898,
     "\u2060Defending Drives VORP":0.4,
     "% Blown By":0.7020408163,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6776859504,
+    "Performance Guarding NBA Call-ups":0.2627737226,
     "\u2060Total Ballscreens Attacked":0.7676056338,
     "Shot Quality Allowed on Overs+Blitzes":0.4225352113,
     "% Drop Coverage":0.441314554,
     "_nba_callup_shots":55.0,
     "_overs_blitz_direct_picks":129.0,
-    "_drop_picks":89.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":89.0
   },
   {
     "ssi_player_id":"ff4126dc-89ef-11e6-a96d-a45e60e298d3",
@@ -2286,14 +2205,13 @@
     "Defending Drives VORP+":0.8204081633,
     "\u2060Defending Drives VORP":0.812244898,
     "% Blown By":0.7673469388,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.055785124,
+    "Performance Guarding NBA Call-ups":0.9744525547,
     "\u2060Total Ballscreens Attacked":0.4976525822,
     "Shot Quality Allowed on Overs+Blitzes":0.6197183099,
     "% Drop Coverage":0.9107981221,
     "_nba_callup_shots":28.0,
     "_overs_blitz_direct_picks":79.0,
-    "_drop_picks":103.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":103.0
   },
   {
     "ssi_player_id":"2ce0583b-9426-44be-820b-de29934964ee",
@@ -2314,14 +2232,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":5.0,
     "_overs_blitz_direct_picks":2.0,
-    "_drop_picks":28.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":28.0
   },
   {
     "ssi_player_id":"629588b6-9560-45b9-ae52-ff90c299fc4d",
@@ -2342,14 +2259,13 @@
     "Defending Drives VORP+":0.4979591837,
     "\u2060Defending Drives VORP":0.5346938776,
     "% Blown By":0.3265306122,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.826446281,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3732394366,
     "Shot Quality Allowed on Overs+Blitzes":0.5516431925,
     "% Drop Coverage":0.2816901408,
     "_nba_callup_shots":17.0,
     "_overs_blitz_direct_picks":65.0,
-    "_drop_picks":45.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":45.0
   },
   {
     "ssi_player_id":"0fd95fbb-b175-40e4-a6c7-4864b5678d6f",
@@ -2370,14 +2286,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":6.0,
-    "_drop_picks":7.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":7.0
   },
   {
     "ssi_player_id":"0ed3aa02-c44c-4b25-a16c-d448d88b92ea",
@@ -2398,14 +2313,13 @@
     "Defending Drives VORP+":0.0040816327,
     "\u2060Defending Drives VORP":0.0040816327,
     "% Blown By":0.8285714286,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3181818182,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":3.0,
     "_overs_blitz_direct_picks":2.0,
-    "_drop_picks":14.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":14.0
   },
   {
     "ssi_player_id":"f3572151-dba9-4dc4-a48a-792e17a3180b",
@@ -2426,14 +2340,13 @@
     "Defending Drives VORP+":0.2653061224,
     "\u2060Defending Drives VORP":0.2081632653,
     "% Blown By":0.9795918367,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7685950413,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2183098592,
     "Shot Quality Allowed on Overs+Blitzes":0.0610328638,
     "% Drop Coverage":0.0281690141,
     "_nba_callup_shots":22.0,
     "_overs_blitz_direct_picks":47.0,
-    "_drop_picks":55.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":55.0
   },
   {
     "ssi_player_id":"2d23e4fc-8b5f-4131-af0f-83b0ae3a2c69",
@@ -2454,14 +2367,13 @@
     "Defending Drives VORP+":0.9102040816,
     "\u2060Defending Drives VORP":0.8816326531,
     "% Blown By":0.9897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0041322314,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":17.0,
-    "_drop_picks":20.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":20.0
   },
   {
     "ssi_player_id":"b4569bbc-b31d-4504-a59a-fe40691d1d00",
@@ -2482,14 +2394,13 @@
     "Defending Drives VORP+":0.2163265306,
     "\u2060Defending Drives VORP":0.1755102041,
     "% Blown By":0.0285714286,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7314049587,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":9.0,
     "_overs_blitz_direct_picks":11.0,
-    "_drop_picks":28.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":28.0
   },
   {
     "ssi_player_id":"e303b1cc-a268-4f85-8063-e447c757ede6",
@@ -2510,14 +2421,13 @@
     "Defending Drives VORP+":0.293877551,
     "\u2060Defending Drives VORP":0.3,
     "% Blown By":0.6448979592,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7644628099,
+    "Performance Guarding NBA Call-ups":0.1605839416,
     "\u2060Total Ballscreens Attacked":0.1056338028,
     "Shot Quality Allowed on Overs+Blitzes":0.8004694836,
     "% Drop Coverage":0.2253521127,
     "_nba_callup_shots":26.0,
     "_overs_blitz_direct_picks":33.0,
-    "_drop_picks":75.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":75.0
   },
   {
     "ssi_player_id":"0f656aa8-c62c-4fad-ad9f-3442cdc15e50",
@@ -2538,14 +2448,13 @@
     "Defending Drives VORP+":0.2530612245,
     "\u2060Defending Drives VORP":0.2530612245,
     "% Blown By":0.3020408163,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4462809917,
+    "Performance Guarding NBA Call-ups":0.5620437956,
     "\u2060Total Ballscreens Attacked":0.7769953052,
     "Shot Quality Allowed on Overs+Blitzes":0.2441314554,
     "% Drop Coverage":0.2159624413,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":130.0,
-    "_drop_picks":76.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":76.0
   },
   {
     "ssi_player_id":"d681a7cd-c0ad-4497-975c-f750b762a74e",
@@ -2566,14 +2475,13 @@
     "Defending Drives VORP+":0.693877551,
     "\u2060Defending Drives VORP":0.6163265306,
     "% Blown By":0.893877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8719008264,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4366197183,
     "Shot Quality Allowed on Overs+Blitzes":0.2605633803,
     "% Drop Coverage":0.882629108,
     "_nba_callup_shots":19.0,
     "_overs_blitz_direct_picks":73.0,
-    "_drop_picks":65.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":65.0
   },
   {
     "ssi_player_id":"13631116-cd60-4bc0-9a41-6fed5d44b41c",
@@ -2594,14 +2502,13 @@
     "Defending Drives VORP+":0.1306122449,
     "\u2060Defending Drives VORP":0.1591836735,
     "% Blown By":0.0489795918,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.132231405,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":6.0,
     "_overs_blitz_direct_picks":15.0,
-    "_drop_picks":29.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":29.0
   },
   {
     "ssi_player_id":"5bc79052-06fe-4165-bc0d-7121fc331302",
@@ -2622,14 +2529,13 @@
     "Defending Drives VORP+":0.1551020408,
     "\u2060Defending Drives VORP":0.0734693878,
     "% Blown By":0.6857142857,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5123966942,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0281690141,
     "Shot Quality Allowed on Overs+Blitzes":0.1220657277,
     "% Drop Coverage":null,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":22.0,
-    "_drop_picks":9.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":9.0
   },
   {
     "ssi_player_id":"7ac29d25-418d-4bf3-b302-cda0f4aa7cae",
@@ -2650,14 +2556,13 @@
     "Defending Drives VORP+":0.3836734694,
     "\u2060Defending Drives VORP":0.3489795918,
     "% Blown By":0.4979591837,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8925619835,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2183098592,
     "Shot Quality Allowed on Overs+Blitzes":0.1877934272,
     "% Drop Coverage":0.4225352113,
     "_nba_callup_shots":16.0,
     "_overs_blitz_direct_picks":47.0,
-    "_drop_picks":34.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":34.0
   },
   {
     "ssi_player_id":"e901ec95-f7cf-40c9-af32-8dabb981b3cd",
@@ -2678,14 +2583,13 @@
     "Defending Drives VORP+":0.2979591837,
     "\u2060Defending Drives VORP":0.3,
     "% Blown By":0.2285714286,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4876033058,
+    "Performance Guarding NBA Call-ups":0.5109489051,
     "\u2060Total Ballscreens Attacked":0.9812206573,
     "Shot Quality Allowed on Overs+Blitzes":0.1267605634,
     "% Drop Coverage":0.2981220657,
     "_nba_callup_shots":60.0,
     "_overs_blitz_direct_picks":213.0,
-    "_drop_picks":107.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":107.0
   },
   {
     "ssi_player_id":"3b01bc5d-08ef-4a1a-afff-52c5c9f81849",
@@ -2706,14 +2610,13 @@
     "Defending Drives VORP+":0.3020408163,
     "\u2060Defending Drives VORP":0.2755102041,
     "% Blown By":0.3755102041,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1818181818,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2746478873,
     "Shot Quality Allowed on Overs+Blitzes":0.3896713615,
     "% Drop Coverage":0.0422535211,
     "_nba_callup_shots":15.0,
     "_overs_blitz_direct_picks":54.0,
-    "_drop_picks":102.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":102.0
   },
   {
     "ssi_player_id":"6d6c60fb-827b-4b00-9033-8fb8a4fb0f32",
@@ -2734,14 +2637,13 @@
     "Defending Drives VORP+":0.306122449,
     "\u2060Defending Drives VORP":0.3081632653,
     "% Blown By":0.8857142857,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8842975207,
+    "Performance Guarding NBA Call-ups":0.0510948905,
     "\u2060Total Ballscreens Attacked":0.8568075117,
     "Shot Quality Allowed on Overs+Blitzes":0.014084507,
     "% Drop Coverage":0.4225352113,
     "_nba_callup_shots":35.0,
     "_overs_blitz_direct_picks":144.0,
-    "_drop_picks":119.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":119.0
   },
   {
     "ssi_player_id":"ffd1ae3a-bd10-436e-a214-71a0761663e4",
@@ -2762,14 +2664,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":4.0,
-    "_drop_picks":null,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":null
   },
   {
     "ssi_player_id":"27b14c86-8f8d-4cd8-a8ec-bb051cd871bc",
@@ -2790,14 +2691,13 @@
     "Defending Drives VORP+":0.3346938776,
     "\u2060Defending Drives VORP":0.3224489796,
     "% Blown By":0.7755102041,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8347107438,
+    "Performance Guarding NBA Call-ups":0.102189781,
     "\u2060Total Ballscreens Attacked":0.7112676056,
     "Shot Quality Allowed on Overs+Blitzes":0.3403755869,
     "% Drop Coverage":0.2488262911,
     "_nba_callup_shots":29.0,
     "_overs_blitz_direct_picks":119.0,
-    "_drop_picks":141.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":141.0
   },
   {
     "ssi_player_id":"e98d2d7d-61a8-42e6-9c79-f1c3d6667ec9",
@@ -2818,14 +2718,13 @@
     "Defending Drives VORP+":0.9755102041,
     "\u2060Defending Drives VORP":0.9836734694,
     "% Blown By":0.3530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0117370892,
     "Shot Quality Allowed on Overs+Blitzes":0.1384976526,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":21.0,
-    "_drop_picks":7.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":7.0
   },
   {
     "ssi_player_id":"833b573b-1366-463c-92ea-56e7718c0dc6",
@@ -2846,14 +2745,13 @@
     "Defending Drives VORP+":0.5816326531,
     "\u2060Defending Drives VORP":0.5795918367,
     "% Blown By":0.0204081633,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.632231405,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.044600939,
     "Shot Quality Allowed on Overs+Blitzes":0.6854460094,
     "% Drop Coverage":0.9765258216,
     "_nba_callup_shots":13.0,
     "_overs_blitz_direct_picks":23.0,
-    "_drop_picks":41.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":41.0
   },
   {
     "ssi_player_id":"dbabc9d0-e8c8-4399-92a9-047c7ffb580f",
@@ -2874,14 +2772,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":1.0,
-    "_drop_picks":3.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":3.0
   },
   {
     "ssi_player_id":"a05930e9-6846-4c42-b5d6-f859b92d97fd",
@@ -2902,14 +2799,13 @@
     "Defending Drives VORP+":0.3551020408,
     "\u2060Defending Drives VORP":0.3918367347,
     "% Blown By":0.6020408163,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8140495868,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.6361502347,
     "Shot Quality Allowed on Overs+Blitzes":0.5117370892,
     "% Drop Coverage":0.2582159624,
     "_nba_callup_shots":10.0,
     "_overs_blitz_direct_picks":96.0,
-    "_drop_picks":80.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":80.0
   },
   {
     "ssi_player_id":"d6029d99-f377-4558-8061-e383e37d162d",
@@ -2930,14 +2826,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":5.0,
-    "_drop_picks":2.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":2.0
   },
   {
     "ssi_player_id":"20e6b7dc-2172-4ce5-a2c7-f61c3c89d703",
@@ -2958,14 +2853,13 @@
     "Defending Drives VORP+":0.9551020408,
     "\u2060Defending Drives VORP":0.9306122449,
     "% Blown By":0.3530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.867768595,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":18.0,
-    "_drop_picks":21.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":21.0
   },
   {
     "ssi_player_id":"e6acbf72-2032-4b3f-9672-62f8052c1873",
@@ -2986,14 +2880,13 @@
     "Defending Drives VORP+":0.8163265306,
     "\u2060Defending Drives VORP":0.8224489796,
     "% Blown By":0.7510204082,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6404958678,
+    "Performance Guarding NBA Call-ups":0.3138686131,
     "\u2060Total Ballscreens Attacked":0.9718309859,
     "Shot Quality Allowed on Overs+Blitzes":0.6103286385,
     "% Drop Coverage":0.2769953052,
     "_nba_callup_shots":53.0,
     "_overs_blitz_direct_picks":208.0,
-    "_drop_picks":116.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":116.0
   },
   {
     "ssi_player_id":"dfffb2fc-160c-41a4-9a75-af0a21d2ba76",
@@ -3014,14 +2907,13 @@
     "Defending Drives VORP+":0.1183673469,
     "\u2060Defending Drives VORP":0.106122449,
     "% Blown By":0.2326530612,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8305785124,
+    "Performance Guarding NBA Call-ups":0.1094890511,
     "\u2060Total Ballscreens Attacked":0.79342723,
     "Shot Quality Allowed on Overs+Blitzes":0.661971831,
     "% Drop Coverage":0.7276995305,
     "_nba_callup_shots":45.0,
     "_overs_blitz_direct_picks":132.0,
-    "_drop_picks":175.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":175.0
   },
   {
     "ssi_player_id":"8a1c8d1a-13c8-487e-b85e-6b10ecc1d39f",
@@ -3042,14 +2934,13 @@
     "Defending Drives VORP+":0.2489795918,
     "\u2060Defending Drives VORP":0.2612244898,
     "% Blown By":0.2775510204,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2789256198,
+    "Performance Guarding NBA Call-ups":0.7518248175,
     "\u2060Total Ballscreens Attacked":0.4976525822,
     "Shot Quality Allowed on Overs+Blitzes":0.6244131455,
     "% Drop Coverage":0.5258215962,
     "_nba_callup_shots":44.0,
     "_overs_blitz_direct_picks":79.0,
-    "_drop_picks":96.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":96.0
   },
   {
     "ssi_player_id":"e14de0fe-50fa-4322-a5a2-55cb2137e6f2",
@@ -3070,14 +2961,13 @@
     "Defending Drives VORP+":0.2448979592,
     "\u2060Defending Drives VORP":0.3081632653,
     "% Blown By":0.3795918367,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8966942149,
+    "Performance Guarding NBA Call-ups":0.0437956204,
     "\u2060Total Ballscreens Attacked":0.79342723,
     "Shot Quality Allowed on Overs+Blitzes":0.0046948357,
     "% Drop Coverage":0.485915493,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":132.0,
-    "_drop_picks":74.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":74.0
   },
   {
     "ssi_player_id":"e21b31ea-a8e5-41ad-89b1-72a56bdf59e1",
@@ -3098,14 +2988,13 @@
     "Defending Drives VORP+":0.5755102041,
     "\u2060Defending Drives VORP":0.706122449,
     "% Blown By":0.8653061224,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9669421488,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.9014084507,
     "_nba_callup_shots":10.0,
     "_overs_blitz_direct_picks":11.0,
-    "_drop_picks":81.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":81.0
   },
   {
     "ssi_player_id":"f851dd8e-83fb-42a9-8b76-cc5afe5350fa",
@@ -3126,14 +3015,13 @@
     "Defending Drives VORP+":0.0571428571,
     "\u2060Defending Drives VORP":0.1020408163,
     "% Blown By":0.6204081633,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8801652893,
+    "Performance Guarding NBA Call-ups":0.0583941606,
     "\u2060Total Ballscreens Attacked":0.5164319249,
     "Shot Quality Allowed on Overs+Blitzes":0.9765258216,
     "% Drop Coverage":0.9201877934,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":81.0,
-    "_drop_picks":63.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":63.0
   },
   {
     "ssi_player_id":"dc80c41d-ab1d-4aa4-be9f-8830d7e0dd62",
@@ -3154,14 +3042,13 @@
     "Defending Drives VORP+":0.7673469388,
     "\u2060Defending Drives VORP":0.7387755102,
     "% Blown By":0.6530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4958677686,
+    "Performance Guarding NBA Call-ups":0.496350365,
     "\u2060Total Ballscreens Attacked":0.7676056338,
     "Shot Quality Allowed on Overs+Blitzes":0.79342723,
     "% Drop Coverage":0.2441314554,
     "_nba_callup_shots":41.0,
     "_overs_blitz_direct_picks":129.0,
-    "_drop_picks":108.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":108.0
   },
   {
     "ssi_player_id":"f7cdd34f-d626-4902-b05a-e39f9ae32dd4",
@@ -3182,14 +3069,13 @@
     "Defending Drives VORP+":0.587755102,
     "\u2060Defending Drives VORP":0.5918367347,
     "% Blown By":0.5510204082,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.694214876,
+    "Performance Guarding NBA Call-ups":0.2408759124,
     "\u2060Total Ballscreens Attacked":0.8309859155,
     "Shot Quality Allowed on Overs+Blitzes":0.3802816901,
     "% Drop Coverage":0.5774647887,
     "_nba_callup_shots":77.0,
     "_overs_blitz_direct_picks":137.0,
-    "_drop_picks":251.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":251.0
   },
   {
     "ssi_player_id":"c641880b-c90c-465e-8564-f6a741fae84b",
@@ -3210,14 +3096,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":1.0,
-    "_drop_picks":2.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":2.0
   },
   {
     "ssi_player_id":"938ea26e-95ff-4f3b-a385-a965af8195b4",
@@ -3238,14 +3123,13 @@
     "Defending Drives VORP+":0.7428571429,
     "\u2060Defending Drives VORP":0.7448979592,
     "% Blown By":0.7346938776,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7231404959,
+    "Performance Guarding NBA Call-ups":0.204379562,
     "\u2060Total Ballscreens Attacked":0.9530516432,
     "Shot Quality Allowed on Overs+Blitzes":0.6713615023,
     "% Drop Coverage":0.3755868545,
     "_nba_callup_shots":67.0,
     "_overs_blitz_direct_picks":186.0,
-    "_drop_picks":207.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":207.0
   },
   {
     "ssi_player_id":"04831643-55cd-475f-98a4-76ea6b95557d",
@@ -3266,14 +3150,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":null,
-    "_drop_picks":null,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":null
   },
   {
     "ssi_player_id":"5659992f-2487-47ce-83f7-baedce2a090e",
@@ -3294,14 +3177,13 @@
     "Defending Drives VORP+":0.7714285714,
     "\u2060Defending Drives VORP":0.6204081633,
     "% Blown By":0.7387755102,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1694214876,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1877934272,
     "Shot Quality Allowed on Overs+Blitzes":0.7183098592,
     "% Drop Coverage":0.6384976526,
     "_nba_callup_shots":16.0,
     "_overs_blitz_direct_picks":45.0,
-    "_drop_picks":48.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":48.0
   },
   {
     "ssi_player_id":"e2dcfe4a-9e16-4ab8-8eee-e15ca0db6eb5",
@@ -3322,14 +3204,13 @@
     "Defending Drives VORP+":0.8612244898,
     "\u2060Defending Drives VORP":0.8693877551,
     "% Blown By":0.9142857143,
-    "\u2060\u2060Performane Guarding NBA Call-ups":1.0,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2018779343,
     "Shot Quality Allowed on Overs+Blitzes":0.3591549296,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":46.0,
-    "_drop_picks":26.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":26.0
   },
   {
     "ssi_player_id":"e35aa016-05af-4a0b-92b3-b0d987d11892",
@@ -3350,14 +3231,13 @@
     "Defending Drives VORP+":0.0448979592,
     "\u2060Defending Drives VORP":0.1142857143,
     "% Blown By":0.2979591837,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9917355372,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":18.0,
-    "_drop_picks":11.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":11.0
   },
   {
     "ssi_player_id":"55218f5a-96d0-455d-953e-1af096389bc1",
@@ -3378,14 +3258,13 @@
     "Defending Drives VORP+":0.7795918367,
     "\u2060Defending Drives VORP":0.7959183673,
     "% Blown By":0.5142857143,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8491735537,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4248826291,
     "Shot Quality Allowed on Overs+Blitzes":0.7699530516,
     "% Drop Coverage":0.5845070423,
     "_nba_callup_shots":16.0,
     "_overs_blitz_direct_picks":70.0,
-    "_drop_picks":59.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":59.0
   },
   {
     "ssi_player_id":"889010b1-1e41-4488-97c5-030be0d70083",
@@ -3406,14 +3285,13 @@
     "Defending Drives VORP+":0.5306122449,
     "\u2060Defending Drives VORP":0.5959183673,
     "% Blown By":0.4653061224,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1611570248,
+    "Performance Guarding NBA Call-ups":0.8832116788,
     "\u2060Total Ballscreens Attacked":0.9107981221,
     "Shot Quality Allowed on Overs+Blitzes":0.6713615023,
     "% Drop Coverage":0.4037558685,
     "_nba_callup_shots":56.0,
     "_overs_blitz_direct_picks":152.0,
-    "_drop_picks":58.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":58.0
   },
   {
     "ssi_player_id":"a4bca3d5-c8c6-408f-a4bf-22453062b4b9",
@@ -3434,14 +3312,13 @@
     "Defending Drives VORP+":0.6653061224,
     "\u2060Defending Drives VORP":0.6816326531,
     "% Blown By":0.1632653061,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4648760331,
+    "Performance Guarding NBA Call-ups":0.5364963504,
     "\u2060Total Ballscreens Attacked":0.8309859155,
     "Shot Quality Allowed on Overs+Blitzes":0.5,
     "% Drop Coverage":0.9530516432,
     "_nba_callup_shots":68.0,
     "_overs_blitz_direct_picks":137.0,
-    "_drop_picks":194.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":194.0
   },
   {
     "ssi_player_id":"26f760b4-f286-403c-ae5b-8c4a2f2810ff",
@@ -3462,14 +3339,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":4.0,
-    "_drop_picks":11.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":11.0
   },
   {
     "ssi_player_id":"bd101cdc-8e04-424a-8c61-034c93ff6be7",
@@ -3490,14 +3366,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":5.0,
-    "_drop_picks":null,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":null
   },
   {
     "ssi_player_id":"eb79ea6c-b337-448d-ac33-7e92219822ef",
@@ -3518,14 +3393,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":7.0,
-    "_drop_picks":6.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":6.0
   },
   {
     "ssi_player_id":"994212e5-17be-4696-bd46-0efcd68787bc",
@@ -3546,14 +3420,13 @@
     "Defending Drives VORP+":0.7142857143,
     "\u2060Defending Drives VORP":0.6897959184,
     "% Blown By":0.4,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4710743802,
+    "Performance Guarding NBA Call-ups":0.5255474453,
     "\u2060Total Ballscreens Attacked":0.8403755869,
     "Shot Quality Allowed on Overs+Blitzes":0.3755868545,
     "% Drop Coverage":0.3286384977,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":139.0,
-    "_drop_picks":122.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":122.0
   },
   {
     "ssi_player_id":"46d86ca8-8056-40c4-8024-2ba83293aa17",
@@ -3574,14 +3447,13 @@
     "Defending Drives VORP+":0.7224489796,
     "\u2060Defending Drives VORP":0.6775510204,
     "% Blown By":0.7571428571,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5289256198,
+    "Performance Guarding NBA Call-ups":0.4671532847,
     "\u2060Total Ballscreens Attacked":0.0281690141,
     "Shot Quality Allowed on Overs+Blitzes":0.6291079812,
     "% Drop Coverage":0.3943661972,
     "_nba_callup_shots":39.0,
     "_overs_blitz_direct_picks":22.0,
-    "_drop_picks":128.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":128.0
   },
   {
     "ssi_player_id":"1cc4e557-6ed1-4db5-8816-1c00724e5554",
@@ -3602,14 +3474,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":7.0,
-    "_drop_picks":11.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":11.0
   },
   {
     "ssi_player_id":"b609ade3-6177-4d12-8f4d-e717beb97f97",
@@ -3630,14 +3501,13 @@
     "Defending Drives VORP+":0.2204081633,
     "\u2060Defending Drives VORP":0.1673469388,
     "% Blown By":0.1673469388,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2975206612,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2183098592,
     "Shot Quality Allowed on Overs+Blitzes":0.2769953052,
     "% Drop Coverage":0.4225352113,
     "_nba_callup_shots":13.0,
     "_overs_blitz_direct_picks":47.0,
-    "_drop_picks":51.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":51.0
   },
   {
     "ssi_player_id":"fac10e71-d936-4a9b-b017-2e3b743f9833",
@@ -3658,14 +3528,13 @@
     "Defending Drives VORP+":0.6285714286,
     "\u2060Defending Drives VORP":0.6081632653,
     "% Blown By":0.7918367347,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6818181818,
+    "Performance Guarding NBA Call-ups":0.2554744526,
     "\u2060Total Ballscreens Attacked":0.3732394366,
     "Shot Quality Allowed on Overs+Blitzes":0.0375586854,
     "% Drop Coverage":0.6103286385,
     "_nba_callup_shots":53.0,
     "_overs_blitz_direct_picks":65.0,
-    "_drop_picks":97.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":97.0
   },
   {
     "ssi_player_id":"a28cdf29-f659-4646-b964-87ec3c295ae4",
@@ -3686,14 +3555,13 @@
     "Defending Drives VORP+":0.0326530612,
     "\u2060Defending Drives VORP":0.0367346939,
     "% Blown By":0.0081632653,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9710743802,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":10.0,
-    "_drop_picks":26.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":26.0
   },
   {
     "ssi_player_id":"6b98a36d-b1bc-4b68-bd5b-0671580d44c4",
@@ -3714,14 +3582,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":3.0,
     "_overs_blitz_direct_picks":14.0,
-    "_drop_picks":10.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":10.0
   },
   {
     "ssi_player_id":"0c8af3e4-85bf-4c62-921b-d5cc21594198",
@@ -3742,14 +3609,13 @@
     "Defending Drives VORP+":0.9183673469,
     "\u2060Defending Drives VORP":0.9224489796,
     "% Blown By":0.0816326531,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9214876033,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4107981221,
     "Shot Quality Allowed on Overs+Blitzes":0.9389671362,
     "% Drop Coverage":0.4929577465,
     "_nba_callup_shots":21.0,
     "_overs_blitz_direct_picks":69.0,
-    "_drop_picks":63.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":63.0
   },
   {
     "ssi_player_id":"a340ee6f-51b2-400d-8c06-295617b4c779",
@@ -3770,14 +3636,13 @@
     "Defending Drives VORP+":0.4,
     "\u2060Defending Drives VORP":0.4040816327,
     "% Blown By":0.3224489796,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4958677686,
+    "Performance Guarding NBA Call-ups":0.496350365,
     "\u2060Total Ballscreens Attacked":0.5422535211,
     "Shot Quality Allowed on Overs+Blitzes":0.1384976526,
     "% Drop Coverage":0.3896713615,
     "_nba_callup_shots":31.0,
     "_overs_blitz_direct_picks":82.0,
-    "_drop_picks":117.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":117.0
   },
   {
     "ssi_player_id":"e7e970a3-7025-4ccc-b0f7-271f94238ee5",
@@ -3798,14 +3663,13 @@
     "Defending Drives VORP+":0.7387755102,
     "\u2060Defending Drives VORP":0.6857142857,
     "% Blown By":0.2530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7789256198,
+    "Performance Guarding NBA Call-ups":0.1459854015,
     "\u2060Total Ballscreens Attacked":0.1244131455,
     "Shot Quality Allowed on Overs+Blitzes":0.9671361502,
     "% Drop Coverage":0.2042253521,
     "_nba_callup_shots":27.0,
     "_overs_blitz_direct_picks":36.0,
-    "_drop_picks":97.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":97.0
   },
   {
     "ssi_player_id":"8488ec31-e9a6-4535-a007-3b6fb6c5f1bd",
@@ -3826,14 +3690,13 @@
     "Defending Drives VORP+":0.5632653061,
     "\u2060Defending Drives VORP":0.3551020408,
     "% Blown By":0.2367346939,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.020661157,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.7769953052,
     "_nba_callup_shots":22.0,
     "_overs_blitz_direct_picks":8.0,
-    "_drop_picks":43.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":43.0
   },
   {
     "ssi_player_id":"174b4cc1-dd31-428b-97ad-093422ffe324",
@@ -3854,14 +3717,13 @@
     "Defending Drives VORP+":0.9224489796,
     "\u2060Defending Drives VORP":0.9142857143,
     "% Blown By":0.9959183673,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1900826446,
+    "Performance Guarding NBA Call-ups":0.8613138686,
     "\u2060Total Ballscreens Attacked":0.9765258216,
     "Shot Quality Allowed on Overs+Blitzes":0.8497652582,
     "% Drop Coverage":0.8474178404,
     "_nba_callup_shots":61.0,
     "_overs_blitz_direct_picks":212.0,
-    "_drop_picks":132.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":132.0
   },
   {
     "ssi_player_id":"59731b4a-481f-4699-a3fe-f39676cc079b",
@@ -3882,14 +3744,13 @@
     "Defending Drives VORP+":0.4244897959,
     "\u2060Defending Drives VORP":0.4448979592,
     "% Blown By":0.0693877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7128099174,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.661971831,
     "_nba_callup_shots":5.0,
     "_overs_blitz_direct_picks":13.0,
-    "_drop_picks":38.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":38.0
   },
   {
     "ssi_player_id":"70021baf-68ca-4b04-a865-fe10b1450b62",
@@ -3910,14 +3771,13 @@
     "Defending Drives VORP+":0.2326530612,
     "\u2060Defending Drives VORP":0.2183673469,
     "% Blown By":0.506122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8429752066,
+    "Performance Guarding NBA Call-ups":0.0875912409,
     "\u2060Total Ballscreens Attacked":0.5164319249,
     "Shot Quality Allowed on Overs+Blitzes":0.4929577465,
     "% Drop Coverage":0.8920187793,
     "_nba_callup_shots":26.0,
     "_overs_blitz_direct_picks":81.0,
-    "_drop_picks":86.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":86.0
   },
   {
     "ssi_player_id":"4e475993-d453-43ef-a5dc-52e715e3e5db",
@@ -3938,14 +3798,13 @@
     "Defending Drives VORP+":0.893877551,
     "\u2060Defending Drives VORP":0.8857142857,
     "% Blown By":0.4204081633,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4545454545,
+    "Performance Guarding NBA Call-ups":0.5474452555,
     "\u2060Total Ballscreens Attacked":0.9014084507,
     "Shot Quality Allowed on Overs+Blitzes":0.5070422535,
     "% Drop Coverage":0.5305164319,
     "_nba_callup_shots":86.0,
     "_overs_blitz_direct_picks":150.0,
-    "_drop_picks":176.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":176.0
   },
   {
     "ssi_player_id":"dd6ea48a-5adc-4411-bead-f2cf2861a9ce",
@@ -3966,14 +3825,13 @@
     "Defending Drives VORP+":0.9836734694,
     "\u2060Defending Drives VORP":0.9795918367,
     "% Blown By":0.293877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9173553719,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":8.0,
     "_overs_blitz_direct_picks":16.0,
-    "_drop_picks":20.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":20.0
   },
   {
     "ssi_player_id":"3cd15c37-c35d-4061-82f8-728bfefd34c9",
@@ -3994,14 +3852,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":13.0,
-    "_drop_picks":10.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":10.0
   },
   {
     "ssi_player_id":"395250e2-3fc7-41ec-b3e5-be2b920a6458",
@@ -4022,14 +3879,13 @@
     "Defending Drives VORP+":0.0408163265,
     "\u2060Defending Drives VORP":0.0285714286,
     "% Blown By":0.0897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6900826446,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":8.0,
-    "_drop_picks":13.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":13.0
   },
   {
     "ssi_player_id":"f07958e4-943d-41bd-add3-e75692af9566",
@@ -4050,14 +3906,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":1.0,
-    "_drop_picks":11.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":11.0
   },
   {
     "ssi_player_id":"534e334e-2adb-4b8c-9614-8552f0dc5f6d",
@@ -4078,14 +3933,13 @@
     "Defending Drives VORP+":0.0530612245,
     "\u2060Defending Drives VORP":0.0653061224,
     "% Blown By":0.012244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.652892562,
+    "Performance Guarding NBA Call-ups":0.2919708029,
     "\u2060Total Ballscreens Attacked":0.4577464789,
     "Shot Quality Allowed on Overs+Blitzes":0.2276995305,
     "% Drop Coverage":0.1854460094,
     "_nba_callup_shots":44.0,
     "_overs_blitz_direct_picks":76.0,
-    "_drop_picks":282.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":282.0
   },
   {
     "ssi_player_id":"12bf97f3-6476-4443-af11-5228771faf66",
@@ -4106,14 +3960,13 @@
     "Defending Drives VORP+":0.793877551,
     "\u2060Defending Drives VORP":0.8,
     "% Blown By":0.4367346939,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6280991736,
+    "Performance Guarding NBA Call-ups":0.3211678832,
     "\u2060Total Ballscreens Attacked":0.5680751174,
     "Shot Quality Allowed on Overs+Blitzes":0.838028169,
     "% Drop Coverage":0.8075117371,
     "_nba_callup_shots":64.0,
     "_overs_blitz_direct_picks":84.0,
-    "_drop_picks":215.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":215.0
   },
   {
     "ssi_player_id":"5bfe6dcb-3da9-45f9-95c0-ed690168c7ba",
@@ -4134,14 +3987,13 @@
     "Defending Drives VORP+":0.212244898,
     "\u2060Defending Drives VORP":0.2428571429,
     "% Blown By":0.412244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6074380165,
+    "Performance Guarding NBA Call-ups":0.3576642336,
     "\u2060Total Ballscreens Attacked":0.9154929577,
     "Shot Quality Allowed on Overs+Blitzes":0.3215962441,
     "% Drop Coverage":0.4741784038,
     "_nba_callup_shots":50.0,
     "_overs_blitz_direct_picks":155.0,
-    "_drop_picks":129.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":129.0
   },
   {
     "ssi_player_id":"7ddd09bd-a98c-468f-ac39-239c33fe8d79",
@@ -4162,14 +4014,13 @@
     "Defending Drives VORP+":0.1755102041,
     "\u2060Defending Drives VORP":0.1448979592,
     "% Blown By":0.387755102,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8099173554,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0281690141,
     "Shot Quality Allowed on Overs+Blitzes":0.8544600939,
     "% Drop Coverage":0.1267605634,
     "_nba_callup_shots":17.0,
     "_overs_blitz_direct_picks":22.0,
-    "_drop_picks":39.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":39.0
   },
   {
     "ssi_player_id":"bd507dbb-cb87-4e45-ad2e-1990df07ac20",
@@ -4190,14 +4041,13 @@
     "Defending Drives VORP+":0.987755102,
     "\u2060Defending Drives VORP":0.9959183673,
     "% Blown By":0.4693877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2272727273,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3169014085,
     "Shot Quality Allowed on Overs+Blitzes":0.9718309859,
     "% Drop Coverage":0.1643192488,
     "_nba_callup_shots":17.0,
     "_overs_blitz_direct_picks":58.0,
-    "_drop_picks":95.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":95.0
   },
   {
     "ssi_player_id":"65bebd10-aa65-48ec-845f-2efcb122287a",
@@ -4218,14 +4068,13 @@
     "Defending Drives VORP+":0.5183673469,
     "\u2060Defending Drives VORP":0.506122449,
     "% Blown By":0.493877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6570247934,
+    "Performance Guarding NBA Call-ups":0.2846715328,
     "\u2060Total Ballscreens Attacked":0.6009389671,
     "Shot Quality Allowed on Overs+Blitzes":0.3521126761,
     "% Drop Coverage":0.5539906103,
     "_nba_callup_shots":56.0,
     "_overs_blitz_direct_picks":90.0,
-    "_drop_picks":164.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":164.0
   },
   {
     "ssi_player_id":"d03f53e6-1f95-47b7-a843-dab2a10456f0",
@@ -4246,14 +4095,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":3.0,
-    "_drop_picks":1.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":1.0
   },
   {
     "ssi_player_id":"4b98be48-a61f-4372-8f5d-25f914555a83",
@@ -4274,14 +4122,13 @@
     "Defending Drives VORP+":0.3795918367,
     "\u2060Defending Drives VORP":0.3632653061,
     "% Blown By":0.2163265306,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6446280992,
+    "Performance Guarding NBA Call-ups":0.3065693431,
     "\u2060Total Ballscreens Attacked":0.1408450704,
     "Shot Quality Allowed on Overs+Blitzes":0.1690140845,
     "% Drop Coverage":0.544600939,
     "_nba_callup_shots":52.0,
     "_overs_blitz_direct_picks":39.0,
-    "_drop_picks":100.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":100.0
   },
   {
     "ssi_player_id":"207daaca-464a-4e71-8c77-cae31615c0e3",
@@ -4302,14 +4149,13 @@
     "Defending Drives VORP+":0.1918367347,
     "\u2060Defending Drives VORP":0.2489795918,
     "% Blown By":0.2448979592,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1859504132,
+    "Performance Guarding NBA Call-ups":0.8686131387,
     "\u2060Total Ballscreens Attacked":0.5680751174,
     "Shot Quality Allowed on Overs+Blitzes":0.4507042254,
     "% Drop Coverage":0.2394366197,
     "_nba_callup_shots":49.0,
     "_overs_blitz_direct_picks":84.0,
-    "_drop_picks":115.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":115.0
   },
   {
     "ssi_player_id":"7c2fd9b6-9749-4ca1-8d58-b773ff9223dd",
@@ -4330,14 +4176,13 @@
     "Defending Drives VORP+":0.6693877551,
     "\u2060Defending Drives VORP":0.6326530612,
     "% Blown By":0.787755102,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1776859504,
+    "Performance Guarding NBA Call-ups":0.8759124088,
     "\u2060Total Ballscreens Attacked":0.7370892019,
     "Shot Quality Allowed on Overs+Blitzes":0.8004694836,
     "% Drop Coverage":0.6244131455,
     "_nba_callup_shots":80.0,
     "_overs_blitz_direct_picks":125.0,
-    "_drop_picks":202.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":202.0
   },
   {
     "ssi_player_id":"4c8abee4-0270-4d98-b4ab-cff9969857fc",
@@ -4358,14 +4203,13 @@
     "Defending Drives VORP+":0.3469387755,
     "\u2060Defending Drives VORP":0.3673469388,
     "% Blown By":0.6612244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7376033058,
+    "Performance Guarding NBA Call-ups":0.1861313869,
     "\u2060Total Ballscreens Attacked":0.9436619718,
     "Shot Quality Allowed on Overs+Blitzes":0.4600938967,
     "% Drop Coverage":0.7230046948,
     "_nba_callup_shots":52.0,
     "_overs_blitz_direct_picks":172.0,
-    "_drop_picks":104.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":104.0
   },
   {
     "ssi_player_id":"b34e01c3-fde9-402e-a381-1abc45ea21fb",
@@ -4386,14 +4230,13 @@
     "Defending Drives VORP+":0.7306122449,
     "\u2060Defending Drives VORP":0.693877551,
     "% Blown By":0.6448979592,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2644628099,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.5938967136,
     "Shot Quality Allowed on Overs+Blitzes":0.3943661972,
     "% Drop Coverage":0.0164319249,
     "_nba_callup_shots":22.0,
     "_overs_blitz_direct_picks":89.0,
-    "_drop_picks":69.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":69.0
   },
   {
     "ssi_player_id":"1287087b-e6ba-41f9-b2b5-a3d2d1c8d682",
@@ -4414,14 +4257,13 @@
     "Defending Drives VORP+":0.287755102,
     "\u2060Defending Drives VORP":0.3387755102,
     "% Blown By":0.4163265306,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9504132231,
+    "Performance Guarding NBA Call-ups":0.0072992701,
     "\u2060Total Ballscreens Attacked":0.3333333333,
     "Shot Quality Allowed on Overs+Blitzes":0.0657276995,
     "% Drop Coverage":0.6384976526,
     "_nba_callup_shots":40.0,
     "_overs_blitz_direct_picks":59.0,
-    "_drop_picks":48.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":48.0
   },
   {
     "ssi_player_id":"5f0c2302-aaca-4ac1-b70f-f25abbe14186",
@@ -4442,14 +4284,13 @@
     "Defending Drives VORP+":0.0244897959,
     "\u2060Defending Drives VORP":0.0204081633,
     "% Blown By":0.0244897959,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7954545455,
+    "Performance Guarding NBA Call-ups":0.1240875912,
     "\u2060Total Ballscreens Attacked":0.1737089202,
     "Shot Quality Allowed on Overs+Blitzes":0.0516431925,
     "% Drop Coverage":0.1784037559,
     "_nba_callup_shots":35.0,
     "_overs_blitz_direct_picks":43.0,
-    "_drop_picks":127.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":127.0
   },
   {
     "ssi_player_id":"51e2e08f-d07e-4dbd-a05f-bba8e5c69f96",
@@ -4470,14 +4311,13 @@
     "Defending Drives VORP+":0.1693877551,
     "\u2060Defending Drives VORP":0.1346938776,
     "% Blown By":0.587755102,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8223140496,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.044600939,
     "Shot Quality Allowed on Overs+Blitzes":0.0234741784,
     "% Drop Coverage":0.9577464789,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":23.0,
-    "_drop_picks":276.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":276.0
   },
   {
     "ssi_player_id":"93ff04cb-5390-4709-a521-c7ce58713f31",
@@ -4498,14 +4338,13 @@
     "Defending Drives VORP+":0.7265306122,
     "\u2060Defending Drives VORP":0.906122449,
     "% Blown By":0.8102040816,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1033057851,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0774647887,
     "Shot Quality Allowed on Overs+Blitzes":0.5187793427,
     "% Drop Coverage":null,
     "_nba_callup_shots":6.0,
     "_overs_blitz_direct_picks":30.0,
-    "_drop_picks":23.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":23.0
   },
   {
     "ssi_player_id":"1ea004d3-81c8-428e-920e-2fde02ccf379",
@@ -4526,14 +4365,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":6.0,
-    "_drop_picks":13.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":13.0
   },
   {
     "ssi_player_id":"f4881a74-343b-4005-b701-3f53c512aba6",
@@ -4554,14 +4392,13 @@
     "Defending Drives VORP+":0.0204081633,
     "\u2060Defending Drives VORP":0.0244897959,
     "% Blown By":0.6020408163,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9752066116,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":10.0,
     "_overs_blitz_direct_picks":18.0,
-    "_drop_picks":20.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":20.0
   },
   {
     "ssi_player_id":"83a05254-611e-4587-a927-613bde48b6ba",
@@ -4582,14 +4419,13 @@
     "Defending Drives VORP+":0.3959183673,
     "\u2060Defending Drives VORP":0.4244897959,
     "% Blown By":0.9081632653,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.958677686,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1314553991,
     "Shot Quality Allowed on Overs+Blitzes":0.6150234742,
     "% Drop Coverage":null,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":37.0,
-    "_drop_picks":13.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":13.0
   },
   {
     "ssi_player_id":"84863ea4-7e22-4827-9c1e-091a16291b37",
@@ -4610,14 +4446,13 @@
     "Defending Drives VORP+":0.906122449,
     "\u2060Defending Drives VORP":0.8428571429,
     "% Blown By":0.5734693878,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2933884298,
+    "Performance Guarding NBA Call-ups":0.7372262774,
     "\u2060Total Ballscreens Attacked":0.4248826291,
     "Shot Quality Allowed on Overs+Blitzes":0.6901408451,
     "% Drop Coverage":0.5070422535,
     "_nba_callup_shots":58.0,
     "_overs_blitz_direct_picks":70.0,
-    "_drop_picks":328.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":328.0
   },
   {
     "ssi_player_id":"90cef14e-ebcc-4a00-94e1-b06d8ca04701",
@@ -4638,14 +4473,13 @@
     "Defending Drives VORP+":0.3714285714,
     "\u2060Defending Drives VORP":0.3163265306,
     "% Blown By":0.8612244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3491735537,
+    "Performance Guarding NBA Call-ups":0.6788321168,
     "\u2060Total Ballscreens Attacked":0.985915493,
     "Shot Quality Allowed on Overs+Blitzes":0.4319248826,
     "% Drop Coverage":0.9061032864,
     "_nba_callup_shots":41.0,
     "_overs_blitz_direct_picks":215.0,
-    "_drop_picks":143.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":143.0
   },
   {
     "ssi_player_id":"7cfacef2-8c7b-41e7-9df3-4a570a6de468",
@@ -4666,14 +4500,13 @@
     "Defending Drives VORP+":0.2775510204,
     "\u2060Defending Drives VORP":0.2693877551,
     "% Blown By":0.1387755102,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7954545455,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1126760563,
     "Shot Quality Allowed on Overs+Blitzes":0.4741784038,
     "% Drop Coverage":0.7535211268,
     "_nba_callup_shots":21.0,
     "_overs_blitz_direct_picks":34.0,
-    "_drop_picks":44.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":44.0
   },
   {
     "ssi_player_id":"10762d58-0a4c-416e-8e01-0af744c29286",
@@ -4694,14 +4527,13 @@
     "Defending Drives VORP+":0.0979591837,
     "\u2060Defending Drives VORP":0.0693877551,
     "% Blown By":0.1142857143,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4256198347,
+    "Performance Guarding NBA Call-ups":0.5912408759,
     "\u2060Total Ballscreens Attacked":0.7370892019,
     "Shot Quality Allowed on Overs+Blitzes":0.4084507042,
     "% Drop Coverage":0.0164319249,
     "_nba_callup_shots":46.0,
     "_overs_blitz_direct_picks":125.0,
-    "_drop_picks":138.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":138.0
   },
   {
     "ssi_player_id":"1ebb0958-b242-4b10-a0cb-cc3182f35814",
@@ -4722,14 +4554,13 @@
     "Defending Drives VORP+":0.4734693878,
     "\u2060Defending Drives VORP":0.5632653061,
     "% Blown By":0.3673469388,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0867768595,
+    "Performance Guarding NBA Call-ups":0.9416058394,
     "\u2060Total Ballscreens Attacked":0.485915493,
     "Shot Quality Allowed on Overs+Blitzes":0.8075117371,
     "% Drop Coverage":0.4131455399,
     "_nba_callup_shots":37.0,
     "_overs_blitz_direct_picks":78.0,
-    "_drop_picks":57.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":57.0
   },
   {
     "ssi_player_id":"8190d885-1fd0-4dad-99d7-2431cc018492",
@@ -4750,14 +4581,13 @@
     "Defending Drives VORP+":0.1959183673,
     "\u2060Defending Drives VORP":0.2285714286,
     "% Blown By":0.3530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0702479339,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.0798122066,
     "_nba_callup_shots":14.0,
     "_overs_blitz_direct_picks":14.0,
-    "_drop_picks":59.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":59.0
   },
   {
     "ssi_player_id":"9a826fec-5df7-4a14-8637-3364dc9433c2",
@@ -4778,14 +4608,13 @@
     "Defending Drives VORP+":0.4408163265,
     "\u2060Defending Drives VORP":0.4734693878,
     "% Blown By":0.1836734694,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1652892562,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.5821596244,
     "Shot Quality Allowed on Overs+Blitzes":0.7417840376,
     "% Drop Coverage":0.7887323944,
     "_nba_callup_shots":21.0,
     "_overs_blitz_direct_picks":85.0,
-    "_drop_picks":93.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":93.0
   },
   {
     "ssi_player_id":"ce287780-67de-44fa-86c2-d87dec5a1e28",
@@ -4806,14 +4635,13 @@
     "Defending Drives VORP+":0.8571428571,
     "\u2060Defending Drives VORP":0.8734693878,
     "% Blown By":0.9510204082,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7376033058,
+    "Performance Guarding NBA Call-ups":0.1861313869,
     "\u2060Total Ballscreens Attacked":0.8192488263,
     "Shot Quality Allowed on Overs+Blitzes":0.4694835681,
     "% Drop Coverage":0.3075117371,
     "_nba_callup_shots":43.0,
     "_overs_blitz_direct_picks":136.0,
-    "_drop_picks":88.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":88.0
   },
   {
     "ssi_player_id":"9e453254-b85d-43ba-a615-8bf683d94834",
@@ -4834,14 +4662,13 @@
     "Defending Drives VORP+":0.5387755102,
     "\u2060Defending Drives VORP":0.5836734694,
     "% Blown By":0.2571428571,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2355371901,
+    "Performance Guarding NBA Call-ups":0.802919708,
     "\u2060Total Ballscreens Attacked":0.4366197183,
     "Shot Quality Allowed on Overs+Blitzes":0.7370892019,
     "% Drop Coverage":0.6103286385,
     "_nba_callup_shots":48.0,
     "_overs_blitz_direct_picks":73.0,
-    "_drop_picks":97.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":97.0
   },
   {
     "ssi_player_id":"9f123592-d747-4a41-b903-ad6bcb6ac751",
@@ -4862,14 +4689,13 @@
     "Defending Drives VORP+":0.6387755102,
     "\u2060Defending Drives VORP":0.5510204082,
     "% Blown By":0.3428571429,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2045454545,
+    "Performance Guarding NBA Call-ups":0.8357664234,
     "\u2060Total Ballscreens Attacked":0.6361502347,
     "Shot Quality Allowed on Overs+Blitzes":0.3990610329,
     "% Drop Coverage":0.6713615023,
     "_nba_callup_shots":43.0,
     "_overs_blitz_direct_picks":96.0,
-    "_drop_picks":109.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":109.0
   },
   {
     "ssi_player_id":"9c8748fc-6d1c-4911-99a0-94e1cf486b48",
@@ -4890,14 +4716,13 @@
     "Defending Drives VORP+":0.9306122449,
     "\u2060Defending Drives VORP":0.9265306122,
     "% Blown By":0.6367346939,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.055785124,
+    "Performance Guarding NBA Call-ups":0.9744525547,
     "\u2060Total Ballscreens Attacked":0.3732394366,
     "Shot Quality Allowed on Overs+Blitzes":0.9014084507,
     "% Drop Coverage":0.0563380282,
     "_nba_callup_shots":25.0,
     "_overs_blitz_direct_picks":65.0,
-    "_drop_picks":143.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":143.0
   },
   {
     "ssi_player_id":"e2c4bc9d-2cb8-49d6-962a-07bed124b6c8",
@@ -4918,14 +4743,13 @@
     "Defending Drives VORP+":0.4775510204,
     "\u2060Defending Drives VORP":0.4816326531,
     "% Blown By":0.5102040816,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6859504132,
+    "Performance Guarding NBA Call-ups":0.2481751825,
     "\u2060Total Ballscreens Attacked":0.3896713615,
     "Shot Quality Allowed on Overs+Blitzes":0.7488262911,
     "% Drop Coverage":0.9389671362,
     "_nba_callup_shots":40.0,
     "_overs_blitz_direct_picks":67.0,
-    "_drop_picks":175.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":175.0
   },
   {
     "ssi_player_id":"9eed3d99-6049-4cd0-96bb-4fabb8ad8ddd",
@@ -4946,14 +4770,13 @@
     "Defending Drives VORP+":0.3612244898,
     "\u2060Defending Drives VORP":0.3755102041,
     "% Blown By":0.9428571429,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6983471074,
+    "Performance Guarding NBA Call-ups":0.2335766423,
     "\u2060Total Ballscreens Attacked":0.5164319249,
     "Shot Quality Allowed on Overs+Blitzes":0.7230046948,
     "% Drop Coverage":0.8638497653,
     "_nba_callup_shots":32.0,
     "_overs_blitz_direct_picks":81.0,
-    "_drop_picks":126.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":126.0
   },
   {
     "ssi_player_id":"509e10a3-69e7-41cc-a0b5-44de8eb4659f",
@@ -4974,14 +4797,13 @@
     "Defending Drives VORP+":0.8326530612,
     "\u2060Defending Drives VORP":0.7795918367,
     "% Blown By":0.8897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1962809917,
+    "Performance Guarding NBA Call-ups":0.8503649635,
     "\u2060Total Ballscreens Attacked":0.79342723,
     "Shot Quality Allowed on Overs+Blitzes":0.5915492958,
     "% Drop Coverage":0.8474178404,
     "_nba_callup_shots":79.0,
     "_overs_blitz_direct_picks":132.0,
-    "_drop_picks":272.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":272.0
   },
   {
     "ssi_player_id":"c7fe17cb-17b0-4fe5-bfde-60cdce624f03",
@@ -5002,14 +4824,13 @@
     "Defending Drives VORP+":0.593877551,
     "\u2060Defending Drives VORP":0.6265306122,
     "% Blown By":0.706122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3099173554,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2441314554,
     "Shot Quality Allowed on Overs+Blitzes":0.8169014085,
     "% Drop Coverage":0.382629108,
     "_nba_callup_shots":21.0,
     "_overs_blitz_direct_picks":50.0,
-    "_drop_picks":106.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":106.0
   },
   {
     "ssi_player_id":"51c89cc1-c192-4e07-878a-436ad5c2c70a",
@@ -5030,14 +4851,13 @@
     "Defending Drives VORP+":0.8448979592,
     "\u2060Defending Drives VORP":0.8653061224,
     "% Blown By":0.3530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.902892562,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3474178404,
     "Shot Quality Allowed on Overs+Blitzes":0.0938967136,
     "% Drop Coverage":0.3192488263,
     "_nba_callup_shots":20.0,
     "_overs_blitz_direct_picks":63.0,
-    "_drop_picks":49.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":49.0
   },
   {
     "ssi_player_id":"629382e8-fcc6-4974-b0a3-99fd67940f2d",
@@ -5058,14 +4878,13 @@
     "Defending Drives VORP+":0.3102040816,
     "\u2060Defending Drives VORP":0.3265306122,
     "% Blown By":0.0408163265,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3636363636,
+    "Performance Guarding NBA Call-ups":0.6642335766,
     "\u2060Total Ballscreens Attacked":0.558685446,
     "Shot Quality Allowed on Overs+Blitzes":0.2605633803,
     "% Drop Coverage":0.558685446,
     "_nba_callup_shots":39.0,
     "_overs_blitz_direct_picks":83.0,
-    "_drop_picks":109.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":109.0
   },
   {
     "ssi_player_id":"2c5a45b8-029d-4556-9186-221becde7ae7",
@@ -5086,14 +4905,13 @@
     "Defending Drives VORP+":0.3510204082,
     "\u2060Defending Drives VORP":0.3795918367,
     "% Blown By":0.4448979592,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1549586777,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0563380282,
     "Shot Quality Allowed on Overs+Blitzes":0.7323943662,
     "% Drop Coverage":null,
     "_nba_callup_shots":7.0,
     "_overs_blitz_direct_picks":24.0,
-    "_drop_picks":18.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":18.0
   },
   {
     "ssi_player_id":"e4c6a53d-37a8-4278-9230-5a9d9ccc6d02",
@@ -5114,14 +4932,13 @@
     "Defending Drives VORP+":0.7081632653,
     "\u2060Defending Drives VORP":0.6571428571,
     "% Blown By":0.2693877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9297520661,
+    "Performance Guarding NBA Call-ups":0.0291970803,
     "\u2060Total Ballscreens Attacked":0.4483568075,
     "Shot Quality Allowed on Overs+Blitzes":0.1314553991,
     "% Drop Coverage":0.0892018779,
     "_nba_callup_shots":38.0,
     "_overs_blitz_direct_picks":74.0,
-    "_drop_picks":201.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":201.0
   },
   {
     "ssi_player_id":"f0ae386a-6794-4f37-b447-84822aa60c4b",
@@ -5142,14 +4959,13 @@
     "Defending Drives VORP+":0.3244897959,
     "\u2060Defending Drives VORP":0.293877551,
     "% Blown By":0.4816326531,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7727272727,
+    "Performance Guarding NBA Call-ups":0.1532846715,
     "\u2060Total Ballscreens Attacked":0.7112676056,
     "Shot Quality Allowed on Overs+Blitzes":0.1737089202,
     "% Drop Coverage":0.2910798122,
     "_nba_callup_shots":61.0,
     "_overs_blitz_direct_picks":119.0,
-    "_drop_picks":114.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":114.0
   },
   {
     "ssi_player_id":"2733a0f6-5816-47e9-9972-a4f253f15038",
@@ -5170,14 +4986,13 @@
     "Defending Drives VORP+":0.2693877551,
     "\u2060Defending Drives VORP":0.2,
     "% Blown By":0.5959183673,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4752066116,
+    "Performance Guarding NBA Call-ups":0.5182481752,
     "\u2060Total Ballscreens Attacked":0.6103286385,
     "Shot Quality Allowed on Overs+Blitzes":0.2511737089,
     "% Drop Coverage":0.7840375587,
     "_nba_callup_shots":44.0,
     "_overs_blitz_direct_picks":92.0,
-    "_drop_picks":89.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":89.0
   },
   {
     "ssi_player_id":"d9671fc0-754d-4cd1-b61d-2f6526c31497",
@@ -5198,14 +5013,13 @@
     "Defending Drives VORP+":0.2571428571,
     "\u2060Defending Drives VORP":0.2571428571,
     "% Blown By":0.8040816327,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1280991736,
+    "Performance Guarding NBA Call-ups":0.9051094891,
     "\u2060Total Ballscreens Attacked":0.9577464789,
     "Shot Quality Allowed on Overs+Blitzes":0.20657277,
     "% Drop Coverage":0.7136150235,
     "_nba_callup_shots":63.0,
     "_overs_blitz_direct_picks":188.0,
-    "_drop_picks":145.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":145.0
   },
   {
     "ssi_player_id":"cf11631f-67ad-4f08-9466-e66859baa68e",
@@ -5226,14 +5040,13 @@
     "Defending Drives VORP+":0.1387755102,
     "\u2060Defending Drives VORP":0.1448979592,
     "% Blown By":0.3102040816,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7272727273,
+    "Performance Guarding NBA Call-ups":0.197080292,
     "\u2060Total Ballscreens Attacked":0.7769953052,
     "Shot Quality Allowed on Overs+Blitzes":0.779342723,
     "% Drop Coverage":0.1502347418,
     "_nba_callup_shots":32.0,
     "_overs_blitz_direct_picks":130.0,
-    "_drop_picks":111.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":111.0
   },
   {
     "ssi_player_id":"017ced69-5d96-4160-b064-3a051a5c9efe",
@@ -5254,14 +5067,13 @@
     "Defending Drives VORP+":0.3387755102,
     "\u2060Defending Drives VORP":0.4081632653,
     "% Blown By":0.3142857143,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9090909091,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3474178404,
     "Shot Quality Allowed on Overs+Blitzes":0.2511737089,
     "% Drop Coverage":0.8474178404,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":63.0,
-    "_drop_picks":184.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":184.0
   },
   {
     "ssi_player_id":"723b0c0c-ac5b-4b0c-b84c-01da7be6c705",
@@ -5282,14 +5094,13 @@
     "Defending Drives VORP+":0.6795918367,
     "\u2060Defending Drives VORP":0.7448979592,
     "% Blown By":0.9387755102,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2561983471,
+    "Performance Guarding NBA Call-ups":0.7810218978,
     "\u2060Total Ballscreens Attacked":0.9061032864,
     "Shot Quality Allowed on Overs+Blitzes":0.544600939,
     "% Drop Coverage":0.1549295775,
     "_nba_callup_shots":74.0,
     "_overs_blitz_direct_picks":151.0,
-    "_drop_picks":103.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":103.0
   },
   {
     "ssi_player_id":"5fc1833e-3993-49a8-8970-87ad09b61dff",
@@ -5310,14 +5121,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":3.0,
-    "_drop_picks":1.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":1.0
   },
   {
     "ssi_player_id":"3bc6f704-0fda-4f85-a681-a41d1178948b",
@@ -5338,14 +5148,13 @@
     "Defending Drives VORP+":0.506122449,
     "\u2060Defending Drives VORP":0.4142857143,
     "% Blown By":0.5306122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4834710744,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.5821596244,
     "Shot Quality Allowed on Overs+Blitzes":0.3403755869,
     "% Drop Coverage":0.8732394366,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":85.0,
-    "_drop_picks":109.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":109.0
   },
   {
     "ssi_player_id":"6af77143-6aac-4199-ac80-bfa704e2ca51",
@@ -5366,14 +5175,13 @@
     "Defending Drives VORP+":0.4163265306,
     "\u2060Defending Drives VORP":0.4204081633,
     "% Blown By":0.6734693878,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4958677686,
+    "Performance Guarding NBA Call-ups":0.496350365,
     "\u2060Total Ballscreens Attacked":0.9906103286,
     "Shot Quality Allowed on Overs+Blitzes":0.6009389671,
     "% Drop Coverage":0.7535211268,
     "_nba_callup_shots":56.0,
     "_overs_blitz_direct_picks":216.0,
-    "_drop_picks":88.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":88.0
   },
   {
     "ssi_player_id":"1114f266-df53-4313-b425-0021dd87864b",
@@ -5394,14 +5202,13 @@
     "Defending Drives VORP+":0.5142857143,
     "\u2060Defending Drives VORP":0.4979591837,
     "% Blown By":0.106122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0661157025,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":7.0,
     "_overs_blitz_direct_picks":12.0,
-    "_drop_picks":17.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":17.0
   },
   {
     "ssi_player_id":"7edec21a-68b6-453a-b51f-2e3827a52d7d",
@@ -5422,14 +5229,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":5.0,
-    "_drop_picks":9.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":9.0
   },
   {
     "ssi_player_id":"d745163f-0ba1-4894-9467-cb7553e99081",
@@ -5450,14 +5256,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":5.0,
-    "_drop_picks":6.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":6.0
   },
   {
     "ssi_player_id":"1542fce4-02f8-434c-8e0b-c655313fea33",
@@ -5478,14 +5283,13 @@
     "Defending Drives VORP+":0.2734693878,
     "\u2060Defending Drives VORP":0.2816326531,
     "% Blown By":0.8285714286,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3966942149,
+    "Performance Guarding NBA Call-ups":0.6313868613,
     "\u2060Total Ballscreens Attacked":0.6854460094,
     "Shot Quality Allowed on Overs+Blitzes":0.2276995305,
     "% Drop Coverage":0.7323943662,
     "_nba_callup_shots":50.0,
     "_overs_blitz_direct_picks":113.0,
-    "_drop_picks":130.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":130.0
   },
   {
     "ssi_player_id":"37e8858f-5f40-4a44-8f60-2f6e2316aae8",
@@ -5506,14 +5310,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":null,
-    "_drop_picks":1.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":1.0
   },
   {
     "ssi_player_id":"45913c55-0376-4b4f-9935-00471ffb3033",
@@ -5534,14 +5337,13 @@
     "Defending Drives VORP+":0.1693877551,
     "\u2060Defending Drives VORP":0.1714285714,
     "% Blown By":0.2244897959,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5330578512,
+    "Performance Guarding NBA Call-ups":0.4598540146,
     "\u2060Total Ballscreens Attacked":0.2511737089,
     "Shot Quality Allowed on Overs+Blitzes":0.2159624413,
     "% Drop Coverage":0.9624413146,
     "_nba_callup_shots":42.0,
     "_overs_blitz_direct_picks":51.0,
-    "_drop_picks":157.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":157.0
   },
   {
     "ssi_player_id":"42aff9d8-9839-4949-ac9d-97663c8eae23",
@@ -5562,14 +5364,13 @@
     "Defending Drives VORP+":0.1836734694,
     "\u2060Defending Drives VORP":0.2244897959,
     "% Blown By":0.8204081633,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3429752066,
+    "Performance Guarding NBA Call-ups":0.6861313869,
     "\u2060Total Ballscreens Attacked":0.8075117371,
     "Shot Quality Allowed on Overs+Blitzes":0.0892018779,
     "% Drop Coverage":0.5845070423,
     "_nba_callup_shots":49.0,
     "_overs_blitz_direct_picks":134.0,
-    "_drop_picks":177.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":177.0
   },
   {
     "ssi_player_id":"23961594-cb8d-4560-b709-2ace5a6b16a4",
@@ -5590,14 +5391,13 @@
     "Defending Drives VORP+":0.1632653061,
     "\u2060Defending Drives VORP":0.1795918367,
     "% Blown By":0.7183673469,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7851239669,
+    "Performance Guarding NBA Call-ups":0.1386861314,
     "\u2060Total Ballscreens Attacked":0.9953051643,
     "Shot Quality Allowed on Overs+Blitzes":0.1502347418,
     "% Drop Coverage":0.6995305164,
     "_nba_callup_shots":53.0,
     "_overs_blitz_direct_picks":220.0,
-    "_drop_picks":169.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":169.0
   },
   {
     "ssi_player_id":"ce1fc58a-6a2f-40f5-a83b-c0acdcdf2e01",
@@ -5618,14 +5418,13 @@
     "Defending Drives VORP+":0.3306122449,
     "\u2060Defending Drives VORP":0.3387755102,
     "% Blown By":0.693877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1363636364,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3004694836,
     "Shot Quality Allowed on Overs+Blitzes":0.3098591549,
     "% Drop Coverage":0.3544600939,
     "_nba_callup_shots":17.0,
     "_overs_blitz_direct_picks":57.0,
-    "_drop_picks":66.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":66.0
   },
   {
     "ssi_player_id":"be819393-353e-4c46-b682-d2ee0d11e736",
@@ -5646,14 +5445,13 @@
     "Defending Drives VORP+":0.6857142857,
     "\u2060Defending Drives VORP":0.6469387755,
     "% Blown By":0.4081632653,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.520661157,
+    "Performance Guarding NBA Call-ups":0.4744525547,
     "\u2060Total Ballscreens Attacked":0.7230046948,
     "Shot Quality Allowed on Overs+Blitzes":0.7018779343,
     "% Drop Coverage":0.6502347418,
     "_nba_callup_shots":67.0,
     "_overs_blitz_direct_picks":120.0,
-    "_drop_picks":148.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":148.0
   },
   {
     "ssi_player_id":"e4133038-cf2f-4227-a6d5-566eb968a245",
@@ -5674,14 +5472,13 @@
     "Defending Drives VORP+":0.4673469388,
     "\u2060Defending Drives VORP":0.4612244898,
     "% Blown By":0.1897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4049586777,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1408450704,
     "Shot Quality Allowed on Overs+Blitzes":0.9201877934,
     "% Drop Coverage":0.661971831,
     "_nba_callup_shots":9.0,
     "_overs_blitz_direct_picks":39.0,
-    "_drop_picks":38.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":38.0
   },
   {
     "ssi_player_id":"8e41f240-6f89-4f54-bcc5-534112efd3c2",
@@ -5702,14 +5499,13 @@
     "Defending Drives VORP+":0.5469387755,
     "\u2060Defending Drives VORP":0.5571428571,
     "% Blown By":0.7224489796,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.367768595,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4107981221,
     "Shot Quality Allowed on Overs+Blitzes":0.5633802817,
     "% Drop Coverage":0.1690140845,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":69.0,
-    "_drop_picks":138.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":138.0
   },
   {
     "ssi_player_id":"fdc935b9-0c73-4ca7-ba6b-f3b5aa1f2205",
@@ -5730,14 +5526,13 @@
     "Defending Drives VORP+":0.7,
     "\u2060Defending Drives VORP":0.6653061224,
     "% Blown By":0.4571428571,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7458677686,
+    "Performance Guarding NBA Call-ups":0.1715328467,
     "\u2060Total Ballscreens Attacked":0.6220657277,
     "Shot Quality Allowed on Overs+Blitzes":0.8873239437,
     "% Drop Coverage":0.7981220657,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":94.0,
-    "_drop_picks":142.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":142.0
   },
   {
     "ssi_player_id":"7ad88c05-18d7-492e-9c41-30b2f77e3266",
@@ -5758,14 +5553,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":0.0,
-    "_drop_picks":null,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":null
   },
   {
     "ssi_player_id":"2827a99a-9a36-4b8d-8ca8-e77e9771b69c",
@@ -5786,14 +5580,13 @@
     "Defending Drives VORP+":0.2040816327,
     "\u2060Defending Drives VORP":0.2428571429,
     "% Blown By":0.1795918367,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4090909091,
+    "Performance Guarding NBA Call-ups":0.6204379562,
     "\u2060Total Ballscreens Attacked":0.3896713615,
     "Shot Quality Allowed on Overs+Blitzes":0.4812206573,
     "% Drop Coverage":0.4694835681,
     "_nba_callup_shots":27.0,
     "_overs_blitz_direct_picks":67.0,
-    "_drop_picks":156.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":156.0
   },
   {
     "ssi_player_id":"3ab12c09-2aae-4bc0-a45e-0132e6751116",
@@ -5814,14 +5607,13 @@
     "Defending Drives VORP+":0.6612244898,
     "\u2060Defending Drives VORP":0.6469387755,
     "% Blown By":0.2081632653,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8491735537,
+    "Performance Guarding NBA Call-ups":0.0802919708,
     "\u2060Total Ballscreens Attacked":0.5422535211,
     "Shot Quality Allowed on Overs+Blitzes":0.6525821596,
     "% Drop Coverage":0.7605633803,
     "_nba_callup_shots":59.0,
     "_overs_blitz_direct_picks":82.0,
-    "_drop_picks":153.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":153.0
   },
   {
     "ssi_player_id":"b2d1fbf7-72be-4469-b0c2-db6677a145bd",
@@ -5842,14 +5634,13 @@
     "Defending Drives VORP+":0.1469387755,
     "\u2060Defending Drives VORP":0.2653061224,
     "% Blown By":0.7979591837,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5578512397,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1572769953,
     "Shot Quality Allowed on Overs+Blitzes":0.7488262911,
     "% Drop Coverage":0.0657276995,
     "_nba_callup_shots":15.0,
     "_overs_blitz_direct_picks":41.0,
-    "_drop_picks":71.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":71.0
   },
   {
     "ssi_player_id":"0e381936-04ed-49fd-87b0-400686b3e145",
@@ -5870,14 +5661,13 @@
     "Defending Drives VORP+":0.2244897959,
     "\u2060Defending Drives VORP":0.212244898,
     "% Blown By":0.9306122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3760330579,
+    "Performance Guarding NBA Call-ups":0.6496350365,
     "\u2060Total Ballscreens Attacked":0.0892018779,
     "Shot Quality Allowed on Overs+Blitzes":0.0798122066,
     "% Drop Coverage":0.2042253521,
     "_nba_callup_shots":26.0,
     "_overs_blitz_direct_picks":31.0,
-    "_drop_picks":97.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":97.0
   },
   {
     "ssi_player_id":"deb86c8a-aaa2-472e-a66d-a1cbace2c797",
@@ -5898,14 +5688,13 @@
     "Defending Drives VORP+":0.4857142857,
     "\u2060Defending Drives VORP":0.5204081633,
     "% Blown By":0.4408163265,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0950413223,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0563380282,
     "Shot Quality Allowed on Overs+Blitzes":0.985915493,
     "% Drop Coverage":0.0164319249,
     "_nba_callup_shots":13.0,
     "_overs_blitz_direct_picks":24.0,
-    "_drop_picks":46.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":46.0
   },
   {
     "ssi_player_id":"329049aa-89c8-439b-a0c3-dc93d3609931",
@@ -5926,14 +5715,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":5.0,
-    "_drop_picks":3.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":3.0
   },
   {
     "ssi_player_id":"8257785f-b06f-4feb-a7c3-c58c4fbf99d7",
@@ -5954,14 +5742,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":3.0,
     "_overs_blitz_direct_picks":7.0,
-    "_drop_picks":22.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":22.0
   },
   {
     "ssi_player_id":"b2251f82-7770-4e0b-994d-c33ff4a1b39d",
@@ -5982,14 +5769,13 @@
     "Defending Drives VORP+":0.7632653061,
     "\u2060Defending Drives VORP":0.8040816327,
     "% Blown By":0.6571428571,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7561983471,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1737089202,
     "Shot Quality Allowed on Overs+Blitzes":0.1079812207,
     "% Drop Coverage":0.6502347418,
     "_nba_callup_shots":23.0,
     "_overs_blitz_direct_picks":43.0,
-    "_drop_picks":105.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":105.0
   },
   {
     "ssi_player_id":"b8b01afe-00df-407e-b0ee-229eacce163c",
@@ -6010,14 +5796,13 @@
     "Defending Drives VORP+":0.8367346939,
     "\u2060Defending Drives VORP":0.787755102,
     "% Blown By":0.9673469388,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8388429752,
+    "Performance Guarding NBA Call-ups":0.0948905109,
     "\u2060Total Ballscreens Attacked":0.5422535211,
     "Shot Quality Allowed on Overs+Blitzes":0.1009389671,
     "% Drop Coverage":0.2863849765,
     "_nba_callup_shots":32.0,
     "_overs_blitz_direct_picks":82.0,
-    "_drop_picks":154.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":154.0
   },
   {
     "ssi_player_id":"4b2dd1ee-169e-4af4-9877-1e600ccc1ac5",
@@ -6038,14 +5823,13 @@
     "Defending Drives VORP+":0.5714285714,
     "\u2060Defending Drives VORP":0.587755102,
     "% Blown By":0.6653061224,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7603305785,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3004694836,
     "Shot Quality Allowed on Overs+Blitzes":0.3004694836,
     "% Drop Coverage":0.1079812207,
     "_nba_callup_shots":21.0,
     "_overs_blitz_direct_picks":57.0,
-    "_drop_picks":57.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":57.0
   },
   {
     "ssi_player_id":"ae301693-1228-4496-9f09-3dede6e84191",
@@ -6066,14 +5850,13 @@
     "Defending Drives VORP+":0.0857142857,
     "\u2060Defending Drives VORP":0.0530612245,
     "% Blown By":0.3918367347,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8595041322,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":22.0,
     "_overs_blitz_direct_picks":12.0,
-    "_drop_picks":23.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":23.0
   },
   {
     "ssi_player_id":"659ecb80-2665-4645-b890-ef69b738b5e3",
@@ -6094,14 +5877,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":0.0,
-    "_drop_picks":5.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":5.0
   },
   {
     "ssi_player_id":"b25395ca-26fc-4977-bf67-3b99e73e1048",
@@ -6122,14 +5904,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":2.0,
-    "_drop_picks":6.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":6.0
   },
   {
     "ssi_player_id":"ff42a38f-89ef-11e6-bb23-a45e60e298d3",
@@ -6150,14 +5931,13 @@
     "Defending Drives VORP+":0.8795918367,
     "\u2060Defending Drives VORP":0.8224489796,
     "% Blown By":0.0367346939,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5991735537,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2018779343,
     "Shot Quality Allowed on Overs+Blitzes":0.8779342723,
     "% Drop Coverage":0.8192488263,
     "_nba_callup_shots":17.0,
     "_overs_blitz_direct_picks":46.0,
-    "_drop_picks":53.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":53.0
   },
   {
     "ssi_player_id":"1aae577a-f08a-437b-81ed-160d66e586b9",
@@ -6178,14 +5958,13 @@
     "Defending Drives VORP+":0.4530612245,
     "\u2060Defending Drives VORP":0.4326530612,
     "% Blown By":0.5020408163,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3388429752,
+    "Performance Guarding NBA Call-ups":0.6934306569,
     "\u2060Total Ballscreens Attacked":0.1244131455,
     "Shot Quality Allowed on Overs+Blitzes":0.3708920188,
     "% Drop Coverage":0.765258216,
     "_nba_callup_shots":34.0,
     "_overs_blitz_direct_picks":36.0,
-    "_drop_picks":135.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":135.0
   },
   {
     "ssi_player_id":"fb3799f7-55e6-46cd-8dba-16e86ee83d37",
@@ -6206,14 +5985,13 @@
     "Defending Drives VORP+":0.7346938776,
     "\u2060Defending Drives VORP":0.7714285714,
     "% Blown By":0.8816326531,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7128099174,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4107981221,
     "Shot Quality Allowed on Overs+Blitzes":0.2863849765,
     "% Drop Coverage":0.0516431925,
     "_nba_callup_shots":19.0,
     "_overs_blitz_direct_picks":69.0,
-    "_drop_picks":117.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":117.0
   },
   {
     "ssi_player_id":"1a254905-e1db-43b8-9f5c-b1bf4e663150",
@@ -6234,14 +6012,13 @@
     "Defending Drives VORP+":0.3163265306,
     "\u2060Defending Drives VORP":0.3306122449,
     "% Blown By":0.6326530612,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9545454545,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.6525821596,
     "Shot Quality Allowed on Overs+Blitzes":0.1549295775,
     "% Drop Coverage":0.0469483568,
     "_nba_callup_shots":13.0,
     "_overs_blitz_direct_picks":99.0,
-    "_drop_picks":46.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":46.0
   },
   {
     "ssi_player_id":"2916816a-1e08-43ef-953d-a81bfe3503ee",
@@ -6262,14 +6039,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":3.0,
     "_overs_blitz_direct_picks":9.0,
-    "_drop_picks":3.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":3.0
   },
   {
     "ssi_player_id":"cbbbce73-763b-4e1d-820b-1b8f62857eaa",
@@ -6290,14 +6066,13 @@
     "Defending Drives VORP+":0.7469387755,
     "\u2060Defending Drives VORP":0.7551020408,
     "% Blown By":0.3714285714,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.458677686,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3990610329,
     "Shot Quality Allowed on Overs+Blitzes":0.765258216,
     "% Drop Coverage":0.117370892,
     "_nba_callup_shots":21.0,
     "_overs_blitz_direct_picks":68.0,
-    "_drop_picks":40.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":40.0
   },
   {
     "ssi_player_id":"af3e4f66-d651-4875-9291-4ee32c6a65dd",
@@ -6318,14 +6093,13 @@
     "Defending Drives VORP+":0.8489795918,
     "\u2060Defending Drives VORP":0.9020408163,
     "% Blown By":0.7306122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2727272727,
+    "Performance Guarding NBA Call-ups":0.7591240876,
     "\u2060Total Ballscreens Attacked":0.8568075117,
     "Shot Quality Allowed on Overs+Blitzes":0.7887323944,
     "% Drop Coverage":0.4319248826,
     "_nba_callup_shots":72.0,
     "_overs_blitz_direct_picks":144.0,
-    "_drop_picks":158.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":158.0
   },
   {
     "ssi_player_id":"a593fa2b-cb79-4f8a-8139-bba7a2133f2c",
@@ -6346,14 +6120,13 @@
     "Defending Drives VORP+":0.0367346939,
     "\u2060Defending Drives VORP":0.0408163265,
     "% Blown By":0.6979591837,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1198347107,
+    "Performance Guarding NBA Call-ups":0.9124087591,
     "\u2060Total Ballscreens Attacked":0.8192488263,
     "Shot Quality Allowed on Overs+Blitzes":0.0704225352,
     "% Drop Coverage":0.8309859155,
     "_nba_callup_shots":34.0,
     "_overs_blitz_direct_picks":136.0,
-    "_drop_picks":97.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":97.0
   },
   {
     "ssi_player_id":"6404e275-f55f-42e5-8d36-cddd1661c335",
@@ -6374,14 +6147,13 @@
     "Defending Drives VORP+":0.8795918367,
     "\u2060Defending Drives VORP":0.8591836735,
     "% Blown By":0.9183673469,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.902892562,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0774647887,
     "Shot Quality Allowed on Overs+Blitzes":0.0328638498,
     "% Drop Coverage":null,
     "_nba_callup_shots":11.0,
     "_overs_blitz_direct_picks":30.0,
-    "_drop_picks":20.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":20.0
   },
   {
     "ssi_player_id":"57be9a58-9fec-4727-b978-d75c7e33e914",
@@ -6402,14 +6174,13 @@
     "Defending Drives VORP+":0.0163265306,
     "\u2060Defending Drives VORP":0.012244898,
     "% Blown By":0.0040816327,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":5.0,
-    "_drop_picks":13.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":13.0
   },
   {
     "ssi_player_id":"5b0bdabe-6c41-4fef-bcc7-518987c7451a",
@@ -6430,14 +6201,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":10.0,
-    "_drop_picks":8.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":8.0
   },
   {
     "ssi_player_id":"5c2a5944-cadb-4619-8b0d-04338c63a470",
@@ -6458,14 +6228,13 @@
     "Defending Drives VORP+":0.5816326531,
     "\u2060Defending Drives VORP":0.5387755102,
     "% Blown By":0.5510204082,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6115702479,
+    "Performance Guarding NBA Call-ups":0.3503649635,
     "\u2060Total Ballscreens Attacked":0.8873239437,
     "Shot Quality Allowed on Overs+Blitzes":0.0422535211,
     "% Drop Coverage":0.1924882629,
     "_nba_callup_shots":69.0,
     "_overs_blitz_direct_picks":148.0,
-    "_drop_picks":155.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":155.0
   },
   {
     "ssi_player_id":"f99ade9a-ec49-4d41-b7f8-7e1b16c9ed79",
@@ -6486,14 +6255,13 @@
     "Defending Drives VORP+":0.9959183673,
     "\u2060Defending Drives VORP":0.9918367347,
     "% Blown By":0.8775510204,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0082644628,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":11.0,
-    "_drop_picks":1.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":1.0
   },
   {
     "ssi_player_id":"a419b920-f119-41d8-af53-47d3b49ea811",
@@ -6514,14 +6282,13 @@
     "Defending Drives VORP+":0.4673469388,
     "\u2060Defending Drives VORP":0.4142857143,
     "% Blown By":0.8530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6239669421,
+    "Performance Guarding NBA Call-ups":0.3284671533,
     "\u2060Total Ballscreens Attacked":0.8802816901,
     "Shot Quality Allowed on Overs+Blitzes":0.1596244131,
     "% Drop Coverage":0.4788732394,
     "_nba_callup_shots":45.0,
     "_overs_blitz_direct_picks":147.0,
-    "_drop_picks":159.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":159.0
   },
   {
     "ssi_player_id":"e3cdc093-14ad-4686-ade9-7fc70c5a5a88",
@@ -6542,14 +6309,13 @@
     "Defending Drives VORP+":0.8693877551,
     "\u2060Defending Drives VORP":0.8367346939,
     "% Blown By":0.712244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0619834711,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.485915493,
     "Shot Quality Allowed on Overs+Blitzes":0.7276995305,
     "% Drop Coverage":0.8028169014,
     "_nba_callup_shots":11.0,
     "_overs_blitz_direct_picks":78.0,
-    "_drop_picks":50.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":50.0
   },
   {
     "ssi_player_id":"9027d4b5-4d3d-4ee2-98cd-3d105aa7044b",
@@ -6570,14 +6336,13 @@
     "Defending Drives VORP+":0.0673469388,
     "\u2060Defending Drives VORP":0.0571428571,
     "% Blown By":0.0326530612,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9628099174,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":0.3075117371,
     "_nba_callup_shots":11.0,
     "_overs_blitz_direct_picks":10.0,
-    "_drop_picks":44.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":44.0
   },
   {
     "ssi_player_id":"0fc9db0f-ca5e-49e9-a003-973fa4fd8839",
@@ -6598,14 +6363,13 @@
     "Defending Drives VORP+":0.7510204082,
     "\u2060Defending Drives VORP":0.6530612245,
     "% Blown By":0.3959183673,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3966942149,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.0985915493,
     "Shot Quality Allowed on Overs+Blitzes":0.8615023474,
     "% Drop Coverage":0.3544600939,
     "_nba_callup_shots":23.0,
     "_overs_blitz_direct_picks":32.0,
-    "_drop_picks":66.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":66.0
   },
   {
     "ssi_player_id":"27574eb5-d76b-4147-882e-38f3edc014b3",
@@ -6626,14 +6390,13 @@
     "Defending Drives VORP+":0.0612244898,
     "\u2060Defending Drives VORP":0.0448979592,
     "% Blown By":0.5183673469,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1446280992,
+    "Performance Guarding NBA Call-ups":0.897810219,
     "\u2060Total Ballscreens Attacked":0.7558685446,
     "Shot Quality Allowed on Overs+Blitzes":0.1830985915,
     "% Drop Coverage":0.896713615,
     "_nba_callup_shots":34.0,
     "_overs_blitz_direct_picks":127.0,
-    "_drop_picks":118.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":118.0
   },
   {
     "ssi_player_id":"f43050bf-10e7-4919-95a0-272b4c616687",
@@ -6654,14 +6417,13 @@
     "Defending Drives VORP+":0.9795918367,
     "\u2060Defending Drives VORP":0.9755102041,
     "% Blown By":0.0591836735,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.479338843,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":13.0,
-    "_drop_picks":25.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":25.0
   },
   {
     "ssi_player_id":"a4f5f591-7988-4761-b96d-5efb627bd420",
@@ -6682,14 +6444,13 @@
     "Defending Drives VORP+":0.1102040816,
     "\u2060Defending Drives VORP":0.1224489796,
     "% Blown By":0.9632653061,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9132231405,
+    "Performance Guarding NBA Call-ups":0.0364963504,
     "\u2060Total Ballscreens Attacked":0.7276995305,
     "Shot Quality Allowed on Overs+Blitzes":0.2723004695,
     "% Drop Coverage":0.6103286385,
     "_nba_callup_shots":39.0,
     "_overs_blitz_direct_picks":122.0,
-    "_drop_picks":97.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":97.0
   },
   {
     "ssi_player_id":"673bd14c-085f-4173-9211-d62ae307b0e3",
@@ -6710,14 +6471,13 @@
     "Defending Drives VORP+":0.0816326531,
     "\u2060Defending Drives VORP":0.0775510204,
     "% Blown By":0.6693877551,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8553719008,
+    "Performance Guarding NBA Call-ups":0.0729927007,
     "\u2060Total Ballscreens Attacked":0.9272300469,
     "Shot Quality Allowed on Overs+Blitzes":0.1924882629,
     "% Drop Coverage":0.3544600939,
     "_nba_callup_shots":64.0,
     "_overs_blitz_direct_picks":166.0,
-    "_drop_picks":216.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":216.0
   },
   {
     "ssi_player_id":"4f71e857-f644-4dfc-9ae8-65416c90df71",
@@ -6738,14 +6498,13 @@
     "Defending Drives VORP+":0.1265306122,
     "\u2060Defending Drives VORP":0.1551020408,
     "% Blown By":0.1714285714,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4648760331,
+    "Performance Guarding NBA Call-ups":0.5364963504,
     "\u2060Total Ballscreens Attacked":0.3732394366,
     "Shot Quality Allowed on Overs+Blitzes":0.6338028169,
     "% Drop Coverage":0.0985915493,
     "_nba_callup_shots":41.0,
     "_overs_blitz_direct_picks":65.0,
-    "_drop_picks":149.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":149.0
   },
   {
     "ssi_player_id":"6068f2de-9744-432d-b3f4-f73da0894927",
@@ -6766,14 +6525,13 @@
     "Defending Drives VORP+":0.3897959184,
     "\u2060Defending Drives VORP":0.4285714286,
     "% Blown By":0.2040816327,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2045454545,
+    "Performance Guarding NBA Call-ups":0.8357664234,
     "\u2060Total Ballscreens Attacked":0.8732394366,
     "Shot Quality Allowed on Overs+Blitzes":0.7558685446,
     "% Drop Coverage":0.1314553991,
     "_nba_callup_shots":48.0,
     "_overs_blitz_direct_picks":146.0,
-    "_drop_picks":140.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":140.0
   },
   {
     "ssi_player_id":"2d470912-d9ac-4456-916c-372fc4c84cdc",
@@ -6794,14 +6552,13 @@
     "Defending Drives VORP+":0.4204081633,
     "\u2060Defending Drives VORP":0.4367346939,
     "% Blown By":0.6244897959,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5475206612,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1877934272,
     "Shot Quality Allowed on Overs+Blitzes":0.5,
     "% Drop Coverage":0.1971830986,
     "_nba_callup_shots":16.0,
     "_overs_blitz_direct_picks":45.0,
-    "_drop_picks":42.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":42.0
   },
   {
     "ssi_player_id":"8d385c74-6c2b-4704-ad41-8e5519b11012",
@@ -6822,14 +6579,13 @@
     "Defending Drives VORP+":0.8653061224,
     "\u2060Defending Drives VORP":0.8591836735,
     "% Blown By":0.2857142857,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8760330579,
+    "Performance Guarding NBA Call-ups":0.0656934307,
     "\u2060Total Ballscreens Attacked":0.676056338,
     "Shot Quality Allowed on Overs+Blitzes":0.4882629108,
     "% Drop Coverage":0.1737089202,
     "_nba_callup_shots":55.0,
     "_overs_blitz_direct_picks":110.0,
-    "_drop_picks":115.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":115.0
   },
   {
     "ssi_player_id":"73712bb9-3143-4176-8eb3-cef6d45e9f92",
@@ -6850,14 +6606,13 @@
     "Defending Drives VORP+":0.612244898,
     "\u2060Defending Drives VORP":0.612244898,
     "% Blown By":0.4489795918,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1549586777,
+    "Performance Guarding NBA Call-ups":0.8905109489,
     "\u2060Total Ballscreens Attacked":0.8943661972,
     "Shot Quality Allowed on Overs+Blitzes":0.7840375587,
     "% Drop Coverage":0.9812206573,
     "_nba_callup_shots":110.0,
     "_overs_blitz_direct_picks":149.0,
-    "_drop_picks":194.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":194.0
   },
   {
     "ssi_player_id":"1d1c157c-d6cd-492c-8ac1-aca3b6d6c04f",
@@ -6878,14 +6633,13 @@
     "Defending Drives VORP+":0.3714285714,
     "\u2060Defending Drives VORP":0.3836734694,
     "% Blown By":0.8979591837,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9876033058,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.3169014085,
     "Shot Quality Allowed on Overs+Blitzes":0.0187793427,
     "% Drop Coverage":0.6854460094,
     "_nba_callup_shots":13.0,
     "_overs_blitz_direct_picks":58.0,
-    "_drop_picks":51.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":51.0
   },
   {
     "ssi_player_id":"41e105ed-f146-4aef-a65b-262abde1841e",
@@ -6906,14 +6660,13 @@
     "Defending Drives VORP+":0.5428571429,
     "\u2060Defending Drives VORP":0.5102040816,
     "% Blown By":0.6163265306,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7024793388,
+    "Performance Guarding NBA Call-ups":0.2262773723,
     "\u2060Total Ballscreens Attacked":0.6525821596,
     "Shot Quality Allowed on Overs+Blitzes":0.2816901408,
     "% Drop Coverage":0.4600938967,
     "_nba_callup_shots":54.0,
     "_overs_blitz_direct_picks":99.0,
-    "_drop_picks":191.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":191.0
   },
   {
     "ssi_player_id":"63e0883f-eae7-4a6c-ad8f-c7670247241e",
@@ -6934,14 +6687,13 @@
     "Defending Drives VORP+":0.106122449,
     "\u2060Defending Drives VORP":0.093877551,
     "% Blown By":0.7571428571,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2789256198,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.5821596244,
     "Shot Quality Allowed on Overs+Blitzes":0.5516431925,
     "% Drop Coverage":0.220657277,
     "_nba_callup_shots":20.0,
     "_overs_blitz_direct_picks":85.0,
-    "_drop_picks":62.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":62.0
   },
   {
     "ssi_player_id":"6779419d-662d-4a38-b2ea-cb8e012eed8f",
@@ -6962,14 +6714,13 @@
     "Defending Drives VORP+":0.9408163265,
     "\u2060Defending Drives VORP":0.9346938776,
     "% Blown By":0.2204081633,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8181818182,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.1572769953,
     "Shot Quality Allowed on Overs+Blitzes":0.8450704225,
     "% Drop Coverage":0.0845070423,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":41.0,
-    "_drop_picks":42.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":42.0
   },
   {
     "ssi_player_id":"7d91ff01-e290-4fe8-955f-093a15c1d3b5",
@@ -6990,14 +6741,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":3.0,
-    "_drop_picks":19.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":19.0
   },
   {
     "ssi_player_id":"c870f7e6-686b-40b6-859c-ced3b397cbd8",
@@ -7018,14 +6768,13 @@
     "Defending Drives VORP+":0.1020408163,
     "\u2060Defending Drives VORP":0.1265306122,
     "% Blown By":0.3632653061,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6157024793,
+    "Performance Guarding NBA Call-ups":0.3430656934,
     "\u2060Total Ballscreens Attacked":0.4718309859,
     "Shot Quality Allowed on Overs+Blitzes":0.5305164319,
     "% Drop Coverage":0.6807511737,
     "_nba_callup_shots":30.0,
     "_overs_blitz_direct_picks":77.0,
-    "_drop_picks":70.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":70.0
   },
   {
     "ssi_player_id":"b17e9b18-8167-47ec-b96c-1a1c88208376",
@@ -7046,14 +6795,13 @@
     "Defending Drives VORP+":0.3244897959,
     "\u2060Defending Drives VORP":0.2897959184,
     "% Blown By":0.3387755102,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5661157025,
+    "Performance Guarding NBA Call-ups":0.4160583942,
     "\u2060Total Ballscreens Attacked":0.9624413146,
     "Shot Quality Allowed on Overs+Blitzes":0.4436619718,
     "% Drop Coverage":0.7183098592,
     "_nba_callup_shots":56.0,
     "_overs_blitz_direct_picks":189.0,
-    "_drop_picks":190.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":190.0
   },
   {
     "ssi_player_id":"4e132a3e-20b7-4058-9b69-c71ed0bfd654",
@@ -7074,14 +6822,13 @@
     "Defending Drives VORP+":0.8244897959,
     "\u2060Defending Drives VORP":0.8489795918,
     "% Blown By":0.5918367347,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4359504132,
+    "Performance Guarding NBA Call-ups":0.5729927007,
     "\u2060Total Ballscreens Attacked":0.0281690141,
     "Shot Quality Allowed on Overs+Blitzes":0.9342723005,
     "% Drop Coverage":0.8474178404,
     "_nba_callup_shots":34.0,
     "_overs_blitz_direct_picks":22.0,
-    "_drop_picks":48.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":48.0
   },
   {
     "ssi_player_id":"0784aa6d-2f58-4e8f-8fd0-d3cb2fd08ff8",
@@ -7102,14 +6849,13 @@
     "Defending Drives VORP+":0.8040816327,
     "\u2060Defending Drives VORP":0.7591836735,
     "% Blown By":0.6775510204,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3037190083,
+    "Performance Guarding NBA Call-ups":0.7299270073,
     "\u2060Total Ballscreens Attacked":1.0,
     "Shot Quality Allowed on Overs+Blitzes":0.8615023474,
     "% Drop Coverage":0.103286385,
     "_nba_callup_shots":81.0,
     "_overs_blitz_direct_picks":263.0,
-    "_drop_picks":140.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":140.0
   },
   {
     "ssi_player_id":"94d35dd4-a4fe-47ae-a856-cd0d5b1193a9",
@@ -7130,14 +6876,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":1.0,
-    "_drop_picks":6.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":6.0
   },
   {
     "ssi_player_id":"6b0963ac-b00e-46cd-94e8-e60dc3238718",
@@ -7158,14 +6903,13 @@
     "Defending Drives VORP+":0.8857142857,
     "\u2060Defending Drives VORP":0.8897959184,
     "% Blown By":0.6081632653,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3801652893,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.5164319249,
     "Shot Quality Allowed on Overs+Blitzes":0.455399061,
     "% Drop Coverage":0.9436619718,
     "_nba_callup_shots":18.0,
     "_overs_blitz_direct_picks":81.0,
-    "_drop_picks":60.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":60.0
   },
   {
     "ssi_player_id":"1d44afa0-7106-441c-b8ed-cc5e216e866b",
@@ -7186,14 +6930,13 @@
     "Defending Drives VORP+":0.812244898,
     "\u2060Defending Drives VORP":0.8530612245,
     "% Blown By":0.4244897959,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2314049587,
+    "Performance Guarding NBA Call-ups":0.8102189781,
     "\u2060Total Ballscreens Attacked":0.1572769953,
     "Shot Quality Allowed on Overs+Blitzes":0.5399061033,
     "% Drop Coverage":0.79342723,
     "_nba_callup_shots":34.0,
     "_overs_blitz_direct_picks":41.0,
-    "_drop_picks":134.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":134.0
   },
   {
     "ssi_player_id":"9819211d-c92e-4802-8be4-018f1efe7932",
@@ -7214,14 +6957,13 @@
     "Defending Drives VORP+":0.012244898,
     "\u2060Defending Drives VORP":0.0163265306,
     "% Blown By":0.4612244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3595041322,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":8.0,
     "_overs_blitz_direct_picks":13.0,
-    "_drop_picks":10.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":10.0
   },
   {
     "ssi_player_id":"4eb5e112-86bc-45b5-a081-deb3f3aa0b67",
@@ -7242,14 +6984,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":1.0,
-    "_drop_picks":2.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":2.0
   },
   {
     "ssi_player_id":"636fef85-a117-4abd-96b9-a45df0f16b53",
@@ -7270,14 +7011,13 @@
     "Defending Drives VORP+":0.1591836735,
     "\u2060Defending Drives VORP":0.2857142857,
     "% Blown By":0.1224489796,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7520661157,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":7.0,
     "_overs_blitz_direct_picks":9.0,
-    "_drop_picks":11.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":11.0
   },
   {
     "ssi_player_id":"94ca1f88-1f26-4d28-aeba-c686a5dde5e2",
@@ -7298,14 +7038,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":1.0,
     "_overs_blitz_direct_picks":2.0,
-    "_drop_picks":null,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":null
   },
   {
     "ssi_player_id":"58189b84-2563-4034-984b-e61021022c4c",
@@ -7326,14 +7065,13 @@
     "Defending Drives VORP+":0.793877551,
     "\u2060Defending Drives VORP":0.7632653061,
     "% Blown By":0.3836734694,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6033057851,
+    "Performance Guarding NBA Call-ups":0.3649635036,
     "\u2060Total Ballscreens Attacked":0.2511737089,
     "Shot Quality Allowed on Overs+Blitzes":0.9436619718,
     "% Drop Coverage":0.2629107981,
     "_nba_callup_shots":65.0,
     "_overs_blitz_direct_picks":51.0,
-    "_drop_picks":186.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":186.0
   },
   {
     "ssi_player_id":"eae5a4b1-2701-4843-b7ed-ac8677e6446b",
@@ -7354,14 +7092,13 @@
     "Defending Drives VORP+":0.6571428571,
     "\u2060Defending Drives VORP":0.7346938776,
     "% Blown By":0.7795918367,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.5619834711,
+    "Performance Guarding NBA Call-ups":0.4233576642,
     "\u2060Total Ballscreens Attacked":0.9342723005,
     "Shot Quality Allowed on Overs+Blitzes":0.5868544601,
     "% Drop Coverage":0.4483568075,
     "_nba_callup_shots":88.0,
     "_overs_blitz_direct_picks":167.0,
-    "_drop_picks":143.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":143.0
   },
   {
     "ssi_player_id":"8303a10f-1748-43ee-9c4c-59abdffdaf87",
@@ -7382,14 +7119,13 @@
     "Defending Drives VORP+":0.3428571429,
     "\u2060Defending Drives VORP":0.3163265306,
     "% Blown By":0.3346938776,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9462809917,
+    "Performance Guarding NBA Call-ups":0.0145985401,
     "\u2060Total Ballscreens Attacked":0.3004694836,
     "Shot Quality Allowed on Overs+Blitzes":0.117370892,
     "% Drop Coverage":0.9154929577,
     "_nba_callup_shots":25.0,
     "_overs_blitz_direct_picks":57.0,
-    "_drop_picks":95.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":95.0
   },
   {
     "ssi_player_id":"a17cb8d2-4fe7-49a1-b4b9-e56f6316d694",
@@ -7410,14 +7146,13 @@
     "Defending Drives VORP+":0.6734693878,
     "\u2060Defending Drives VORP":0.7020408163,
     "% Blown By":0.7836734694,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4421487603,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.8075117371,
     "Shot Quality Allowed on Overs+Blitzes":0.8286384977,
     "% Drop Coverage":0.0164319249,
     "_nba_callup_shots":20.0,
     "_overs_blitz_direct_picks":134.0,
-    "_drop_picks":69.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":69.0
   },
   {
     "ssi_player_id":"d98ecec8-9937-426e-ba9a-e019ec88d94f",
@@ -7438,14 +7173,13 @@
     "Defending Drives VORP+":0.9510204082,
     "\u2060Defending Drives VORP":0.9591836735,
     "% Blown By":0.5428571429,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.041322314,
+    "Performance Guarding NBA Call-ups":0.9854014599,
     "\u2060Total Ballscreens Attacked":0.6807511737,
     "Shot Quality Allowed on Overs+Blitzes":0.7136150235,
     "% Drop Coverage":0.3145539906,
     "_nba_callup_shots":44.0,
     "_overs_blitz_direct_picks":112.0,
-    "_drop_picks":148.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":148.0
   },
   {
     "ssi_player_id":"ea2c60f4-30d3-4154-b99e-b907b24658bf",
@@ -7466,14 +7200,13 @@
     "Defending Drives VORP+":0.4897959184,
     "\u2060Defending Drives VORP":0.4408163265,
     "% Blown By":0.2612244898,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.4359504132,
+    "Performance Guarding NBA Call-ups":0.5729927007,
     "\u2060Total Ballscreens Attacked":0.6431924883,
     "Shot Quality Allowed on Overs+Blitzes":0.4647887324,
     "% Drop Coverage":0.5352112676,
     "_nba_callup_shots":80.0,
     "_overs_blitz_direct_picks":98.0,
-    "_drop_picks":251.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":251.0
   },
   {
     "ssi_player_id":"0b1c2f8c-380e-4f07-85b0-3b5ff4650d00",
@@ -7494,14 +7227,13 @@
     "Defending Drives VORP+":0.2816326531,
     "\u2060Defending Drives VORP":0.2326530612,
     "% Blown By":0.1183673469,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7892561983,
+    "Performance Guarding NBA Call-ups":0.1313868613,
     "\u2060Total Ballscreens Attacked":0.5164319249,
     "Shot Quality Allowed on Overs+Blitzes":0.0751173709,
     "% Drop Coverage":0.117370892,
     "_nba_callup_shots":36.0,
     "_overs_blitz_direct_picks":81.0,
-    "_drop_picks":96.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":96.0
   },
   {
     "ssi_player_id":"40faa5df-7ced-449d-bd12-300a2938370a",
@@ -7522,14 +7254,13 @@
     "Defending Drives VORP+":0.5020408163,
     "\u2060Defending Drives VORP":0.5448979592,
     "% Blown By":0.9591836735,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.0247933884,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":6.0,
     "_overs_blitz_direct_picks":12.0,
-    "_drop_picks":11.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":11.0
   },
   {
     "ssi_player_id":"0b9ca9bc-f567-4768-9cc5-5e42d6fc8dce",
@@ -7550,14 +7281,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":4.0,
     "_overs_blitz_direct_picks":6.0,
-    "_drop_picks":10.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":10.0
   },
   {
     "ssi_player_id":"a9ab59d3-2f04-49b0-b4fd-a265d98af568",
@@ -7578,14 +7308,13 @@
     "Defending Drives VORP+":0.8897959184,
     "\u2060Defending Drives VORP":0.8775510204,
     "% Blown By":0.9836734694,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7190082645,
+    "Performance Guarding NBA Call-ups":0.2116788321,
     "\u2060Total Ballscreens Attacked":0.7112676056,
     "Shot Quality Allowed on Overs+Blitzes":0.6056338028,
     "% Drop Coverage":0.4366197183,
     "_nba_callup_shots":42.0,
     "_overs_blitz_direct_picks":119.0,
-    "_drop_picks":168.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":168.0
   },
   {
     "ssi_player_id":"4f89702e-6e19-48ef-9be1-8da8a0837a2f",
@@ -7606,14 +7335,13 @@
     "Defending Drives VORP+":0.0285714286,
     "\u2060Defending Drives VORP":0.0326530612,
     "% Blown By":0.5244897959,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8884297521,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2394366197,
     "Shot Quality Allowed on Overs+Blitzes":0.0563380282,
     "% Drop Coverage":0.9342723005,
     "_nba_callup_shots":6.0,
     "_overs_blitz_direct_picks":49.0,
-    "_drop_picks":44.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":44.0
   },
   {
     "ssi_player_id":"27207fcd-251c-4d7b-8d11-48823d8dab1b",
@@ -7634,14 +7362,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":null,
-    "_drop_picks":3.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":3.0
   },
   {
     "ssi_player_id":"316deed2-3f6a-4c1c-9508-2dd0c937cd4c",
@@ -7662,14 +7389,13 @@
     "Defending Drives VORP+":0.8285714286,
     "\u2060Defending Drives VORP":0.8285714286,
     "% Blown By":0.4775510204,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.8636363636,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4577464789,
     "Shot Quality Allowed on Overs+Blitzes":0.5305164319,
     "% Drop Coverage":0.3333333333,
     "_nba_callup_shots":18.0,
     "_overs_blitz_direct_picks":76.0,
-    "_drop_picks":97.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":97.0
   },
   {
     "ssi_player_id":"ff415fa8-89ef-11e6-bc85-a45e60e298d3",
@@ -7690,14 +7416,13 @@
     "Defending Drives VORP+":0.9632653061,
     "\u2060Defending Drives VORP":0.9469387755,
     "% Blown By":0.5591836735,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3553719008,
+    "Performance Guarding NBA Call-ups":0.6715328467,
     "\u2060Total Ballscreens Attacked":0.2323943662,
     "Shot Quality Allowed on Overs+Blitzes":0.4272300469,
     "% Drop Coverage":0.5633802817,
     "_nba_callup_shots":31.0,
     "_overs_blitz_direct_picks":48.0,
-    "_drop_picks":94.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":94.0
   },
   {
     "ssi_player_id":"d809ed56-e0c4-48ab-9cb2-e6e94a8c0842",
@@ -7718,14 +7443,13 @@
     "Defending Drives VORP+":0.0897959184,
     "\u2060Defending Drives VORP":0.0816326531,
     "% Blown By":0.1510204082,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.1487603306,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.6291079812,
     "Shot Quality Allowed on Overs+Blitzes":0.1971830986,
     "% Drop Coverage":0.6384976526,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":95.0,
-    "_drop_picks":120.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":120.0
   },
   {
     "ssi_player_id":"ae81ff91-c142-4a68-b826-4ae75af6a94f",
@@ -7746,14 +7470,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":2.0,
     "_overs_blitz_direct_picks":6.0,
-    "_drop_picks":6.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":6.0
   },
   {
     "ssi_player_id":"96f746dd-7dfb-4ea4-a98c-39ed5d2a0fd5",
@@ -7774,14 +7497,13 @@
     "Defending Drives VORP+":0.5346938776,
     "\u2060Defending Drives VORP":0.5571428571,
     "% Blown By":0.1306122449,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.3884297521,
+    "Performance Guarding NBA Call-ups":0.6423357664,
     "\u2060Total Ballscreens Attacked":0.2629107981,
     "Shot Quality Allowed on Overs+Blitzes":0.3145539906,
     "% Drop Coverage":0.455399061,
     "_nba_callup_shots":46.0,
     "_overs_blitz_direct_picks":53.0,
-    "_drop_picks":104.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":104.0
   },
   {
     "ssi_player_id":"5673cf85-4703-43f8-b541-dd3923d4c42b",
@@ -7802,14 +7524,13 @@
     "Defending Drives VORP+":null,
     "\u2060Defending Drives VORP":null,
     "% Blown By":null,
-    "\u2060\u2060Performane Guarding NBA Call-ups":null,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":null,
     "Shot Quality Allowed on Overs+Blitzes":null,
     "% Drop Coverage":null,
     "_nba_callup_shots":null,
     "_overs_blitz_direct_picks":5.0,
-    "_drop_picks":2.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":2.0
   },
   {
     "ssi_player_id":"3d921f8a-1119-4e42-be46-c22ae84d5f58",
@@ -7830,14 +7551,13 @@
     "Defending Drives VORP+":0.1224489796,
     "\u2060Defending Drives VORP":0.0489795918,
     "% Blown By":0.9224489796,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.9380165289,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2629107981,
     "Shot Quality Allowed on Overs+Blitzes":0.1455399061,
     "% Drop Coverage":0.2323943662,
     "_nba_callup_shots":17.0,
     "_overs_blitz_direct_picks":53.0,
-    "_drop_picks":34.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":34.0
   },
   {
     "ssi_player_id":"7a58adf5-73d4-4f5e-b042-6ab0d8862313",
@@ -7858,14 +7578,13 @@
     "Defending Drives VORP+":0.8081632653,
     "\u2060Defending Drives VORP":0.7224489796,
     "% Blown By":0.1102040816,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6363636364,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.2629107981,
     "Shot Quality Allowed on Overs+Blitzes":0.1643192488,
     "% Drop Coverage":0.0046948357,
     "_nba_callup_shots":19.0,
     "_overs_blitz_direct_picks":53.0,
-    "_drop_picks":61.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":61.0
   },
   {
     "ssi_player_id":"cdb9a6bd-2259-43bc-9209-03da5b72234b",
@@ -7886,14 +7605,13 @@
     "Defending Drives VORP+":0.9346938776,
     "\u2060Defending Drives VORP":0.9551020408,
     "% Blown By":0.4530612245,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2396694215,
+    "Performance Guarding NBA Call-ups":0.795620438,
     "\u2060Total Ballscreens Attacked":0.2183098592,
     "Shot Quality Allowed on Overs+Blitzes":0.8732394366,
     "% Drop Coverage":0.2676056338,
     "_nba_callup_shots":32.0,
     "_overs_blitz_direct_picks":47.0,
-    "_drop_picks":149.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":149.0
   },
   {
     "ssi_player_id":"2aa9c687-ca9d-4478-a2c7-8f2797b308b2",
@@ -7914,14 +7632,13 @@
     "Defending Drives VORP+":0.2367346939,
     "\u2060Defending Drives VORP":0.187755102,
     "% Blown By":0.4897959184,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.2851239669,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.5422535211,
     "Shot Quality Allowed on Overs+Blitzes":0.3661971831,
     "% Drop Coverage":0.2112676056,
     "_nba_callup_shots":24.0,
     "_overs_blitz_direct_picks":82.0,
-    "_drop_picks":90.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":90.0
   },
   {
     "ssi_player_id":"bf29165e-4d8e-4760-a070-5502dd6c2176",
@@ -7942,14 +7659,13 @@
     "Defending Drives VORP+":0.7081632653,
     "\u2060Defending Drives VORP":0.8081632653,
     "% Blown By":0.2,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.076446281,
+    "Performance Guarding NBA Call-ups":0.9598540146,
     "\u2060Total Ballscreens Attacked":0.4107981221,
     "Shot Quality Allowed on Overs+Blitzes":0.6572769953,
     "% Drop Coverage":0.8122065728,
     "_nba_callup_shots":53.0,
     "_overs_blitz_direct_picks":69.0,
-    "_drop_picks":423.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":423.0
   },
   {
     "ssi_player_id":"cbddda95-fa69-4ae6-b6b0-247f5c669b7f",
@@ -7970,14 +7686,13 @@
     "Defending Drives VORP+":0.4489795918,
     "\u2060Defending Drives VORP":0.4571428571,
     "% Blown By":0.8102040816,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.7789256198,
+    "Performance Guarding NBA Call-ups":null,
     "\u2060Total Ballscreens Attacked":0.4366197183,
     "Shot Quality Allowed on Overs+Blitzes":0.5187793427,
     "% Drop Coverage":0.3544600939,
     "_nba_callup_shots":21.0,
     "_overs_blitz_direct_picks":73.0,
-    "_drop_picks":42.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":42.0
   },
   {
     "ssi_player_id":"21f03dac-c84d-48c5-80ce-a54781f63914",
@@ -7998,13 +7713,12 @@
     "Defending Drives VORP+":0.5673469388,
     "\u2060Defending Drives VORP":0.5265306122,
     "% Blown By":0.5836734694,
-    "\u2060\u2060Performane Guarding NBA Call-ups":0.6198347107,
+    "Performance Guarding NBA Call-ups":0.3357664234,
     "\u2060Total Ballscreens Attacked":0.6150234742,
     "Shot Quality Allowed on Overs+Blitzes":0.2910798122,
     "% Drop Coverage":0.1361502347,
     "_nba_callup_shots":45.0,
     "_overs_blitz_direct_picks":93.0,
-    "_drop_picks":92.0,
-    "\u2060Performane Guarding NBA Call-ups":null
+    "_drop_picks":92.0
   }
 ]

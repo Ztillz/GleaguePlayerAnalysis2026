@@ -13,7 +13,6 @@ const excludedMetrics = [
     "⁠Performane Guarding NBA Call-ups",
     "⁠⁠Performane Guarding NBA Call-ups",
     "Performane Guarding NBA Call-ups",
-    "Performance Guarding NBA Call-ups"
 ];
 
 let allData = {};
@@ -211,18 +210,27 @@ function renderBarChart(containerId, normPlayer, cleanPlayer, title) {
     container.innerHTML = "";
 
     metrics.forEach(metric => {
-        const percentileValue = Number(normPlayer[metric]);
+        const rawPercentile = normPlayer[metric];
+
+        const hasPercentile =
+            rawPercentile !== null &&
+            rawPercentile !== undefined &&
+            rawPercentile !== "" &&
+            !Number.isNaN(Number(rawPercentile));
+
+        const percentileValue = hasPercentile ? Number(rawPercentile) : null;
+
         const rawValue = cleanPlayer ? cleanPlayer[metric] : null;
         const formattedRaw = formatRawValue(rawValue);
 
         const row = document.createElement("div");
         row.className = "bar-row";
 
-        if (Number.isNaN(percentileValue)) {
+        if (!hasPercentile) {
             row.innerHTML = `
                 <div class="bar-label">${metric}</div>
                 <div class="bar-wrap">
-                    <div class="bar-empty">low sample</div>
+                    <div class="bar-empty">DNQ</div>
                 </div>
                 <div class="bar-raw">${formattedRaw}</div>
             `;
