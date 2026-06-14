@@ -102,12 +102,12 @@ section {
 
 .bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, #8b1e1e, #d6a21e, #2e8b57);
     color: white;
     font-size: 13px;
     line-height: 24px;
     padding-left: 8px;
     min-width: 35px;
+    transition: background-color 0.2s ease;
 }
 
 .bar-empty {

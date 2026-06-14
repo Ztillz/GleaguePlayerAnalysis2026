@@ -196,6 +196,23 @@ function formatRawValue(value) {
     return num.toFixed(2);
 }
 
+function getPercentileColor(value) {
+    const pct = Math.max(0, Math.min(1, Number(value)));
+
+    // 0 -> red, 0.5 -> yellow, 1 -> green
+    let r, g;
+
+    if (pct < 0.5) {
+        r = 220;
+        g = Math.round(440 * pct);
+    } else {
+        r = Math.round(220 * (1 - pct) * 2);
+        g = 180;
+    }
+
+    return `rgb(${r}, ${g}, 60)`;
+}
+
 function renderBarChart(containerId, normPlayer, cleanPlayer, title) {
     const container = document.getElementById(containerId);
 
@@ -240,7 +257,7 @@ function renderBarChart(containerId, normPlayer, cleanPlayer, title) {
             row.innerHTML = `
                 <div class="bar-label">${metric}</div>
                 <div class="bar-wrap">
-                    <div class="bar-fill" style="width: ${pct}%;">
+                    <div class="bar-fill" style="width: ${pct}%; background: ${getPercentileColor(percentileValue)};">
                         ${pct}%
                     </div>
                 </div>
