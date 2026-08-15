@@ -1,0 +1,843 @@
+* {
+  box-sizing: border-box;
+}
+
+
+:root {
+  color-scheme: dark;
+
+  --bg: #111827;
+  --panel: #1f2937;
+  --panel-deep: #172033;
+  --border: #374151;
+  --border-light: #4b5563;
+  --text: #f9fafb;
+  --muted: #9ca3af;
+  --muted-light: #d1d5db;
+  --blue: #2563eb;
+  --blue-hover: #1d4ed8;
+  --green: #22c55e;
+  --red: #ef4444;
+}
+
+
+body {
+  margin: 0;
+
+  font-family:
+    Inter,
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background: var(--bg);
+  color: var(--text);
+}
+
+
+/* ============================================================
+   HEADER / NAVIGATION
+============================================================ */
+
+.page-header {
+  padding: 22px 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 24px;
+
+  border-bottom: 1px solid var(--border);
+}
+
+
+.page-header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+
+.page-header p {
+  margin: 7px 0 0;
+
+  color: var(--muted);
+  font-size: 14px;
+}
+
+
+.dashboard-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.dashboard-nav-link {
+  padding: 9px 14px;
+
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+
+  color: var(--muted-light);
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+
+.dashboard-nav-link:hover {
+  background: var(--border);
+  color: #ffffff;
+}
+
+
+.dashboard-nav-link.active {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: #ffffff;
+}
+
+
+/* ============================================================
+   MAIN
+============================================================ */
+
+main {
+  padding: 28px 38px 50px;
+}
+
+
+/* ============================================================
+   CONTRACT TOGGLES
+============================================================ */
+
+.contract-controls-card,
+.dashboard-card {
+  margin-bottom: 24px;
+
+  padding: 22px;
+
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+
+.controls-heading,
+.section-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+
+
+.controls-heading h2,
+.section-heading h2 {
+  margin: 0 0 7px;
+  font-size: 22px;
+}
+
+
+.controls-heading p,
+.section-heading p {
+  margin: 0;
+
+  max-width: 760px;
+
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.selected-definition {
+  padding: 9px 13px;
+
+  border: 1px solid #3b82f6;
+  border-radius: 999px;
+
+  background: rgba(37, 99, 235, 0.14);
+  color: #bfdbfe;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+
+.toggle-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+
+.contract-toggle {
+  position: relative;
+
+  min-height: 72px;
+  padding: 13px 14px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  background: var(--panel-deep);
+
+  cursor: pointer;
+
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+
+.contract-toggle:hover {
+  border-color: #64748b;
+}
+
+
+.contract-toggle input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.toggle-switch {
+  position: relative;
+
+  flex: 0 0 auto;
+
+  width: 42px;
+  height: 24px;
+
+  border-radius: 999px;
+  background: #4b5563;
+
+  transition: background-color 0.15s ease;
+}
+
+
+.toggle-switch::after {
+  content: "";
+
+  position: absolute;
+  top: 3px;
+  left: 3px;
+
+  width: 18px;
+  height: 18px;
+
+  border-radius: 50%;
+  background: #ffffff;
+
+  transition: transform 0.15s ease;
+}
+
+
+.contract-toggle input:checked + .toggle-switch {
+  background: var(--blue);
+}
+
+
+.contract-toggle input:checked + .toggle-switch::after {
+  transform: translateX(18px);
+}
+
+
+.contract-toggle:has(input:checked) {
+  border-color: #3b82f6;
+  background: rgba(37, 99, 235, 0.08);
+}
+
+
+.toggle-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+
+.toggle-copy strong {
+  font-size: 14px;
+}
+
+
+.toggle-copy small {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+
+.method-note {
+  margin-top: 14px;
+  padding: 11px 13px;
+
+  border-left: 3px solid #64748b;
+  border-radius: 6px;
+
+  background: #151e2d;
+  color: var(--muted-light);
+
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+
+/* ============================================================
+   LEGEND
+============================================================ */
+
+.legend-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+
+.league-average-display {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+
+.league-average-display strong {
+  margin-left: 5px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: var(--muted-light);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+
+.legend-bar {
+  width: 190px;
+  height: 13px;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #ffe66d 0%,
+      #f59e0b 50%,
+      #dc2626 100%
+    );
+}
+
+
+/* ============================================================
+   HEATMAP
+============================================================ */
+
+.heatmap-scroll {
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+
+.salary-heatmap {
+  display: grid;
+  gap: 5px;
+
+  width: max-content;
+  min-width: 100%;
+}
+
+
+.heatmap-team-header {
+  min-width: 106px;
+  min-height: 78px;
+
+  padding: 10px 7px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  text-align: center;
+
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+
+.heatmap-corner {
+  position: sticky;
+  left: 0;
+  z-index: 5;
+
+  min-width: 92px;
+
+  background: var(--panel);
+}
+
+
+.heatmap-game-label {
+  position: sticky;
+  left: 0;
+  z-index: 4;
+
+  min-width: 92px;
+  min-height: 62px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--bg);
+
+  border: 1px solid var(--border);
+  border-radius: 7px;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+.salary-cell {
+  position: relative;
+
+  min-width: 106px;
+  min-height: 62px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 7px;
+
+  border-radius: 7px;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  cursor: default;
+
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+
+
+
+.salary-cell:hover {
+  transform: scale(1.06);
+  z-index: 3;
+
+  box-shadow:
+    0 7px 20px
+    rgba(0, 0, 0, 0.34);
+}
+
+
+.salary-cell-empty {
+  min-width: 106px;
+  min-height: 62px;
+
+  border: 1px dashed var(--border);
+  border-radius: 7px;
+
+  background: #151e2d;
+}
+
+
+/* ============================================================
+   TOOLTIP
+============================================================ */
+
+.heatmap-tooltip {
+  position: fixed;
+  z-index: 1000;
+
+  display: none;
+
+  width: min(390px, calc(100vw - 24px));
+
+  padding: 16px;
+
+  background: #0b1220;
+  border: 1px solid #4b5563;
+  border-radius: 10px;
+
+  color: #f9fafb;
+
+  box-shadow:
+    0 16px 38px
+    rgba(0, 0, 0, 0.5);
+
+  pointer-events: none;
+}
+
+
+.tooltip-team {
+  margin-bottom: 4px;
+
+  font-size: 16px;
+  font-weight: 800;
+}
+
+
+.tooltip-game-line {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+
+.tooltip-result.win {
+  color: #86efac;
+}
+
+
+.tooltip-result.loss {
+  color: #fca5a5;
+}
+
+
+.tooltip-main-value {
+  margin-top: 13px;
+  padding: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  border-radius: 8px;
+
+  background: #172033;
+}
+
+
+.tooltip-main-value span {
+  color: var(--muted-light);
+  font-size: 12px;
+}
+
+
+.tooltip-main-value strong {
+  font-size: 19px;
+}
+
+
+.tooltip-average-grid {
+  margin-top: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 5px 14px;
+
+  color: var(--muted);
+  font-size: 12px;
+}
+
+
+.tooltip-average-grid strong {
+  color: var(--muted-light);
+  text-align: right;
+}
+
+
+.tooltip-average-grid strong.positive {
+  color: #fca5a5;
+}
+
+
+.tooltip-average-grid strong.negative {
+  color: #86efac;
+}
+
+
+.tooltip-divider {
+  height: 1px;
+  margin: 12px 0;
+  background: #374151;
+}
+
+
+.tooltip-section-title {
+  margin-bottom: 7px;
+
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+
+.tooltip-breakdown-row {
+  padding: 7px 0;
+
+  display: grid;
+  grid-template-columns: 1.25fr auto;
+  gap: 2px 12px;
+
+  border-bottom: 1px solid rgba(75, 85, 99, 0.55);
+}
+
+
+.tooltip-breakdown-row:last-of-type {
+  border-bottom: 0;
+}
+
+
+.tooltip-breakdown-row.is-disabled {
+  opacity: 0.46;
+}
+
+
+.tooltip-contract-name {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+.tooltip-selection-dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+  background: #4b5563;
+}
+
+
+.tooltip-selection-dot.is-selected {
+  background: #60a5fa;
+}
+
+
+.tooltip-contract-value {
+  font-size: 12px;
+  font-weight: 800;
+  text-align: right;
+}
+
+
+.tooltip-contract-usage {
+  grid-column: 1 / -1;
+
+  padding-left: 14px;
+
+  color: var(--muted);
+  font-size: 11px;
+}
+
+
+.tooltip-nba-standard {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+
+.tooltip-nba-standard > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+
+.tooltip-nba-standard strong {
+  font-size: 12px;
+}
+
+
+.tooltip-nba-standard span {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+
+.tooltip-nba-usage {
+  color: var(--muted-light);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+}
+
+
+/* ============================================================
+   TABLE
+============================================================ */
+
+.ranking-wrapper {
+  overflow-x: auto;
+}
+
+
+.ranking-table {
+  width: 100%;
+  min-width: 1080px;
+
+  border-collapse: collapse;
+}
+
+
+.ranking-table th,
+.ranking-table td {
+  padding: 13px 14px;
+
+  border-bottom: 1px solid var(--border);
+
+  text-align: left;
+  white-space: nowrap;
+}
+
+
+.ranking-table th {
+  color: var(--muted);
+
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+}
+
+
+.ranking-table td {
+  color: #e5e7eb;
+  font-size: 13px;
+}
+
+
+.ranking-table tbody tr:hover {
+  background: rgba(55, 65, 81, 0.45);
+}
+
+
+.sortable-header {
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.sortable-header:hover,
+.sortable-header.is-sorted {
+  color: #ffffff;
+}
+
+
+.sort-indicator {
+  margin-left: 5px;
+  color: #60a5fa;
+  font-size: 9px;
+}
+
+
+.rank-cell {
+  width: 90px;
+  font-weight: 800;
+}
+
+
+.team-cell {
+  min-width: 180px;
+  color: #ffffff !important;
+  font-weight: 800;
+}
+
+
+/* ============================================================
+   ERROR
+============================================================ */
+
+.data-error {
+  margin-bottom: 18px;
+  padding: 12px 14px;
+
+  border: 1px solid #7f1d1d;
+  border-radius: 8px;
+
+  background: rgba(127, 29, 29, 0.22);
+  color: #fecaca;
+
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+
+@media (max-width: 900px) {
+  .page-header,
+  .controls-heading,
+  .section-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page-header {
+    padding: 20px;
+  }
+
+  main {
+    padding: 22px 20px 40px;
+  }
+
+  .toggle-row {
+    grid-template-columns: 1fr;
+  }
+
+  .legend-wrap {
+    align-items: flex-start;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .dashboard-nav {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .dashboard-nav-link {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  .contract-controls-card,
+  .dashboard-card {
+    padding: 16px;
+  }
+
+  .legend {
+    display: none;
+  }
+}

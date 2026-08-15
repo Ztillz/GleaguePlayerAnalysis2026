@@ -2,43 +2,139 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>G League Player Query Dashboard</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav>
-    <a href="index.html">Query Search</a>
-    <a href="scatter.html">Scatter Tool</a>
-</nav>
+<header class="page-header">
+    <div>
+        <h1>G League Player Query</h1>
+        <p>
+            Search, filter, and compare G League players across
+            offensive, defensive, and transition metrics.
+        </p>
+    </div>
 
-<h1>G League Player Query Dashboard</h1>
+    <nav class="dashboard-nav">
+        <a
+            href="index.html"
+            class="dashboard-nav-link active"
+        >
+            Query Search
+        </a>
 
-<div class="controls">
-    <input id="searchInput" type="text" placeholder="Search player...">
+        <a
+            href="scatter.html"
+            class="dashboard-nav-link"
+        >
+            Scatter Tool
+        </a>
 
-    <label>
-        Percentile View
-        <select id="percentileViewSelect">
-            <option value="positionless">Positionless</option>
-            <option value="position">Position</option>
-        </select>
-    </label>
-</div>
+        <a
+            href="salary/"
+            class="dashboard-nav-link"
+        >
+            Salary
+        </a>
+    </nav>
+</header>
 
-<h2>Query Filters</h2>
+<main class="page-content">
 
-<div id="filters"></div>
+    <section class="dashboard-card">
 
-<button id="addFilterBtn">Add Filter</button>
-<button id="resetFiltersBtn">Reset Filters</button>
+        <div class="section-heading">
+            <div>
+                <h2>Player Search</h2>
 
-<h2>Matching Players</h2>
+                <p>
+                    Search for a player or change how percentile
+                    rankings are calculated.
+                </p>
+            </div>
+        </div>
 
-<table id="playerTable">
-    <thead></thead>
-    <tbody></tbody>
-</table>
+        <div class="controls">
+            <input
+                id="searchInput"
+                type="text"
+                placeholder="Search player..."
+            >
+
+            <label>
+                Percentile View
+
+                <select id="percentileViewSelect">
+                    <option value="positionless">
+                        Positionless
+                    </option>
+
+                    <option value="position">
+                        Position
+                    </option>
+                </select>
+            </label>
+        </div>
+
+    </section>
+
+
+    <section class="dashboard-card">
+
+        <div class="section-heading">
+            <div>
+                <h2>Query Filters</h2>
+
+                <p>
+                    Build one or more metric filters to narrow
+                    the player pool.
+                </p>
+            </div>
+        </div>
+
+        <div id="filters"></div>
+
+        <div class="button-row">
+            <button id="addFilterBtn">
+                Add Filter
+            </button>
+
+            <button id="resetFiltersBtn">
+                Reset Filters
+            </button>
+        </div>
+
+    </section>
+
+
+    <section class="dashboard-card">
+
+        <div class="section-heading">
+            <div>
+                <h2>Matching Players</h2>
+
+                <p>
+                    Click a player row to open the complete
+                    player profile.
+                </p>
+            </div>
+        </div>
+
+        <div class="table-scroll">
+            <table id="playerTable">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </section>
+
+</main>
 
 <script src="app.js?v=4"></script>
 

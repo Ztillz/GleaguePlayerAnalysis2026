@@ -2,45 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Player Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>G League Player Profile</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav>
-    <a href="index.html">Query Search</a>
-    <a href="scatter.html">Scatter Tool</a>
-</nav>
+<header class="page-header">
+    <div>
+        <h1 id="playerName">
+            Player Profile
+        </h1>
 
-<a href="index.html">← Back to Search</a>
+        <p id="playerInfo">
+            G League player percentile profile
+        </p>
+    </div>
 
-<h1 id="playerName">Player Profile</h1>
-<p id="playerInfo"></p>
+    <nav class="dashboard-nav">
+        <a
+            href="index.html"
+            class="dashboard-nav-link active"
+        >
+            Query Search
+        </a>
 
-<div class="controls">
-    <label>
-    Percentile View
-    <select id="percentileViewSelect">
-            <option value="positionless">Positionless</option>
-            <option value="position">Position</option>
-        </select>
-    </label>
-</div>
+        <a
+            href="scatter.html"
+            class="dashboard-nav-link"
+        >
+            Scatter Tool
+        </a>
 
-<section>
-    <h2>Offensive Profile</h2>
-    <div id="offenseChart" class="chart"></div>
-</section>
+        <a
+            href="salary/"
+            class="dashboard-nav-link"
+        >
+            Salary
+        </a>
+    </nav>
+</header>
 
-<section>
-    <h2>Defensive Profile</h2>
-    <div id="defenseChart" class="chart"></div>
-</section>
+<main class="page-content">
 
-<section>
-    <h2>Transition / Tenacity Profile</h2>
-    <div id="transitionChart" class="chart"></div>
-</section>
+    <div class="player-toolbar">
+
+        <a
+            href="index.html"
+            class="back-link"
+        >
+            ← Back to Search
+        </a>
+
+        <div class="player-view-control">
+            <label>
+                Percentile View
+
+                <select id="percentileViewSelect">
+                    <option value="positionless">
+                        Positionless
+                    </option>
+
+                    <option value="position">
+                        Position
+                    </option>
+                </select>
+            </label>
+        </div>
+
+    </div>
+
+
+    <section class="dashboard-card player-profile-card">
+
+        <div class="section-heading">
+            <div>
+                <h2>Offensive Profile</h2>
+
+                <p>
+                    Offensive percentile performance across
+                    available tracked metrics.
+                </p>
+            </div>
+        </div>
+
+        <div
+            id="offenseChart"
+            class="chart"
+        ></div>
+
+    </section>
+
+
+    <section class="dashboard-card player-profile-card">
+
+        <div class="section-heading">
+            <div>
+                <h2>Defensive Profile</h2>
+
+                <p>
+                    Defensive percentile performance across
+                    available tracked metrics.
+                </p>
+            </div>
+        </div>
+
+        <div
+            id="defenseChart"
+            class="chart"
+        ></div>
+
+    </section>
+
+
+    <section class="dashboard-card player-profile-card">
+
+        <div class="section-heading">
+            <div>
+                <h2>
+                    Transition / Tenacity Profile
+                </h2>
+
+                <p>
+                    Transition and activity-based percentile
+                    performance.
+                </p>
+            </div>
+        </div>
+
+        <div
+            id="transitionChart"
+            class="chart"
+        ></div>
+
+    </section>
+
+</main>
 
 <script src="player.js"></script>
 

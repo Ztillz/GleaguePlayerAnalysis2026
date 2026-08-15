@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G League Salary Tracker</title>
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+  <header class="page-header">
+    <div>
+      <h1>G League Salary Tracker</h1>
+      <p>2025-26 game-by-game G League salary analysis</p>
+    </div>
+
+    <nav class="dashboard-nav">
+      <a href="../index.html" class="dashboard-nav-link">Query Search</a>
+      <a href="../scatter.html" class="dashboard-nav-link">Scatter Tool</a>
+      <a href="./" class="dashboard-nav-link active">Salary</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="contract-controls-card">
+      <div class="controls-heading">
+        <div>
+          <h2>Contract Values Included</h2>
+          <p>
+            Toggle contract groups on or off. The heat grid, league average,
+            rankings, and team metrics recalculate instantly.
+          </p>
+        </div>
+
+        <div class="selected-definition" id="selectedDefinition">
+          Exhibit 10 + Two-Way
+        </div>
+      </div>
+
+    <div class="toggle-row">
+  <label class="contract-toggle">
+    <input type="checkbox" id="toggleGLeague">
+    <span class="toggle-switch"></span>
+    <span class="toggle-copy">
+      <strong>G League Standard</strong>
+    </span>
+  </label>
+
+  <label class="contract-toggle">
+    <input type="checkbox" id="toggleE10" checked>
+    <span class="toggle-switch"></span>
+    <span class="toggle-copy">
+      <strong>Exhibit 10</strong>
+    </span>
+  </label>
+
+  <label class="contract-toggle">
+    <input type="checkbox" id="toggleTwoWay" checked>
+    <span class="toggle-switch"></span>
+    <span class="toggle-copy">
+      <strong>Two-Way</strong>
+    </span>
+  </label>
+</div>
+    </section>
+
+    <section class="dashboard-card">
+      <div class="section-heading">
+        <div>
+          <h2>Money Faced by Game</h2>
+          <p>
+  Each square shows the selected salary value for that team's opponent.
+  Hover a square for the game breakdown.
+</p>
+        </div>
+
+        <div class="legend-wrap">
+          <div class="league-average-display">
+            League Avg
+            <strong id="leagueAverage">—</strong>
+          </div>
+
+          <div class="legend">
+            <span>Below Average</span>
+            <div class="legend-bar"></div>
+            <span>Above Average</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="dataError" class="data-error" hidden></div>
+
+      <div class="heatmap-scroll">
+        <div id="salaryHeatmap" class="salary-heatmap"></div>
+      </div>
+    </section>
+
+    <section class="dashboard-card">
+      <div class="section-heading">
+        <div>
+          <h2>Team Salary Metrics</h2>
+          <p>
+            All financial columns use only the contract groups currently enabled above.
+          </p>
+        </div>
+      </div>
+
+      <div class="ranking-wrapper">
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th class="sortable-header" data-sort-key="money_faced_rank" data-sort-type="number">
+                Money Faced Rank
+                <span class="sort-indicator"></span>
+              </th>
+
+              <th class="sortable-header" data-sort-key="team" data-sort-type="text">
+                Team
+                <span class="sort-indicator"></span>
+              </th>
+
+              <th class="sortable-header" data-sort-key="wins" data-sort-type="number">
+                W-L
+                <span class="sort-indicator"></span>
+              </th>
+
+              <th class="sortable-header" data-sort-key="game_spending_in_wins" data-sort-type="number">
+                Game Spending<br>in Wins
+                <span class="sort-indicator"></span>
+              </th>
+
+              <th class="sortable-header" data-sort-key="game_spending_in_losses" data-sort-type="number">
+                Game Spending<br>in Losses
+                <span class="sort-indicator"></span>
+              </th>
+
+              <th class="sortable-header" data-sort-key="total_spending_per_season_win" data-sort-type="number">
+                Total Spending<br>/ Season Wins
+                <span class="sort-indicator"></span>
+              </th>
+
+              <th class="sortable-header" data-sort-key="average_money_faced" data-sort-type="number">
+                Avg Money<br>Faced
+                <span class="sort-indicator"></span>
+              </th>
+
+              <th class="sortable-header" data-sort-key="total_money_faced" data-sort-type="number">
+                Total Money<br>Faced
+                <span class="sort-indicator"></span>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody id="teamMetricsBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="heatmapTooltip" class="heatmap-tooltip" role="tooltip"></div>
+
+  <script src="./app.js?v=1"></script>
+</body>
+</html>

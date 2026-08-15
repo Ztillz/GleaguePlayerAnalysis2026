@@ -2,46 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>G League Scatter Tool</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav>
-    <a href="index.html">Query Search</a>
-    <a href="scatter.html">Scatter Tool</a>
-</nav>
-
-<h1>Universal Percentile Scatter Tool</h1>
-
-<div class="controls">
+<header class="page-header">
     <div>
-        <label>X Category</label>
-        <select id="xCategory"></select>
+        <h1>G League Scatter Tool</h1>
+
+        <p>
+            Compare player percentiles across any two available
+            G League metrics.
+        </p>
     </div>
 
-    <div>
-        <label>X Metric</label>
-        <select id="xMetric"></select>
-    </div>
+    <nav class="dashboard-nav">
+        <a
+            href="index.html"
+            class="dashboard-nav-link"
+        >
+            Query Search
+        </a>
 
-    <div>
-        <label>Y Category</label>
-        <select id="yCategory"></select>
-    </div>
+        <a
+            href="scatter.html"
+            class="dashboard-nav-link active"
+        >
+            Scatter Tool
+        </a>
 
-    <div>
-        <label>Y Metric</label>
-        <select id="yMetric"></select>
-    </div>
+        <a
+            href="salary/"
+            class="dashboard-nav-link"
+        >
+            Salary
+        </a>
+    </nav>
+</header>
 
-    <div>
-        <label>Highlight Player</label>
-        <select id="highlightPlayer"></select>
-    </div>
-</div>
+<main class="page-content">
 
-<canvas id="scatterCanvas" width="1000" height="700"></canvas>
+    <section class="dashboard-card">
+
+        <div class="section-heading">
+            <div>
+                <h2>Scatter Controls</h2>
+
+                <p>
+                    Select an X and Y metric and optionally
+                    highlight a specific player.
+                </p>
+            </div>
+        </div>
+
+        <div class="controls scatter-controls">
+
+            <div>
+                <label>X Category</label>
+                <select id="xCategory"></select>
+            </div>
+
+            <div>
+                <label>X Metric</label>
+                <select id="xMetric"></select>
+            </div>
+
+            <div>
+                <label>Y Category</label>
+                <select id="yCategory"></select>
+            </div>
+
+            <div>
+                <label>Y Metric</label>
+                <select id="yMetric"></select>
+            </div>
+
+            <div>
+                <label>Highlight Player</label>
+                <select id="highlightPlayer"></select>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="dashboard-card">
+
+        <div class="section-heading">
+            <div>
+                <h2>Player Comparison</h2>
+
+                <p>
+                    Each point represents a player based on the
+                    selected percentile metrics.
+                </p>
+            </div>
+        </div>
+
+        <div class="canvas-wrap">
+            <canvas
+                id="scatterCanvas"
+                width="1000"
+                height="700"
+            ></canvas>
+        </div>
+
+    </section>
+
+</main>
 
 <script src="scatter.js"></script>
 
