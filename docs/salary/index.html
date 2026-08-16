@@ -1,169 +1,612 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>G League Salary Tracker</title>
+    <meta charset="UTF-8">
 
-  <link rel="stylesheet" href="./styles.css">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <title>G League Salary Analysis</title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css?v=7"
+    >
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"
+    ></script>
 </head>
+
 <body>
 
-  <header class="page-header">
-    <div>
-      <h1>G League Salary Tracker</h1>
-      <p>2025-26 game-by-game G League salary analysis</p>
+<header class="page-header">
+
+    <div class="page-header-copy">
+
+        <h1>
+            G League Salary Analysis
+        </h1>
+
+        <p>
+            2025-26 game-by-game G League salary analysis
+        </p>
+
     </div>
 
     <nav class="dashboard-nav">
-      <a href="../index.html" class="dashboard-nav-link">Query Search</a>
-      <a href="../scatter.html" class="dashboard-nav-link">Scatter Tool</a>
-      <a href="./" class="dashboard-nav-link active">Salary</a>
+
+        <a
+            href="../index.html"
+            class="dashboard-nav-link"
+        >
+            Query Search
+        </a>
+
+        <a
+            href="../scatter.html"
+            class="dashboard-nav-link"
+        >
+            Scatter Tool
+        </a>
+
+        <a
+            href="./"
+            class="dashboard-nav-link active"
+        >
+            Salary
+        </a>
+
     </nav>
-  </header>
 
-  <main>
+</header>
 
-    <section class="contract-controls-card">
-      <div class="controls-heading">
-        <div>
-          <h2>Contract Values Included</h2>
-          <p>
-            Toggle contract groups on or off. The heat grid, league average,
-            rankings, and team metrics recalculate instantly.
-          </p>
-        </div>
 
-        <div class="selected-definition" id="selectedDefinition">
-          Exhibit 10 + Two-Way
-        </div>
-      </div>
+<main class="page-content">
 
-    <div class="toggle-row">
-  <label class="contract-toggle">
-    <input type="checkbox" id="toggleGLeague">
-    <span class="toggle-switch"></span>
-    <span class="toggle-copy">
-      <strong>G League Standard</strong>
-    </span>
-  </label>
 
-  <label class="contract-toggle">
-    <input type="checkbox" id="toggleE10" checked>
-    <span class="toggle-switch"></span>
-    <span class="toggle-copy">
-      <strong>Exhibit 10</strong>
-    </span>
-  </label>
-
-  <label class="contract-toggle">
-    <input type="checkbox" id="toggleTwoWay" checked>
-    <span class="toggle-switch"></span>
-    <span class="toggle-copy">
-      <strong>Two-Way</strong>
-    </span>
-  </label>
-</div>
-    </section>
+    <!-- CONTRACT TOGGLES -->
 
     <section class="dashboard-card">
-      <div class="section-heading">
-        <div>
-          <h2>Money Faced by Game</h2>
-          <p>
-  Each square shows the selected salary value for that team's opponent.
-  Hover a square for the game breakdown.
-</p>
+
+        <div class="section-heading">
+
+            <div>
+
+                <h2>
+                    Contract Groups
+                </h2>
+
+                <p>
+                    Select which contract groups are included
+                    in the financial metrics.
+                </p>
+
+            </div>
+
         </div>
 
-        <div class="legend-wrap">
-          <div class="league-average-display">
-            League Avg
-            <strong id="leagueAverage">—</strong>
-          </div>
 
-          <div class="legend">
-            <span>Below Average</span>
-            <div class="legend-bar"></div>
-            <span>Above Average</span>
-          </div>
+        <div class="toggle-row">
+
+            <label class="contract-toggle">
+
+                <input
+                    type="checkbox"
+                    id="toggleGLeague"
+                >
+
+                <span class="toggle-switch"></span>
+
+                <span class="toggle-copy">
+                    <strong>
+                        G League Standard
+                    </strong>
+                </span>
+
+            </label>
+
+
+            <label class="contract-toggle">
+
+                <input
+                    type="checkbox"
+                    id="toggleE10"
+                    checked
+                >
+
+                <span class="toggle-switch"></span>
+
+                <span class="toggle-copy">
+                    <strong>
+                        Exhibit 10
+                    </strong>
+                </span>
+
+            </label>
+
+
+            <label class="contract-toggle">
+
+                <input
+                    type="checkbox"
+                    id="toggleTwoWay"
+                    checked
+                >
+
+                <span class="toggle-switch"></span>
+
+                <span class="toggle-copy">
+                    <strong>
+                        Two-Way
+                    </strong>
+                </span>
+
+            </label>
+
         </div>
-      </div>
 
-      <div id="dataError" class="data-error" hidden></div>
 
-      <div class="heatmap-scroll">
-        <div id="salaryHeatmap" class="salary-heatmap"></div>
-      </div>
+        <div class="selected-contract-summary">
+
+            <span>
+                Current selection
+            </span>
+
+            <strong id="selectedDefinition">
+                Exhibit 10 + Two-Way
+            </strong>
+
+        </div>
+
     </section>
+
+
+    <!-- MONEY FACED HEATMAP -->
 
     <section class="dashboard-card">
-      <div class="section-heading">
-        <div>
-          <h2>Team Salary Metrics</h2>
-          <p>
-            All financial columns use only the contract groups currently enabled above.
-          </p>
+
+        <div class="section-heading section-heading-split">
+
+            <div>
+
+                <h2>
+                    Money Faced by Game
+                </h2>
+
+                <p>
+                    Each square shows the selected salary value
+                    for that team's opponent. Hover a square
+                    for the game breakdown.
+                </p>
+
+            </div>
+
+
+            <div class="heatmap-heading-tools">
+
+                <div class="heatmap-league-average-inline">
+                    <span>
+                        League Avg
+                    </span>
+
+                    <strong id="leagueAverage">
+                        —
+                    </strong>
+                </div>
+
+
+                <div class="heatmap-legend">
+
+                    <span>
+                        Below Average
+                    </span>
+
+                    <div class="heatmap-legend-bar"></div>
+
+                    <span>
+                        Above Average
+                    </span>
+
+                </div>
+
+            </div>
+
         </div>
-      </div>
 
-      <div class="ranking-wrapper">
-        <table class="ranking-table">
-          <thead>
-            <tr>
-              <th class="sortable-header" data-sort-key="money_faced_rank" data-sort-type="number">
-                Money Faced Rank
-                <span class="sort-indicator"></span>
-              </th>
 
-              <th class="sortable-header" data-sort-key="team" data-sort-type="text">
-                Team
-                <span class="sort-indicator"></span>
-              </th>
+        <div class="heatmap-scroll">
 
-              <th class="sortable-header" data-sort-key="wins" data-sort-type="number">
-                W-L
-                <span class="sort-indicator"></span>
-              </th>
+            <div
+                id="salaryHeatmap"
+                class="salary-heatmap"
+            ></div>
 
-              <th class="sortable-header" data-sort-key="game_spending_in_wins" data-sort-type="number">
-                Game Spending<br>in Wins
-                <span class="sort-indicator"></span>
-              </th>
+        </div>
 
-              <th class="sortable-header" data-sort-key="game_spending_in_losses" data-sort-type="number">
-                Game Spending<br>in Losses
-                <span class="sort-indicator"></span>
-              </th>
-
-              <th class="sortable-header" data-sort-key="total_spending_per_season_win" data-sort-type="number">
-                Total Spending<br>/ Season Wins
-                <span class="sort-indicator"></span>
-              </th>
-
-              <th class="sortable-header" data-sort-key="average_money_faced" data-sort-type="number">
-                Avg Money<br>Faced
-                <span class="sort-indicator"></span>
-              </th>
-
-              <th class="sortable-header" data-sort-key="total_money_faced" data-sort-type="number">
-                Total Money<br>Faced
-                <span class="sort-indicator"></span>
-              </th>
-            </tr>
-          </thead>
-
-          <tbody id="teamMetricsBody"></tbody>
-        </table>
-      </div>
     </section>
 
-  </main>
 
-  <div id="heatmapTooltip" class="heatmap-tooltip" role="tooltip"></div>
+    <!-- FINANCIAL TEAM TABLE -->
 
-  <script src="./app.js?v=1"></script>
+    <section class="dashboard-card">
+
+        <div class="section-heading">
+
+            <div>
+
+                <h2>
+                    Team Salary Metrics
+                </h2>
+
+                <p>
+                    These values update automatically when the
+                    selected contract groups change.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="ranking-wrapper">
+
+            <table class="ranking-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th
+                            class="sortable-header"
+                            data-sort-key="money_faced_rank"
+                        >
+                            Money Faced Rank
+                            <span class="sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="sortable-header"
+                            data-sort-key="team"
+                        >
+                            Team
+                            <span class="sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="sortable-header"
+                            data-sort-key="wins"
+                        >
+                            W-L
+                            <span class="sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="sortable-header"
+                            data-sort-key="game_spending_in_wins"
+                        >
+                            Game Spending<br>
+                            in Wins
+                            <span class="sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="sortable-header"
+                            data-sort-key="game_spending_in_losses"
+                        >
+                            Game Spending<br>
+                            in Losses
+                            <span class="sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="sortable-header"
+                            data-sort-key="total_spending_per_season_win"
+                        >
+                            Total Spending /<br>
+                            Season Wins
+                            <span class="sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="sortable-header"
+                            data-sort-key="average_money_faced"
+                        >
+                            Avg Money<br>
+                            Faced
+                            <span class="sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="sortable-header"
+                            data-sort-key="total_money_faced"
+                        >
+                            Total Money<br>
+                            Faced
+                            <span class="sort-indicator"></span>
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="teamMetricsBody"></tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- PEDIGREE TABLE -->
+
+    <section class="dashboard-card">
+
+        <div class="section-heading section-heading-split">
+
+            <div>
+
+                <h2>
+                    Pedigree Contract Analysis
+                </h2>
+
+                <p>
+                    Pedigree counts Exhibit 10, Two-Way,
+                    and NBA Standard players who appeared
+                    in each game. G League Standard contracts
+                    are not included.
+                </p>
+
+            </div>
+
+
+            <button
+                id="downloadPedigreeBtn"
+                class="secondary-action-button"
+                type="button"
+            >
+                Download Pedigree CSV
+            </button>
+
+        </div>
+
+
+        <div class="ranking-wrapper">
+
+            <table class="ranking-table pedigree-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="pedigree_faced_rank"
+                        >
+                            Pedigree<br>
+                            Faced Rank
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="team"
+                        >
+                            Team
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="wins"
+                        >
+                            W-L
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="avg_pedigree_available"
+                        >
+                            Avg Pedigree<br>
+                            Used / Game
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="pedigree_faced_in_wins"
+                        >
+                            Pedigree Contracts<br>
+                            Faced in Wins
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="pedigree_faced_in_losses"
+                        >
+                            Pedigree Contracts<br>
+                            Faced in Losses
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="avg_pedigree_faced"
+                        >
+                            Avg Pedigree<br>
+                            Faced / Game
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="total_pedigree_faced"
+                        >
+                            Total Pedigree<br>
+                            Faced
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                        <th
+                            class="pedigree-sortable-header"
+                            data-pedigree-sort-key="nba_standard_games_used"
+                        >
+                            NBA Standard<br>
+                            Games Used
+                            <span class="pedigree-sort-indicator"></span>
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="pedigreeMetricsBody"></tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+<!--
+=====================================================
+PEDIGREE SCATTER - TEMPORARILY HIDDEN
+
+    <section class="dashboard-card">
+
+        <div class="section-heading">
+
+            <div>
+
+                <h2>
+                    Pedigree vs Team Results
+                </h2>
+
+                <p>
+                    Compare average pedigree used or average
+                    pedigree faced against season wins or
+                    losses. Each point represents one team.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="scatter-toolbar">
+
+            <div class="scatter-control">
+
+                <label for="pedigreeScatterX">
+                    X Axis
+                </label>
+
+                <select id="pedigreeScatterX">
+
+                    <option value="avg_pedigree_available">
+                        Avg Pedigree Used / Game
+                    </option>
+
+                    <option value="avg_pedigree_faced">
+                        Avg Pedigree Faced / Game
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="scatter-control">
+
+                <label for="pedigreeScatterY">
+                    Y Axis
+                </label>
+
+                <select id="pedigreeScatterY">
+
+                    <option value="wins">
+                        Wins
+                    </option>
+
+                    <option value="losses">
+                        Losses
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="scatter-stat">
+
+                <span>
+                    Pearson r
+                </span>
+
+                <strong id="pedigreeCorrelation">
+                    —
+                </strong>
+
+            </div>
+
+
+            <div class="scatter-stat">
+
+                <span>
+                    R²
+                </span>
+
+                <strong id="pedigreeRSquared">
+                    —
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="scatter-chart-wrap">
+
+            <canvas
+                id="pedigreeScatterCanvas"
+            ></canvas>
+
+        </div>
+
+    </section>
+    END PEDIGREE SCATTER
+=====================================================
+-->
+
+    <div
+        id="dataError"
+        class="data-error"
+        hidden
+    ></div>
+
+</main>
+
+
+<div
+    id="heatmapTooltip"
+    class="heatmap-tooltip"
+></div>
+
+
+<div
+    id="scatterTooltip"
+    class="scatter-tooltip"
+></div>
+
+
+<script src="app.js?v=6"></script>
+
 </body>
+
 </html>
