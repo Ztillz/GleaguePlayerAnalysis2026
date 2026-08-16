@@ -1090,21 +1090,11 @@ function buildTeamMetrics(rows) {
             row.result === "L"
         );
 
-      const totalOwnSpending =
+      const totalCoreRosterValue =
         teamRows.reduce(
           (sum, row) =>
             sum +
             getSelectedOwnSpending(
-              row
-            ),
-          0
-        );
-
-      const totalMoneyFaced =
-        teamRows.reduce(
-          (sum, row) =>
-            sum +
-            getSelectedMoneyFaced(
               row
             ),
           0
@@ -1122,6 +1112,7 @@ function buildTeamMetrics(rows) {
         record:
           `${wins.length}-${losses.length}`,
 
+        // Average Core Roster Value in games won
         game_spending_in_wins:
           average(
             wins.map(
@@ -1129,6 +1120,7 @@ function buildTeamMetrics(rows) {
             )
           ),
 
+        // Average Core Roster Value in games lost
         game_spending_in_losses:
           average(
             losses.map(
@@ -1136,26 +1128,29 @@ function buildTeamMetrics(rows) {
             )
           ),
 
+        // Cumulative game-level Core Roster Value
+        // divided by season wins
         total_spending_per_season_win:
           wins.length > 0
             ? (
-                totalOwnSpending /
+                totalCoreRosterValue /
                 wins.length
               )
             : 0,
 
+        // Average opponent Core Roster Value faced
+        // per game
         average_money_faced:
           average(
             teamRows.map(
               getSelectedMoneyFaced
             )
           ),
-
-        total_money_faced:
-          totalMoneyFaced,
       };
     });
 
+
+  // Highest average Core Roster Value faced = Rank 1
   const ranked =
     [...metrics].sort(
       (a, b) =>
@@ -1169,12 +1164,14 @@ function buildTeamMetrics(rows) {
         )
     );
 
+
   ranked.forEach(
     (row, index) => {
       row.money_faced_rank =
         index + 1;
     }
   );
+
 
   return metrics;
 }
@@ -1231,6 +1228,7 @@ function renderTeamMetrics() {
 
   tbody.innerHTML = "";
 
+
   sortTeamMetrics(
     currentTeamMetrics
   ).forEach(row => {
@@ -1238,6 +1236,7 @@ function renderTeamMetrics() {
       document.createElement(
         "tr"
       );
+
 
     tr.innerHTML = `
       <td class="rank-cell">
@@ -1281,16 +1280,14 @@ function renderTeamMetrics() {
           row.average_money_faced
         )}
       </td>
-
-      <td>
-        ${formatCurrency(
-          row.total_money_faced
-        )}
-      </td>
     `;
 
-    tbody.appendChild(tr);
+
+    tbody.appendChild(
+      tr
+    );
   });
+
 
   updateSortIndicators();
 }
