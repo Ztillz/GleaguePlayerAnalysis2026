@@ -18,7 +18,7 @@
 
     <link
         rel="stylesheet"
-        href="team-charts.css?v=2"
+        href="team-charts.css?v=3"
     >
 
     <script
@@ -41,8 +41,8 @@
         </h1>
 
         <p>
-            Compare team performance across all 50
-            games of the 2025-26 G League season.
+            Compare team performance across all 50 games of the
+            2025-26 G League season.
         </p>
 
     </div>
@@ -87,12 +87,12 @@
 
 
     <!-- =====================================================
-         CHART CONTROLS
+         CONTROLS
     ====================================================== -->
 
     <section class="dashboard-card">
 
-        <div class="section-heading">
+        <div class="section-heading filter-heading">
 
             <div>
 
@@ -101,20 +101,34 @@
                 </h2>
 
                 <p>
-                    Select a metric and switch between each
-                    team's game total or its differential
-                    against the opponent.
+                    Select a metric, display style, and the teams
+                    you want to compare.
                 </p>
+
+            </div>
+
+
+            <div class="teams-showing-card">
+
+                <span>
+                    Teams Showing
+                </span>
+
+                <strong id="teamsShowing">
+                    31 / 31
+                </strong>
 
             </div>
 
         </div>
 
 
-        <div class="team-chart-controls">
+        <!-- PRIMARY CONTROLS -->
+
+        <div class="team-chart-controls primary-controls">
 
 
-            <div class="chart-control">
+            <div class="chart-control metric-control">
 
                 <label for="teamStatSelect">
                     Metric
@@ -154,6 +168,43 @@
             </div>
 
 
+            <div class="chart-control display-control">
+
+                <label>
+                    Display
+                </label>
+
+                <div class="view-toggle">
+
+                    <button
+                        id="rawDisplayBtn"
+                        type="button"
+                        class="view-toggle-button active"
+                    >
+                        Raw
+                    </button>
+
+                    <button
+                        id="rollingDisplayBtn"
+                        type="button"
+                        class="view-toggle-button"
+                    >
+                        5-Game Rolling Avg
+                    </button>
+
+                    <button
+                        id="groupDisplayBtn"
+                        type="button"
+                        class="view-toggle-button"
+                    >
+                        5-Game Groups
+                    </button>
+
+                </div>
+
+            </div>
+
+
             <div class="chart-summary">
 
                 <span>
@@ -168,47 +219,11 @@
 
         </div>
 
-    </section>
+
+        <div class="control-divider"></div>
 
 
-
-    <!-- =====================================================
-         TEAM FILTERS
-    ====================================================== -->
-
-    <section class="dashboard-card">
-
-        <div class="section-heading filter-heading">
-
-            <div>
-
-                <h2>
-                    Team Filters
-                </h2>
-
-                <p>
-                    Reduce the number of teams shown on the
-                    chart. Rankings and win thresholds use
-                    the same 50-game sample shown in the graph.
-                </p>
-
-            </div>
-
-
-            <div class="teams-showing-card">
-
-                <span>
-                    Teams Showing
-                </span>
-
-                <strong id="teamsShowing">
-                    31 / 31
-                </strong>
-
-            </div>
-
-        </div>
-
+        <!-- TEAM FILTERS -->
 
         <div class="team-filter-controls">
 
@@ -241,7 +256,7 @@
             <div class="chart-control">
 
                 <label for="minimumWinsFilter">
-                    Minimum 50-Game Wins
+                    Minimum Wins
                 </label>
 
                 <input
@@ -259,7 +274,7 @@
             <div class="chart-control">
 
                 <label for="rankFilter">
-                    Rank Group
+                    Record Rank Group
                 </label>
 
                 <select id="rankFilter">
@@ -289,6 +304,118 @@
             </div>
 
 
+            <!-- TEAM MULTI SELECT -->
+
+            <div class="chart-control team-select-control">
+
+                <label>
+                    Teams
+                </label>
+
+
+                <div
+                    id="teamMultiSelect"
+                    class="team-multiselect"
+                >
+
+                    <button
+                        id="teamMultiSelectButton"
+                        type="button"
+                        class="team-multiselect-button"
+                    >
+
+                        <span id="teamMultiSelectLabel">
+                            All eligible teams
+                        </span>
+
+                        <span class="team-multiselect-arrow">
+                            ▾
+                        </span>
+
+                    </button>
+
+
+                    <div
+                        id="teamMultiSelectPanel"
+                        class="team-multiselect-panel"
+                        hidden
+                    >
+
+                        <input
+                            id="teamSearchInput"
+                            class="team-search-input"
+                            type="text"
+                            placeholder="Search teams..."
+                            autocomplete="off"
+                        >
+
+
+                        <div class="team-select-actions">
+
+                            <button
+                                id="selectEligibleTeams"
+                                type="button"
+                            >
+                                All Eligible
+                            </button>
+
+                            <button
+                                id="clearSelectedTeams"
+                                type="button"
+                            >
+                                Clear
+                            </button>
+
+                        </div>
+
+
+                        <div
+                            id="teamCheckboxList"
+                            class="team-checkbox-list"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- GAME RANGE -->
+
+            <div class="chart-control game-range-control">
+
+                <label>
+                    Game Range
+                </label>
+
+                <div class="game-range-inputs">
+
+                    <input
+                        id="gameStartFilter"
+                        type="number"
+                        min="1"
+                        max="50"
+                        value="1"
+                    >
+
+                    <span>
+                        to
+                    </span>
+
+                    <input
+                        id="gameEndFilter"
+                        type="number"
+                        min="1"
+                        max="50"
+                        value="50"
+                    >
+
+                </div>
+
+            </div>
+
+
             <div class="filter-action-control">
 
                 <button
@@ -308,7 +435,7 @@
             id="activeFilterDescription"
             class="active-filter-description"
         >
-            Showing all 31 teams.
+            Showing all 31 teams · Games 1-50.
         </div>
 
     </section>
@@ -330,9 +457,28 @@
                 </h2>
 
                 <p>
-                    Click a team in the legend to hide or show
-                    it. Double-click a team to isolate it.
+                    Click a team in the legend to hide or show it.
+                    Double-click a team to isolate it.
                 </p>
+
+            </div>
+
+
+            <div class="chart-visibility-actions">
+
+                <button
+                    id="showAllChartTeams"
+                    type="button"
+                >
+                    Show All
+                </button>
+
+                <button
+                    id="hideAllChartTeams"
+                    type="button"
+                >
+                    Hide All
+                </button>
 
             </div>
 
@@ -357,7 +503,7 @@
 </main>
 
 
-<script src="team-charts.js?v=2"></script>
+<script src="team-charts.js?v=3"></script>
 
 </body>
 

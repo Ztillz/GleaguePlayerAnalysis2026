@@ -3,7 +3,7 @@ const TEAM_CHART_DATA_URL =
 
 
 // ============================================================
-// AVAILABLE METRICS
+// METRICS
 // ============================================================
 
 const TEAM_CHART_STATS = {
@@ -50,7 +50,7 @@ const TEAM_CHART_STATS = {
 
 
 // ============================================================
-// 2025-26 G LEAGUE CONFERENCES
+// CONFERENCES
 // ============================================================
 
 const TEAM_CONFERENCES = {
@@ -93,7 +93,7 @@ const TEAM_CONFERENCES = {
 
 
 // ============================================================
-// STATE
+// DATA
 // ============================================================
 
 let teamGameRows = [];
@@ -109,6 +109,10 @@ let teamColorMap =
     new Map();
 
 
+// ============================================================
+// STATE
+// ============================================================
+
 const chartState = {
 
     statLabel:
@@ -116,6 +120,9 @@ const chartState = {
 
     mode:
         "Differential",
+
+    displayMode:
+        "RAW",
 
     conference:
         "ALL",
@@ -125,11 +132,23 @@ const chartState = {
 
     rankFilter:
         "ALL",
+
+    gameStart:
+        1,
+
+    gameEnd:
+        50,
+
+    // null means:
+    // show every team that passes
+    // the other filters.
+    selectedTeams:
+        null,
 };
 
 
 // ============================================================
-// LOAD CSV
+// CSV
 // ============================================================
 
 function loadCSV(url) {
@@ -172,9 +191,7 @@ function loadCSV(url) {
 
                             reject(
                                 new Error(
-                                    seriousErrors[
-                                        0
-                                    ].message
+                                    seriousErrors[0].message
                                 )
                             );
 
@@ -198,7 +215,7 @@ function loadCSV(url) {
 
 
 // ============================================================
-// BASIC HELPERS
+// HELPERS
 // ============================================================
 
 function numberOrNull(value) {
@@ -219,9 +236,7 @@ function numberOrNull(value) {
         Number(value);
 
 
-    return Number.isFinite(
-        number
-    )
+    return Number.isFinite(number)
         ? number
         : null;
 }
@@ -230,19 +245,19 @@ function numberOrNull(value) {
 
 function average(values) {
 
-    const validValues =
+    const valid =
         values.filter(
             value =>
                 value !== null
                 &&
                 Number.isFinite(
-                    value
+                    Number(value)
                 )
         );
 
 
     if (
-        validValues.length === 0
+        valid.length === 0
     ) {
 
         return null;
@@ -250,19 +265,188 @@ function average(values) {
 
 
     return (
-        validValues.reduce(
+        valid.reduce(
             (
                 total,
                 value
             ) =>
-                total + value,
+                total
+                +
+                Number(value),
             0
         )
         /
-        validValues.length
+        valid.length
     );
 }
 
+
+
+function rollingAverage(
+    values,
+    windowSize = 5
+) {
+
+    return values.map(
+        (
+            value,
+            index
+        ) => {
+
+            if (
+                index
+                <
+                windowSize - 1
+            ) {
+
+                return null;
+            }
+
+
+            const window =
+                values.slice(
+                    index
+                    -
+                    windowSize
+                    +
+                    1,
+                    index + 1
+                );
+
+
+            if (
+                window.some(
+                    item =>
+                        item === null
+                        ||
+                        !Number.isFinite(
+                            Number(item)
+                        )
+                )
+            ) {
+
+                return null;
+            }
+
+
+            return average(
+                window
+            );
+        }
+    );
+}
+
+function buildFiveGameGroups(
+    rows,
+    valueColumn
+) {
+
+    const visibleRows =
+        sortTeamRows(
+            rows.filter(
+                row =>
+                    row.game_number
+                    >=
+                    chartState.gameStart
+                    &&
+                    row.game_number
+                    <=
+                    chartState.gameEnd
+            )
+        );
+
+
+    const groups = [];
+
+
+    for (
+        let i = 0;
+        i < visibleRows.length;
+        i += 5
+    ) {
+
+        const groupRows =
+            visibleRows.slice(
+                i,
+                i + 5
+            );
+
+
+        if (
+            groupRows.length === 0
+        ) {
+
+            continue;
+        }
+
+
+        const values =
+            groupRows.map(
+                row =>
+                    numberOrNull(
+                        row[
+                            valueColumn
+                        ]
+                    )
+            );
+
+
+        const startGame =
+            groupRows[0]
+                .game_number;
+
+
+        const endGame =
+            groupRows[
+                groupRows.length - 1
+            ].game_number;
+
+
+        const wins =
+            groupRows.filter(
+                row =>
+                    row.result
+                    ===
+                    "W"
+            ).length;
+
+
+        const losses =
+            groupRows.filter(
+                row =>
+                    row.result
+                    ===
+                    "L"
+            ).length;
+
+
+        groups.push(
+            {
+                label:
+                    `${startGame}-${endGame}`,
+
+                startGame,
+
+                endGame,
+
+                value:
+                    average(
+                        values
+                    ),
+
+                wins,
+
+                losses,
+
+                rows:
+                    groupRows,
+            }
+        );
+    }
+
+
+    return groups;
+}
 
 
 function sortTeamRows(rows) {
@@ -275,31 +459,13 @@ function sortTeamRows(rows) {
             b
         ) => {
 
-            const gameDifference =
+            return (
                 Number(
                     a.game_number
                 )
                 -
                 Number(
                     b.game_number
-                );
-
-
-            if (
-                gameDifference !== 0
-            ) {
-
-                return gameDifference;
-            }
-
-
-            return (
-                new Date(
-                    a.game_date
-                )
-                -
-                new Date(
-                    b.game_date
                 )
             );
         }
@@ -393,6 +559,35 @@ function formatMetricValue(
 }
 
 
+
+function escapeHTML(value) {
+
+    return String(
+        value ?? ""
+    )
+        .replaceAll(
+            "&",
+            "&amp;"
+        )
+        .replaceAll(
+            "<",
+            "&lt;"
+        )
+        .replaceAll(
+            ">",
+            "&gt;"
+        )
+        .replaceAll(
+            '"',
+            "&quot;"
+        )
+        .replaceAll(
+            "'",
+            "&#039;"
+        );
+}
+
+
 // ============================================================
 // STABLE TEAM COLORS
 // ============================================================
@@ -449,9 +644,7 @@ function getTeamColor(team) {
 // BUILD TEAM VS OPPONENT ROWS
 // ============================================================
 
-function buildComparisonRows(
-    rows
-) {
+function buildComparisonRows(rows) {
 
     const gameLookup =
         new Map();
@@ -560,15 +753,10 @@ function buildComparisonRows(
             };
 
 
-            Object.entries(
+            Object.values(
                 TEAM_CHART_STATS
             ).forEach(
-                (
-                    [
-                        ,
-                        column
-                    ]
-                ) => {
+                column => {
 
                     const teamValue =
                         numberOrNull(
@@ -628,48 +816,44 @@ function buildComparisonRows(
 
 
 // ============================================================
-// TEAM RECORDS / 50-GAME RANKING
+// TEAM RECORDS
 // ============================================================
 
-function buildTeamSummaries(
-    rows
-) {
+function buildTeamSummaries(rows) {
 
-    const summaries = [];
+    const summaries =
+        teamOrder.map(
+            team => {
 
-
-    teamOrder.forEach(
-        team => {
-
-            const teamRows =
-                rows.filter(
-                    row =>
-                        row.team_name
-                        ===
-                        team
-                );
+                const teamRows =
+                    rows.filter(
+                        row =>
+                            row.team_name
+                            ===
+                            team
+                    );
 
 
-            const wins =
-                teamRows.filter(
-                    row =>
-                        row.result
-                        ===
-                        "W"
-                ).length;
+                const wins =
+                    teamRows.filter(
+                        row =>
+                            row.result
+                            ===
+                            "W"
+                    ).length;
 
 
-            const losses =
-                teamRows.filter(
-                    row =>
-                        row.result
-                        ===
-                        "L"
-                ).length;
+                const losses =
+                    teamRows.filter(
+                        row =>
+                            row.result
+                            ===
+                            "L"
+                    ).length;
 
 
-            summaries.push(
-                {
+                return {
+
                     team,
 
                     conference:
@@ -684,24 +868,20 @@ function buildTeamSummaries(
                     losses,
 
                     winPct:
-                        teamRows.length > 0
-                            ? (
-                                wins
-                                /
-                                teamRows.length
-                            )
-                            : 0,
+                        wins
+                        /
+                        Math.max(
+                            teamRows.length,
+                            1
+                        ),
 
                     rank:
                         null,
-                }
-            );
-        }
-    );
+                };
+            }
+        );
 
 
-    // League-wide 50-game rank.
-    // Ties use win percentage, then team name.
     const ranked =
         [
             ...summaries
@@ -712,7 +892,8 @@ function buildTeamSummaries(
             ) => {
 
                 if (
-                    b.wins !==
+                    b.wins
+                    !==
                     a.wins
                 ) {
 
@@ -720,19 +901,6 @@ function buildTeamSummaries(
                         b.wins
                         -
                         a.wins
-                    );
-                }
-
-
-                if (
-                    b.winPct !==
-                    a.winPct
-                ) {
-
-                    return (
-                        b.winPct
-                        -
-                        a.winPct
                     );
                 }
 
@@ -748,11 +916,11 @@ function buildTeamSummaries(
 
     ranked.forEach(
         (
-            summary,
+            row,
             index
         ) => {
 
-            summary.rank =
+            row.rank =
                 index + 1;
         }
     );
@@ -760,9 +928,9 @@ function buildTeamSummaries(
 
     return new Map(
         summaries.map(
-            summary => [
-                summary.team,
-                summary,
+            row => [
+                row.team,
+                row,
             ]
         )
     );
@@ -770,10 +938,10 @@ function buildTeamSummaries(
 
 
 // ============================================================
-// FILTERING
+// RECORD / CONFERENCE FILTERING
 // ============================================================
 
-function getEligibleTeams() {
+function getEligibleTeamSummaries() {
 
     let summaries =
         teamOrder.map(
@@ -784,9 +952,9 @@ function getEligibleTeams() {
         );
 
 
-    // Conference
     if (
-        chartState.conference !==
+        chartState.conference
+        !==
         "ALL"
     ) {
 
@@ -800,7 +968,6 @@ function getEligibleTeams() {
     }
 
 
-    // Minimum wins
     summaries =
         summaries.filter(
             summary =>
@@ -810,7 +977,6 @@ function getEligibleTeams() {
         );
 
 
-    // Sort best -> worst before applying rank group.
     summaries.sort(
         (
             a,
@@ -818,7 +984,8 @@ function getEligibleTeams() {
         ) => {
 
             if (
-                b.wins !==
+                b.wins
+                !==
                 a.wins
             ) {
 
@@ -883,134 +1050,411 @@ function getEligibleTeams() {
                 );
 
             break;
-
-
-        default:
-
-            break;
     }
 
 
-    return summaries.map(
-        summary =>
-            summary.team
+    return summaries;
+}
+
+
+
+function getEligibleTeams() {
+
+    return (
+        getEligibleTeamSummaries()
+        .map(
+            summary =>
+                summary.team
+        )
     );
 }
 
 
 
-function updateFilterSummary(
-    filteredTeams
-) {
+function getVisibleTeams() {
 
-    const teamsShowing =
+    const eligible =
+        getEligibleTeams();
+
+
+    if (
+        chartState.selectedTeams
+        ===
+        null
+    ) {
+
+        return eligible;
+    }
+
+
+    return eligible.filter(
+        team =>
+            chartState
+                .selectedTeams
+                .has(
+                    team
+                )
+    );
+}
+
+
+// ============================================================
+// TEAM MULTI SELECT
+// ============================================================
+
+function updateTeamMultiSelectLabel() {
+
+    const eligible =
+        getEligibleTeams();
+
+
+    const label =
         document.getElementById(
-            "teamsShowing"
+            "teamMultiSelectLabel"
         );
-
-
-    teamsShowing.textContent =
-        `${
-            filteredTeams.length
-        } / ${
-            teamOrder.length
-        }`;
-
-
-    const description =
-        document.getElementById(
-            "activeFilterDescription"
-        );
-
-
-    const pieces = [];
 
 
     if (
-        chartState.conference !==
-        "ALL"
+        chartState.selectedTeams
+        ===
+        null
     ) {
 
-        pieces.push(
-            `${
-                chartState.conference ===
-                "EAST"
-                    ? "East"
-                    : "West"
-            } Conference`
-        );
-    }
-
-
-    if (
-        chartState.minimumWins > 0
-    ) {
-
-        pieces.push(
-            `${
-                chartState.minimumWins
-            }+ wins`
-        );
-    }
-
-
-    const rankLabels = {
-
-        TOP_5:
-            "Top 5",
-
-        TOP_10:
-            "Top 10",
-
-        BOTTOM_5:
-            "Bottom 5",
-
-        BOTTOM_10:
-            "Bottom 10",
-    };
-
-
-    if (
-        chartState.rankFilter !==
-        "ALL"
-    ) {
-
-        pieces.push(
-            rankLabels[
-                chartState.rankFilter
-            ]
-        );
-    }
-
-
-    if (
-        pieces.length === 0
-    ) {
-
-        description.textContent =
-            `Showing all ${
-                teamOrder.length
-            } teams.`;
+        label.textContent =
+            `All eligible (${eligible.length})`;
 
         return;
     }
 
 
-    description.textContent =
-        `Showing ${
-            filteredTeams.length
-        } team${
-            filteredTeams.length === 1
-                ? ""
-                : "s"
-        }: ${
-            pieces.join(" · ")
-        }.`;
+    const selectedCount =
+        eligible.filter(
+            team =>
+                chartState
+                    .selectedTeams
+                    .has(
+                        team
+                    )
+        ).length;
+
+
+    label.textContent =
+        `${selectedCount} of ${eligible.length} selected`;
+}
+
+
+
+function refreshTeamCheckboxList() {
+
+    const list =
+        document.getElementById(
+            "teamCheckboxList"
+        );
+
+
+    const searchValue =
+        document
+            .getElementById(
+                "teamSearchInput"
+            )
+            .value
+            .trim()
+            .toLowerCase();
+
+
+    list.innerHTML =
+        "";
+
+
+    const eligible =
+        getEligibleTeams();
+
+
+    const displayed =
+        eligible.filter(
+            team =>
+                team
+                    .toLowerCase()
+                    .includes(
+                        searchValue
+                    )
+        );
+
+
+    if (
+        displayed.length === 0
+    ) {
+
+        list.innerHTML =
+            `
+            <div class="team-select-empty">
+                No teams found.
+            </div>
+            `;
+
+        updateTeamMultiSelectLabel();
+
+        return;
+    }
+
+
+    displayed.forEach(
+        team => {
+
+            const summary =
+                teamSummaryMap.get(
+                    team
+                );
+
+
+            const option =
+                document.createElement(
+                    "label"
+                );
+
+
+            option.className =
+                "team-checkbox-option";
+
+
+            const checkbox =
+                document.createElement(
+                    "input"
+                );
+
+
+            checkbox.type =
+                "checkbox";
+
+
+            checkbox.checked =
+                (
+                    chartState.selectedTeams
+                    ===
+                    null
+                )
+                ||
+                chartState
+                    .selectedTeams
+                    .has(
+                        team
+                    );
+
+
+            checkbox.addEventListener(
+                "change",
+                () => {
+
+                    if (
+                        chartState.selectedTeams
+                        ===
+                        null
+                    ) {
+
+                        chartState.selectedTeams =
+                            new Set(
+                                eligible
+                            );
+                    }
+
+
+                    if (
+                        checkbox.checked
+                    ) {
+
+                        chartState
+                            .selectedTeams
+                            .add(
+                                team
+                            );
+
+                    } else {
+
+                        chartState
+                            .selectedTeams
+                            .delete(
+                                team
+                            );
+                    }
+
+
+                    updateTeamMultiSelectLabel();
+
+                    renderTeamChart();
+                }
+            );
+
+
+            const text =
+                document.createElement(
+                    "span"
+                );
+
+
+            text.innerHTML =
+                `
+                <strong>
+                    ${escapeHTML(team)}
+                </strong>
+
+                <small>
+                    #${summary.rank}
+                    ·
+                    ${summary.wins}-${summary.losses}
+                </small>
+                `;
+
+
+            option.appendChild(
+                checkbox
+            );
+
+
+            option.appendChild(
+                text
+            );
+
+
+            list.appendChild(
+                option
+            );
+        }
+    );
+
+
+    updateTeamMultiSelectLabel();
+}
+
+
+
+function initializeTeamMultiSelect() {
+
+    const container =
+        document.getElementById(
+            "teamMultiSelect"
+        );
+
+
+    const button =
+        document.getElementById(
+            "teamMultiSelectButton"
+        );
+
+
+    const panel =
+        document.getElementById(
+            "teamMultiSelectPanel"
+        );
+
+
+    const search =
+        document.getElementById(
+            "teamSearchInput"
+        );
+
+
+    const selectAll =
+        document.getElementById(
+            "selectEligibleTeams"
+        );
+
+
+    const clear =
+        document.getElementById(
+            "clearSelectedTeams"
+        );
+
+
+    button.addEventListener(
+        "click",
+        event => {
+
+            event.stopPropagation();
+
+            panel.hidden =
+                !panel.hidden;
+
+
+            if (
+                !panel.hidden
+            ) {
+
+                refreshTeamCheckboxList();
+
+                search.focus();
+            }
+        }
+    );
+
+
+    panel.addEventListener(
+        "click",
+        event => {
+
+            event.stopPropagation();
+        }
+    );
+
+
+    document.addEventListener(
+        "click",
+        event => {
+
+            if (
+                !container.contains(
+                    event.target
+                )
+            ) {
+
+                panel.hidden =
+                    true;
+            }
+        }
+    );
+
+
+    search.addEventListener(
+        "input",
+        refreshTeamCheckboxList
+    );
+
+
+    selectAll.addEventListener(
+        "click",
+        () => {
+
+            chartState.selectedTeams =
+                null;
+
+
+            refreshTeamCheckboxList();
+
+            renderTeamChart();
+        }
+    );
+
+
+    clear.addEventListener(
+        "click",
+        () => {
+
+            chartState.selectedTeams =
+                new Set();
+
+
+            refreshTeamCheckboxList();
+
+            renderTeamChart();
+        }
+    );
+
+
+    refreshTeamCheckboxList();
 }
 
 
 // ============================================================
-// STAT DROPDOWN
+// STAT SELECT
 // ============================================================
 
 function populateStatDropdown() {
@@ -1070,24 +1514,24 @@ function populateStatDropdown() {
 
 
 // ============================================================
-// DIFFERENTIAL / TOTAL TOGGLE
+// VIEW
 // ============================================================
 
 function initializeViewToggle() {
 
-    const differentialBtn =
+    const differential =
         document.getElementById(
             "differentialBtn"
         );
 
 
-    const totalBtn =
+    const total =
         document.getElementById(
             "totalBtn"
         );
 
 
-    differentialBtn.addEventListener(
+    differential.addEventListener(
         "click",
         () => {
 
@@ -1095,18 +1539,14 @@ function initializeViewToggle() {
                 "Differential";
 
 
-            differentialBtn
-                .classList
-                .add(
-                    "active"
-                );
+            differential.classList.add(
+                "active"
+            );
 
 
-            totalBtn
-                .classList
-                .remove(
-                    "active"
-                );
+            total.classList.remove(
+                "active"
+            );
 
 
             renderTeamChart();
@@ -1114,7 +1554,7 @@ function initializeViewToggle() {
     );
 
 
-    totalBtn.addEventListener(
+    total.addEventListener(
         "click",
         () => {
 
@@ -1122,18 +1562,14 @@ function initializeViewToggle() {
                 "Total";
 
 
-            totalBtn
-                .classList
-                .add(
-                    "active"
-                );
+            total.classList.add(
+                "active"
+            );
 
 
-            differentialBtn
-                .classList
-                .remove(
-                    "active"
-                );
+            differential.classList.remove(
+                "active"
+            );
 
 
             renderTeamChart();
@@ -1143,55 +1579,171 @@ function initializeViewToggle() {
 
 
 // ============================================================
-// TEAM FILTER EVENTS
+// RAW / ROLLING
 // ============================================================
+
+function initializeDisplayToggle() {
+
+    const raw =
+        document.getElementById(
+            "rawDisplayBtn"
+        );
+
+
+    const rolling =
+        document.getElementById(
+            "rollingDisplayBtn"
+        );
+
+
+    const grouped =
+        document.getElementById(
+            "groupDisplayBtn"
+        );
+
+
+    function setDisplayMode(
+        mode,
+        activeButton
+    ) {
+
+        chartState.displayMode =
+            mode;
+
+
+        [
+            raw,
+            rolling,
+            grouped
+        ].forEach(
+            button =>
+                button
+                    .classList
+                    .remove(
+                        "active"
+                    )
+        );
+
+
+        activeButton
+            .classList
+            .add(
+                "active"
+            );
+
+
+        renderTeamChart();
+    }
+
+
+    raw.addEventListener(
+        "click",
+        () => {
+
+            setDisplayMode(
+                "RAW",
+                raw
+            );
+        }
+    );
+
+
+    rolling.addEventListener(
+        "click",
+        () => {
+
+            setDisplayMode(
+                "ROLLING_5",
+                rolling
+            );
+        }
+    );
+
+
+    grouped.addEventListener(
+        "click",
+        () => {
+
+            setDisplayMode(
+                "FIVE_GAME_GROUPS",
+                grouped
+            );
+        }
+    );
+}
+
+
+// ============================================================
+// FILTER EVENTS
+// ============================================================
+
+function refreshFiltersAndChart() {
+
+    refreshTeamCheckboxList();
+
+    renderTeamChart();
+}
+
+
 
 function initializeTeamFilters() {
 
-    const conferenceFilter =
+    const conference =
         document.getElementById(
             "conferenceFilter"
         );
 
 
-    const minimumWinsFilter =
+    const minimumWins =
         document.getElementById(
             "minimumWinsFilter"
         );
 
 
-    const rankFilter =
+    const rank =
         document.getElementById(
             "rankFilter"
         );
 
 
-    const resetButton =
+    const gameStart =
+        document.getElementById(
+            "gameStartFilter"
+        );
+
+
+    const gameEnd =
+        document.getElementById(
+            "gameEndFilter"
+        );
+
+
+    const reset =
         document.getElementById(
             "resetTeamFilters"
         );
 
 
-    conferenceFilter.addEventListener(
+    conference.addEventListener(
         "change",
         () => {
 
             chartState.conference =
-                conferenceFilter.value;
+                conference.value;
 
 
-            renderTeamChart();
+            refreshFiltersAndChart();
         }
     );
 
 
-    minimumWinsFilter.addEventListener(
+    minimumWins.addEventListener(
         "input",
         () => {
 
             let value =
                 Number(
-                    minimumWinsFilter.value
+                    minimumWins.value
                 );
 
 
@@ -1221,17 +1773,66 @@ function initializeTeamFilters() {
                 value;
 
 
-            renderTeamChart();
+            refreshFiltersAndChart();
         }
     );
 
 
-    rankFilter.addEventListener(
+    rank.addEventListener(
         "change",
         () => {
 
             chartState.rankFilter =
-                rankFilter.value;
+                rank.value;
+
+
+            refreshFiltersAndChart();
+        }
+    );
+
+
+    gameStart.addEventListener(
+        "change",
+        () => {
+
+            let value =
+                Number(
+                    gameStart.value
+                );
+
+
+            value =
+                Math.max(
+                    1,
+                    Math.min(
+                        50,
+                        Math.floor(
+                            value || 1
+                        )
+                    )
+                );
+
+
+            if (
+                value >
+                chartState.gameEnd
+            ) {
+
+                chartState.gameEnd =
+                    value;
+
+
+                gameEnd.value =
+                    value;
+            }
+
+
+            chartState.gameStart =
+                value;
+
+
+            gameStart.value =
+                value;
 
 
             renderTeamChart();
@@ -1239,7 +1840,56 @@ function initializeTeamFilters() {
     );
 
 
-    resetButton.addEventListener(
+    gameEnd.addEventListener(
+        "change",
+        () => {
+
+            let value =
+                Number(
+                    gameEnd.value
+                );
+
+
+            value =
+                Math.max(
+                    1,
+                    Math.min(
+                        50,
+                        Math.floor(
+                            value || 50
+                        )
+                    )
+                );
+
+
+            if (
+                value <
+                chartState.gameStart
+            ) {
+
+                chartState.gameStart =
+                    value;
+
+
+                gameStart.value =
+                    value;
+            }
+
+
+            chartState.gameEnd =
+                value;
+
+
+            gameEnd.value =
+                value;
+
+
+            renderTeamChart();
+        }
+    );
+
+
+    reset.addEventListener(
         "click",
         () => {
 
@@ -1254,27 +1904,91 @@ function initializeTeamFilters() {
             chartState.rankFilter =
                 "ALL";
 
+            chartState.gameStart =
+                1;
 
-            conferenceFilter.value =
+            chartState.gameEnd =
+                50;
+
+            chartState.selectedTeams =
+                null;
+
+
+            conference.value =
                 "ALL";
 
+            minimumWins.value =
+                0;
 
-            minimumWinsFilter.value =
-                "0";
-
-
-            rankFilter.value =
+            rank.value =
                 "ALL";
 
+            gameStart.value =
+                1;
 
-            renderTeamChart();
+            gameEnd.value =
+                50;
+
+
+            document.getElementById(
+                "teamSearchInput"
+            ).value =
+                "";
+
+
+            refreshFiltersAndChart();
         }
     );
 }
 
 
 // ============================================================
-// AXIS TITLES
+// SHOW / HIDE ALL
+// ============================================================
+
+function initializeChartVisibilityButtons() {
+
+    document
+        .getElementById(
+            "showAllChartTeams"
+        )
+        .addEventListener(
+            "click",
+            () => {
+
+                Plotly.restyle(
+                    "teamTrendChart",
+                    {
+                        visible:
+                            true,
+                    }
+                );
+            }
+        );
+
+
+    document
+        .getElementById(
+            "hideAllChartTeams"
+        )
+        .addEventListener(
+            "click",
+            () => {
+
+                Plotly.restyle(
+                    "teamTrendChart",
+                    {
+                        visible:
+                            "legendonly",
+                    }
+                );
+            }
+        );
+}
+
+
+// ============================================================
+// AXIS
 // ============================================================
 
 function getYAxisTitle(
@@ -1301,9 +2015,7 @@ function getYAxisTitle(
         }
 
 
-        return (
-            `${statLabel} (%)`
-        );
+        return `${statLabel} (%)`;
     }
 
 
@@ -1313,14 +2025,43 @@ function getYAxisTitle(
 }
 
 
-// ============================================================
-// ZERO LINE
-// ============================================================
+
+function getXAxisTickInterval() {
+
+    const gamesShown =
+        chartState.gameEnd
+        -
+        chartState.gameStart
+        +
+        1;
+
+
+    if (
+        gamesShown <= 20
+    ) {
+
+        return 1;
+    }
+
+
+    if (
+        gamesShown <= 35
+    ) {
+
+        return 2;
+    }
+
+
+    return 5;
+}
+
+
 
 function getZeroLineShape() {
 
     if (
-        chartState.mode !==
+        chartState.mode
+        !==
         "Differential"
     ) {
 
@@ -1369,7 +2110,183 @@ function getZeroLineShape() {
 
 
 // ============================================================
-// TEAM TRACE
+// FILTER SUMMARY
+// ============================================================
+
+function updateFilterSummary(
+    eligibleTeams,
+    visibleTeams
+) {
+
+    document.getElementById(
+        "teamsShowing"
+    ).textContent =
+        `${
+            visibleTeams.length
+        } / ${
+            teamOrder.length
+        }`;
+
+
+    const pieces = [];
+
+
+    // ========================================================
+    // CONFERENCE
+    // ========================================================
+
+    if (
+        chartState.conference
+        !==
+        "ALL"
+    ) {
+
+        pieces.push(
+            chartState.conference
+                ===
+                "EAST"
+                ? "East Conference"
+                : "West Conference"
+        );
+    }
+
+
+    // ========================================================
+    // MINIMUM WINS
+    // ========================================================
+
+    if (
+        chartState.minimumWins > 0
+    ) {
+
+        pieces.push(
+            `${
+                chartState.minimumWins
+            }+ wins`
+        );
+    }
+
+
+    // ========================================================
+    // RANK GROUP
+    // ========================================================
+
+    const rankLabels = {
+
+        TOP_5:
+            "Top 5",
+
+        TOP_10:
+            "Top 10",
+
+        BOTTOM_5:
+            "Bottom 5",
+
+        BOTTOM_10:
+            "Bottom 10",
+    };
+
+
+    if (
+        chartState.rankFilter
+        !==
+        "ALL"
+    ) {
+
+        pieces.push(
+            rankLabels[
+                chartState.rankFilter
+            ]
+        );
+    }
+
+
+    // ========================================================
+    // MANUAL TEAM SELECTION
+    // ========================================================
+
+    if (
+        chartState.selectedTeams
+        !==
+        null
+    ) {
+
+        pieces.push(
+            `${
+                visibleTeams.length
+            } manually selected`
+        );
+    }
+
+
+    // ========================================================
+    // GAME RANGE
+    // ========================================================
+
+    pieces.push(
+        `Games ${
+            chartState.gameStart
+        }-${
+            chartState.gameEnd
+        }`
+    );
+
+
+    // ========================================================
+    // DISPLAY MODE
+    // ========================================================
+
+    if (
+        chartState.displayMode
+        ===
+        "ROLLING_5"
+    ) {
+
+        pieces.push(
+            "5-game rolling average"
+        );
+
+    } else if (
+        chartState.displayMode
+        ===
+        "FIVE_GAME_GROUPS"
+    ) {
+
+        pieces.push(
+            "5-game groups"
+        );
+
+    } else {
+
+        pieces.push(
+            "raw game values"
+        );
+    }
+
+
+    // ========================================================
+    // FINAL DESCRIPTION
+    // ========================================================
+
+    const description =
+        document.getElementById(
+            "activeFilterDescription"
+        );
+
+
+    description.textContent =
+        `Showing ${
+            visibleTeams.length
+        } of ${
+            eligibleTeams.length
+        } eligible teams · ${
+            pieces.join(" · ")
+        }.`;
+}
+
+
+// ============================================================
+// TRACE
 // ============================================================
 
 function buildTeamTrace(team) {
@@ -1384,11 +2301,15 @@ function buildTeamTrace(team) {
         ];
 
 
-    const differentialColumn =
-        `${statColumn}_diff`;
+    const valueColumn =
+        chartState.mode
+        ===
+        "Differential"
+            ? `${statColumn}_diff`
+            : statColumn;
 
 
-    const rows =
+    const allRows =
         sortTeamRows(
             teamComparisonRows.filter(
                 row =>
@@ -1396,37 +2317,6 @@ function buildTeamTrace(team) {
                     ===
                     team
             )
-        );
-
-
-    const values =
-        chartState.mode ===
-        "Differential"
-            ? rows.map(
-                row =>
-                    row[
-                        differentialColumn
-                    ]
-            )
-            : rows.map(
-                row =>
-                    row[
-                        statColumn
-                    ]
-            );
-
-
-    const teamAverage =
-        average(
-            values
-        );
-
-
-    const averageText =
-        formatMetricValue(
-            teamAverage,
-            statLabel,
-            chartState.mode
         );
 
 
@@ -1442,82 +2332,528 @@ function buildTeamTrace(team) {
         );
 
 
-    const customData =
-        rows.map(
-            row => [
+    // ========================================================
+    // HELPER: FORMAT ONE GAME FOR HOVER
+    // ========================================================
 
-                row.game_date,
+    function formatGameStatLine(row) {
 
-                row.opponent_name,
-
-                row.result,
-
-                row.team_score,
-
-                row.opponent_score,
-
+        const value =
+            numberOrNull(
                 row[
-                    statColumn
-                ],
+                    valueColumn
+                ]
+            );
 
-                row[
-                    `opp_${statColumn}`
-                ],
 
-                row.location,
-            ]
+        const matchup =
+            String(
+                row.location
+            ).toUpperCase()
+            ===
+            "AWAY"
+
+                ? `@ ${
+                    escapeHTML(
+                        row.opponent_name
+                    )
+                }`
+
+                : `vs ${
+                    escapeHTML(
+                        row.opponent_name
+                    )
+                }`;
+
+
+        return (
+            `Game ${
+                row.game_number
+            } ${
+                matchup
+            }: <b>${
+                formatMetricValue(
+                    value,
+                    statLabel,
+                    chartState.mode
+                )
+            }</b>`
+        );
+    }
+
+
+    // ========================================================
+    // 5-GAME NON-OVERLAPPING GROUPS
+    // ========================================================
+
+    if (
+        chartState.displayMode
+        ===
+        "FIVE_GAME_GROUPS"
+    ) {
+
+        const groups =
+            buildFiveGameGroups(
+                allRows,
+                valueColumn
+            );
+
+
+        const rangeRows =
+            allRows.filter(
+                row =>
+                    row.game_number
+                    >=
+                    chartState.gameStart
+                    &&
+                    row.game_number
+                    <=
+                    chartState.gameEnd
+            );
+
+
+        const rangeAverage =
+            average(
+                rangeRows.map(
+                    row =>
+                        numberOrNull(
+                            row[
+                                valueColumn
+                            ]
+                        )
+                )
+            );
+
+
+        const averageText =
+            formatMetricValue(
+                rangeAverage,
+                statLabel,
+                chartState.mode
+            );
+
+
+        const hoverText =
+            groups.map(
+                group => {
+
+                    const gameLines =
+                        group.rows.map(
+                            row =>
+                                formatGameStatLine(
+                                    row
+                                )
+                        );
+
+
+                    return (
+                        `<b>${
+                            escapeHTML(
+                                team
+                            )
+                        }</b><br>`
+                        +
+                        `<b>${
+                            escapeHTML(
+                                statLabel
+                            )
+                        } ${
+                            chartState.mode
+                        }</b><br>`
+                        +
+                        `Games ${
+                            group.startGame
+                        }-${
+                            group.endGame
+                        }<br><br>`
+                        +
+                        `<b>Group Average:</b> ${
+                            formatMetricValue(
+                                group.value,
+                                statLabel,
+                                chartState.mode
+                            )
+                        }<br><br>`
+                        +
+                        `<b>Games Included:</b><br>`
+                        +
+                        gameLines.join(
+                            "<br>"
+                        )
+                    );
+                }
+            );
+
+
+        return {
+
+            x:
+                groups.map(
+                    group =>
+                        group.label
+                ),
+
+            y:
+                groups.map(
+                    group =>
+                        group.value
+                ),
+
+            text:
+                hoverText,
+
+            type:
+                "scatter",
+
+            mode:
+                "lines+markers",
+
+            name:
+                `#${
+                    summary.rank
+                } ${
+                    team
+                } (${
+                    summary.wins
+                }-${
+                    summary.losses
+                }) — ${
+                    averageText
+                }`,
+
+            line: {
+
+                color,
+
+                width:
+                    3,
+            },
+
+            marker: {
+
+                color,
+
+                size:
+                    9,
+            },
+
+            hovertemplate:
+                "%{text}<extra></extra>",
+
+            connectgaps:
+                false,
+        };
+    }
+
+
+    // ========================================================
+    // RAW VALUES
+    // ========================================================
+
+    const rawValues =
+        allRows.map(
+            row =>
+                numberOrNull(
+                    row[
+                        valueColumn
+                    ]
+                )
         );
 
 
-    let hoverTemplate;
+    // ========================================================
+    // 5-GAME ROLLING VALUES
+    // ========================================================
+
+    const rollingValues =
+        rollingAverage(
+            rawValues,
+            5
+        );
 
 
-    if (
-        chartState.mode ===
-        "Differential"
-    ) {
+    const displayValues =
+        chartState.displayMode
+        ===
+        "ROLLING_5"
+            ? rollingValues
+            : rawValues;
 
-        hoverTemplate =
-            `<b>${team}</b><br>`
-            +
-            `Game %{x}<br>`
-            +
-            `%{customdata[0]}<br>`
-            +
-            `%{customdata[7]} vs %{customdata[1]}<br>`
-            +
-            `%{customdata[2]} `
-            +
-            `%{customdata[3]}-%{customdata[4]}<br><br>`
-            +
-            `<b>${statLabel} Differential:</b> %{y:.1f}<br>`
-            +
-            `Team: %{customdata[5]:.1f}<br>`
-            +
-            `Opponent: %{customdata[6]:.1f}`
-            +
-            `<extra></extra>`;
 
-    } else {
+    // ========================================================
+    // VISIBLE RANGE
+    // ========================================================
 
-        hoverTemplate =
-            `<b>${team}</b><br>`
-            +
-            `Game %{x}<br>`
-            +
-            `%{customdata[0]}<br>`
-            +
-            `%{customdata[7]} vs %{customdata[1]}<br>`
-            +
-            `%{customdata[2]} `
-            +
-            `%{customdata[3]}-%{customdata[4]}<br><br>`
-            +
-            `<b>${statLabel}:</b> %{y:.1f}`
-            +
-            `<extra></extra>`;
-    }
+    const visibleIndexes =
+        allRows
+            .map(
+                (
+                    row,
+                    index
+                ) => ({
+                    row,
+                    index,
+                })
+            )
+            .filter(
+                item =>
+                    item.row.game_number
+                    >=
+                    chartState.gameStart
+                    &&
+                    item.row.game_number
+                    <=
+                    chartState.gameEnd
+            );
 
+
+    const rows =
+        visibleIndexes.map(
+            item =>
+                item.row
+        );
+
+
+    const values =
+        visibleIndexes.map(
+            item =>
+                displayValues[
+                    item.index
+                ]
+        );
+
+
+    const visibleRawValues =
+        visibleIndexes.map(
+            item =>
+                rawValues[
+                    item.index
+                ]
+        );
+
+
+    const rangeAverage =
+        average(
+            visibleRawValues
+        );
+
+
+    const averageText =
+        formatMetricValue(
+            rangeAverage,
+            statLabel,
+            chartState.mode
+        );
+
+
+    // ========================================================
+    // HOVER TEXT
+    // ========================================================
+
+    const hoverText =
+        visibleIndexes.map(
+            item => {
+
+                const row =
+                    item.row;
+
+
+                const index =
+                    item.index;
+
+
+                const rawValue =
+                    rawValues[
+                        index
+                    ];
+
+
+                const displayValue =
+                    displayValues[
+                        index
+                    ];
+
+
+                const matchup =
+                    String(
+                        row.location
+                    ).toUpperCase()
+                    ===
+                    "AWAY"
+
+                        ? `@ ${
+                            escapeHTML(
+                                row.opponent_name
+                            )
+                        }`
+
+                        : `vs ${
+                            escapeHTML(
+                                row.opponent_name
+                            )
+                        }`;
+
+
+                // ====================================================
+                // ROLLING AVERAGE HOVER
+                // ====================================================
+
+                if (
+                    chartState.displayMode
+                    ===
+                    "ROLLING_5"
+                ) {
+
+                    // The point at Game N contains:
+                    // N-4, N-3, N-2, N-1, N
+                    const rollingStart =
+                        Math.max(
+                            0,
+                            index - 4
+                        );
+
+
+                    const rollingRows =
+                        allRows.slice(
+                            rollingStart,
+                            index + 1
+                        );
+
+
+                    const gameLines =
+                        rollingRows.map(
+                            rollingRow =>
+                                formatGameStatLine(
+                                    rollingRow
+                                )
+                        );
+
+
+                    return (
+                        `<b>${
+                            escapeHTML(
+                                team
+                            )
+                        }</b><br>`
+                        +
+                        `<b>${
+                            escapeHTML(
+                                statLabel
+                            )
+                        } ${
+                            chartState.mode
+                        }</b><br>`
+                        +
+                        `Rolling point at Game ${
+                            row.game_number
+                        }<br><br>`
+                        +
+                        `<b>5-Game Rolling Avg:</b> ${
+                            formatMetricValue(
+                                displayValue,
+                                statLabel,
+                                chartState.mode
+                            )
+                        }<br><br>`
+                        +
+                        `<b>Games Included:</b><br>`
+                        +
+                        gameLines.join(
+                            "<br>"
+                        )
+                    );
+                }
+
+
+                // ====================================================
+                // RAW GAME HOVER
+                // ====================================================
+
+                const teamValue =
+                    row[
+                        statColumn
+                    ];
+
+
+                const opponentValue =
+                    row[
+                        `opp_${statColumn}`
+                    ];
+
+
+                let metricBlock =
+                    (
+                        `<b>${
+                            escapeHTML(
+                                statLabel
+                            )
+                        } ${
+                            chartState.mode
+                        }:</b> ${
+                            formatMetricValue(
+                                rawValue,
+                                statLabel,
+                                chartState.mode
+                            )
+                        }<br>`
+                    );
+
+
+                if (
+                    chartState.mode
+                    ===
+                    "Differential"
+                ) {
+
+                    metricBlock +=
+                        `Team: ${
+                            formatMetricValue(
+                                teamValue,
+                                statLabel,
+                                "Total"
+                            )
+                        }<br>`;
+
+
+                    metricBlock +=
+                        `Opponent: ${
+                            formatMetricValue(
+                                opponentValue,
+                                statLabel,
+                                "Total"
+                            )
+                        }`;
+                }
+
+
+                return (
+                    `<b>${
+                        escapeHTML(
+                            team
+                        )
+                    }</b><br>`
+                    +
+                    `Game ${
+                        row.game_number
+                    } ${
+                        matchup
+                    }<br>`
+                    +
+                    `${
+                        escapeHTML(
+                            row.game_date
+                        )
+                    }<br><br>`
+                    +
+                    metricBlock
+                );
+            }
+        );
+
+
+    // ========================================================
+    // RAW / ROLLING TRACE
+    // ========================================================
 
     return {
 
@@ -1530,8 +2866,8 @@ function buildTeamTrace(team) {
         y:
             values,
 
-        customdata:
-            customData,
+        text:
+            hoverText,
 
         type:
             "scatter",
@@ -1557,7 +2893,11 @@ function buildTeamTrace(team) {
             color,
 
             width:
-                2.5,
+                chartState.displayMode
+                ===
+                "ROLLING_5"
+                    ? 3
+                    : 2.3,
         },
 
         marker: {
@@ -1565,11 +2905,15 @@ function buildTeamTrace(team) {
             color,
 
             size:
-                6,
+                chartState.displayMode
+                ===
+                "ROLLING_5"
+                    ? 5
+                    : 6,
         },
 
         hovertemplate:
-            hoverTemplate,
+            "%{text}<extra></extra>",
 
         connectgaps:
             false,
@@ -1578,10 +2922,35 @@ function buildTeamTrace(team) {
 
 
 // ============================================================
-// RENDER CHART
+// RENDER
 // ============================================================
 
 function renderTeamChart() {
+
+    // ========================================================
+    // FILTER TEAMS
+    // ========================================================
+
+    const eligibleTeams =
+        getEligibleTeams();
+
+
+    const visibleTeams =
+        getVisibleTeams();
+
+
+    updateFilterSummary(
+        eligibleTeams,
+        visibleTeams
+    );
+
+
+    updateTeamMultiSelectLabel();
+
+
+    // ========================================================
+    // CURRENT METRIC / MODE
+    // ========================================================
 
     const statLabel =
         chartState.statLabel;
@@ -1591,27 +2960,55 @@ function renderTeamChart() {
         chartState.mode;
 
 
-    const filteredTeams =
-        getEligibleTeams();
+    // ========================================================
+    // DISPLAY MODE LABELS
+    // ========================================================
+
+    let displayText;
+
+    let title;
 
 
-    updateFilterSummary(
-        filteredTeams
-    );
+    if (
+        chartState.displayMode
+        ===
+        "ROLLING_5"
+    ) {
+
+        displayText =
+            "5-Game Rolling Average";
 
 
-    const traces =
-        filteredTeams.map(
-            team =>
-                buildTeamTrace(
-                    team
-                )
-        );
+        title =
+            `${statLabel} ${mode} — 5-Game Rolling Average`;
+
+    } else if (
+        chartState.displayMode
+        ===
+        "FIVE_GAME_GROUPS"
+    ) {
+
+        displayText =
+            "5-Game Groups";
 
 
-    const title =
-        `${statLabel} ${mode} by Game`;
+        title =
+            `${statLabel} ${mode} — 5-Game Group Averages`;
 
+    } else {
+
+        displayText =
+            "Raw";
+
+
+        title =
+            `${statLabel} ${mode} by Game`;
+    }
+
+
+    // ========================================================
+    // PAGE LABELS
+    // ========================================================
 
     document.getElementById(
         "teamChartTitle"
@@ -1622,8 +3019,31 @@ function renderTeamChart() {
     document.getElementById(
         "currentChartView"
     ).textContent =
-        `${statLabel} ${mode}`;
+        `${
+            statLabel
+        } ${
+            mode
+        } · ${
+            displayText
+        }`;
 
+
+    // ========================================================
+    // BUILD TEAM TRACES
+    // ========================================================
+
+    const traces =
+        visibleTeams.map(
+            team =>
+                buildTeamTrace(
+                    team
+                )
+        );
+
+
+    // ========================================================
+    // NO MATCHING TEAMS
+    // ========================================================
 
     if (
         traces.length === 0
@@ -1647,6 +3067,87 @@ function renderTeamChart() {
         return;
     }
 
+
+    // ========================================================
+    // X AXIS
+    // ========================================================
+
+    let xAxisSettings;
+
+
+    if (
+        chartState.displayMode
+        ===
+        "FIVE_GAME_GROUPS"
+    ) {
+
+        xAxisSettings = {
+
+            title: {
+                text:
+                    "Game Group",
+            },
+
+            type:
+                "category",
+
+            gridcolor:
+                "#263449",
+
+            zerolinecolor:
+                "#475569",
+
+            tickfont: {
+                size:
+                    11,
+            },
+        };
+
+    } else {
+
+        xAxisSettings = {
+
+            title: {
+                text:
+                    "Team Game Number",
+            },
+
+            range: [
+                chartState.gameStart
+                -
+                0.5,
+
+                chartState.gameEnd
+                +
+                0.5
+            ],
+
+            tickmode:
+                "linear",
+
+            tick0:
+                chartState.gameStart,
+
+            dtick:
+                getXAxisTickInterval(),
+
+            gridcolor:
+                "#263449",
+
+            zerolinecolor:
+                "#475569",
+
+            tickfont: {
+                size:
+                    10,
+            },
+        };
+    }
+
+
+    // ========================================================
+    // CHART LAYOUT
+    // ========================================================
 
     const layout = {
 
@@ -1695,45 +3196,8 @@ function renderTeamChart() {
             "closest",
 
 
-        xaxis: {
-
-            title: {
-
-                text:
-                    "Team Game Number",
-
-                font: {
-                    color:
-                        "#cbd5e1",
-                },
-            },
-
-            range:
-                [
-                    0.5,
-                    50.5
-                ],
-
-            tickmode:
-                "linear",
-
-            tick0:
-                1,
-
-            dtick:
-                1,
-
-            gridcolor:
-                "#263449",
-
-            zerolinecolor:
-                "#475569",
-
-            tickfont: {
-                size:
-                    10,
-            },
-        },
+        xaxis:
+            xAxisSettings,
 
 
         yaxis: {
@@ -1745,11 +3209,6 @@ function renderTeamChart() {
                         statLabel,
                         mode
                     ),
-
-                font: {
-                    color:
-                        "#cbd5e1",
-                },
             },
 
             gridcolor:
@@ -1763,8 +3222,9 @@ function renderTeamChart() {
         legend: {
 
             title: {
+
                 text:
-                    "Rank · Team (W-L) — Avg",
+                    "Rank · Team (W-L) — Range Avg",
             },
 
             orientation:
@@ -1783,6 +3243,7 @@ function renderTeamChart() {
                 1.02,
 
             font: {
+
                 size:
                     11,
             },
@@ -1804,7 +3265,7 @@ function renderTeamChart() {
                 75,
 
             r:
-                345,
+                365,
 
             t:
                 90,
@@ -1818,6 +3279,10 @@ function renderTeamChart() {
             getZeroLineShape(),
     };
 
+
+    // ========================================================
+    // PLOTLY CONFIG
+    // ========================================================
 
     const config = {
 
@@ -1836,6 +3301,10 @@ function renderTeamChart() {
         ],
     };
 
+
+    // ========================================================
+    // RENDER
+    // ========================================================
 
     Plotly.react(
         "teamTrendChart",
@@ -1905,7 +3374,7 @@ function validateLoadedData(rows) {
     }
 
 
-    const unknownConferenceTeams =
+    const unmappedTeams =
         [
             ...teams
         ].filter(
@@ -1917,13 +3386,13 @@ function validateLoadedData(rows) {
 
 
     if (
-        unknownConferenceTeams.length > 0
+        unmappedTeams.length > 0
     ) {
 
         throw new Error(
             "Missing conference mapping for: "
             +
-            unknownConferenceTeams.join(
+            unmappedTeams.join(
                 ", "
             )
         );
@@ -2001,12 +3470,15 @@ async function initializeTeamCharts() {
 
         populateStatDropdown();
 
-
         initializeViewToggle();
 
+        initializeDisplayToggle();
 
         initializeTeamFilters();
 
+        initializeTeamMultiSelect();
+
+        initializeChartVisibilityButtons();
 
         renderTeamChart();
 
@@ -2025,10 +3497,6 @@ async function initializeTeamCharts() {
         errorElement.textContent =
             (
                 "Could not load Team Charts data. "
-                +
-                "Check docs/data/"
-                +
-                "team_charting_metrics_2025_26.csv. "
                 +
                 error.message
             );
