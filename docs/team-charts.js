@@ -91,6 +91,118 @@ const TEAM_CONFERENCES = {
     "Valley Suns": "WEST",
 };
 
+// ============================================================
+// TEAM CHART COLORS
+//
+// Team-inspired 2025-26 palette.
+// These are optimized for:
+// 1. Team identity
+// 2. Dark-background visibility
+// 3. Separation between all 31 teams
+//
+// They are intentionally not always the literal primary
+// brand hex because many G League teams share the same
+// red / blue / black / gold colors.
+// ============================================================
+
+const TEAM_COLORS = {
+
+    // EAST
+    "Birmingham Squadron":
+        "#C79A5B",
+
+    "Capital City Go-Go":
+        "#E63946",
+
+    "Cleveland Charge":
+        "#9C3D5A",
+
+    "College Park Skyhawks":
+        "#F5C242",
+
+    "Delaware Blue Coats":
+        "#2867D7",
+
+    "Grand Rapids Gold":
+        "#FFD23F",
+
+    "Greensboro Swarm":
+        "#00A7A7",
+
+    "Long Island Nets":
+        "#275DAD",
+
+    "Maine Celtics":
+        "#00B25A",
+
+    "Motor City Cruise":
+        "#667EEA",
+
+    "Noblesville Boom":
+        "#00B8E6",
+
+    "Osceola Magic":
+        "#0077C8",
+
+    "Raptors 905":
+        "#C9184A",
+
+    "Westchester Knicks":
+        "#FF7A21",
+
+    "Windy City Bulls":
+        "#FF1744",
+
+    "Wisconsin Herd":
+        "#5D7F3A",
+
+
+    // WEST
+    "Austin Spurs":
+        "#C2C7CE",
+
+    "Iowa Wolves":
+        "#86C440",
+
+    "Memphis Hustle":
+        "#F45136",
+
+    "Mexico City Capitanes":
+        "#EF4B81",
+
+    "Oklahoma City Blue":
+        "#FF6B57",
+
+    "Rio Grande Valley Vipers":
+        "#8A9099",
+
+    "Rip City Remix":
+        "#E8CDAA",
+
+    "Salt Lake City Stars":
+        "#7D55C7",
+
+    "San Diego Clippers":
+        "#55A7E8",
+
+    "Santa Cruz Warriors":
+        "#EAAF00",
+
+    "Sioux Falls Skyforce":
+        "#F59E0B",
+
+    "South Bay Lakers":
+        "#A78BFA",
+
+    "Stockton Kings":
+        "#8B45C6",
+
+    "Texas Legends":
+        "#6F8EAD",
+
+    "Valley Suns":
+        "#FC4C02",
+};
 
 // ============================================================
 // DATA
@@ -599,28 +711,27 @@ function initializeTeamColors() {
 
 
     teamOrder.forEach(
-        (
-            team,
-            index
-        ) => {
+        team => {
 
-            const hue =
-                Math.round(
-                    (
-                        index
-                        *
-                        360
-                        /
-                        teamOrder.length
-                    )
-                    %
-                    360
+            const color =
+                TEAM_COLORS[
+                    team
+                ];
+
+
+            if (!color) {
+
+                console.warn(
+                    `No preset chart color found for ${team}`
                 );
+            }
 
 
             teamColorMap.set(
                 team,
-                `hsl(${hue}, 72%, 52%)`
+                color
+                ||
+                "#60A5FA"
             );
         }
     );
@@ -635,7 +746,11 @@ function getTeamColor(team) {
             team
         )
         ||
-        "#60a5fa"
+        TEAM_COLORS[
+            team
+        ]
+        ||
+        "#60A5FA"
     );
 }
 
