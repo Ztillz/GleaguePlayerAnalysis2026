@@ -219,7 +219,9 @@ let teamSummaryMap =
 
 let teamColorMap =
     new Map();
-
+    
+let highlightedTeam =
+    null;
 
 // ============================================================
 // STATE
@@ -2448,7 +2450,7 @@ function buildTeamTrace(team) {
 
 
     // ========================================================
-    // HELPER: FORMAT ONE GAME FOR HOVER
+    // HELPER: FORMAT INDIVIDUAL GAME STAT
     // ========================================================
 
     function formatGameStatLine(row) {
@@ -2602,6 +2604,11 @@ function buildTeamTrace(team) {
 
         return {
 
+            meta: {
+                teamName:
+                    team,
+            },
+
             x:
                 groups.map(
                     group =>
@@ -2651,6 +2658,9 @@ function buildTeamTrace(team) {
                 size:
                     9,
             },
+
+            opacity:
+                1,
 
             hovertemplate:
                 "%{text}<extra></extra>",
@@ -2810,7 +2820,7 @@ function buildTeamTrace(team) {
 
 
                 // ====================================================
-                // ROLLING AVERAGE HOVER
+                // 5-GAME ROLLING HOVER
                 // ====================================================
 
                 if (
@@ -2819,8 +2829,6 @@ function buildTeamTrace(team) {
                     "ROLLING_5"
                 ) {
 
-                    // The point at Game N contains:
-                    // N-4, N-3, N-2, N-1, N
                     const rollingStart =
                         Math.max(
                             0,
@@ -2881,7 +2889,7 @@ function buildTeamTrace(team) {
 
 
                 // ====================================================
-                // RAW GAME HOVER
+                // RAW HOVER
                 // ====================================================
 
                 const teamValue =
@@ -2972,6 +2980,11 @@ function buildTeamTrace(team) {
 
     return {
 
+        meta: {
+            teamName:
+                team,
+        },
+
         x:
             rows.map(
                 row =>
@@ -3027,6 +3040,9 @@ function buildTeamTrace(team) {
                     : 6,
         },
 
+        opacity:
+            1,
+
         hovertemplate:
             "%{text}<extra></extra>",
 
@@ -3041,6 +3057,12 @@ function buildTeamTrace(team) {
 // ============================================================
 
 function renderTeamChart() {
+
+    const chart =
+        document.getElementById(
+            "teamTrendChart"
+        );
+
 
     // ========================================================
     // FILTER TEAMS
@@ -3144,7 +3166,23 @@ function renderTeamChart() {
 
 
     // ========================================================
-    // BUILD TEAM TRACES
+    // INITIALIZE MULTI-HIGHLIGHT STATE
+    // ========================================================
+
+    if (
+        !(
+            chart._highlightedTeams
+            instanceof Set
+        )
+    ) {
+
+        chart._highlightedTeams =
+            new Set();
+    }
+
+
+    // ========================================================
+    // BUILD TRACES
     // ========================================================
 
     const traces =
@@ -3157,7 +3195,38 @@ function renderTeamChart() {
 
 
     // ========================================================
-    // NO MATCHING TEAMS
+    // REMOVE HIGHLIGHTS FOR TEAMS THAT ARE NO LONGER VISIBLE
+    // ========================================================
+
+    const visibleTeamSet =
+        new Set(
+            visibleTeams
+        );
+
+
+    [
+        ...chart._highlightedTeams
+    ].forEach(
+        team => {
+
+            if (
+                !visibleTeamSet.has(
+                    team
+                )
+            ) {
+
+                chart
+                    ._highlightedTeams
+                    .delete(
+                        team
+                    );
+            }
+        }
+    );
+
+
+    // ========================================================
+    // NO TEAMS
     // ========================================================
 
     if (
@@ -3165,13 +3234,11 @@ function renderTeamChart() {
     ) {
 
         Plotly.purge(
-            "teamTrendChart"
+            chart
         );
 
 
-        document.getElementById(
-            "teamTrendChart"
-        ).innerHTML =
+        chart.innerHTML =
             `
             <div class="no-teams-message">
                 No teams match the current filters.
@@ -3181,6 +3248,119 @@ function renderTeamChart() {
 
         return;
     }
+
+
+    // ========================================================
+    // APPLY CURRENT MULTI-HIGHLIGHT BEFORE RENDER
+    // ========================================================
+
+    const hasHighlights =
+        chart._highlightedTeams.size
+        >
+        0;
+
+
+    traces.forEach(
+        trace => {
+
+            const traceTeam =
+                trace.meta
+                &&
+                trace.meta.teamName;
+
+
+            const isSelected =
+                chart
+                    ._highlightedTeams
+                    .has(
+                        traceTeam
+                    );
+
+
+            // ------------------------------------------------
+            // NOTHING SELECTED
+            // ------------------------------------------------
+
+            if (
+                !hasHighlights
+            ) {
+
+                trace.line.width =
+                    chartState.displayMode
+                    ===
+                    "FIVE_GAME_GROUPS"
+                        ? 3
+                        : chartState.displayMode
+                        ===
+                        "ROLLING_5"
+                            ? 3
+                            : 2.3;
+
+
+                trace.marker.size =
+                    chartState.displayMode
+                    ===
+                    "FIVE_GAME_GROUPS"
+                        ? 9
+                        : chartState.displayMode
+                        ===
+                        "ROLLING_5"
+                            ? 5
+                            : 6;
+
+
+                trace.opacity =
+                    1;
+
+
+                return;
+            }
+
+
+            // ------------------------------------------------
+            // SELECTED TEAM
+            // ------------------------------------------------
+
+            if (
+                isSelected
+            ) {
+
+                trace.line.width =
+                    7;
+
+
+                trace.marker.size =
+                    chartState.displayMode
+                    ===
+                    "FIVE_GAME_GROUPS"
+                        ? 13
+                        : 9;
+
+
+                trace.opacity =
+                    1;
+
+
+                return;
+            }
+
+
+            // ------------------------------------------------
+            // UNSELECTED TEAM
+            // ------------------------------------------------
+
+            trace.line.width =
+                1.2;
+
+
+            trace.marker.size =
+                4;
+
+
+            trace.opacity =
+                0.18;
+        }
+    );
 
 
     // ========================================================
@@ -3261,7 +3441,7 @@ function renderTeamChart() {
 
 
     // ========================================================
-    // CHART LAYOUT
+    // LAYOUT
     // ========================================================
 
     const layout = {
@@ -3396,7 +3576,7 @@ function renderTeamChart() {
 
 
     // ========================================================
-    // PLOTLY CONFIG
+    // CONFIG
     // ========================================================
 
     const config = {
@@ -3422,11 +3602,318 @@ function renderTeamChart() {
     // ========================================================
 
     Plotly.react(
-        "teamTrendChart",
+        chart,
         traces,
         layout,
         config
     );
+
+
+    // ========================================================
+    // APPLY MULTI-HIGHLIGHT
+    // ========================================================
+
+    function applyTeamHighlights() {
+
+        const hasSelectedTeams =
+            chart
+                ._highlightedTeams
+                .size
+            >
+            0;
+
+
+        const lineWidths =
+            [];
+
+
+        const markerSizes =
+            [];
+
+
+        const opacities =
+            [];
+
+
+        chart.data.forEach(
+            trace => {
+
+                const traceTeam =
+                    trace.meta
+                    &&
+                    trace.meta.teamName;
+
+
+                const isSelected =
+                    chart
+                        ._highlightedTeams
+                        .has(
+                            traceTeam
+                        );
+
+
+                // ============================================
+                // NONE SELECTED = NORMAL CHART
+                // ============================================
+
+                if (
+                    !hasSelectedTeams
+                ) {
+
+                    lineWidths.push(
+                        chartState.displayMode
+                        ===
+                        "FIVE_GAME_GROUPS"
+                            ? 3
+                            : chartState.displayMode
+                            ===
+                            "ROLLING_5"
+                                ? 3
+                                : 2.3
+                    );
+
+
+                    markerSizes.push(
+                        chartState.displayMode
+                        ===
+                        "FIVE_GAME_GROUPS"
+                            ? 9
+                            : chartState.displayMode
+                            ===
+                            "ROLLING_5"
+                                ? 5
+                                : 6
+                    );
+
+
+                    opacities.push(
+                        1
+                    );
+
+
+                    return;
+                }
+
+
+                // ============================================
+                // SELECTED TEAM
+                // ============================================
+
+                if (
+                    isSelected
+                ) {
+
+                    lineWidths.push(
+                        7
+                    );
+
+
+                    markerSizes.push(
+                        chartState.displayMode
+                        ===
+                        "FIVE_GAME_GROUPS"
+                            ? 13
+                            : 9
+                    );
+
+
+                    opacities.push(
+                        1
+                    );
+
+
+                    return;
+                }
+
+
+                // ============================================
+                // OTHER TEAMS
+                // ============================================
+
+                lineWidths.push(
+                    1.2
+                );
+
+
+                markerSizes.push(
+                    4
+                );
+
+
+                opacities.push(
+                    0.18
+                );
+            }
+        );
+
+
+        Plotly.restyle(
+            chart,
+            {
+                "line.width":
+                    lineWidths,
+
+                "marker.size":
+                    markerSizes,
+
+                opacity:
+                    opacities,
+            }
+        );
+    }
+
+
+    // ========================================================
+    // TOGGLE ONE TEAM
+    // ========================================================
+
+    function toggleTeamHighlight(
+        team
+    ) {
+
+        if (!team) {
+            return;
+        }
+
+
+        if (
+            chart
+                ._highlightedTeams
+                .has(
+                    team
+                )
+        ) {
+
+            chart
+                ._highlightedTeams
+                .delete(
+                    team
+                );
+
+        } else {
+
+            chart
+                ._highlightedTeams
+                .add(
+                    team
+                );
+        }
+
+
+        applyTeamHighlights();
+    }
+
+
+    // ========================================================
+    // LEGEND CLICK
+    // ========================================================
+
+    if (
+        !chart._legendHighlightInitialized
+    ) {
+
+        chart._legendHighlightInitialized =
+            true;
+
+
+        chart.on(
+            "plotly_legendclick",
+            event => {
+
+                const clickedTrace =
+                    chart.data[
+                        event.curveNumber
+                    ];
+
+
+                const clickedTeam =
+                    clickedTrace
+                    &&
+                    clickedTrace.meta
+                    &&
+                    clickedTrace.meta.teamName;
+
+
+                toggleTeamHighlight(
+                    clickedTeam
+                );
+
+
+                // Prevent Plotly default hide/show.
+                return false;
+            }
+        );
+    }
+
+
+    // ========================================================
+    // LEGEND DOUBLE CLICK
+    //
+    // Also disable Plotly's default isolate behavior.
+    // ========================================================
+
+    if (
+        !chart._legendDoubleClickInitialized
+    ) {
+
+        chart._legendDoubleClickInitialized =
+            true;
+
+
+        chart.on(
+            "plotly_legenddoubleclick",
+            () => {
+
+                return false;
+            }
+        );
+    }
+
+
+    // ========================================================
+    // LINE / MARKER CLICK
+    // ========================================================
+
+    if (
+        !chart._lineHighlightInitialized
+    ) {
+
+        chart._lineHighlightInitialized =
+            true;
+
+
+        chart.on(
+            "plotly_click",
+            event => {
+
+                if (
+                    !event.points
+                    ||
+                    event.points.length === 0
+                ) {
+
+                    return;
+                }
+
+
+                const clickedTrace =
+                    event.points[0].data;
+
+
+                const clickedTeam =
+                    clickedTrace
+                    &&
+                    clickedTrace.meta
+                    &&
+                    clickedTrace.meta.teamName;
+
+
+                toggleTeamHighlight(
+                    clickedTeam
+                );
+            }
+        );
+    }
 }
 
 
@@ -3518,6 +4005,224 @@ function validateLoadedData(rows) {
 // ============================================================
 // STARTUP
 // ============================================================
+function initializeChartLineHighlight() {
+
+    const chart =
+        document.getElementById(
+            "teamTrendChart"
+        );
+
+
+    chart.on(
+        "plotly_click",
+        event => {
+
+            if (
+                !event.points
+                ||
+                event.points.length === 0
+            ) {
+
+                return;
+            }
+
+
+            const clickedPoint =
+                event.points[0];
+
+
+            const clickedTrace =
+                clickedPoint.data;
+
+
+            const clickedTeam =
+                clickedTrace.teamName;
+
+
+            if (!clickedTeam) {
+
+                return;
+            }
+
+
+            // Clicking the already-highlighted team resets.
+            if (
+                highlightedTeam
+                ===
+                clickedTeam
+            ) {
+
+                highlightedTeam =
+                    null;
+
+            } else {
+
+                highlightedTeam =
+                    clickedTeam;
+            }
+
+
+            applyChartLineHighlight();
+        }
+    );
+}
+
+function applyChartLineHighlight() {
+
+    const chart =
+        document.getElementById(
+            "teamTrendChart"
+        );
+
+
+    if (
+        !chart.data
+        ||
+        chart.data.length === 0
+    ) {
+
+        return;
+    }
+
+
+    const lineWidths =
+        [];
+
+
+    const markerSizes =
+        [];
+
+
+    const opacities =
+        [];
+
+
+    chart.data.forEach(
+        trace => {
+
+            const isHighlighted =
+                (
+                    highlightedTeam
+                    !==
+                    null
+                    &&
+                    trace.teamName
+                    ===
+                    highlightedTeam
+                );
+
+
+            // ------------------------------------------------
+            // NOTHING SELECTED
+            // ------------------------------------------------
+
+            if (
+                highlightedTeam
+                ===
+                null
+            ) {
+
+                lineWidths.push(
+                    chartState.displayMode
+                    ===
+                    "FIVE_GAME_GROUPS"
+                        ? 3
+                        : chartState.displayMode
+                        ===
+                        "ROLLING_5"
+                            ? 3
+                            : 2.3
+                );
+
+
+                markerSizes.push(
+                    chartState.displayMode
+                    ===
+                    "FIVE_GAME_GROUPS"
+                        ? 9
+                        : chartState.displayMode
+                        ===
+                        "ROLLING_5"
+                            ? 5
+                            : 6
+                );
+
+
+                opacities.push(
+                    1
+                );
+
+
+                return;
+            }
+
+
+            // ------------------------------------------------
+            // SELECTED TEAM
+            // ------------------------------------------------
+
+            if (
+                isHighlighted
+            ) {
+
+                lineWidths.push(
+                    7
+                );
+
+
+                markerSizes.push(
+                    chartState.displayMode
+                    ===
+                    "FIVE_GAME_GROUPS"
+                        ? 12
+                        : 9
+                );
+
+
+                opacities.push(
+                    1
+                );
+
+
+                return;
+            }
+
+
+            // ------------------------------------------------
+            // OTHER TEAMS
+            // ------------------------------------------------
+
+            lineWidths.push(
+                1.4
+            );
+
+
+            markerSizes.push(
+                4
+            );
+
+
+            opacities.push(
+                0.22
+            );
+        }
+    );
+
+
+    Plotly.restyle(
+        chart,
+        {
+            "line.width":
+                lineWidths,
+
+            "marker.size":
+                markerSizes,
+
+            opacity:
+                opacities,
+        }
+    );
+}
 
 async function initializeTeamCharts() {
 
