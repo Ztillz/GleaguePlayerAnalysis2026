@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>G League Team Charts</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="team-charts.css?v=2"
+    >
+
+    <script
+        src="https://cdn.plot.ly/plotly-2.35.2.min.js"
+    ></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"
+    ></script>
+</head>
+
+<body>
+
+<header class="page-header">
+
+    <div>
+
+        <h1>
+            G League Team Charts
+        </h1>
+
+        <p>
+            Compare team performance across all 50
+            games of the 2025-26 G League season.
+        </p>
+
+    </div>
+
+
+    <nav class="dashboard-nav">
+
+        <a
+            href="index.html"
+            class="dashboard-nav-link"
+        >
+            Query Search
+        </a>
+
+        <a
+            href="scatter.html"
+            class="dashboard-nav-link"
+        >
+            Scatter Tool
+        </a>
+
+        <a
+            href="team-charts.html"
+            class="dashboard-nav-link active"
+        >
+            Team Charts
+        </a>
+
+        <a
+            href="salary/"
+            class="dashboard-nav-link"
+        >
+            Salary
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="page-content">
+
+
+    <!-- =====================================================
+         CHART CONTROLS
+    ====================================================== -->
+
+    <section class="dashboard-card">
+
+        <div class="section-heading">
+
+            <div>
+
+                <h2>
+                    Team Performance
+                </h2>
+
+                <p>
+                    Select a metric and switch between each
+                    team's game total or its differential
+                    against the opponent.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="team-chart-controls">
+
+
+            <div class="chart-control">
+
+                <label for="teamStatSelect">
+                    Metric
+                </label>
+
+                <select id="teamStatSelect"></select>
+
+            </div>
+
+
+            <div class="chart-control">
+
+                <label>
+                    View
+                </label>
+
+                <div class="view-toggle">
+
+                    <button
+                        id="differentialBtn"
+                        type="button"
+                        class="view-toggle-button active"
+                    >
+                        Differential
+                    </button>
+
+                    <button
+                        id="totalBtn"
+                        type="button"
+                        class="view-toggle-button"
+                    >
+                        Total
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart-summary">
+
+                <span>
+                    Current View
+                </span>
+
+                <strong id="currentChartView">
+                    Points From Turnovers Differential
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         TEAM FILTERS
+    ====================================================== -->
+
+    <section class="dashboard-card">
+
+        <div class="section-heading filter-heading">
+
+            <div>
+
+                <h2>
+                    Team Filters
+                </h2>
+
+                <p>
+                    Reduce the number of teams shown on the
+                    chart. Rankings and win thresholds use
+                    the same 50-game sample shown in the graph.
+                </p>
+
+            </div>
+
+
+            <div class="teams-showing-card">
+
+                <span>
+                    Teams Showing
+                </span>
+
+                <strong id="teamsShowing">
+                    31 / 31
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="team-filter-controls">
+
+
+            <div class="chart-control">
+
+                <label for="conferenceFilter">
+                    Conference
+                </label>
+
+                <select id="conferenceFilter">
+
+                    <option value="ALL">
+                        All Conferences
+                    </option>
+
+                    <option value="EAST">
+                        East
+                    </option>
+
+                    <option value="WEST">
+                        West
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="chart-control">
+
+                <label for="minimumWinsFilter">
+                    Minimum 50-Game Wins
+                </label>
+
+                <input
+                    id="minimumWinsFilter"
+                    type="number"
+                    min="0"
+                    max="50"
+                    step="1"
+                    value="0"
+                >
+
+            </div>
+
+
+            <div class="chart-control">
+
+                <label for="rankFilter">
+                    Rank Group
+                </label>
+
+                <select id="rankFilter">
+
+                    <option value="ALL">
+                        All Eligible Teams
+                    </option>
+
+                    <option value="TOP_5">
+                        Top 5
+                    </option>
+
+                    <option value="TOP_10">
+                        Top 10
+                    </option>
+
+                    <option value="BOTTOM_5">
+                        Bottom 5
+                    </option>
+
+                    <option value="BOTTOM_10">
+                        Bottom 10
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="filter-action-control">
+
+                <button
+                    id="resetTeamFilters"
+                    type="button"
+                    class="reset-filter-button"
+                >
+                    Reset Filters
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div
+            id="activeFilterDescription"
+            class="active-filter-description"
+        >
+            Showing all 31 teams.
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CHART
+    ====================================================== -->
+
+    <section class="dashboard-card chart-dashboard-card">
+
+        <div class="chart-info-row">
+
+            <div>
+
+                <h2 id="teamChartTitle">
+                    Points From Turnovers Differential by Game
+                </h2>
+
+                <p>
+                    Click a team in the legend to hide or show
+                    it. Double-click a team to isolate it.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div
+            id="teamTrendChart"
+            class="team-trend-chart"
+        ></div>
+
+    </section>
+
+
+
+    <div
+        id="teamChartError"
+        class="team-chart-error"
+        hidden
+    ></div>
+
+</main>
+
+
+<script src="team-charts.js?v=2"></script>
+
+</body>
+
+</html>

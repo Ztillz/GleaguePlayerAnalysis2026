@@ -1,0 +1,392 @@
+/* ============================================================
+   CHART CONTROLS
+============================================================ */
+
+.team-chart-controls,
+.team-filter-controls {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    gap: 18px;
+}
+
+
+.chart-control {
+    min-width: 220px;
+}
+
+
+.chart-control label {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: var(--muted);
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.chart-control select,
+.chart-control input {
+    width: 100%;
+
+    min-height: 40px;
+}
+
+
+.chart-control input[type="number"] {
+    padding: 8px 10px;
+
+    background: var(--panel-deep);
+
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+
+    color: var(--text);
+
+    font: inherit;
+}
+
+
+/* ============================================================
+   TOTAL / DIFFERENTIAL
+============================================================ */
+
+.view-toggle {
+    display: flex;
+
+    padding: 3px;
+
+    background: var(--panel-deep);
+
+    border: 1px solid var(--border);
+    border-radius: 9px;
+}
+
+
+.view-toggle-button {
+    min-height: 34px;
+
+    padding: 7px 14px;
+
+    border: 0;
+    border-radius: 6px;
+
+    background: transparent;
+
+    color: var(--muted-light);
+
+    font-size: 13px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+.view-toggle-button:hover {
+    background: #263449;
+}
+
+
+.view-toggle-button.active {
+    background: var(--blue);
+
+    color: #ffffff;
+}
+
+
+/* ============================================================
+   CURRENT VIEW
+============================================================ */
+
+.chart-summary {
+    min-width: 270px;
+
+    padding: 9px 13px;
+
+    background:
+        rgba(
+            37,
+            99,
+            235,
+            0.1
+        );
+
+    border:
+        1px solid
+        rgba(
+            59,
+            130,
+            246,
+            0.3
+        );
+
+    border-radius: 8px;
+}
+
+
+.chart-summary span {
+    display: block;
+
+    margin-bottom: 3px;
+
+    color: var(--muted);
+
+    font-size: 11px;
+}
+
+
+.chart-summary strong {
+    color: #bfdbfe;
+
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   TEAM FILTERS
+============================================================ */
+
+.filter-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+
+.teams-showing-card {
+    min-width: 125px;
+
+    padding: 9px 13px;
+
+    background: var(--panel-deep);
+
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+
+.teams-showing-card span {
+    display: block;
+
+    margin-bottom: 3px;
+
+    color: var(--muted);
+
+    font-size: 11px;
+}
+
+
+.teams-showing-card strong {
+    color: #ffffff;
+
+    font-size: 17px;
+}
+
+
+.filter-action-control {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.reset-filter-button {
+    min-height: 40px;
+
+    padding: 8px 15px;
+
+    background: var(--panel-deep);
+
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+
+    color: var(--muted-light);
+
+    font: inherit;
+    font-size: 13px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+.reset-filter-button:hover {
+    background: #263449;
+
+    color: #ffffff;
+}
+
+
+.active-filter-description {
+    margin-top: 15px;
+
+    padding: 9px 12px;
+
+    width: fit-content;
+
+    background: rgba(37, 99, 235, 0.08);
+
+    border: 1px solid rgba(59, 130, 246, 0.22);
+    border-radius: 7px;
+
+    color: #bfdbfe;
+
+    font-size: 12px;
+}
+
+
+/* ============================================================
+   CHART CARD
+============================================================ */
+
+.chart-dashboard-card {
+    padding: 20px;
+}
+
+
+.chart-info-row {
+    margin-bottom: 12px;
+}
+
+
+.chart-info-row h2 {
+    margin: 0 0 6px;
+
+    font-size: 21px;
+}
+
+
+.chart-info-row p {
+    margin: 0;
+
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+
+.team-trend-chart {
+    width: 100%;
+
+    min-height: 760px;
+
+    overflow: hidden;
+
+    background: #0f172a;
+
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+
+.no-teams-message {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--muted);
+
+    font-size: 15px;
+}
+
+
+/* ============================================================
+   ERROR
+============================================================ */
+
+.team-chart-error {
+    padding: 14px;
+
+    background:
+        rgba(
+            239,
+            68,
+            68,
+            0.12
+        );
+
+    border:
+        1px solid
+        rgba(
+            239,
+            68,
+            68,
+            0.35
+        );
+
+    border-radius: 8px;
+
+    color: #fecaca;
+
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   PLOTLY
+============================================================ */
+
+.team-trend-chart .modebar {
+    top: 8px !important;
+    right: 8px !important;
+}
+
+
+.team-trend-chart .modebar-btn path {
+    fill: #cbd5e1 !important;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+
+@media (max-width: 900px) {
+
+    .chart-control {
+        width: 100%;
+    }
+
+
+    .chart-summary {
+        width: 100%;
+    }
+
+
+    .view-toggle {
+        width: 100%;
+    }
+
+
+    .view-toggle-button {
+        flex: 1;
+    }
+
+
+    .filter-heading {
+        flex-direction: column;
+    }
+
+
+    .teams-showing-card {
+        width: 100%;
+    }
+
+
+    .filter-action-control {
+        width: 100%;
+    }
+
+
+    .reset-filter-button {
+        width: 100%;
+    }
+
+}
